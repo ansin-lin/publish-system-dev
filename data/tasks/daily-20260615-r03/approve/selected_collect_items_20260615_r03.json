@@ -1,0 +1,11 @@
+{
+  "schema_version": "selected_collect_items.v1",
+  "generated_at": "2026-06-15T17:57:52+09:00",
+  "task_id": "daily-20260615-r03",
+  "run_id": "r03",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\collect\\collect_result_20260615_r03.json",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\tidy\\topic_candidates_20260615_r03.json",
+  "selected_indices": [],
+  "topic_keys": [],
+  "items": []
+}

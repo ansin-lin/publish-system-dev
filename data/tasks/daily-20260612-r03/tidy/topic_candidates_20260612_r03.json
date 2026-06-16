@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-12T17:11:02+09:00",
+  "task_id": "daily-20260612-r03",
+  "run_id": "r03",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\collect\\collect_result_20260612_r03.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "9fb962b19a503e87",
+      "title": "世界杯在中国的收视率爆了",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%94%B6%E8%A7%86%E7%8E%87%E7%88%86%E4%BA%86"
+    },
+    {
+      "index": 2,
+      "topic_id": "33e1479b71be2589",
+      "title": "买连衣裙 看手肘",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%BF%9E%E8%A1%A3%E8%A3%99+%E7%9C%8B%E6%89%8B%E8%82%98"
+    },
+    {
+      "index": 3,
+      "topic_id": "c37332046fc3ed92",
+      "title": "念一辈子本科",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%BF%B5%E4%B8%80%E8%BE%88%E5%AD%90%E6%9C%AC%E7%A7%91"
+    },
+    {
+      "index": 4,
+      "topic_id": "b1fc2afc7794d88c",
+      "title": "张月选安崎投了40票而淡淡投了0",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%88%E9%80%89%E5%AE%89%E5%B4%8E%E6%8A%95%E4%BA%8640%E7%A5%A8%E8%80%8C%E6%B7%A1%E6%B7%A1%E6%8A%95%E4%BA%860"
+    },
+    {
+      "index": 5,
+      "topic_id": "20c5377d569132aa",
+      "title": "因为饼干太好吃而察觉到不对劲",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%9B%A0%E4%B8%BA%E9%A5%BC%E5%B9%B2%E5%A4%AA%E5%A5%BD%E5%90%83%E8%80%8C%E5%AF%9F%E8%A7%89%E5%88%B0%E4%B8%8D%E5%AF%B9%E5%8A%B2"
+    },
+    {
+      "index": 6,
+      "topic_id": "f8ed774c80b491ac",
+      "title": "凯撒时代的一个标准罗马军团能否在街亭阻挡张郃 30 天？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2046563918491939065"
+    },
+    {
+      "index": 7,
+      "topic_id": "0ee5bb7901f20e85",
+      "title": "如何看待 Spacex 新发布的 AI 卫星？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047773618428437482"
+    },
+    {
+      "index": 8,
+      "topic_id": "7ccecf52286c2ab5",
+      "title": "演员黄晓明「二战」上戏博士成功上岸，攻读艺术管理 / 戏剧策划方向，如何看待明星纷纷选择深造这一举动？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047989187874498301"
+    },
+    {
+      "index": 9,
+      "topic_id": "aacdbd07f0b9cc69",
+      "title": "怎样才算见过大世面？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/20721867"
+    },
+    {
+      "index": 10,
+      "topic_id": "d61f17652c14d91c",
+      "title": "我们真的需要又一个 DeepSeek V5 吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2031303606524186735"
+    },
+    {
+      "index": 11,
+      "topic_id": "4b59327b9260106b",
+      "title": "官方：根本就没有什么“特供酒”",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%EF%BC%9A%E6%A0%B9%E6%9C%AC%E5%B0%B1%E6%B2%A1%E6%9C%89%E4%BB%80%E4%B9%88%E2%80%9C%E7%89%B9%E4%BE%9B%E9%85%92%E2%80%9D"
+    },
+    {
+      "index": 12,
+      "topic_id": "0227ee4e7a0d1d8f",
+      "title": "2026年世界杯五大“外星人”",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=2026%E5%B9%B4%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%94%E5%A4%A7%E2%80%9C%E5%A4%96%E6%98%9F%E4%BA%BA%E2%80%9D"
+    },
+    {
+      "index": 13,
+      "topic_id": "c7a5ae87cc8c521f",
+      "title": "这颗“重庆芯”让手机再无信号盲区",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E8%BF%99%E9%A2%97%E2%80%9C%E9%87%8D%E5%BA%86%E8%8A%AF%E2%80%9D%E8%AE%A9%E6%89%8B%E6%9C%BA%E5%86%8D%E6%97%A0%E4%BF%A1%E5%8F%B7%E7%9B%B2%E5%8C%BA"
+    },
+    {
+      "index": 14,
+      "topic_id": "51e0e54164ab2acf",
+      "title": "缅甸总统敏昂莱将访华",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%BC%85%E7%94%B8%E6%80%BB%E7%BB%9F%E6%95%8F%E6%98%82%E8%8E%B1%E5%B0%86%E8%AE%BF%E5%8D%8E"
+    },
+    {
+      "index": 15,
+      "topic_id": "b5dbbba2d8f77b3b",
+      "title": "中方回应制裁菲律宾国防部长",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E5%88%B6%E8%A3%81%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF"
+    },
+    {
+      "index": 16,
+      "topic_id": "3277e99f6ea226ea",
+      "title": "“傀儡”林黛玉",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116724930185006/"
+    },
+    {
+      "index": 17,
+      "topic_id": "77802e0849472669",
+      "title": "《用公式做题就是快》",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116725651740077/"
+    },
+    {
+      "index": 18,
+      "topic_id": "95a8619f2cc06b8c",
+      "title": "《弧光猎人》弧光测试PV&国服事件预告｜星火燎原",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116730298895024/"
+    },
+    {
+      "index": 19,
+      "topic_id": "24d4c165445be797",
+      "title": "广西一男子深夜入室盗窃，被屋主持刀反击身亡，检方：系正当防卫",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116726389808488/"
+    },
+    {
+      "index": 20,
+      "topic_id": "8b1c9f90a0be1139",
+      "title": "温 柔 的 洛 恩",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116730030458484/"
+    },
+    {
+      "index": 21,
+      "topic_id": "442a65e76fc870dd",
+      "title": "两学生午休时玩闹，手掌被“502”胶水粘住，“牵手”求助消防员......@中国消防",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649983450618907938"
+    },
+    {
+      "index": 22,
+      "topic_id": "c1ddf2a017c80152",
+      "title": "饭店的暑假工，传菜传错菜！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650004222172527055"
+    },
+    {
+      "index": 23,
+      "topic_id": "d640dbb9cf88cb75",
+      "title": "货车高速路上掉落铁架，险些砸中后方车辆。一司机在确保自身安全的情况下，冲入车道徒手拖动80斤重的铁架至硬路肩，及时化解险情。为你点赞！#看见微光 @杭千高速公司",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649319220748061988"
+    },
+    {
+      "index": 24,
+      "topic_id": "3376087f910a102b",
+      "title": "我媳妇说帅 #万宁与晚安",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650068718425258426"
+    },
+    {
+      "index": 25,
+      "topic_id": "3dc9301d9bac328a",
+      "title": "网传邵阳一白裙女子被打后跳河 知情人：有街头冲突 但没跳河 记者核实“落水系2年前旧视频嫁接” 警方：案件依法办结 请勿信谣",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650011067908771118"
+    },
+    {
+      "index": 26,
+      "topic_id": "c15594015720dc6c",
+      "title": "travel vaccine",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=travel+vaccine&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "4119a0c9077bf368",
+      "title": "bitcoin atm",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=bitcoin+atm&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "986ab6e4a537c598",
+      "title": "iphone 17 pro",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=iphone+17+pro&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "0010173779086616",
+      "title": "cryptocurrency",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=cryptocurrency&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "b62e7634b0514e9a",
+      "title": "child care",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=child+care&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "2231648dd0772b53",
+      "title": "Jacket.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Unexpected/comments/1u3k390/jacket/"
+    },
+    {
+      "index": 32,
+      "topic_id": "87053632078537fe",
+      "title": "Fairground worker casually stands and balances on top of a moving Ferris wheel without any safety equipment.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1u3lz1c/fairground_worker_casually_stands_and_balances_on/"
+    },
+    {
+      "index": 33,
+      "topic_id": "3f6e60d473426e92",
+      "title": "\"I do not want to talk to them anymore\" — Mark Ruffalo on cutting ties with celebrities who support the actions in Palestine.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/popculturechat/comments/1u3ipmf/i_do_not_want_to_talk_to_them_anymore_mark/"
+    },
+    {
+      "index": 34,
+      "topic_id": "937b6ef902d37442",
+      "title": "Meeting your soul mate",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/funny/comments/1u3k0o9/meeting_your_soul_mate/"
+    },
+    {
+      "index": 35,
+      "topic_id": "b9fe276bfcb5425c",
+      "title": "Got my kid's math exam paper back today, he's in Grade 2",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u3lsb2/got_my_kids_math_exam_paper_back_today_hes_in/"
+    },
+    {
+      "index": 36,
+      "topic_id": "8c0415eabd8181e3",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "source_platform": "hackernews",
+      "source_url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+    },
+    {
+      "index": 37,
+      "topic_id": "c2f66da94c9b9e74",
+      "title": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
+      "source_platform": "hackernews",
+      "source_url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf"
+    },
+    {
+      "index": 38,
+      "topic_id": "af398421a55a34ed",
+      "title": "If you are asking for human attention, demonstrate human effort",
+      "source_platform": "hackernews",
+      "source_url": "https://tombedor.dev/human-attention-and-human-effort/"
+    },
+    {
+      "index": 39,
+      "topic_id": "13ce96b1b43453c1",
+      "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "source_platform": "hackernews",
+      "source_url": "https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/"
+    },
+    {
+      "index": 40,
+      "topic_id": "73aefbd0b9f98a5e",
+      "title": "Show HN: Homebrew 6.0.0",
+      "source_platform": "hackernews",
+      "source_url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "published",
+  "platform": "instagram",
+  "profile": "default",
+  "task_id": "daily-20260612-r02",
+  "publish_id": "daily-20260612-r02-r02",
+  "published_at": "2026-06-12T05:36:32.671Z",
+  "post_url": "https://www.instagram.com/ouennenn_0909/p/DZeW1aejzj5/",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\instagram\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\instagram\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\instagram\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\instagram\\default\\screenshot.png"
+  }
+}

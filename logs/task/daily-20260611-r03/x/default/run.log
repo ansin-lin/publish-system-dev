@@ -1,0 +1,23 @@
+[2026-06-12T00:04:43.040Z] 开始发布 mode=post platform=x profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260611-r03\publish\publish_job_20260612_r03.json
+[2026-06-12T00:04:48.176Z] human wait scroll:down 961ms
+[2026-06-12T00:04:49.282Z] human wait scroll:up 1354ms
+[2026-06-12T00:04:50.715Z] human wait open_composer:before 4830ms
+[2026-06-12T00:04:57.595Z] clicked SideNav_NewTweet_Button
+[2026-06-12T00:04:57.596Z] human wait open_composer:after 4846ms
+[2026-06-12T00:05:02.451Z] human wait fill_post_text:before 4533ms
+[2026-06-12T00:05:08.388Z] filled Post text len=200
+[2026-06-12T00:05:08.389Z] human wait fill_post_text:after 3922ms
+[2026-06-12T00:05:12.322Z] human wait upload_media:before 3572ms
+[2026-06-12T00:05:15.941Z] setInputFiles count=4
+[2026-06-12T00:05:15.941Z] human wait upload_media:after 3387ms
+[2026-06-12T00:05:19.335Z] human wait upload_settle 4573ms
+[2026-06-12T00:05:23.939Z] human wait click_publish:before 4009ms
+[2026-06-12T00:05:28.002Z] clicked tweetButton
+[2026-06-12T00:05:28.003Z] human wait click_publish:after 3575ms
+[2026-06-12T00:05:31.583Z] post-publish settle 10000ms after publish button click
+[2026-06-12T00:05:41.633Z] 打开个人主页校验: https://x.com/ouennenn123287
+[2026-06-12T00:05:45.503Z] human wait scroll:down 1439ms
+[2026-06-12T00:05:48.514Z] human wait scroll:up 1117ms
+[2026-06-12T00:05:49.705Z] X 发布完成（校验=true） username=ouennenn123287 post_id=2065223925404189153 post_url=https://x.com/ouennenn123287/status/2065223925404189153
+[2026-06-12T00:05:50.113Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\x\default\state.json
+[2026-06-12T00:05:50.462Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260611-r03\x\default\result.json

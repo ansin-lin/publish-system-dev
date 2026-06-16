@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-10T08:58:36+09:00",
+  "task_id": "daily-20260610-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\collect\\collect_result_20260610_r02.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "002774b4ea8414f9",
+      "title": "上京东三元牛奶0.01元抢",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E4%BA%AC%E4%B8%9C%E4%B8%89%E5%85%83%E7%89%9B%E5%A5%B60.01%E5%85%83%E6%8A%A2"
+    },
+    {
+      "index": 2,
+      "topic_id": "87555a5141fb81f8",
+      "title": "白鹿叶璃热度破亿",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E5%8F%B6%E7%92%83%E7%83%AD%E5%BA%A6%E7%A0%B4%E4%BA%BF"
+    },
+    {
+      "index": 3,
+      "topic_id": "c5c1fc84f98a4154",
+      "title": "周深主打一个身份清晰",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%B7%B1%E4%B8%BB%E6%89%93%E4%B8%80%E4%B8%AA%E8%BA%AB%E4%BB%BD%E6%B8%85%E6%99%B0"
+    },
+    {
+      "index": 4,
+      "topic_id": "20ce7e82bd03d3bf",
+      "title": "高三的最后一个晚自习",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%89%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E6%99%9A%E8%87%AA%E4%B9%A0"
+    },
+    {
+      "index": 5,
+      "topic_id": "759c0d492a1cb9e5",
+      "title": "DRG生死战对阵XLG",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=DRG%E7%94%9F%E6%AD%BB%E6%88%98%E5%AF%B9%E9%98%B5XLG"
+    },
+    {
+      "index": 6,
+      "topic_id": "80a04b4c75bb8195",
+      "title": "如何评价 Anthropic 发布的 Claude Fable 5？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047851398734394746"
+    },
+    {
+      "index": 7,
+      "topic_id": "d6662a90308bea7d",
+      "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045653689407477325"
+    },
+    {
+      "index": 8,
+      "topic_id": "a9347536c3f4fba6",
+      "title": "苹果发布 Siri AI 等 AI 功能，市值一夜蒸发超 5700 亿元，为何投资者反应平平？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047616042067834810"
+    },
+    {
+      "index": 9,
+      "topic_id": "e004e70419f444df",
+      "title": "2026 年世界杯，法国有可能夺冠吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045103259141109111"
+    },
+    {
+      "index": 10,
+      "topic_id": "45443230da84f94f",
+      "title": "北京语言大学博导路文彬「关门大吉，不再招博士」，如何看待他关于学术发表和博士就业的观点？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2046185772441772917"
+    },
+    {
+      "index": 11,
+      "topic_id": "ecc1f0c7bc9c3ff6",
+      "title": "伊朗无人机对美目标发动袭击",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%AF%B9%E7%BE%8E%E7%9B%AE%E6%A0%87%E5%8F%91%E5%8A%A8%E8%A2%AD%E5%87%BB"
+    },
+    {
+      "index": 12,
+      "topic_id": "5ac171e4facac27a",
+      "title": "河南40个土特产入选国字号名录",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%9740%E4%B8%AA%E5%9C%9F%E7%89%B9%E4%BA%A7%E5%85%A5%E9%80%89%E5%9B%BD%E5%AD%97%E5%8F%B7%E5%90%8D%E5%BD%95"
+    },
+    {
+      "index": 13,
+      "topic_id": "601cc8670bb52d58",
+      "title": "六旬男子家里被堆成垃圾山",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%85%AD%E6%97%AC%E7%94%B7%E5%AD%90%E5%AE%B6%E9%87%8C%E8%A2%AB%E5%A0%86%E6%88%90%E5%9E%83%E5%9C%BE%E5%B1%B1"
+    },
+    {
+      "index": 14,
+      "topic_id": "7b942a0e5fee77fb",
+      "title": "中国石油：选举戴厚良为董事长",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%EF%BC%9A%E9%80%89%E4%B8%BE%E6%88%B4%E5%8E%9A%E8%89%AF%E4%B8%BA%E8%91%A3%E4%BA%8B%E9%95%BF"
+    },
+    {
+      "index": 15,
+      "topic_id": "0be537a6e6c2083d",
+      "title": "美军称对伊朗发动“自卫性”打击",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E7%A7%B0%E5%AF%B9%E4%BC%8A%E6%9C%97%E5%8F%91%E5%8A%A8%E2%80%9C%E8%87%AA%E5%8D%AB%E6%80%A7%E2%80%9D%E6%89%93%E5%87%BB"
+    },
+    {
+      "index": 16,
+      "topic_id": "960f86eea76dc128",
+      "title": "和“蛋糕小王子”挑战制作100寸生日蛋糕，拉到夜市摆摊，把这份快乐传递出去",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116713337133045/"
+    },
+    {
+      "index": 17,
+      "topic_id": "4356bc9821aa8e22",
+      "title": "像我这样的小人物 也会让你感到害怕吗",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116703220469818/"
+    },
+    {
+      "index": 18,
+      "topic_id": "5ca5895e9147fde9",
+      "title": "如何用串子画罗马卷",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116714847147818/"
+    },
+    {
+      "index": 19,
+      "topic_id": "a7ecfb18cf26e87b",
+      "title": "【速凌】当百里守约和捷风同时来到三角洲？？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116682097956902/"
+    },
+    {
+      "index": 20,
+      "topic_id": "46e9b1a8bad9dd24",
+      "title": "【大鸣王潮1566】善良人格会怎么做",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116714981496636/"
+    },
+    {
+      "index": 21,
+      "topic_id": "139c6998aa038ce7",
+      "title": "哪有什么岁月静好，只是有人替我们负重前行 #开国大典 #手绘 #青年创作者成长计划",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648615934382443810"
+    },
+    {
+      "index": 22,
+      "topic_id": "530729afeea62353",
+      "title": "6月7日，杭高贡院校区数学考试结束，考生排队离场，不少人面露愁容，还有女生神情委屈，差点哭出来，今年考题难度可想而知。#高考现场 #高考数学难",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648599264814636403"
+    },
+    {
+      "index": 23,
+      "topic_id": "41316ed372c9fb45",
+      "title": "#男生第一个出考场被围观懵了 6月7日，#2026高考 数学考试后，四川乐山第一中学校考点，男生出考场后发现自己是第一个，当场懵了。人懵了，但考试没懵，对数学信心满满：估计选择题全对。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648592308178700654"
+    },
+    {
+      "index": 24,
+      "topic_id": "c5de724ba0273196",
+      "title": "独家视角！感受欢迎现场热烈氛围！当地时间6月8日中午，朝鲜劳动党总书记、国务委员长金正恩为中共中央总书记、国家主席习近平举行盛大欢迎仪式。平壤各界群众和少年儿童以热烈的掌声和欢呼声向中国贵宾表达最诚挚的欢迎。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648918206903504180"
+    },
+    {
+      "index": 25,
+      "topic_id": "532588e403555f8b",
+      "title": "《你和兄弟打单挑时》 #篮球",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648589218033863394"
+    },
+    {
+      "index": 26,
+      "topic_id": "2b060a9f95e06cf0",
+      "title": "lindsey graham",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=lindsey+graham&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "2a11b1376aa5e0b6",
+      "title": "bryan reynolds",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=bryan+reynolds&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "f72a31111376c366",
+      "title": "hockey game tonight",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=hockey+game+tonight&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "ed54c36d56a8c898",
+      "title": "house republicans immigration package",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=house+republicans+immigration+package&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "9fde7ad6797d7020",
+      "title": "aj dybantsa",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=aj+dybantsa&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "9557ee6ce7a6fd11",
+      "title": "2 years of having the same doormat, gone, like tears in the rain",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u1igcx/2_years_of_having_the_same_doormat_gone_like/"
+    },
+    {
+      "index": 32,
+      "topic_id": "80fa64e36bbc38c3",
+      "title": "53 years ago Secrerariat ran the greatest horse race in history, winning the Belmont by an astonishing 31 lengths",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/sports/comments/1u1ibt9/53_years_ago_secrerariat_ran_the_greatest_horse/"
+    },
+    {
+      "index": 33,
+      "topic_id": "251b586ee897b5db",
+      "title": "Epstein File Says Trump “Knew and Funded Underage Sex Parties” at His Golf Course",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/politics/comments/1u1fnvf/epstein_file_says_trump_knew_and_funded_underage/"
+    },
+    {
+      "index": 34,
+      "topic_id": "4aa20b318c0d5cd3",
+      "title": "i made a snoopy apple pie 🥹",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Baking/comments/1u1dhpe/i_made_a_snoopy_apple_pie/"
+    },
+    {
+      "index": 35,
+      "topic_id": "ef6051be47d70491",
+      "title": "me_irl",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/me_irl/comments/1u1haf7/me_irl/"
+    },
+    {
+      "index": 36,
+      "topic_id": "e02b27e4dd18a357",
+      "title": "Claude Fable 5",
+      "source_platform": "hackernews",
+      "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "index": 37,
+      "topic_id": "8cd9f78f220aef1e",
+      "title": "Upcoming breaking changes for NPM v12",
+      "source_platform": "hackernews",
+      "source_url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/"
+    },
+    {
+      "index": 38,
+      "topic_id": "1b180c7fe6e1248d",
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "source_platform": "hackernews",
+      "source_url": "https://aarushgupta.io/posts/kan-fpga/"
+    },
+    {
+      "index": 39,
+      "topic_id": "15e3af5452465f3a",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "source_platform": "hackernews",
+      "source_url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html"
+    },
+    {
+      "index": 40,
+      "topic_id": "080761a9a05430ee",
+      "title": "Making Graphics Like it's 1993",
+      "source_platform": "hackernews",
+      "source_url": "https://staniks.github.io/articles/catlantean-3d-blog-1/"
+    }
+  ]
+}

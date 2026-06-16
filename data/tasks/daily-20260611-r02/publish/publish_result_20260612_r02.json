@@ -1,0 +1,63 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-12T09:08:39+09:00",
+  "task_id": "daily-20260611-r02",
+  "run_id": "r02",
+  "publish_id": "daily-20260611-r02-r02",
+  "topic_id": "9583626c462bd423",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\publish\\publish_job_20260612_r02.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\copy_result_20260612_r02.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\image_result_20260612_r02.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-12T00:06:08.938Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0vrobFyCNaVGDvzHUuQDMk1ZKEB16WdQ2wM4Qqa7TjWRE9DXRoRZtoFBGCzt4PVrl&id=100006666765488&__cft__[0]=AZaVgyl9Ymcid940EFIBkGkukH2bOO-PaCQaou45qHuceUWw96G7-KGTyItK2kJdBNL7VfBIAGML7IwYIlAwHLsjvbS-xbXqMjV7Ul90ueAab1RTjlbAaa8Yr9r7woh8b95akgUT7SyVvkJJz4BzdDPpgkn8ZhMfzTuwC4PiNAl7SDczjOEG2FRLlZxQ4gXDn9CmhL0k6L5WwwwXW8-Nr0tK&__tn__=%2CO%2CP-R"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-12T00:07:30.148Z",
+      "post_url": "https://x.com/ouennenn123287/status/2065224328950808789",
+      "post_id": "2065224328950808789"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-12T00:08:39.412Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZdxUCYDymC/"
+    }
+  ],
+  "video_skipped_platforms": [
+    "youtube",
+    "tiktok"
+  ],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 3,
+    "verified_published_count": 3,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "total": 4,
+    "video_skipped_count": 2
+  }
+}

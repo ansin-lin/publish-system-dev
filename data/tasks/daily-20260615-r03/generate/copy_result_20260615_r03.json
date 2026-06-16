@@ -1,0 +1,78 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-15T17:59:34+09:00",
+  "task_id": "daily-20260615-r03",
+  "run_id": "r03",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\approve\\topic_research_20260615_r03.json",
+  "items": [
+    {
+      "topic_id": "custom_1c37da1206196461",
+      "title": "日本留学生求职现状，AI在日本的发展",
+      "source_platform": "custom",
+      "writing_angle": "聚焦未来：AI背景下日本留学生在日本IT求职的机遇与挑战",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "留日IT求职：AI新机遇与挑战",
+          "body": "面对日本IT行业对国际人才的旺盛需求，特别是AI技术在日本的飞速发展，留学生们迎来了前所未有的职业发展机遇。本篇文章将深入分析AI时代下日本IT求职的最新趋势，探讨留学生如何通过掌握核心AI技能、适应日本职场文化，成功在日本IT领域开辟新路径。我们还将分享提升竞争力的实战策略，助你抓住AI浪潮，实现留日IT就业梦想！",
+          "tags": [
+            "日本留学",
+            "IT求职",
+            "AI技术",
+            "留学生就业",
+            "日本科技",
+            "职场攻略"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "AI時代における日本留学とIT就職：新たな機会と課題",
+          "body": "日本のIT業界は、質の高い国際人材を強く求めており、特にAI技術の急速な発展は、留学生にとってこれまでにないキャリアチャンスをもたらしています。本記事では、AI時代における日本のIT就職の最新トレンドを深掘りし、留学生がいかにして主要なAIスキルを習得し、日本の職場文化に適応しながら、IT分野で成功を収めるかを探ります。競争力を高める実践的な戦略を共有し、AIの波に乗り、日本でのIT就職の夢を実現できるようサポートします！",
+          "tags": []
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "AI & Japan IT Job Market: Opportunities for International Students",
+          "body": "Japan's IT sector is actively seeking global talent, with AI's rapid growth opening new career paths for international students. This article explores the latest trends, discussing how students can ma",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "日本IT就職とAI：留学生のチャンス",
+          "body": "日本のIT業界は国際的な才能を歓迎しており、AIの進化は留学生に新たな就職機会を提供しています。AIスキルを習得し、日本でのITキャリアを築くための戦略を学びましょう！#日本就職 #AIとキャリア #",
+          "tags": []
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "Modern, sleek open-plan office in a Japanese tech company, featuring diverse employees collaborating around advanced AI workstations with holographic interfaces, bright, natural lighting.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "International students attending a job fair in Japan, interacting with recruiters at a tech company booth. Focus on hopeful expressions and a professional, bustling atmosphere. Shallow depth of field.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "Futuristic AI robot or intelligent system in a clean, high-tech Japanese research lab, with engineers observing its operations. Emphasize precision and innovation.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "Tokyo street scene with subtle futuristic tech elements, like digital billboards displaying data or AI interfaces. A diverse group of international students is seen walking, blending modern life with technology.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

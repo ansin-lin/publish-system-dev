@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-15T10:29:26+09:00",
+  "task_id": "daily-20260615-r01",
+  "run_id": "r01",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\copy_result_20260615_r01.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\approve\\topic_research_20260615_r01.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "2ce5578234f21660",
+      "slot_id": "img_1",
+      "prompt": "A modern restaurant kitchen scene, clean and futuristic, with smart sensors integrated into cooking equipment (e.g., a deep fryer), connected to a central digital dashboard displaying real-time food safety metrics like oil quality and temperature. Focus on precision and hygiene. Composition: wide shot, clean lines, bright lighting.\n\nScene / composition from research brief: 配备智能传感器和实时监控屏幕的现代化餐饮厨房\n\nVisual style: tech editorial",
+      "research_image_hint": "配备智能传感器和实时监控屏幕的现代化餐饮厨房",
+      "copy_image_prompt": "A modern restaurant kitchen scene, clean and futuristic, with smart sensors integrated into cooking equipment (e.g., a deep fryer), connected to a central digital dashboard displaying real-time food safety metrics like oil quality and temperature. Focus on precision and hygiene. Composition: wide shot, clean lines, bright lighting.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\images\\2ce5578234f21660\\2ce5578234f21660_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "2ce5578234f21660",
+      "slot_id": "img_2",
+      "prompt": "An infographic visualizing a transparent food supply chain, from farm to table, powered by blockchain technology. Illustrate data points at each stage (sourcing, processing, delivery) linked together with glowing digital lines. The design should be clean, professional, and highlight data integrity. Composition: overhead view, flowing lines, cool blue and green tones.\n\nScene / composition from research brief: 展示食品从农场到餐桌全过程的区块链溯源可视化图表\n\nVisual style: tech editorial",
+      "research_image_hint": "展示食品从农场到餐桌全过程的区块链溯源可视化图表",
+      "copy_image_prompt": "An infographic visualizing a transparent food supply chain, from farm to table, powered by blockchain technology. Illustrate data points at each stage (sourcing, processing, delivery) linked together with glowing digital lines. The design should be clean, professional, and highlight data integrity. Composition: overhead view, flowing lines, cool blue and green tones.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\images\\2ce5578234f21660\\2ce5578234f21660_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "2ce5578234f21660",
+      "slot_id": "img_3",
+      "prompt": "Automated kitchen equipment in operation: a smart fryer with robotic arms handling baskets, an automatic cleaning robot navigating the floor, all within a pristine, sterile kitchen environment. Emphasize efficiency, automation, and advanced technology. Composition: dynamic angle, focus on movement, crisp white lighting.\n\nScene / composition from research brief: 自动化设备（如智能炸锅、自动清洁机器人）在厨房中运行的场景\n\nVisual style: tech editorial",
+      "research_image_hint": "自动化设备（如智能炸锅、自动清洁机器人）在厨房中运行的场景",
+      "copy_image_prompt": "Automated kitchen equipment in operation: a smart fryer with robotic arms handling baskets, an automatic cleaning robot navigating the floor, all within a pristine, sterile kitchen environment. Emphasize efficiency, automation, and advanced technology. Composition: dynamic angle, focus on movement, crisp white lighting.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\images\\2ce5578234f21660\\2ce5578234f21660_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "2ce5578234f21660",
+      "slot_id": "img_4",
+      "prompt": "A close-up shot of a digital dashboard interface showing various food safety indicators: a green 'OK' for oil quality, optimal temperature graphs, and a notification for potential cross-contamination risks. The interface should be sleek, user-friendly, and convey immediate insights into kitchen operations. Composition: focused on screen, vibrant display, subtle background blur.\n\nScene / composition from research brief: 数字仪表板显示各项食品安全指标（如油品状况、温度）的界面\n\nVisual style: tech editorial",
+      "research_image_hint": "数字仪表板显示各项食品安全指标（如油品状况、温度）的界面",
+      "copy_image_prompt": "A close-up shot of a digital dashboard interface showing various food safety indicators: a green 'OK' for oil quality, optimal temperature graphs, and a notification for potential cross-contamination risks. The interface should be sleek, user-friendly, and convey immediate insights into kitchen operations. Composition: focused on screen, vibrant display, subtle background blur.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\images\\2ce5578234f21660\\2ce5578234f21660_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

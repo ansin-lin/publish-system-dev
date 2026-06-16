@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-12T09:03:23+09:00",
+  "task_id": "daily-20260611-r03",
+  "run_id": "r03",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\copy_result_20260612_r03.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\approve\\topic_research_20260612_r03.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "custom_ae963a0c251a5d76",
+      "slot_id": "img_1",
+      "prompt": "Dynamic abstract scene blending human elements with AI chips, lines of code, and flowing data streams, symbolizing the integration of AI into technology. Composition focuses on futuristic and clean aesthetics.\n\nScene / composition from research brief: 科技感背景下，人物与AI芯片、代码、数据流等元素结合的抽象画面\n\nVisual style: tech editorial",
+      "research_image_hint": "科技感背景下，人物与AI芯片、代码、数据流等元素结合的抽象画面",
+      "copy_image_prompt": "Dynamic abstract scene blending human elements with AI chips, lines of code, and flowing data streams, symbolizing the integration of AI into technology. Composition focuses on futuristic and clean aesthetics.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_ae963a0c251a5d76",
+      "slot_id": "img_2",
+      "prompt": "A focused learner holding a tablet or interacting with a computer, displaying intricate AI algorithm charts, code interfaces, or cloud computing architecture diagrams. Emphasize concentration and modern learning environment.\n\nScene / composition from research brief: 学习者手持平板或电脑，屏幕显示AI算法图表、代码界面或云计算架构图\n\nVisual style: tech editorial",
+      "research_image_hint": "学习者手持平板或电脑，屏幕显示AI算法图表、代码界面或云计算架构图",
+      "copy_image_prompt": "A focused learner holding a tablet or interacting with a computer, displaying intricate AI algorithm charts, code interfaces, or cloud computing architecture diagrams. Emphasize concentration and modern learning environment.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_ae963a0c251a5d76",
+      "slot_id": "img_3",
+      "prompt": "Symbolic representation of a career development path, such as arrows or a staircase, integrated with icons of AI, cloud services, and big data technologies. Conveys growth and opportunity.\n\nScene / composition from research brief: 象征职业发展路径的箭头或阶梯，融入AI、云服务、大数据等技术图标\n\nVisual style: tech editorial",
+      "research_image_hint": "象征职业发展路径的箭头或阶梯，融入AI、云服务、大数据等技术图标",
+      "copy_image_prompt": "Symbolic representation of a career development path, such as arrows or a staircase, integrated with icons of AI, cloud services, and big data technologies. Conveys growth and opportunity.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_ae963a0c251a5d76",
+      "slot_id": "img_4",
+      "prompt": "A futuristic intelligent office environment where AI robots and human engineers collaborate seamlessly. Showcase a blend of advanced technology and human interaction.\n\nScene / composition from research brief: 多样化的IT工作场景，如数据中心、研发实验室、远程协作团队等\n\nVisual style: tech editorial",
+      "research_image_hint": "多样化的IT工作场景，如数据中心、研发实验室、远程协作团队等",
+      "copy_image_prompt": "A futuristic intelligent office environment where AI robots and human engineers collaborate seamlessly. Showcase a blend of advanced technology and human interaction.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

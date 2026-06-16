@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-16T09:12:49+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\collect\\collect_result_20260616_r01.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "0152184476414562",
+      "title": "美国一架B52轰炸机坠毁",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%B8%80%E6%9E%B6B52%E8%BD%B0%E7%82%B8%E6%9C%BA%E5%9D%A0%E6%AF%81"
+    },
+    {
+      "index": 2,
+      "topic_id": "b62d7b936a6ac4b7",
+      "title": "孟子义李昀锐尚公主十指紧扣",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E5%B0%9A%E5%85%AC%E4%B8%BB%E5%8D%81%E6%8C%87%E7%B4%A7%E6%89%A3"
+    },
+    {
+      "index": 3,
+      "topic_id": "96246e7dacf766be",
+      "title": "日系车巨头要为中国品牌代工了",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%97%A5%E7%B3%BB%E8%BD%A6%E5%B7%A8%E5%A4%B4%E8%A6%81%E4%B8%BA%E4%B8%AD%E5%9B%BD%E5%93%81%E7%89%8C%E4%BB%A3%E5%B7%A5%E4%BA%86"
+    },
+    {
+      "index": 4,
+      "topic_id": "6141a9f5331bb637",
+      "title": "云台相机影石大疆谁更强",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%BA%91%E5%8F%B0%E7%9B%B8%E6%9C%BA%E5%BD%B1%E7%9F%B3%E5%A4%A7%E7%96%86%E8%B0%81%E6%9B%B4%E5%BC%BA"
+    },
+    {
+      "index": 5,
+      "topic_id": "d14627f61dfba456",
+      "title": "律师梳理朱一龙敲鼓各方责任",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%BE%8B%E5%B8%88%E6%A2%B3%E7%90%86%E6%9C%B1%E4%B8%80%E9%BE%99%E6%95%B2%E9%BC%93%E5%90%84%E6%96%B9%E8%B4%A3%E4%BB%BB"
+    },
+    {
+      "index": 6,
+      "topic_id": "9c678cccbf7ab1cf",
+      "title": "美伊达成和平协议，此次冲突到底谁赢了？各方有哪些得失？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049764815476713125"
+    },
+    {
+      "index": 7,
+      "topic_id": "dfc16f3966c23530",
+      "title": "中国足球小将巴西行连败，董路直言「中国人踢不了复杂足球」，这透露出中国青训哪些新动向？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049163314429802442"
+    },
+    {
+      "index": 8,
+      "topic_id": "c1b4cd4422ef9b2a",
+      "title": "2026 美加墨世界杯，为什么要叫美加墨世界杯，而不是墨加美，或加墨美，要不干脆把美放在杯的后面如何？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049080077409851052"
+    },
+    {
+      "index": 9,
+      "topic_id": "b503be422cde3005",
+      "title": "网曝疑似朱一龙在 lululemon 长城活动敲日本太鼓，后证实为羯鼓。这种形制的鼓争议在哪？谁在带节奏？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049910438834300872"
+    },
+    {
+      "index": 10,
+      "topic_id": "3fdf747291b7ba8f",
+      "title": "网友称他所在的学校初一新生出现不识字的学生，不是一个是好几个，这是普遍现象吗？是什么原因导致的？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047393911371567676"
+    },
+    {
+      "index": 11,
+      "topic_id": "1f336374781ce55b",
+      "title": "姆巴佩领衔 法国“雪耻之战”将打响",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%A7%86%E5%B7%B4%E4%BD%A9%E9%A2%86%E8%A1%94+%E6%B3%95%E5%9B%BD%E2%80%9C%E9%9B%AA%E8%80%BB%E4%B9%8B%E6%88%98%E2%80%9D%E5%B0%86%E6%89%93%E5%93%8D"
+    },
+    {
+      "index": 12,
+      "topic_id": "dbc6ab95b9659335",
+      "title": "近视防控眼镜“验光黑幕”被曝出",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E8%BF%91%E8%A7%86%E9%98%B2%E6%8E%A7%E7%9C%BC%E9%95%9C%E2%80%9C%E9%AA%8C%E5%85%89%E9%BB%91%E5%B9%95%E2%80%9D%E8%A2%AB%E6%9B%9D%E5%87%BA"
+    },
+    {
+      "index": 13,
+      "topic_id": "2476689dcce6546f",
+      "title": "佛得角门将赛后涨粉170万",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E9%97%A8%E5%B0%86%E8%B5%9B%E5%90%8E%E6%B6%A8%E7%B2%89170%E4%B8%87"
+    },
+    {
+      "index": 14,
+      "topic_id": "e9a95b47b441ba6b",
+      "title": "乌龙球领跑世界杯射手榜",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B9%8C%E9%BE%99%E7%90%83%E9%A2%86%E8%B7%91%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%84%E6%89%8B%E6%A6%9C"
+    },
+    {
+      "index": 15,
+      "topic_id": "053d0d6aa6d82981",
+      "title": "宝妈产子55天遭家暴离婚案将开庭",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%AE%9D%E5%A6%88%E4%BA%A7%E5%AD%9055%E5%A4%A9%E9%81%AD%E5%AE%B6%E6%9A%B4%E7%A6%BB%E5%A9%9A%E6%A1%88%E5%B0%86%E5%BC%80%E5%BA%AD"
+    },
+    {
+      "index": 16,
+      "topic_id": "0a5adc381e2e770d",
+      "title": "当你进入了全是老鼠的局......【三角洲行动】",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116742881810168/"
+    },
+    {
+      "index": 17,
+      "topic_id": "22ab4ea67b25d748",
+      "title": "好人认栽，因为没读它。",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116741439030465/"
+    },
+    {
+      "index": 18,
+      "topic_id": "cdbd09c6726c2632",
+      "title": "浙江新条例，又引爆全网",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116747881417488/"
+    },
+    {
+      "index": 19,
+      "topic_id": "45f3ec74dc6137f5",
+      "title": "纯新人，家门口遇见的，这玩意打得过皮卡丘吗？【朱紫全随机#1】",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116732127614410/"
+    },
+    {
+      "index": 20,
+      "topic_id": "c7faaffbc71cd5cf",
+      "title": "10秒速成《NIGHT DANCER》！！学会了吗",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116752545487524/"
+    },
+    {
+      "index": 21,
+      "topic_id": "9876ebbb93af1a56",
+      "title": "妈妈：“嘻嘻 你最好期末也这么考～”",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650851590979464633"
+    },
+    {
+      "index": 22,
+      "topic_id": "c2c0e94e2de4315a",
+      "title": "我滴马……鱼缸爆了 ！ 这缸鱼养了能不能挡50年的灾…几年的鱼一下全军覆没….养鱼佬的心在滴血..#养鱼日记 #养鱼 #龙鱼",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651139251274461050"
+    },
+    {
+      "index": 23,
+      "topic_id": "b6dc5a14c454a6b7",
+      "title": "【#邓超观战NBA总决赛 】星光与篮球交汇✨欢迎演员邓超@老邓（SuperDeng）  来到现场观战NBA总决赛G5！从大银幕到NBA总决赛舞台，一起见证尼克斯与马刺的巅峰对决！#尼克斯vs马刺 #NBA总决赛",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651074950735891775"
+    },
+    {
+      "index": 24,
+      "topic_id": "e71e25a931331ab5",
+      "title": "#美国再公布70多份UFO文件  包括此前被列为机密的视频、图片、录音以及文字材料。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651036431376207113"
+    },
+    {
+      "index": 25,
+      "topic_id": "b67bfc982b9dd0a5",
+      "title": "21岁女子在巴西蹦极未系安全绳，被工作人员从40米高的桥上抛下，坠地身亡",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651112114131684654"
+    },
+    {
+      "index": 26,
+      "topic_id": "cb542f8434ea6678",
+      "title": "oklahoma baseball",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=oklahoma+baseball&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "47ce02912dcf44bd",
+      "title": "araujo uruguay",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=araujo+uruguay&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "18a79ecf468ec62e",
+      "title": "ou baseball",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=ou+baseball&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "58403ea145a162ea",
+      "title": "georgia vs oklahoma baseball",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=georgia+vs+oklahoma+baseball&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "c38b3a82f79af4c5",
+      "title": "trump g7",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=trump+g7&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "b6c80f6f8a4c8e48",
+      "title": "“It’s their culture”",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1u6revt/its_their_culture/"
+    },
+    {
+      "index": 32,
+      "topic_id": "b98d58953fd72b2a",
+      "title": "The reflecting pool on the National Mall looks super green today (6/15/26)",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/pics/comments/1u6rqfl/the_reflecting_pool_on_the_national_mall_looks/"
+    },
+    {
+      "index": 33,
+      "topic_id": "e7659c29e223c054",
+      "title": "This kid was born with more lore than most fantasy characters.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/SipsTea/comments/1u6tcbb/this_kid_was_born_with_more_lore_than_most/"
+    },
+    {
+      "index": 34,
+      "topic_id": "f89b14e86e15cf96",
+      "title": "What a talent🌟",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/BeAmazed/comments/1u6pyku/what_a_talent/"
+    },
+    {
+      "index": 35,
+      "topic_id": "a1c9bebc80ae08cf",
+      "title": "America has lost its war with Iran",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/politics/comments/1u6p12t/america_has_lost_its_war_with_iran/"
+    },
+    {
+      "index": 36,
+      "topic_id": "b8cf156751e58c40",
+      "title": "A backdoor in a LinkedIn job offer",
+      "source_platform": "hackernews",
+      "source_url": "https://roman.pt/posts/linkedin-backdoor/"
+    },
+    {
+      "index": 37,
+      "topic_id": "9c29020e8886396c",
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "source_platform": "hackernews",
+      "source_url": "https://www.richardosgood.com/posts/banned-book-library/"
+    },
+    {
+      "index": 38,
+      "topic_id": "993aa9f91421d377",
+      "title": "Iroh 1.0",
+      "source_platform": "hackernews",
+      "source_url": "https://www.iroh.computer/blog/v1"
+    },
+    {
+      "index": 39,
+      "topic_id": "c725dc433b5cc274",
+      "title": "I Love the Computer",
+      "source_platform": "hackernews",
+      "source_url": "https://michaelenger.com/blog/i-love-the-computer/"
+    },
+    {
+      "index": 40,
+      "topic_id": "fec84cd219734d03",
+      "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "source_platform": "hackernews",
+      "source_url": "https://tinywind.io"
+    }
+  ]
+}

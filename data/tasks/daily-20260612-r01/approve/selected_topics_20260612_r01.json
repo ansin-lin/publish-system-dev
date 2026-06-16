@@ -1,0 +1,24 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-12T11:41:00+09:00",
+  "task_id": "daily-20260612-r01",
+  "run_id": "r01",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\tidy\\topic_candidates_20260612_r01.json",
+  "selected_indices": [
+    39
+  ],
+  "selected_topic_ids": [
+    "e5de25c90f90615f"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-12T11:41:00+09:00",
+  "items": [
+    {
+      "index": 39,
+      "topic_id": "e5de25c90f90615f",
+      "title": "MiMo Code is now released and open-source",
+      "source_platform": "hackernews",
+      "source_url": "https://mimo.xiaomi.com/mimocode"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "login_ok",
+  "platform": "xiaohongshu",
+  "profile": "default",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\xiaohongshu\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\xiaohongshu\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\xiaohongshu\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\xiaohongshu\\default\\screenshot.png"
+  }
+}

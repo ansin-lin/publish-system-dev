@@ -1,0 +1,385 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260610-r03",
+  "run_id": "r03",
+  "revision": 19,
+  "status": "publish_partial_failed",
+  "degraded": false,
+  "created_at": "2026-06-10T17:03:40+09:00",
+  "updated_at": "2026-06-10T18:56:04+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-10T17:03:40+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\collect\\collect_result_20260610_r03.json",
+      "finished_at": "2026-06-10T17:03:46+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-10T17:13:39+09:00",
+      "finished_at": "2026-06-10T17:13:39+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\tidy\\topic_candidates_20260610_r03.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\collect\\collect_result_20260610_r03.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "success",
+      "started_at": "2026-06-10T17:18:40+09:00",
+      "message_ts": "1781079521.353479",
+      "slack_channel": "C0B887QD6U9",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260610-r03`\nrun_id: `r03`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\tidy\\topic_candidates_20260610_r03.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 鹅腿阿姨儿子说不吃滚出去\n2. [weibo] 盛世天下女帝篇全员回宫\n3. [weibo] 白鹿心态\n4. [weibo] 孙千躲张凌赫怀里\n5. [weibo] 当猫想跳上床发现宝宝在床上时\n6. [zhihu] 鹅腿阿姨已注册同名商标，称不改名因「只是块招牌，老客户都知道是鸭腿」，如何看待该回应？还能挽回用户吗？\n7. [zhihu] 哪支球队可能成为美加墨世界杯的黑马？\n8. [zhihu] 三大运营商被质疑杀熟，网友称 159 元套餐不如 39 元，新老用户不同权根源在哪？用户该如何维权？\n9. [zhihu] 我想看书，又看不进去，该怎么办？\n10. [zhihu] 糜家为什么在刘备集团的地位越来越边缘化？\n11. [baidu] 蛋价“退烧”还要多久\n12. [baidu] 近18万张世界杯门票滞销\n13. [baidu] 5名高中生自研云舟一号火箭发射成功\n14. [baidu] 女子在21楼家中听到窗外有人喊救命\n15. [baidu] 枞树常绿 中朝友谊生生…",
+      "finished_at": "2026-06-10T18:08:40+09:00",
+      "raw_input": "pick 40",
+      "parsed_selection": [
+        "a827f0b6e2788300"
+      ],
+      "operator": "U0B8A197692",
+      "at": "2026-06-10T18:08:40+09:00",
+      "last_polled_ts": "1781082229.011699"
+    },
+    "approve": {
+      "status": "success",
+      "started_at": "2026-06-10T18:08:40+09:00",
+      "finished_at": "2026-06-10T18:08:40+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\tidy\\topic_candidates_20260610_r03.json",
+      "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json",
+      "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_collect_items_20260610_r03.json",
+      "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\topic_research_20260610_r03.json",
+      "topic_research_at": "2026-06-10T18:34:50+09:00"
+    },
+    "research": {
+      "status": "success",
+      "started_at": "2026-06-10T18:34:36+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json",
+      "finished_at": "2026-06-10T18:34:50+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\topic_research_20260610_r03.json",
+      "operator": "U0B8A197692"
+    },
+    "copy": {
+      "status": "success",
+      "started_at": "2026-06-10T18:41:02+09:00",
+      "finished_at": "2026-06-10T18:41:02+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\topic_research_20260610_r03.json",
+      "error": "CONTENT_COPY_ROLE_FAILED: CONTENT_COPY_BAD_JSON: agent did not return parseable JSON",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+      "copy_platforms": [
+        "xiaohongshu",
+        "facebook",
+        "x",
+        "instagram",
+        "youtube",
+        "tiktok"
+      ],
+      "video_pick": {
+        "source": "stock_common",
+        "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4",
+        "pool_dir": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common"
+      }
+    },
+    "image": {
+      "status": "success",
+      "started_at": "2026-06-10T18:42:19+09:00",
+      "finished_at": "2026-06-10T18:42:19+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\image_result_20260610_r03.json"
+    },
+    "publish": {
+      "status": "partial_failed",
+      "started_at": "2026-06-10T18:43:42+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_job_20260610_r03.json",
+      "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_job_20260610_r03.json",
+      "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+      "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\image_result_20260610_r03.json",
+      "platforms": [
+        "xiaohongshu",
+        "facebook",
+        "x",
+        "instagram",
+        "youtube",
+        "tiktok"
+      ],
+      "video_skipped_platforms": [],
+      "finished_at": "2026-06-10T18:56:04+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_result_20260610_r03.json",
+      "platform_results": [
+        {
+          "platform": "xiaohongshu",
+          "profile": "default",
+          "status": "auth_expired",
+          "verified": false,
+          "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+        },
+        {
+          "platform": "facebook",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T09:45:00.098Z",
+          "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VFPQN5EtycGjPW2CHWLQibxUMEKHzoXKiSsKbXLB911aWKzgyQu9iDAu9MGJfkGEl&id=100006666765488&__cft__[0]=AZbksJCy7Q0VkHgngmxkyeOO8nKoYN2IeEmTf8SnnP10Pag1evpJU1Q-nRyiuUbQEH7TSX6Ug8h6PLkhrXLEHbRgSZ-Al7mlfuFTY0emGZu7i89OShQIDvo4ojwUdmW0GJ3Tm-IT-D_V1RL2MVXzM6p8PigJrWQ_8yik2jYiPafLaSQ81QHjD_uvMaJRBsSPwrsMIzQnkMSkNzENTE5mqqJN&__tn__=%2CO%2CP-R"
+        },
+        {
+          "platform": "x",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "matched": true,
+          "post_id_checked": true,
+          "verification_note": "x_balanced_post_id_ok",
+          "published_at": "2026-06-10T09:46:01.982Z",
+          "post_url": "https://x.com/ouennenn123287/status/2064645176065474604",
+          "post_id": "2064645176065474604"
+        },
+        {
+          "platform": "instagram",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T09:47:18.844Z",
+          "post_url": "https://www.instagram.com/ouennenn_0909/reel/DZZp7InNGKW/"
+        },
+        {
+          "platform": "youtube",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T09:55:21.767Z"
+        },
+        {
+          "platform": "tiktok",
+          "profile": "default",
+          "status": "auth_expired",
+          "verified": false,
+          "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。"
+        }
+      ],
+      "summary": {
+        "status": "publish_partial_failed",
+        "published_count": 4,
+        "verified_published_count": 4,
+        "false_success_count": 0,
+        "validated_count": 0,
+        "failed_count": 2,
+        "skipped_count": 0,
+        "total": 6
+      },
+      "partial_retry_counts": {
+        "xiaohongshu": 1,
+        "facebook": 1,
+        "x": 1,
+        "instagram": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "message_ts": "1781085365.734189",
+      "slack_thread_ts": "1781085365.734189",
+      "slack_channel": "C0B887QD6U9"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-10T17:03:40+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-10T17:03:40+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-10T17:03:46+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\collect\\collect_result_20260610_r03.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-10T17:08:43+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-10T17:13:39+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-10T17:13:39+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\tidy\\topic_candidates_20260610_r03.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-10T17:18:40+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781079521.353479",
+        "slack_channel": "C0B887QD6U9",
+        "candidate_count": 40
+      }
+    },
+    {
+      "at": "2026-06-10T18:08:40+09:00",
+      "event": "manager_pick_applied",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json",
+        "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_collect_items_20260610_r03.json",
+        "parsed_selection": [
+          "a827f0b6e2788300"
+        ],
+        "selected_indices": [
+          40
+        ]
+      }
+    },
+    {
+      "at": "2026-06-10T18:08:41+09:00",
+      "event": "step4_slack_poll_cursor",
+      "operator": "orchestrator",
+      "data": {
+        "last_polled_ts": "1781082229.011699"
+      }
+    },
+    {
+      "at": "2026-06-10T18:34:36+09:00",
+      "event": "step5_research_started",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json"
+      }
+    },
+    {
+      "at": "2026-06-10T18:34:50+09:00",
+      "event": "step5_topic_research_generated",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_topics_20260610_r03.json",
+        "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\topic_research_20260610_r03.json",
+        "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\selected_collect_items_20260610_r03.json",
+        "item_count": 1
+      }
+    },
+    {
+      "at": "2026-06-10T18:38:47+09:00",
+      "event": "copy_started",
+      "operator": "orchestrator",
+      "data": {}
+    },
+    {
+      "at": "2026-06-10T18:39:56+09:00",
+      "event": "copy_failed",
+      "operator": "orchestrator",
+      "data": {
+        "error": "CONTENT_COPY_ROLE_FAILED: CONTENT_COPY_BAD_JSON: agent did not return parseable JSON"
+      }
+    },
+    {
+      "at": "2026-06-10T18:39:56+09:00",
+      "event": "copy_started",
+      "operator": "orchestrator",
+      "data": {}
+    },
+    {
+      "at": "2026-06-10T18:41:02+09:00",
+      "event": "copy_generated",
+      "operator": "orchestrator",
+      "data": {
+        "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+        "item_count": 1,
+        "copy_platforms": [
+          "xiaohongshu",
+          "facebook",
+          "x",
+          "instagram",
+          "youtube",
+          "tiktok"
+        ],
+        "video_stock": {
+          "source": "stock_common",
+          "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4",
+          "pool_dir": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common"
+        }
+      }
+    },
+    {
+      "at": "2026-06-10T18:41:02+09:00",
+      "event": "image_generation_started",
+      "operator": "orchestrator",
+      "data": {}
+    },
+    {
+      "at": "2026-06-10T18:42:19+09:00",
+      "event": "images_generated",
+      "operator": "orchestrator",
+      "data": {
+        "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\image_result_20260610_r03.json",
+        "image_count": 4
+      }
+    },
+    {
+      "at": "2026-06-10T18:43:42+09:00",
+      "event": "step7_publish_started",
+      "operator": "orchestrator",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_job_20260610_r03.json",
+        "platforms": [
+          "xiaohongshu",
+          "facebook",
+          "x",
+          "instagram",
+          "youtube",
+          "tiktok"
+        ],
+        "video_skipped_platforms": [],
+        "partial_retry": false
+      }
+    },
+    {
+      "at": "2026-06-10T18:56:04+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "orchestrator",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_result_20260610_r03.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 4,
+        "verified_published_count": 4,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-10T18:56:04+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781085365.734189",
+        "channel": "C0B887QD6U9"
+      }
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_f90e2aed-76fa-43d9-b647-376b59073f7f"
+  }
+}

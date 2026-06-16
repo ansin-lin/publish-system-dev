@@ -1,0 +1,98 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-10T12:29:42+09:00",
+  "task_id": "daily-20260610-r01",
+  "run_id": "r01",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json",
+  "items": [
+    {
+      "topic_id": "custom_2b87628a54c46a85",
+      "title": "日本留学生相关，IT培训",
+      "source_platform": "custom",
+      "writing_angle": "从留学生痛点出发，阐述IT培训如何解决就业难题。",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "日本IT培训：留学生就业新选择",
+          "body": "想在日本找IT工作？留学生看过来！日本IT行业人才紧缺，为国际学生提供巨大机遇。我们的专业IT培训项目，不仅教授前沿技术如AI、数据分析、软件开发，更融入商务日语和日本职场文化指导，助你快速适应，顺利入职日本顶尖IT企业。从技术提升到就业内推，全程保驾护航，助你在日开启稳定高薪的IT职业生涯！",
+          "tags": [
+            "日本留学",
+            "IT培训",
+            "留学生就业",
+            "日本IT",
+            "职场转型"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "日本人材不足、留学生向けIT研修でキャリアアップ！",
+          "body": "日本のIT業界は国際的な才能を求めています。当社の専門IT研修プログラムは、留学生の皆様がAI、データ分析、ソフトウェア開発などの最先端技術を習得し、ビジネス日本語や日本企業文化に適応できるよう支援します。就職支援や企業紹介を通じて、安定した高収入のITキャリアを日本で築きましょう。",
+          "tags": []
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "Boost Your IT Career in Japan!",
+          "body": "Unlock your IT career in Japan! The Japanese IT sector seeks international talent. Our training offers cutting-edge skills (AI, data analysis, software dev), business Japanese, and cultural adaptation",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "日本IT就職を叶える！",
+          "body": "日本でのITキャリアを築こう！AIやデータ分析のスキルを習得し、就職支援で夢を実現。#日本IT #留学生",
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "locale": "en-US",
+          "title": "From International Student to IT Professional: Your Path to Success in Japan",
+          "body": "Discover how our specialized IT training programs are bridging the gap for international students seeking high-demand tech careers in Japan. With a focus on cutting-edge technologies like AI, cloud computing, and cybersecurity, combined with essential business Japanese and cultural integration, we provide a comprehensive pathway to employment. Our program includes hands-on projects, resume building, interview preparation, and direct company referrals. Learn about the thriving Japanese IT market, the benefits of working in Japan, and how our graduates are securing stable, high-income positions. Join us to transform your future and become a successful IT professional in Japan!",
+          "tags": []
+        },
+        {
+          "platform": "tiktok",
+          "locale": "zh-CN",
+          "title": "从留学生痛点出发，阐述IT培训如何解决就业难题。",
+          "body": "日本留学想找工作？IT行业是你的蓝海！💻✨ 日本IT人才超缺，专门为留学生打造的培训来啦！我们教你AI、数据分析、软件开发等硬核技能，还有商务日语和职场文化课，让你毕业即就业，直接对接日本高薪IT企业！不再迷茫，稳定工作等着你！点击链接，开启你的日本IT精英之路！#日本IT #留学生就业 #IT培训 #日本生活 #高薪工作 #职场转型",
+          "tags": [
+            "日本IT",
+            "留学生就业",
+            "IT培训",
+            "日本生活",
+            "高薪工作",
+            "职场转型"
+          ]
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "An international student intensely focused, coding on a laptop in a modern, well-lit IT classroom in Japan. The setting should convey a sense of learning and technology. Soft, natural light. Focus on concentration and detailed code on screen.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "Dynamic composition of Japanese high-tech corporate office interior. A diverse team of professionals collaboratively working on a project, showcasing modern architecture, sleek workstations, and glowing screens. Emphasize innovation and teamwork.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "A confident international student in business attire, shaking hands with a Japanese IT company recruiter in a professional interview setting. The background is slightly blurred to highlight the interaction. Represents successful career transition.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "Abstract digital illustration blending iconic Japanese landmarks (e.g., Tokyo Tower, Mount Fuji) with futuristic tech elements like glowing data streams, circuit board patterns, and holographic projections. Emphasize the fusion of tradition and technology.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

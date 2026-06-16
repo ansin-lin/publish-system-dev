@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-10T18:42:19+09:00",
+  "task_id": "daily-20260610-r03",
+  "run_id": "r03",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\approve\\topic_research_20260610_r03.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "a827f0b6e2788300",
+      "slot_id": "img_1",
+      "prompt": "An abstract representation of artificial intelligence interacting with legal scales and a judge's gavel, symbolizing the intersection of AI technology and legal accountability. Dynamic lighting, high contrast, futuristic aesthetic.\n\nScene / composition from research brief: Abstract representation of AI interacting with legal scales or gavels\n\nVisual style: tech editorial",
+      "research_image_hint": "Abstract representation of AI interacting with legal scales or gavels",
+      "copy_image_prompt": "An abstract representation of artificial intelligence interacting with legal scales and a judge's gavel, symbolizing the intersection of AI technology and legal accountability. Dynamic lighting, high contrast, futuristic aesthetic.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\images\\a827f0b6e2788300\\a827f0b6e2788300_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "a827f0b6e2788300",
+      "slot_id": "img_2",
+      "prompt": "The Google logo subtly intertwined with a stack of legal documents or a 'caution' sign, set against a backdrop of flowing digital data, representing the legal implications of AI-generated content in search.\n\nScene / composition from research brief: Google logo intertwined with legal documents or caution signs\n\nVisual style: tech editorial",
+      "research_image_hint": "Google logo intertwined with legal documents or caution signs",
+      "copy_image_prompt": "The Google logo subtly intertwined with a stack of legal documents or a 'caution' sign, set against a backdrop of flowing digital data, representing the legal implications of AI-generated content in search.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\images\\a827f0b6e2788300\\a827f0b6e2788300_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "a827f0b6e2788300",
+      "slot_id": "img_3",
+      "prompt": "A modern European courthouse facade with a transparent digital overlay displaying AI algorithms or data points, suggesting the influence of new regulations on the tech landscape. Clean lines, professional composition.\n\nScene / composition from research brief: European court building facades with digital overlay representing AI\n\nVisual style: tech editorial",
+      "research_image_hint": "European court building facades with digital overlay representing AI",
+      "copy_image_prompt": "A modern European courthouse facade with a transparent digital overlay displaying AI algorithms or data points, suggesting the influence of new regulations on the tech landscape. Clean lines, professional composition.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\images\\a827f0b6e2788300\\a827f0b6e2788300_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "a827f0b6e2788300",
+      "slot_id": "img_4",
+      "prompt": "A magnifying glass hovering over AI-generated text on a screen, with a clear 'false' or 'disputed' indicator, emphasizing the critical need for accuracy and fact-checking in AI-powered information systems. Focus on information integrity.\n\nScene / composition from research brief: Magnifying glass over AI-generated text with a 'false' indicator\n\nVisual style: tech editorial",
+      "research_image_hint": "Magnifying glass over AI-generated text with a 'false' indicator",
+      "copy_image_prompt": "A magnifying glass hovering over AI-generated text on a screen, with a clear 'false' or 'disputed' indicator, emphasizing the critical need for accuracy and fact-checking in AI-powered information systems. Focus on information integrity.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\images\\a827f0b6e2788300\\a827f0b6e2788300_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[2026-06-11T03:06:02.920Z] 开始发布 mode=post platform=facebook profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260611-r01\publish\publish_job_20260611_r01.json
+[2026-06-11T03:06:20.765Z] open composer trigger=role_button index=0
+[2026-06-11T03:06:20.782Z] human wait wait_composer_dialog 319ms
+[2026-06-11T03:06:21.227Z] human wait wait_composer_dialog 239ms
+[2026-06-11T03:06:21.491Z] open composer dialog picked (has textbox)
+[2026-06-11T03:06:21.491Z] human wait fill_post_text:before 3446ms
+[2026-06-11T03:06:24.959Z] composer paragraph clicked
+[2026-06-11T03:06:24.960Z] human wait composer_paragraph 786ms
+[2026-06-11T03:06:25.833Z] human wait textbox_focus 466ms
+[2026-06-11T03:06:26.420Z] human wait textbox_filled 716ms
+[2026-06-11T03:06:27.153Z] composer text verified via role textbox probe="日本のビザ政策が厳格化され、日本のIT業"
+[2026-06-11T03:06:27.154Z] human wait fill_post_text:after 3705ms
+[2026-06-11T03:06:30.863Z] human wait upload_media:before 4572ms
+[2026-06-11T03:06:35.445Z] found 写真・動画
+[2026-06-11T03:06:35.455Z] 写真・動画 setInputFiles failed, fallback to filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').nth(1).getByRole('button', { name: '写真・動画' }).first()[22m
+[2m    - locator resolved to <div tabindex="0" role="button" aria-label="写真・動画" class="x1i10hfl x1qjc9v5 xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x1ypdohk xdl72j9 x2lah0s x3ct3a4 x2lwn1j xeuugli x1hl2dhg xggy1nq x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz xjyslct xjbqb8w x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1ja2u2z">…</div>[22m
+
+[2026-06-11T03:06:35.507Z] uploaded via filechooser count=4
+[2026-06-11T03:06:35.837Z] clicked media wizard next index=0
+[2026-06-11T03:06:35.838Z] human wait after_media_next 572ms
+[2026-06-11T03:06:36.412Z] human wait upload_media:after 4578ms
+[2026-06-11T03:06:41.004Z] human wait set_privacy_public:before 4386ms
+[2026-06-11T03:06:45.503Z] clicked 投稿の共有範囲
+[2026-06-11T03:06:46.468Z] checked 公開 Facebook利用者以外を含むすべての人
+[2026-06-11T03:06:46.527Z] clicked Facebook利用者以外を含むすべての人
+[2026-06-11T03:06:46.610Z] clicked privacy dialog done
+[2026-06-11T03:06:46.610Z] human wait after_privacy_done 777ms
+[2026-06-11T03:06:47.397Z] human wait set_privacy_public:after 3104ms
+[2026-06-11T03:06:50.619Z] human wait click_publish:before 4858ms
+[2026-06-11T03:06:55.558Z] clicked post role index=0
+[2026-06-11T03:06:55.559Z] human wait click_publish:after 3937ms
+[2026-06-11T03:06:59.504Z] post-publish settle 10000ms after publish button click
+[2026-06-11T03:07:16.696Z] facebook published post_url=https://www.facebook.com/permalink.php?story_fbid=pfbid024emxDrn3XX88cS55ehhsMHH3XSKtJPkgnxRMMjrhJynW1ixA6iANPMjb6YCVeSSml&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif
+[2026-06-11T03:07:16.773Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-11T03:07:17.113Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260611-r01\facebook\default\result.json

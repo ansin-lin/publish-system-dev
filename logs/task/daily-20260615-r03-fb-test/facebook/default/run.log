@@ -1,0 +1,75 @@
+[2026-06-16T04:43:01.090Z] test:fb-publish job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json headless=false
+[2026-06-16T04:43:02.288Z] [home] facebook publish entry=home_feed displayName=""
+[2026-06-16T04:43:15.772Z] [home] open composer trigger=role_button index=0
+[2026-06-16T04:43:15.776Z] human wait wait_composer_dialog 310ms
+[2026-06-16T04:43:16.113Z] human wait wait_composer_dialog 406ms
+[2026-06-16T04:43:16.537Z] [home] open composer dialog picked (has textbox)
+[2026-06-16T04:43:16.538Z] human wait fill_post_text:before 4434ms
+[2026-06-16T04:43:21.027Z] composer paragraph clicked
+[2026-06-16T04:43:21.027Z] human wait composer_paragraph 779ms
+[2026-06-16T04:43:21.935Z] human wait textbox_focus 407ms
+[2026-06-16T04:43:22.461Z] human wait textbox_filled 475ms
+[2026-06-16T04:43:22.955Z] composer text verified via role textbox probe="日本のIT業界は、質の高い国際人材を強く"
+[2026-06-16T04:43:22.956Z] human wait fill_post_text:after 4804ms
+[2026-06-16T04:43:27.766Z] human wait upload_media:before 4291ms
+[2026-06-16T04:43:32.124Z] [home] new upload button failed: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for getByRole('button', { name: '写真または動画を追加 またはドラッグ＆ドロップ' }).first()[22m
+[2m    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>[22m
+
+[2026-06-16T04:43:32.140Z] [home] dialog upload button failed: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').first().getByRole('button', { name: /写真または動画を追加|写真・動画|Photo\/video|照片\/视频/i }).first()[22m
+[2m    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>[22m
+
+[2026-06-16T04:43:32.158Z] [home] uploaded via input[type=file] count=4
+[2026-06-16T04:43:32.159Z] human wait upload_media:after 3614ms
+[2026-06-16T04:43:35.777Z] human wait set_privacy_public:before 3506ms
+[2026-06-16T04:43:39.317Z] [home] privacy scope button not found; skip
+[2026-06-16T04:43:39.319Z] human wait set_privacy_public:after 3375ms
+[2026-06-16T04:43:46.318Z] dismiss overlay: div[role='button'][aria-label='閉じる']
+[2026-06-16T04:43:50.746Z] post button enabled
+[2026-06-16T04:43:50.779Z] human wait click_publish:before 3012ms
+[2026-06-16T04:43:51.130Z] ERROR 找不到可点击的 Facebook 发帖/发布按钮（可能文案未写入或图片未加载完成）
+[2026-06-16T04:46:59.786Z] test:fb-publish job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json headless=false
+[2026-06-16T04:47:00.418Z] [home] facebook publish entry=home_feed displayName=""
+[2026-06-16T04:47:06.864Z] [home] clicked composer trigger index=0
+[2026-06-16T04:47:06.871Z] human wait wait_composer_textbox 281ms
+[2026-06-16T04:47:07.160Z] human wait wait_composer_textbox 241ms
+[2026-06-16T04:47:07.430Z] human wait wait_composer_textbox 444ms
+[2026-06-16T04:47:07.891Z] [home] composer textbox index=0
+[2026-06-16T04:47:07.955Z] [home] clicked paragraph
+[2026-06-16T04:47:08.065Z] [home] filled textbox len=213
+[2026-06-16T04:47:08.066Z] human wait after_fill 741ms
+[2026-06-16T04:47:08.909Z] ERROR locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for getByRole('button', { name: '写真または動画を追加 またはドラッグ＆ドロップ' }).first()[22m
+[2m    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>[22m
+
+[2026-06-16T04:48:14.351Z] test:fb-publish job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json headless=false
+[2026-06-16T04:48:29.677Z] test:fb-publish job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json headless=false
+[2026-06-16T04:48:30.414Z] [home] facebook publish entry=home_feed displayName="王 艶艶"
+[2026-06-16T04:48:36.325Z] [home] clicked composer trigger index=0
+[2026-06-16T04:48:36.330Z] human wait wait_composer_textbox 297ms
+[2026-06-16T04:48:36.657Z] human wait wait_composer_textbox 310ms
+[2026-06-16T04:48:37.028Z] [home] composer textbox index=0
+[2026-06-16T04:48:37.153Z] [home] clicked paragraph
+[2026-06-16T04:48:37.311Z] [home] filled textbox len=213
+[2026-06-16T04:48:37.311Z] human wait after_fill 860ms
+[2026-06-16T04:48:38.231Z] [home] setInputFiles on button failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+  - waiting for getByRole('button', { name: '写真または動画を追加 またはドラッグ＆ドロップ' }).first()
+    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>
+
+[2026-06-16T04:48:38.386Z] [home] uploaded via filechooser count=4
+[2026-06-16T04:48:38.387Z] human wait after_upload 3026ms
+[2026-06-16T04:48:41.525Z] [home] clicked 投稿の共有範囲
+[2026-06-16T04:48:42.501Z] [home] clicked 公開
+[2026-06-16T04:48:42.644Z] [home] clicked privacy done
+[2026-06-16T04:48:42.645Z] human wait after_privacy 693ms
+[2026-06-16T04:48:43.429Z] post button enabled
+[2026-06-16T04:48:43.548Z] human wait click_publish:before 3290ms
+[2026-06-16T04:48:46.909Z] clicked post role index=0
+[2026-06-16T04:48:46.910Z] human wait click_publish:after 3494ms
+[2026-06-16T04:48:50.410Z] post-publish settle 10000ms after publish button click
+[2026-06-16T04:49:06.458Z] facebook published post_url=https://www.facebook.com/permalink.php?story_fbid=pfbid02nTnjSk9Lr8YMNd9YEGMSt7yN8RHzadcnoocyF4c46tvWzs2CK2ffkzpvqRDDXWFUl&id=100006666765488&__cft__[0]=AZYKbyNKAloQzyV369RLgj-NxsmBDw6ynMJjlGjTwFbx2b0HXNjLZgDCH1MnQKU4g1LCZ22O9_WCF2gLZRN5-iBVvmoeGkfN8NVCj8kPbfWvrBAMC57IrNAroCagi09wHsKot6cI8TfpAt_ijN6b0TGT-03MW0RqbyWZcblu_VNskt7ESQfONiNNMi6Hzy6pwU4hC4SqNxDO3Ktl0fS-thi2&__tn__=%2CO%2CP-R

@@ -1,0 +1,12 @@
+[2026-06-10T04:46:45.489Z] 开始登录 platform=facebook profile=default headless=false
+[2026-06-10T04:46:49.163Z] opened login page
+[2026-06-10T04:46:49.406Z] manual login ok
+[2026-06-10T04:46:49.541Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-10T05:23:48.539Z] 开始登录 platform=facebook profile=default headless=false
+[2026-06-10T05:23:52.426Z] opened login page
+[2026-06-10T05:23:52.628Z] manual login ok
+[2026-06-10T05:23:52.781Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-10T05:40:52.930Z] 开始登录 platform=facebook profile=default headless=false
+[2026-06-10T05:40:58.839Z] opened login page
+[2026-06-10T05:40:59.022Z] manual login ok
+[2026-06-10T05:40:59.219Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json

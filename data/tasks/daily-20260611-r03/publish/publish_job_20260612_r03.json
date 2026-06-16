@@ -1,0 +1,86 @@
+{
+  "task_id": "daily-20260611-r03",
+  "publish_id": "daily-20260611-r03-r03",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "在人工智能浪潮下，IT行业面临变革。IT新人不必焦虑，AI并非终结者，而是职业加速器。主动学习AI基础知识，掌握相关工具，将其融入自身技术栈是关键。培养解决实际问题、创新思维和跨学科融合能力，关注AIOps、MLOps等新兴AI驱动领域。持续学习、快速适应新技术，并提升沟通协作等软技能，将助你在AI时代立于不败之地，抓住高薪技术岗位的机遇，实现职业发展弯道超车。",
+        "title": "AI时代，IT新人如何破局入行？",
+        "tags": [
+          "AI时代",
+          "IT新人",
+          "职业发展",
+          "人工智能",
+          "技术岗",
+          "学习路径",
+          "高薪就业"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "AI技術の急速な発展により、IT業界は大きな変革期を迎えています。IT新人にとって、AIは脅威ではなく、キャリアを加速させるチャンスです。AIの基礎知識とツールを積極的に学び、自身のスキルセットに統合することが重要です。問題解決能力、革新的な思考、学際的な融合力を磨き、AIOpsやMLOpsなどの新興AI分野に注目しましょう。継続的な学習と新しい技術への適応、そしてコミュニケーション能力などのソフトスキルを向上させることで、AI時代において揺るぎないキャリアを築き、高収入の技術職の機会を掴み、キャリアパスを最適化できます。",
+        "title": "AI時代のITキャリア：新人向けガイド",
+        "tags": [
+          "AI時代",
+          "IT新人",
+          "キャリア開発",
+          "人工知能",
+          "技術職"
+        ]
+      }
+    },
+    "x": {
+      "content": {
+        "body": "AI is reshaping IT, but for newcomers, it's an accelerator, not an end. Master AI basics, integrate tools into your skillset, and focus on problem-solving, innovation, & interdisciplinary skills. Expl",
+        "title": "IT Newcomers in the Age of AI"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "AIはITキャリアの加速器です。基礎知識を習得し、問題解決能力とソフトスキルを磨き、未来の技術職を掴みましょう。#AIキャリア #IT新人 #技術革新",
+        "title": "AI時代のIT新人"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\generate\\images\\custom_ae963a0c251a5d76\\custom_ae963a0c251a5d76_img_4.png"
+  ],
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000
+  }
+}

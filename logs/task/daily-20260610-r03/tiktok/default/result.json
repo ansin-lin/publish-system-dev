@@ -1,0 +1,14 @@
+{
+  "status": "auth_expired",
+  "platform": "tiktok",
+  "profile": "default",
+  "task_id": "daily-20260610-r03",
+  "publish_id": "daily-20260610-r03-r03",
+  "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r03\\tiktok\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r03\\tiktok\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r03\\tiktok\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r03\\tiktok\\default\\screenshot.png"
+  }
+}

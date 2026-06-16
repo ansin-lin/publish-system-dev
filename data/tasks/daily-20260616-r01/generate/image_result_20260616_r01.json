@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-16T09:34:45+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\copy_result_20260616_r01.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\approve\\topic_research_20260616_r01.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "custom_96d40069a4f89204",
+      "slot_id": "img_1",
+      "prompt": "Business professional interacting with an AI chatbot on a tablet in a modern, brightly lit office environment, showcasing efficiency and innovation.\n\nScene / composition from research brief: オフィスでチャットボットを使うビジネスパーソン\n\nVisual style: tech editorial",
+      "research_image_hint": "オフィスでチャットボットを使うビジネスパーソン",
+      "copy_image_prompt": "Business professional interacting with an AI chatbot on a tablet in a modern, brightly lit office environment, showcasing efficiency and innovation.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\images\\custom_96d40069a4f89204\\custom_96d40069a4f89204_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_96d40069a4f89204",
+      "slot_id": "img_2",
+      "prompt": "An abstract, glowing AI assistant icon integrated with an upward-trending data graph, symbolizing significant efficiency gains and technological advancement.\n\nScene / composition from research brief: AIアシスタントのアイコンとグラフ\n\nVisual style: tech editorial",
+      "research_image_hint": "AIアシスタントのアイコンとグラフ",
+      "copy_image_prompt": "An abstract, glowing AI assistant icon integrated with an upward-trending data graph, symbolizing significant efficiency gains and technological advancement.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\images\\custom_96d40069a4f89204\\custom_96d40069a4f89204_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_96d40069a4f89204",
+      "slot_id": "img_3",
+      "prompt": "A visual representation of a streamlined digital workflow, with arrows and interconnected nodes illustrating automated processes and reduced bottlenecks.\n\nScene / composition from research brief: 効率化されたワークフローの図\n\nVisual style: tech editorial",
+      "research_image_hint": "効率化されたワークフローの図",
+      "copy_image_prompt": "A visual representation of a streamlined digital workflow, with arrows and interconnected nodes illustrating automated processes and reduced bottlenecks.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\images\\custom_96d40069a4f89204\\custom_96d40069a4f89204_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_96d40069a4f89204",
+      "slot_id": "img_4",
+      "prompt": "Harmonious collaboration between a human hand and a robotic hand, intertwined with glowing data lines, symbolizing AI augmenting human capabilities in a tech editorial style.\n\nScene / composition from research brief: AIと人間の協業イメージ\n\nVisual style: tech editorial",
+      "research_image_hint": "AIと人間の協業イメージ",
+      "copy_image_prompt": "Harmonious collaboration between a human hand and a robotic hand, intertwined with glowing data lines, symbolizing AI augmenting human capabilities in a tech editorial style.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\images\\custom_96d40069a4f89204\\custom_96d40069a4f89204_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

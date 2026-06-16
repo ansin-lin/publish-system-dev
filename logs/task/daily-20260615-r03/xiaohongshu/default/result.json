@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "platform": "xiaohongshu",
+  "profile": "default",
+  "task_id": "daily-20260615-r03",
+  "publish_id": "daily-20260615-r03-r03",
+  "error": "Could not find upload file input on image publish page",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\screenshot.png"
+  }
+}

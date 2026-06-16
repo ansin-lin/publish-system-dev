@@ -1,0 +1,5 @@
+[2026-06-10T04:34:08.237Z] 开始发布 mode=video platform=tiktok profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260610-r01\publish\publish_job_20260610_r01.json
+[2026-06-10T04:34:51.059Z] TikTok waitForLoggedIn: 超时 40000ms，仍无登录信号 url=https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Ftiktokstudio%2Fupload&enter_method=redirect&enter_from=tiktokstudio
+[2026-06-10T04:34:51.060Z] TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。
+[2026-06-10T04:34:51.073Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\tiktok\default\state.json
+[2026-06-10T04:34:51.355Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260610-r01\tiktok\default\result.json

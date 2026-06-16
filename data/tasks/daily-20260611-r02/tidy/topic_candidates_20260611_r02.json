@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-11T13:13:47+09:00",
+  "task_id": "daily-20260611-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\collect\\collect_result_20260611_r02.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "338a32cc97e20b27",
+      "title": "尼克斯绝杀马刺",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%B0%BC%E5%85%8B%E6%96%AF%E7%BB%9D%E6%9D%80%E9%A9%AC%E5%88%BA"
+    },
+    {
+      "index": 2,
+      "topic_id": "fd3a477265566484",
+      "title": "万千气象看河南",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%87%E5%8D%83%E6%B0%94%E8%B1%A1%E7%9C%8B%E6%B2%B3%E5%8D%97"
+    },
+    {
+      "index": 3,
+      "topic_id": "e322292de670791d",
+      "title": "墨镜不要再随便戴了",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%A2%A8%E9%95%9C%E4%B8%8D%E8%A6%81%E5%86%8D%E9%9A%8F%E4%BE%BF%E6%88%B4%E4%BA%86"
+    },
+    {
+      "index": 4,
+      "topic_id": "b7cbc573dd7c6e4f",
+      "title": "榴莲仅退款买家父亲向商家道歉",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%A6%B4%E8%8E%B2%E4%BB%85%E9%80%80%E6%AC%BE%E4%B9%B0%E5%AE%B6%E7%88%B6%E4%BA%B2%E5%90%91%E5%95%86%E5%AE%B6%E9%81%93%E6%AD%89"
+    },
+    {
+      "index": 5,
+      "topic_id": "8f4de5949cfac670",
+      "title": "南部档案今日开播",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%8D%97%E9%83%A8%E6%A1%A3%E6%A1%88%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD"
+    },
+    {
+      "index": 6,
+      "topic_id": "d7285ffaf0f67995",
+      "title": "如何评价《DOTA2》Ti15 国际邀请赛门票一秒售空？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048050908693631773"
+    },
+    {
+      "index": 7,
+      "topic_id": "5a235e2022da8cc7",
+      "title": "92 年技术极客陈宇森接任钉钉 CEO，成阿里最年轻的事业部 CEO，阿里选他的逻辑是什么？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048345326587569444"
+    },
+    {
+      "index": 8,
+      "topic_id": "50a72466e0c8f136",
+      "title": "博士进高校越来越难吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2027270121794578097"
+    },
+    {
+      "index": 9,
+      "topic_id": "217796048f94f7c4",
+      "title": "韩国股市连续三日熔断，外资出逃 760 亿美元，股民被强平 3000 亿韩元，散户仍借钱抄底，当下是「底」吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048187195110993970"
+    },
+    {
+      "index": 10,
+      "topic_id": "a8503829cd5ef920",
+      "title": "如何看待皇马 1.5 亿欧元报价阿尔瓦雷斯遭拒后发公告，被马竞嘲讽「乐，你比巴萨还能逗我笑」？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047980477894451502"
+    },
+    {
+      "index": 11,
+      "topic_id": "05f60f0889d2096b",
+      "title": "尼克斯107-106马刺 阿努诺比绝杀",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%B0%BC%E5%85%8B%E6%96%AF107-106%E9%A9%AC%E5%88%BA+%E9%98%BF%E5%8A%AA%E8%AF%BA%E6%AF%94%E7%BB%9D%E6%9D%80"
+    },
+    {
+      "index": 12,
+      "topic_id": "7f68af0591b6d47c",
+      "title": "人民日报：让萝卜岗在阳光下无处遁形",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E8%AE%A9%E8%90%9D%E5%8D%9C%E5%B2%97%E5%9C%A8%E9%98%B3%E5%85%89%E4%B8%8B%E6%97%A0%E5%A4%84%E9%81%81%E5%BD%A2"
+    },
+    {
+      "index": 13,
+      "topic_id": "658fbdd8888d052a",
+      "title": "煤价市场将迎来新一轮突破性爆发",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%85%A4%E4%BB%B7%E5%B8%82%E5%9C%BA%E5%B0%86%E8%BF%8E%E6%9D%A5%E6%96%B0%E4%B8%80%E8%BD%AE%E7%AA%81%E7%A0%B4%E6%80%A7%E7%88%86%E5%8F%91"
+    },
+    {
+      "index": 14,
+      "topic_id": "545094d16e13d8d8",
+      "title": "女子退租被索赔近万元：养几十只猫",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%80%80%E7%A7%9F%E8%A2%AB%E7%B4%A2%E8%B5%94%E8%BF%91%E4%B8%87%E5%85%83%EF%BC%9A%E5%85%BB%E5%87%A0%E5%8D%81%E5%8F%AA%E7%8C%AB"
+    },
+    {
+      "index": 15,
+      "topic_id": "2cfde90045af6715",
+      "title": "淘宝京东拼多多抖音小红书被约谈",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E6%8B%BC%E5%A4%9A%E5%A4%9A%E6%8A%96%E9%9F%B3%E5%B0%8F%E7%BA%A2%E4%B9%A6%E8%A2%AB%E7%BA%A6%E8%B0%88"
+    },
+    {
+      "index": 16,
+      "topic_id": "0042e74a0871491a",
+      "title": "中国要在太空建电站？是的，你没听错！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116712515117033/"
+    },
+    {
+      "index": 17,
+      "topic_id": "827cdfb41b57be51",
+      "title": "申请再审被驳回，法律层面就完完全全结束了，能走到最后这一步，挺不容易的，没有什么遗憾，也是别有一番滋味在心头啊！！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116719578258044/"
+    },
+    {
+      "index": 18,
+      "topic_id": "a70dbfa7be28e54c",
+      "title": "大海为什么是蓝色的？两个诺奖得主吵起来了……",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116673742901624/"
+    },
+    {
+      "index": 19,
+      "topic_id": "a23bdbb856e96e99",
+      "title": "小别胜新家",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116719729316107/"
+    },
+    {
+      "index": 20,
+      "topic_id": "5f86db8ab09272be",
+      "title": "《长路归航》百人合唱 | 我们踏上的，从一开始就是一条归航长路",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116715199400872/"
+    },
+    {
+      "index": 21,
+      "topic_id": "32f86f7b9ae24d00",
+      "title": "饭店的暑假工，红酒洒了！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649404465284082368"
+    },
+    {
+      "index": 22,
+      "topic_id": "8c89d75b8ce2e729",
+      "title": "#人大附中 考生从容受访，言语之间见眼界，不亏是国内顶尖行列#考生采访 #现场实拍 #高考那些事儿",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649367273597160677"
+    },
+    {
+      "index": 23,
+      "topic_id": "5bcfa36c20c69711",
+      "title": "孩子高考结束，记录这美好时刻#高考结束",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649555579812164041"
+    },
+    {
+      "index": 24,
+      "topic_id": "b5019d0725430433",
+      "title": "有什么比精神小妹爱上纯情男大更狗血",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649327683272248595"
+    },
+    {
+      "index": 25,
+      "topic_id": "64d21a8095518e80",
+      "title": "又破防了 再缓两天",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649713605461589349"
+    },
+    {
+      "index": 26,
+      "topic_id": "d87bdc92acc4ad6f",
+      "title": "mitch johnson",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=mitch+johnson&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "d6ffe7fec67f1877",
+      "title": "keldon johnson",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=keldon+johnson&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "f5e35b0328782d33",
+      "title": "fox",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=fox&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "0118dbe7ddb09cf8",
+      "title": "hugh jackman",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=hugh+jackman&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "b94ba1e44c9e646b",
+      "title": "polymarket",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=polymarket&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "6993d7c4f3167fd1",
+      "title": "[Highlight] OG Anunoby tips the ball in to give the Knicks the lead",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nba/comments/1u2ns60/highlight_og_anunoby_tips_the_ball_in_to_give_the/"
+    },
+    {
+      "index": 32,
+      "topic_id": "b14496d795b43967",
+      "title": "Iran announces closure of Strait of Hormuz after US attacks",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/news/comments/1u2ihj5/iran_announces_closure_of_strait_of_hormuz_after/"
+    },
+    {
+      "index": 33,
+      "topic_id": "4518e6399d0edd33",
+      "title": "College students are rapidly losing the ability to read — “There is a measurable, generational collapse in sustained reading and writing”: professor",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/technology/comments/1u2i8zx/college_students_are_rapidly_losing_the_ability/"
+    },
+    {
+      "index": 34,
+      "topic_id": "2538b02289d2413f",
+      "title": "TIL that one gamer played a game of Civilization II which developed into a 10-year long stalemate.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1u2jxu2/til_that_one_gamer_played_a_game_of_civilization/"
+    },
+    {
+      "index": 35,
+      "topic_id": "d71ebae9311afa0a",
+      "title": "Trump assessed by 22 medical specialists at latest checkup; The White House has declined to identify the physicians.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/politics/comments/1u2ipxp/trump_assessed_by_22_medical_specialists_at/"
+    },
+    {
+      "index": 36,
+      "topic_id": "9583626c462bd423",
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "source_platform": "hackernews",
+      "source_url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"
+    },
+    {
+      "index": 37,
+      "topic_id": "4a643eae57be0280",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "source_platform": "hackernews",
+      "source_url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"
+    },
+    {
+      "index": 38,
+      "topic_id": "a6fff46627240669",
+      "title": "πFS",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/philipl/pifs"
+    },
+    {
+      "index": 39,
+      "topic_id": "3797230f84e5221d",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "source_platform": "hackernews",
+      "source_url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models"
+    },
+    {
+      "index": 40,
+      "topic_id": "09dd75d2be5e9d83",
+      "title": "Sequoyah’s syllabary created a written language for the Cherokee",
+      "source_platform": "hackernews",
+      "source_url": "https://www.smithsonianmag.com/innovation/man-created-written-language-cherokee-did-efficiently-elegantly-peers-thought-magic-180988850/"
+    }
+  ]
+}

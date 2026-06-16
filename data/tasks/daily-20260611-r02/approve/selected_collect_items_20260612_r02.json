@@ -1,0 +1,43 @@
+{
+  "schema_version": "selected_collect_items.v1",
+  "generated_at": "2026-06-12T08:58:56+09:00",
+  "task_id": "daily-20260611-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\collect\\collect_result_20260611_r02.json",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\tidy\\topic_candidates_20260611_r02.json",
+  "selected_indices": [
+    36
+  ],
+  "topic_keys": [
+    {
+      "topic_id": "9583626c462bd423",
+      "source_platform": "hackernews"
+    }
+  ],
+  "items": [
+    {
+      "topic_id": "9583626c462bd423",
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "source_platform": "hackernews",
+      "source_url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+      "collected_at": "2026-06-11T13:03:51+09:00",
+      "raw": {
+        "platform": "hackernews",
+        "title": "AI agent runs amok in Fedora and elsewhere",
+        "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+        "score": 195,
+        "rank": 1,
+        "source_id": "48484584",
+        "raw": {
+          "source": "hackernews",
+          "story_path": "topstories",
+          "hn_id": 48484584,
+          "origin_rank": 1
+        },
+        "fetched_at": "2026-06-11T04:03:51.364Z"
+      },
+      "score": 195,
+      "rank": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "published",
+  "platform": "x",
+  "profile": "default",
+  "task_id": "daily-20260611-r01",
+  "publish_id": "daily-20260611-r01-r01",
+  "published_at": "2026-06-11T03:08:20.090Z",
+  "post_url": "https://x.com/ouennenn123287/status/2064907479990042864",
+  "post_id": "2064907479990042864",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\screenshot.png"
+  }
+}

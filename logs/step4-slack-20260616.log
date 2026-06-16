@@ -1,0 +1,4 @@
+{"at":"2026-06-16T00:32:50.690Z","event":"pick_applied","task_id":"daily-20260616-r01","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-16T00:32:50.691Z","event":"poll_batch_done","awaiting":2,"picks_applied":1,"pick_errors":0,"timeouts":0}
+{"at":"2026-06-16T04:17:50.095Z","event":"pick_timeout","task_json":"C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\task.json"}
+{"at":"2026-06-16T04:17:50.096Z","event":"poll_batch_done","awaiting":1,"picks_applied":0,"pick_errors":0,"timeouts":1}

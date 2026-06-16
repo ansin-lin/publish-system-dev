@@ -1,0 +1,8 @@
+{
+  "schema_version": "video_pick.v1",
+  "task_id": "daily-20260610-r03",
+  "run_id": "r03",
+  "source": "stock_common",
+  "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4",
+  "pool_dir": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common"
+}

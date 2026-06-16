@@ -1,0 +1,63 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-16T09:47:56+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "publish_id": "daily-20260616-r01-r01",
+  "topic_id": "custom_96d40069a4f89204",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\publish\\publish_job_20260616_r01.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\copy_result_20260616_r01.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\generate\\image_result_20260616_r01.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "failed",
+      "verified": false,
+      "error": "Publish success not confirmed"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-16T00:45:04.363Z",
+      "post_url": "https://www.facebook.com/estrellita.carpio.7/posts/pfbid02zixxGWyiPZ9AkwiLPYCZLML2TL2Ze3rpf2XKmrtAGySmMQThyYdMKcPv6dh5yUDxl?__cft__[0]=AZb2fzsY0QrgigulVHcjhEV1q-Co9ukiWh69hMPXmj5EpNAuufurLrdUh9r4CZbiVcpyZcFH8qaKCbjgxVt4H_bzcI-0MtInDaxAivazdh4WS-rJRJnOxVaqt2LgVab7sAI5aPy7axRsACPOvgcnO56-Fx8JvDCzaj4mQOBzwV4sDQ&__tn__=%2CO%2CP-R"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-16T00:46:11.319Z",
+      "post_url": "https://x.com/ouennenn123287/status/2066683621117948199",
+      "post_id": "2066683621117948199"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-16T00:47:55.543Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZoI-ZqD_oR/"
+    }
+  ],
+  "video_skipped_platforms": [
+    "youtube",
+    "tiktok"
+  ],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 3,
+    "verified_published_count": 3,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "total": 4,
+    "video_skipped_count": 2
+  }
+}

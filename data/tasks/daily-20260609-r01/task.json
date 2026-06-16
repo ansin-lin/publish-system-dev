@@ -1,0 +1,130 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260609-r01",
+  "run_id": "r01",
+  "revision": 7,
+  "status": "approval_timeout",
+  "degraded": false,
+  "created_at": "2026-06-09T19:23:33+09:00",
+  "updated_at": "2026-06-10T19:38:41+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-09T19:23:33+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\collect\\collect_result_20260609_r01.json",
+      "finished_at": "2026-06-09T19:23:39+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-09T19:33:32+09:00",
+      "finished_at": "2026-06-09T19:33:32+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\tidy\\topic_candidates_20260609_r01.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\collect\\collect_result_20260609_r01.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "failed",
+      "started_at": "2026-06-09T19:38:33+09:00",
+      "message_ts": "1781001514.090179",
+      "slack_channel": "C0B887QD6U9",
+      "slack_thread_ts": "1781001514.090179",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260609-r01`\nrun_id: `r01`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\tidy\\topic_candidates_20260609_r01.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 多地否认跑男录制宣传费\n2. [weibo] 让中朝传统友谊世代传承\n3. [weibo] 赛豆科技AIVA品牌发布会\n4. [weibo] 白鹿莫离走势\n5. [weibo] 阿里巴巴百度蔚来紧急公告\n6. [zhihu] 如何评价综艺《跑男》被指「还在挑衅观众」？\n7. [zhihu] LPL 顶级上单 369 坦言不想玩 LoL 了，这反映了职业选手怎样的困境？\n8. [zhihu] 养生最简单的方法有哪些？\n9. [zhihu] 人形机器人价格大跳水，最低不到一万可入手，为何价格快速下跌？机器人全民普及的时代要到来了吗？\n10. [zhihu] 有哪些潮汕的文化、风物、传统是你想通过文学深入了解的？\n11. [baidu] “浙江一地要热上50℃”不实\n12. [baidu] 为《奔跑吧》录制支付80万？安阳辟谣\n13. [baidu] 山东一考点1考生3监考老师\n14. [baidu] 高考地理考完 考生直呼看懵了\n15. [baidu] 河南农商行“被贷款”乱象调查…",
+      "finished_at": "2026-06-10T19:38:41+09:00",
+      "error": {
+        "code": "STEP4_PICK_TIMEOUT",
+        "message": "Manager did not pick within pick_timeout_hours",
+        "retryable": false
+      }
+    },
+    "approve": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "pending"
+    },
+    "copy": {
+      "status": "pending"
+    },
+    "image": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-09T19:23:33+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-09T19:23:33+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-09T19:23:39+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\collect\\collect_result_20260609_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-09T19:28:34+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-09T19:33:32+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-09T19:33:32+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\tidy\\topic_candidates_20260609_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-09T19:38:33+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781001514.090179",
+        "slack_channel": "C0B887QD6U9",
+        "slack_thread_ts": "1781001514.090179",
+        "candidate_count": 40
+      }
+    },
+    {
+      "at": "2026-06-10T19:38:41+09:00",
+      "event": "step4_pick_timeout",
+      "operator": "orchestrator",
+      "data": {}
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_d29b0b55-8c34-470c-a477-c4f14f09c8db"
+  }
+}

@@ -1,0 +1,28 @@
+[2026-06-10T07:49:30.243Z] 开始发布 mode=video platform=youtube profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260610-r02\publish\publish_job_20260610_r02.json
+[2026-06-10T07:50:31.531Z] studio root not visible yet: TimeoutError: locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('ytcp-app').first() to be visible
+    5 × locator resolved to hidden <ytcp-app></ytcp-app>
+    - locator resolved to hidden <ytcp-app enable-page-title="">…</ytcp-app>
+    111 × locator resolved to hidden <ytcp-app enable-page-title="" show-title-bar-actions="">…</ytcp-app>
+
+[2026-06-10T07:50:31.548Z] isLoggedIn=true (cookie hints matched: SAPISID,APISID,SID,HSID,SSID,__Secure-3PAPISID,__Secure-3PSID,LOGIN_INFO)
+[2026-06-10T07:50:31.740Z] clicked upload entry name=/上传视频/
+[2026-06-10T07:50:31.825Z] uploaded video via filechooser file=C:\Users\compu\.openclaw\publish-system\data\assets\video\Common\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4
+[2026-06-10T07:50:31.826Z] wait after_upload_processing ms=90000
+[2026-06-10T07:52:01.940Z] filled title via role textbox
+[2026-06-10T07:52:02.029Z] filled description via role textbox
+[2026-06-10T07:52:02.073Z] selected not-made-for-kids via role radio
+[2026-06-10T07:52:02.198Z] clicked continue(1)
+[2026-06-10T07:52:02.198Z] wait after_continue_1 ms=60000
+[2026-06-10T07:53:02.302Z] clicked continue(2)
+[2026-06-10T07:53:02.303Z] wait after_continue_2 ms=60000
+[2026-06-10T07:54:02.466Z] clicked continue(3)
+[2026-06-10T07:54:02.467Z] wait after_continue_3 ms=60000
+[2026-06-10T07:55:02.517Z] picked visibility=公开
+[2026-06-10T07:55:02.518Z] wait after_visibility ms=60000
+[2026-06-10T07:56:02.577Z] clicked 发布
+[2026-06-10T07:56:02.578Z] wait after_publish_click ms=90000
+[2026-06-10T07:57:32.643Z] clicked close-icon-button
+[2026-06-10T07:57:32.874Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\youtube\default\state.json
+[2026-06-10T07:57:33.168Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260610-r02\youtube\default\result.json

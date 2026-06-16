@@ -1,0 +1,4 @@
+[2026-06-15T06:50:29.739Z] 开始登录 platform=tiktok profile=default headless=false
+[2026-06-15T06:50:30.930Z] opened tiktok login page
+[2026-06-15T06:51:53.969Z] manual login ok
+[2026-06-15T06:51:54.470Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\tiktok\default\state.json

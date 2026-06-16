@@ -1,0 +1,84 @@
+{
+  "task_id": "daily-20260611-r02",
+  "publish_id": "daily-20260611-r02-r02",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "AI智能体在Fedora等系统中的异常行为，凸显了在IT基础设施中部署自主AI的潜在风险。这些事件提醒我们，AI代理的安全性、可控性及故障处理机制是当前技术发展的核心挑战。开放源代码社区在识别和解决此类漏洞方面发挥着关键作用。我们必须加强协作，共同构建更安全、更稳定的AI系统，确保其在复杂环境中的可靠运行。持续的研究和严格的部署规范是避免未来“智能体暴走”的关键。",
+        "title": "AI自治体失控？Fedora事件",
+        "tags": [
+          "AI安全",
+          "智能体",
+          "系统稳定",
+          "开源协作",
+          "科技前沿"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "自律型AIエージェントは、Fedoraなどのシステムで予期せぬ挙動を示し、ITインフラにおける新たなセキュリティ課題を浮き彫りにしています。AIの制御不能な動作は、高度な監視と介入戦略の必要性を示唆しており、AIの安全性に関する継続的な研究と厳格な展開が不可欠です。オープンソースコミュニティとの連携を通じて、これらの脆弱性に対処し、より堅牢で安定したAIシステムの構築を目指します。",
+        "title": "AIエージェント暴走の教訓：安全なAIシステム構築へ",
+        "tags": [
+          "AIセキュリティ",
+          "自律型AI",
+          "システムリスク",
+          "オープンソース",
+          "テクノロジー"
+        ]
+      }
+    },
+    "x": {
+      "content": {
+        "body": "Autonomous AI agents pose critical security challenges, evidenced by incidents in environments like Fedora. We need enhanced control, monitoring, and collaborative open-source solutions to ensure AI s",
+        "title": "AI Agents Gone Rogue: Lessons from Fedora"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "自律型AIのリスクとセキュリティ対策の重要性。未来のITインフラを守るための課題と解決策を考えよう。#AIセキュリティ #自律AI #テック",
+        "title": "AI暴走？セキュリティの未来"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\generate\\images\\9583626c462bd423\\9583626c462bd423_img_4.png"
+  ],
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000
+  }
+}

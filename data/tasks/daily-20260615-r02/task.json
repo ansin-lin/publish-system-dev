@@ -1,0 +1,128 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260615-r02",
+  "run_id": "r02",
+  "revision": 7,
+  "status": "approval_timeout",
+  "degraded": false,
+  "created_at": "2026-06-15T13:00:03+09:00",
+  "updated_at": "2026-06-16T13:17:50+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-15T13:00:03+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\collect\\collect_result_20260615_r02.json",
+      "finished_at": "2026-06-15T13:03:08+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-15T13:12:50+09:00",
+      "finished_at": "2026-06-15T13:12:50+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\tidy\\topic_candidates_20260615_r02.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\collect\\collect_result_20260615_r02.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "failed",
+      "started_at": "2026-06-15T13:17:50+09:00",
+      "message_ts": "1781497070.152229",
+      "slack_channel": "C0B887QD6U9",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260615-r02`\nrun_id: `r02`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\tidy\\topic_candidates_20260615_r02.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 山姆被约谈\n2. [weibo] 遇见小面创始人致歉\n3. [weibo] 龙舟赛变身端午消费新引擎\n4. [weibo] 爱情有烟火原著回应开播\n5. [weibo] 瑞典vs突尼斯\n6. [zhihu] 有哪些著名的被演砸的角色？\n7. [zhihu] 素数「17」在自然数中有什么存在感？\n8. [zhihu] U17 、 U23 国足接连获得亚洲杯亚军，中国男足离重返世界杯还有多远？\n9. [zhihu] 《三角洲行动》S10 赛季新干员「泽芮娅」技能曝光，如何评价这组技能设计？\n10. [zhihu] 市场监管总局约谈山姆总部，要求其严防全链条食品安全风险，山姆的品控出了什么问题？此次约谈有何警示意义？\n11. [baidu] 救援队队长寻走失儿童时遇车祸离世\n12. [baidu] 美第三批涉UFO档案披露离奇现象\n13. [baidu] 沈腾最好的医美是马丽\n14. [baidu] 金价跌破900老板5个手机都忙不过来\n15. [baidu] 首次制裁外国现任防长 …",
+      "finished_at": "2026-06-16T13:17:50+09:00",
+      "error": {
+        "code": "STEP4_PICK_TIMEOUT",
+        "message": "Manager did not pick within pick_timeout_hours",
+        "retryable": false
+      }
+    },
+    "approve": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "pending"
+    },
+    "copy": {
+      "status": "pending"
+    },
+    "image": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-15T13:00:03+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron_1300"
+      }
+    },
+    {
+      "at": "2026-06-15T13:00:03+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron_1300"
+      }
+    },
+    {
+      "at": "2026-06-15T13:03:08+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\collect\\collect_result_20260615_r02.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-15T13:07:49+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-15T13:12:50+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-15T13:12:50+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\tidy\\topic_candidates_20260615_r02.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-15T13:17:50+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781497070.152229",
+        "slack_channel": "C0B887QD6U9",
+        "candidate_count": 40
+      }
+    },
+    {
+      "at": "2026-06-16T13:17:50+09:00",
+      "event": "step4_pick_timeout",
+      "operator": "orchestrator",
+      "data": {}
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_de1a1e7e-6d0f-487c-aa69-9bd7ee6a28eb"
+  }
+}

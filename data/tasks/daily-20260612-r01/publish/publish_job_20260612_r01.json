@@ -1,0 +1,77 @@
+{
+  "task_id": "daily-20260612-r01",
+  "publish_id": "daily-20260612-r01-r01",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "小米重磅发布开源项目 MiMo Code！🎉 专为开发者打造，旨在全面提升编码效率与协作体验。它具备模块化设计、强大可扩展性，并提供完善的文档和社区支持，让每位开发者都能轻松上手，快速贡献。无论你是独立开发者还是团队协作，MiMo Code 都能助你一臂之力，体验前所未有的流畅开发流程。快来加入我们，共同探索编程的无限可能！",
+        "title": "MiMo Code开源：效率新利",
+        "tags": [
+          "MiMo Code",
+          "开源项目",
+          "小米科技",
+          "开发者工具",
+          "提升效率"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "Xiaomiから、待望のオープンソースプロジェクト「MiMo Code」がリリースされました！🚀 開発者のコーディング効率とコラボレーション体験を劇的に向上させます。モジュラー設計と高い拡張性、包括的なドキュメントとコミュニティサポートにより、誰でも簡単に参加し、貢献可能。AI支援プログラミングやマルチデバイス連携で優れた機能を発揮し、スムーズな開発プロセスを提供します。ぜひコミュニティに参加し、プログラミングの無限の可能性を一緒に探求しましょう！#MiMoCode #オープンソース #開発ツール",
+        "title": "MiMo Code、オープンソースとして登場！開発者の生産性を革新"
+      }
+    },
+    "x": {
+      "content": {
+        "body": "Xiaomi's MiMo Code is now open-source! 🚀 Boost your dev efficiency and collaboration with its modular design & strong community. Easy to get started & contribute. Experience smoother workflows in AI-a",
+        "title": "MiMo Code Released Open-Source: Boost Your Dev Productivity!"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "Xiaomiの新しいオープンソースプロジェクト「MiMo Code」が登場！🎉 開発効率を向上させ、スムーズなコラボレーションを支援。革新的な機能でプログラミングの可能性を広げます。ぜひご参加を！#M",
+        "title": "MiMo Code、オープンソースで新登場！"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_4.png"
+  ],
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000
+  }
+}

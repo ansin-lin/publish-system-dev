@@ -1,0 +1,89 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-15T10:28:55+09:00",
+  "task_id": "daily-20260615-r01",
+  "run_id": "r01",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\approve\\topic_research_20260615_r01.json",
+  "items": [
+    {
+      "topic_id": "2ce5578234f21660",
+      "title": "日本某炸鸡店一锅老油用 66 年，引发食品安全争议，对此你怎么看？",
+      "source_platform": "zhihu",
+      "writing_angle": "从日本炸鸡店事件看食品安全技术缺位：IoT与AI如何补齐餐饮业短板？",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "日本炸鸡老油事件：AIoT如何守",
+          "body": "近期日本炸鸡店老油事件震惊行业。这不仅是单一食品安全问题，更暴露出传统餐饮业在品质监控上的技术短板。物联网（IoT）与人工智能（AI）正成为破局关键。想象一下，智能传感器实时监测油品质量、食材新鲜度，AI自动预警风险，区块链技术确保供应链全程透明可溯。数字化转型已不再是选择，而是餐饮企业提升核心竞争力、履行社会责任的必由之路。通过引入AIoT解决方案，我们能构建起“数字卫士”，告别经验主义，用科技守护每一份餐桌的健康与信任。",
+          "tags": [
+            "食品安全",
+            "智能餐饮",
+            "AIoT",
+            "数字化转型",
+            "区块链溯源",
+            "餐饮科技"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "日本のフライドチキン店老油問題：テクノロジーによる食品安全への道",
+          "body": "日本の老舗フライドチキン店で66年間使い続けたという揚げ油が問題となり、食品安全への懸念が浮上しています。この事件は、伝統的な飲食業界における品質管理の脆弱性を示しています。IoTとAIは、リアルタイムでの油の品質監視、食材の鮮度チェック、リスクの自動警告を可能にし、食品サプライチェーン全体の透明性を高めることができます。AIoTソリューションの導入は、消費者への信頼を回復し、飲食業界が持続可能な成長を遂げるために不可欠です。テクノロジーの力で、食の安全と安心を確保しましょう。",
+          "tags": [
+            "食品安全",
+            "スマートレストラン",
+            "IoT",
+            "AI",
+            "ブロックチェーン",
+            "飲食業界DX"
+          ]
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "Old Oil Scandal Highlights Food Tech Gaps",
+          "body": "The recent 66-year-old cooking oil controversy at a Japanese fried chicken shop reveals critical food safety vulnerabilities in traditional catering. IoT and AI offer solutions: real-time oil quality ",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "老油問題から学ぶ食品安全",
+          "body": "フライドチキン店での老油問題、食品安全への懸念が高まっています。IoTとAIでリアルタイム監視、リスクを自動警告。飲食業界にデジタル変革を。#食品安全 #スマートレストラン #AIoT",
+          "tags": [
+            "食品安全",
+            "スマートレストラン",
+            "AIoT"
+          ]
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "A modern restaurant kitchen scene, clean and futuristic, with smart sensors integrated into cooking equipment (e.g., a deep fryer), connected to a central digital dashboard displaying real-time food safety metrics like oil quality and temperature. Focus on precision and hygiene. Composition: wide shot, clean lines, bright lighting.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "An infographic visualizing a transparent food supply chain, from farm to table, powered by blockchain technology. Illustrate data points at each stage (sourcing, processing, delivery) linked together with glowing digital lines. The design should be clean, professional, and highlight data integrity. Composition: overhead view, flowing lines, cool blue and green tones.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "Automated kitchen equipment in operation: a smart fryer with robotic arms handling baskets, an automatic cleaning robot navigating the floor, all within a pristine, sterile kitchen environment. Emphasize efficiency, automation, and advanced technology. Composition: dynamic angle, focus on movement, crisp white lighting.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "A close-up shot of a digital dashboard interface showing various food safety indicators: a green 'OK' for oil quality, optimal temperature graphs, and a notification for potential cross-contamination risks. The interface should be sleek, user-friendly, and convey immediate insights into kitchen operations. Composition: focused on screen, vibrant display, subtle background blur.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

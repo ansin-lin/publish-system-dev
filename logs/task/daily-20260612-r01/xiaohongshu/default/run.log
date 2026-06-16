@@ -1,0 +1,5 @@
+[2026-06-12T02:42:48.949Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260612-r01\publish\publish_job_20260612_r01.json
+[2026-06-12T02:42:55.034Z] detected login redirect url=https://creator.xiaohongshu.com/login?source=&redirectReason=401&lastUrl=%252Fnew%252Fhome
+[2026-06-12T02:42:55.035Z] 小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）
+[2026-06-12T02:42:55.064Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\xiaohongshu\default\state.json
+[2026-06-12T02:42:55.370Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260612-r01\xiaohongshu\default\result.json

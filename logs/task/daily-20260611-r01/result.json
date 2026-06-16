@@ -1,0 +1,69 @@
+{
+  "task_id": "daily-20260611-r01",
+  "publish_id": "daily-20260611-r01-r01",
+  "job_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_job_20260611_r01.json",
+  "started_at": "2026-06-11T03:06:02.917Z",
+  "updated_at": "2026-06-11T03:09:25.718Z",
+  "results": [
+    {
+      "status": "auth_expired",
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "task_id": "daily-20260611-r01",
+      "publish_id": "daily-20260611-r01-r01",
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\xiaohongshu\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\xiaohongshu\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\xiaohongshu\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\xiaohongshu\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "facebook",
+      "profile": "default",
+      "task_id": "daily-20260611-r01",
+      "publish_id": "daily-20260611-r01-r01",
+      "published_at": "2026-06-11T03:07:16.697Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid024emxDrn3XX88cS55ehhsMHH3XSKtJPkgnxRMMjrhJynW1ixA6iANPMjb6YCVeSSml&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\facebook\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\facebook\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\facebook\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\facebook\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "x",
+      "profile": "default",
+      "task_id": "daily-20260611-r01",
+      "publish_id": "daily-20260611-r01-r01",
+      "published_at": "2026-06-11T03:08:20.090Z",
+      "post_url": "https://x.com/ouennenn123287/status/2064907479990042864",
+      "post_id": "2064907479990042864",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\x\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "instagram",
+      "profile": "default",
+      "task_id": "daily-20260611-r01",
+      "publish_id": "daily-20260611-r01-r01",
+      "published_at": "2026-06-11T03:09:25.269Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZbhNLTD8Y9/",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\instagram\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\instagram\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\instagram\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r01\\instagram\\default\\screenshot.png"
+      }
+    }
+  ]
+}

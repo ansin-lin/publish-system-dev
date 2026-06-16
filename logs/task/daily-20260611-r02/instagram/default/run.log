@@ -1,0 +1,35 @@
+[2026-06-12T00:07:30.920Z] 开始发布 mode=post platform=instagram profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260611-r02\publish\publish_job_20260612_r02.json
+[2026-06-12T00:07:35.605Z] hovered nav to expand sidebar
+[2026-06-12T00:07:35.606Z] human wait sidebar_hover 977ms
+[2026-06-12T00:07:36.713Z] hovered nav to expand sidebar
+[2026-06-12T00:07:36.714Z] human wait sidebar_hover 1365ms
+[2026-06-12T00:07:38.085Z] human wait before_create_entry 4460ms
+[2026-06-12T00:07:42.596Z] hovered nav to expand sidebar
+[2026-06-12T00:07:42.596Z] human wait sidebar_hover 1009ms
+[2026-06-12T00:07:43.713Z] clicked create icon selector=svg[aria-label='新しい投稿']
+[2026-06-12T00:07:43.713Z] human wait after_create_entry 4201ms
+[2026-06-12T00:07:48.028Z] clicked link 投稿 投稿
+[2026-06-12T00:07:48.029Z] human wait after_post_type_link 4104ms
+[2026-06-12T00:07:52.172Z] human wait upload_media:before 4312ms
+[2026-06-12T00:07:56.570Z] select button setInputFiles failed, fallback to filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for getByRole('button', { name: 'コンピューターから選択' }).first()[22m
+[2m    - locator resolved to <button type="button" class=" _aswp _aswr _aswu _asw_ _asx2">コンピューターから選択</button>[22m
+
+[2026-06-12T00:07:56.787Z] uploaded via filechooser count=1
+[2026-06-12T00:07:56.787Z] human wait upload_media:after 4793ms
+[2026-06-12T00:08:01.784Z] clicked 次へ (1)
+[2026-06-12T00:08:01.785Z] human wait after_next_1 3199ms
+[2026-06-12T00:08:05.035Z] clicked 次へ (2)
+[2026-06-12T00:08:05.036Z] human wait after_next_2 4966ms
+[2026-06-12T00:08:10.021Z] human wait fill_caption:before 4059ms
+[2026-06-12T00:08:14.140Z] filled caption キャプションを入力…
+[2026-06-12T00:08:14.140Z] human wait fill_caption:after 4475ms
+[2026-06-12T00:08:18.625Z] human wait click_publish:before 4608ms
+[2026-06-12T00:08:23.322Z] clicked シェア
+[2026-06-12T00:08:23.323Z] human wait click_publish:after 3565ms
+[2026-06-12T00:08:26.900Z] post-publish settle 10000ms after publish button click
+[2026-06-12T00:08:37.385Z] clicked 完了
+[2026-06-12T00:08:39.412Z] instagram post_url=https://www.instagram.com/ouennenn_0909/p/DZdxUCYDymC/
+[2026-06-12T00:08:39.555Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\instagram\default\state.json
+[2026-06-12T00:08:39.931Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260611-r02\instagram\default\result.json

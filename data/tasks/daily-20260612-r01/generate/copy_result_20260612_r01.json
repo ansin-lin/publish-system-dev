@@ -1,0 +1,77 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-12T11:41:50+09:00",
+  "task_id": "daily-20260612-r01",
+  "run_id": "r01",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\approve\\topic_research_20260612_r01.json",
+  "items": [
+    {
+      "topic_id": "e5de25c90f90615f",
+      "title": "MiMo Code is now released and open-source",
+      "source_platform": "hackernews",
+      "writing_angle": "生产力工具价值",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "MiMo Code开源：效率新利",
+          "body": "小米重磅发布开源项目 MiMo Code！🎉 专为开发者打造，旨在全面提升编码效率与协作体验。它具备模块化设计、强大可扩展性，并提供完善的文档和社区支持，让每位开发者都能轻松上手，快速贡献。无论你是独立开发者还是团队协作，MiMo Code 都能助你一臂之力，体验前所未有的流畅开发流程。快来加入我们，共同探索编程的无限可能！",
+          "tags": [
+            "MiMo Code",
+            "开源项目",
+            "小米科技",
+            "开发者工具",
+            "提升效率"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "MiMo Code、オープンソースとして登場！開発者の生産性を革新",
+          "body": "Xiaomiから、待望のオープンソースプロジェクト「MiMo Code」がリリースされました！🚀 開発者のコーディング効率とコラボレーション体験を劇的に向上させます。モジュラー設計と高い拡張性、包括的なドキュメントとコミュニティサポートにより、誰でも簡単に参加し、貢献可能。AI支援プログラミングやマルチデバイス連携で優れた機能を発揮し、スムーズな開発プロセスを提供します。ぜひコミュニティに参加し、プログラミングの無限の可能性を一緒に探求しましょう！#MiMoCode #オープンソース #開発ツール",
+          "tags": []
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "MiMo Code Released Open-Source: Boost Your Dev Productivity!",
+          "body": "Xiaomi's MiMo Code is now open-source! 🚀 Boost your dev efficiency and collaboration with its modular design & strong community. Easy to get started & contribute. Experience smoother workflows in AI-a",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "MiMo Code、オープンソースで新登場！",
+          "body": "Xiaomiの新しいオープンソースプロジェクト「MiMo Code」が登場！🎉 開発効率を向上させ、スムーズなコラボレーションを支援。革新的な機能でプログラミングの可能性を広げます。ぜひご参加を！#M",
+          "tags": []
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "Screenshot of MiMo Code's code editor interface, highlighting code syntax highlighting and intelligent auto-completion features. Tech editorial style, 16:9 aspect ratio.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "MiMo Code open-source project logo design with subtle Xiaomi branding elements. Tech editorial style, 16:9 aspect ratio.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "Developers collaborating using MiMo Code across different devices (PC, mobile) in a modern workspace setting. Tech editorial style, 16:9 aspect ratio.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "A simplified architectural diagram or module示意图 of MiMo Code, clearly showcasing its core components and their interactions. Tech editorial style, 16:9 aspect ratio.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

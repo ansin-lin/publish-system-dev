@@ -1,0 +1,76 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-16T09:34:15+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\approve\\topic_research_20260616_r01.json",
+  "items": [
+    {
+      "topic_id": "custom_96d40069a4f89204",
+      "title": "「社内でAIチャットボットを試験導入。 問い合わせ対応時間が約60％削減できました。」",
+      "source_platform": "custom",
+      "writing_angle": "導入效果を具体的な数字で示すケーススタディ",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "AI客服提效60%：企业新实践！",
+          "body": "我们公司近期试水AI智能客服，效果出乎意料！内部咨询响应时间骤降60%，员工工作效率大幅提升。这不仅仅是技术升级，更是企业数字化转型（DX）的重要一步。AI将内部知识库整合，确保信息传递的统一性和准确性。告别繁琐重复，把时间留给更具创造性的工作！",
+          "tags": [
+            "AI效率",
+            "智能客服",
+            "企业DX",
+            "内部创新"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "社内AIチャットボット導入で問い合わせ対応時間を60%削減！",
+          "body": "弊社ではこの度、社内問い合わせ対応にAIチャットボットを試験導入しました。その結果、対応時間を約60%削減することに成功。従業員の皆様の生産性向上と業務負担軽減に大きく貢献しています。これは単なる効率化だけでなく、社内ナレッジの有効活用とDX推進の一環としての重要なステップです。未来の働き方を共に創りませんか？",
+          "tags": []
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "AI Chatbot Cuts Internal Inquiry Time by 60%",
+          "body": "Big win! Our internal AI chatbot pilot reduced inquiry response times by ~60%. This boosts employee productivity, centralizes internal knowledge, and accelerates our DX journey. Experience smarter wor",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "AIチャットボットで業務改革！",
+          "body": "社内AIチャットボット導入により、問い合わせ対応が60%効率化！✨ 従業員の生産性向上と業務負担軽減に貢献。スマートな働き方を実現します。#AI活用 #業務効率化 #社内DX",
+          "tags": []
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "Business professional interacting with an AI chatbot on a tablet in a modern, brightly lit office environment, showcasing efficiency and innovation.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "An abstract, glowing AI assistant icon integrated with an upward-trending data graph, symbolizing significant efficiency gains and technological advancement.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "A visual representation of a streamlined digital workflow, with arrows and interconnected nodes illustrating automated processes and reduced bottlenecks.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "Harmonious collaboration between a human hand and a robotic hand, intertwined with glowing data lines, symbolizing AI augmenting human capabilities in a tech editorial style.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

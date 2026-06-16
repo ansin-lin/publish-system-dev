@@ -1,0 +1,15 @@
+{
+  "status": "published",
+  "platform": "facebook",
+  "profile": "default",
+  "task_id": "daily-20260616-r01",
+  "publish_id": "daily-20260616-r01-r01",
+  "published_at": "2026-06-16T00:45:04.363Z",
+  "post_url": "https://www.facebook.com/estrellita.carpio.7/posts/pfbid02zixxGWyiPZ9AkwiLPYCZLML2TL2Ze3rpf2XKmrtAGySmMQThyYdMKcPv6dh5yUDxl?__cft__[0]=AZb2fzsY0QrgigulVHcjhEV1q-Co9ukiWh69hMPXmj5EpNAuufurLrdUh9r4CZbiVcpyZcFH8qaKCbjgxVt4H_bzcI-0MtInDaxAivazdh4WS-rJRJnOxVaqt2LgVab7sAI5aPy7axRsACPOvgcnO56-Fx8JvDCzaj4mQOBzwV4sDQ&__tn__=%2CO%2CP-R",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\facebook\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\facebook\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\facebook\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\facebook\\default\\screenshot.png"
+  }
+}

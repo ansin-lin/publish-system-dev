@@ -1,0 +1,69 @@
+{
+  "task_id": "daily-20260615-r03",
+  "publish_id": "daily-20260615-r03-r03",
+  "job_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\publish\\publish_job_20260616_r03.json",
+  "started_at": "2026-06-15T09:06:16.016Z",
+  "updated_at": "2026-06-16T05:11:03.487Z",
+  "results": [
+    {
+      "status": "published",
+      "platform": "x",
+      "profile": "default",
+      "task_id": "daily-20260615-r03",
+      "publish_id": "daily-20260615-r03-r03",
+      "published_at": "2026-06-15T09:12:56.649Z",
+      "post_url": "https://x.com/ouennenn123287/status/2066448770691457356",
+      "post_id": "2066448770691457356",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\x\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\x\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\x\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\x\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "instagram",
+      "profile": "default",
+      "task_id": "daily-20260615-r03",
+      "publish_id": "daily-20260615-r03-r03",
+      "published_at": "2026-06-15T09:14:23.412Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZmeJUXD_dA/",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\instagram\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\instagram\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\instagram\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\instagram\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "facebook",
+      "profile": "default",
+      "task_id": "daily-20260615-r03",
+      "publish_id": "daily-20260615-r03-r03",
+      "published_at": "2026-06-16T04:51:43.899Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0jqSaU1YoN7EhBdA6ea6Bi6NsT17WnhSvmTvezNqow7wXvkvvaidxcYxCxSBECmhYl&id=100006666765488&__cft__[0]=AZaEjN45YUxZUB9s0PSFluNow5TliwgFtUVPFr7gEtS3MXnMwOWjbpGIO-VrK0YloUnZ7Rn4GLw_Daqe6c6ym2v7vBakWBTCJiovGsOpvbTcaR61h5Ox5eVHxkZw03GLobZ8uRMjSBNwnVQniIaoB00iuMhwmxM8KCQNE3BN8LuQjoBfoOYKyPj4zk4cs7Wz0SHanQ7KHiVfP-1yS8P9gch0&__tn__=%2CO%2CP-R",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\facebook\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\facebook\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\facebook\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\facebook\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "failed",
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "task_id": "daily-20260615-r03",
+      "publish_id": "daily-20260615-r03-r03",
+      "error": "Could not find upload file input on image publish page",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r03\\xiaohongshu\\default\\screenshot.png"
+      }
+    }
+  ]
+}

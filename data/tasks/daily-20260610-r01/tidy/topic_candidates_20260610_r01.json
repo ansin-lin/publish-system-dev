@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-10T00:13:35+09:00",
+  "task_id": "daily-20260610-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\collect\\collect_result_20260610_r01.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "f8b748ba1af20a70",
+      "title": "莫离热度像跳楼机",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%8E%AB%E7%A6%BB%E7%83%AD%E5%BA%A6%E5%83%8F%E8%B7%B3%E6%A5%BC%E6%9C%BA"
+    },
+    {
+      "index": 2,
+      "topic_id": "f928f31cfa4b1363",
+      "title": "视频感受朝方欢送仪式热烈氛围",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%A7%86%E9%A2%91%E6%84%9F%E5%8F%97%E6%9C%9D%E6%96%B9%E6%AC%A2%E9%80%81%E4%BB%AA%E5%BC%8F%E7%83%AD%E7%83%88%E6%B0%9B%E5%9B%B4"
+    },
+    {
+      "index": 3,
+      "topic_id": "9980fdce3fa79c2a",
+      "title": "关晓彤吻戏",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%85%B3%E6%99%93%E5%BD%A4%E5%90%BB%E6%88%8F"
+    },
+    {
+      "index": 4,
+      "topic_id": "9f0a91024a0d42b2",
+      "title": "汪顺老乡鸡全球健康代言人",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%B1%AA%E9%A1%BA%E8%80%81%E4%B9%A1%E9%B8%A1%E5%85%A8%E7%90%83%E5%81%A5%E5%BA%B7%E4%BB%A3%E8%A8%80%E4%BA%BA"
+    },
+    {
+      "index": 5,
+      "topic_id": "3cf8d5bb3c240782",
+      "title": "新手机回避症",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%96%B0%E6%89%8B%E6%9C%BA%E5%9B%9E%E9%81%BF%E7%97%87"
+    },
+    {
+      "index": 6,
+      "topic_id": "97eaed1c24071235",
+      "title": "为什么说中式教育最意外的产品是少年哲学家？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2043871015445518046"
+    },
+    {
+      "index": 7,
+      "topic_id": "2fc98a9b627772ee",
+      "title": "如何评价网飞韩剧《铁拳教育》?",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2046709526888552148"
+    },
+    {
+      "index": 8,
+      "topic_id": "ffd6b38a423282ef",
+      "title": "中国当代作家排名前 20 名的都有谁？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/661735994"
+    },
+    {
+      "index": 9,
+      "topic_id": "04b271a6e4141ee7",
+      "title": "华语乐坛有哪些被高估的专辑?",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/530962029"
+    },
+    {
+      "index": 10,
+      "topic_id": "80fec23c82c6adb5",
+      "title": "国际足联友谊赛，中国男足 0 比 0 泰国，如何评价本场比赛？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047749874011956730"
+    },
+    {
+      "index": 11,
+      "topic_id": "e84b375c853bde76",
+      "title": "高考可给大学生们忙坏了",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E5%8F%AF%E7%BB%99%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BB%AC%E5%BF%99%E5%9D%8F%E4%BA%86"
+    },
+    {
+      "index": 12,
+      "topic_id": "4970a9ca5ee51082",
+      "title": "广州大学生爬山失踪超20天 父亲发声",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%88%AC%E5%B1%B1%E5%A4%B1%E8%B8%AA%E8%B6%8520%E5%A4%A9+%E7%88%B6%E4%BA%B2%E5%8F%91%E5%A3%B0"
+    },
+    {
+      "index": 13,
+      "topic_id": "5af06656d2b9980c",
+      "title": "国足为武磊举行国家队百场纪念仪式",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%9B%BD%E8%B6%B3%E4%B8%BA%E6%AD%A6%E7%A3%8A%E4%B8%BE%E8%A1%8C%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%99%BE%E5%9C%BA%E7%BA%AA%E5%BF%B5%E4%BB%AA%E5%BC%8F"
+    },
+    {
+      "index": 14,
+      "topic_id": "e504f972c311dca9",
+      "title": "美股高开高走 存储芯片又大涨",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E9%AB%98%E5%BC%80%E9%AB%98%E8%B5%B0+%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E5%8F%88%E5%A4%A7%E6%B6%A8"
+    },
+    {
+      "index": 15,
+      "topic_id": "96b262811c9d66ee",
+      "title": "男生高考刚结束就来给国足助威",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%94%B7%E7%94%9F%E9%AB%98%E8%80%83%E5%88%9A%E7%BB%93%E6%9D%9F%E5%B0%B1%E6%9D%A5%E7%BB%99%E5%9B%BD%E8%B6%B3%E5%8A%A9%E5%A8%81"
+    },
+    {
+      "index": 16,
+      "topic_id": "f41356130cea3212",
+      "title": "羊把自己放进冰箱",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116713253378153/"
+    },
+    {
+      "index": 17,
+      "topic_id": "d80be45274a7271d",
+      "title": "三刀六洞怎么扎？洪门、袍哥与青帮   《古惑仔》番外",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116713219689119/"
+    },
+    {
+      "index": 18,
+      "topic_id": "036f73bf2e23ed96",
+      "title": "公司人事开号了",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116702666885888/"
+    },
+    {
+      "index": 19,
+      "topic_id": "993d9c52f3862892",
+      "title": "没错，针对的就是日本和菲律宾！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116707750318549/"
+    },
+    {
+      "index": 20,
+      "topic_id": "c82d7cecb284004b",
+      "title": "当2026年，把一张GTX 1080递到老黄面前...",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116708404629872/"
+    },
+    {
+      "index": 21,
+      "topic_id": "139c6998aa038ce7",
+      "title": "哪有什么岁月静好，只是有人替我们负重前行 #开国大典 #手绘 #青年创作者成长计划",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648615934382443810"
+    },
+    {
+      "index": 22,
+      "topic_id": "41316ed372c9fb45",
+      "title": "#男生第一个出考场被围观懵了 6月7日，#2026高考 数学考试后，四川乐山第一中学校考点，男生出考场后发现自己是第一个，当场懵了。人懵了，但考试没懵，对数学信心满满：估计选择题全对。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648592308178700654"
+    },
+    {
+      "index": 23,
+      "topic_id": "c5de724ba0273196",
+      "title": "独家视角！感受欢迎现场热烈氛围！当地时间6月8日中午，朝鲜劳动党总书记、国务委员长金正恩为中共中央总书记、国家主席习近平举行盛大欢迎仪式。平壤各界群众和少年儿童以热烈的掌声和欢呼声向中国贵宾表达最诚挚的欢迎。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648918206903504180"
+    },
+    {
+      "index": 24,
+      "topic_id": "6b6141b64f6b2205",
+      "title": "高考生进考场前下巴意外脱臼，此时已来不及就医治疗……执勤民警在家长堆中找到医生，现场复位后考生继续考试👍🏻（总台记者 齐莉莉）",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649010567218269474"
+    },
+    {
+      "index": 25,
+      "topic_id": "fbfaf63bfd30c984",
+      "title": "2026高考首日，语文考试结束，“锦鲤老师”精准押中文言文原题！高考最强助攻，全班偷着乐！（原创）#2026高考 #2026高考加油#爱心送考筑梦远航",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648539486423395761"
+    },
+    {
+      "index": 26,
+      "topic_id": "283de4a50ff327ca",
+      "title": "kingdom hearts 4",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=kingdom+hearts+4&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "633828e345d5b370",
+      "title": "laverne cox",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=laverne+cox&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "38488b665f2fbeb6",
+      "title": "nintendo switch sports resort",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=nintendo+switch+sports+resort&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "3f4d9e4a9b1fe653",
+      "title": "kingdom hearts",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=kingdom+hearts&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "2c27bdf9bd3e3259",
+      "title": "india",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=india&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "92915ea5f8c16a4d",
+      "title": "For real",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/SipsTea/comments/1u12ejy/for_real/"
+    },
+    {
+      "index": 32,
+      "topic_id": "32e7915f09ae9585",
+      "title": "Asking to fact check the source.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/dontyouknowwhoiam/comments/1u13upr/asking_to_fact_check_the_source/"
+    },
+    {
+      "index": 33,
+      "topic_id": "975db9feeda9a224",
+      "title": "Girls’ Hostel things…",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/funny/comments/1u14kuw/girls_hostel_things/"
+    },
+    {
+      "index": 34,
+      "topic_id": "2506ca682c92d89c",
+      "title": "Microsoft admits Game Pass price hike drove away \"millions\" of subscribers",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/technology/comments/1u132wq/microsoft_admits_game_pass_price_hike_drove_away/"
+    },
+    {
+      "index": 35,
+      "topic_id": "6c72467f2ac80ea8",
+      "title": "a fish with a giant eye",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Weird/comments/1u152w3/a_fish_with_a_giant_eye/"
+    },
+    {
+      "index": 36,
+      "topic_id": "b5b6eebd6d236c5b",
+      "title": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'",
+      "source_platform": "hackernews",
+      "source_url": "https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/"
+    },
+    {
+      "index": 37,
+      "topic_id": "080761a9a05430ee",
+      "title": "Making Graphics Like it's 1993",
+      "source_platform": "hackernews",
+      "source_url": "https://staniks.github.io/articles/catlantean-3d-blog-1/"
+    },
+    {
+      "index": 38,
+      "topic_id": "daaa8ab8f023e0f6",
+      "title": "GentleOS – Classic operating system with a lovely retro GUI",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/luke8086/gentleos32"
+    },
+    {
+      "index": 39,
+      "topic_id": "80aa909e870d3d8a",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "source_platform": "hackernews",
+      "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/"
+    },
+    {
+      "index": 40,
+      "topic_id": "d37835d2d81fa93e",
+      "title": "WWDC 2026: Apple is Folding",
+      "source_platform": "hackernews",
+      "source_url": "https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/"
+    }
+  ]
+}

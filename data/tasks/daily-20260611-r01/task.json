@@ -1,0 +1,333 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260611-r01",
+  "run_id": "r01",
+  "revision": 16,
+  "status": "publish_partial_failed",
+  "degraded": false,
+  "created_at": "2026-06-11T09:00:05+09:00",
+  "updated_at": "2026-06-11T12:09:25+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-11T09:00:05+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\collect\\collect_result_20260611_r01.json",
+      "finished_at": "2026-06-11T09:03:55+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-11T09:09:16+09:00",
+      "finished_at": "2026-06-11T09:09:16+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\tidy\\topic_candidates_20260611_r01.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\collect\\collect_result_20260611_r01.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "success",
+      "started_at": "2026-06-11T09:13:47+09:00",
+      "message_ts": "1781136828.215459",
+      "slack_channel": "C0B887QD6U9",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260611-r01`\nrun_id: `r01`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\tidy\\topic_candidates_20260611_r01.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 葡萄牙2比1尼日利亚\n2. [weibo] 公安部网安局公布6类高发涉考网络风险\n3. [weibo] 世界杯开幕喜剧上映 看球喝蒙牛\n4. [weibo] 旅游热度很低却很夯的城市\n5. [weibo] 伊朗宣布对所有船只关闭霍尔木兹\n6. [zhihu] 高考外语考试规定 14:45 就算迟到（即开考前 15 分钟），有必要吗？\n7. [zhihu] 如果 C 罗率队夺得世界杯冠军，历史地位能否超越梅西?\n8. [zhihu] 王传福称五年后比亚迪将在规模上做到真正的全球第一，真的能实现吗？可能存在哪些难点？\n9. [zhihu] 孩子被班级同学欺负了，对方家长道歉，并通过老师转交一箱牛奶，我要不要扔出去？\n10. [zhihu] 怎么理解《霸王别姬》中「说好了一辈子，差一年，一天，一个时辰，都不算一辈子」的这句话？\n11. [baidu] 俄国家杜马谴责美对古巴侵略性政策\n12. [baidu] 男子杀前妻潜逃17年二审择期宣判\n13. [baidu] 老人骑车逆行摔倒反…",
+      "finished_at": "2026-06-11T12:03:46+09:00",
+      "raw_input": "title 日本签证政策收紧，在日it行业的华人留学生该何去何从",
+      "parsed_selection": [
+        "custom_b14a1326699e0b4d"
+      ],
+      "operator": "U0B8A197692",
+      "at": "2026-06-11T12:03:46+09:00"
+    },
+    "approve": {
+      "status": "success",
+      "started_at": "2026-06-11T12:03:46+09:00",
+      "finished_at": "2026-06-11T12:03:46+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\tidy\\topic_candidates_20260611_r01.json",
+      "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json",
+      "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_collect_items_20260611_r01.json",
+      "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+      "topic_research_at": "2026-06-11T12:03:57+09:00"
+    },
+    "research": {
+      "status": "success",
+      "started_at": "2026-06-11T12:03:47+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json",
+      "finished_at": "2026-06-11T12:03:57+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+      "operator": "U0B8A197692"
+    },
+    "copy": {
+      "status": "success",
+      "started_at": "2026-06-11T12:05:17+09:00",
+      "finished_at": "2026-06-11T12:05:17+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+      "copy_platforms": [
+        "xiaohongshu",
+        "facebook",
+        "x",
+        "instagram"
+      ]
+    },
+    "image": {
+      "status": "success",
+      "started_at": "2026-06-11T12:05:54+09:00",
+      "finished_at": "2026-06-11T12:05:54+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\image_result_20260611_r01.json"
+    },
+    "publish": {
+      "status": "partial_failed",
+      "started_at": "2026-06-11T12:05:55+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_job_20260611_r01.json",
+      "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_job_20260611_r01.json",
+      "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+      "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\image_result_20260611_r01.json",
+      "platforms": [
+        "xiaohongshu",
+        "facebook",
+        "x",
+        "instagram"
+      ],
+      "video_skipped_platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "finished_at": "2026-06-11T12:09:25+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_result_20260611_r01.json",
+      "platform_results": [
+        {
+          "platform": "xiaohongshu",
+          "profile": "default",
+          "status": "auth_expired",
+          "verified": false,
+          "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+        },
+        {
+          "platform": "facebook",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-11T03:07:16.697Z",
+          "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid024emxDrn3XX88cS55ehhsMHH3XSKtJPkgnxRMMjrhJynW1ixA6iANPMjb6YCVeSSml&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif"
+        },
+        {
+          "platform": "x",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "matched": true,
+          "post_id_checked": true,
+          "verification_note": "x_balanced_post_id_ok",
+          "published_at": "2026-06-11T03:08:20.090Z",
+          "post_url": "https://x.com/ouennenn123287/status/2064907479990042864",
+          "post_id": "2064907479990042864"
+        },
+        {
+          "platform": "instagram",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-11T03:09:25.269Z",
+          "post_url": "https://www.instagram.com/ouennenn_0909/p/DZbhNLTD8Y9/"
+        }
+      ],
+      "summary": {
+        "status": "publish_partial_failed",
+        "published_count": 3,
+        "verified_published_count": 3,
+        "false_success_count": 0,
+        "validated_count": 0,
+        "failed_count": 1,
+        "skipped_count": 0,
+        "total": 4,
+        "video_skipped_count": 2
+      },
+      "partial_retry_counts": {
+        "xiaohongshu": 1,
+        "facebook": 1,
+        "x": 1,
+        "instagram": 1
+      },
+      "message_ts": "1781147367.036159",
+      "slack_thread_ts": "1781147367.036159",
+      "slack_channel": "C0B887QD6U9"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-11T09:00:05+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron"
+      }
+    },
+    {
+      "at": "2026-06-11T09:00:05+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron"
+      }
+    },
+    {
+      "at": "2026-06-11T09:03:55+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\collect\\collect_result_20260611_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-11T09:08:46+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-11T09:09:16+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-11T09:09:16+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\tidy\\topic_candidates_20260611_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-11T09:13:47+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781136828.215459",
+        "slack_channel": "C0B887QD6U9",
+        "candidate_count": 40
+      }
+    },
+    {
+      "at": "2026-06-11T12:03:46+09:00",
+      "event": "manager_pick_applied",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json",
+        "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_collect_items_20260611_r01.json",
+        "parsed_selection": [
+          "custom_b14a1326699e0b4d"
+        ],
+        "selected_indices": []
+      }
+    },
+    {
+      "at": "2026-06-11T12:03:47+09:00",
+      "event": "step5_research_started",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json"
+      }
+    },
+    {
+      "at": "2026-06-11T12:03:57+09:00",
+      "event": "step5_topic_research_generated",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_topics_20260611_r01.json",
+        "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+        "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\selected_collect_items_20260611_r01.json",
+        "item_count": 1
+      }
+    },
+    {
+      "at": "2026-06-11T12:03:57+09:00",
+      "event": "copy_started",
+      "operator": "orchestrator",
+      "data": {}
+    },
+    {
+      "at": "2026-06-11T12:05:17+09:00",
+      "event": "copy_generated",
+      "operator": "orchestrator",
+      "data": {
+        "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+        "item_count": 1,
+        "copy_platforms": [
+          "xiaohongshu",
+          "facebook",
+          "x",
+          "instagram"
+        ],
+        "video_stock": null
+      }
+    },
+    {
+      "at": "2026-06-11T12:05:17+09:00",
+      "event": "image_generation_started",
+      "operator": "orchestrator",
+      "data": {}
+    },
+    {
+      "at": "2026-06-11T12:05:54+09:00",
+      "event": "images_generated",
+      "operator": "orchestrator",
+      "data": {
+        "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\image_result_20260611_r01.json",
+        "image_count": 4
+      }
+    },
+    {
+      "at": "2026-06-11T12:05:55+09:00",
+      "event": "step7_publish_started",
+      "operator": "orchestrator",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_job_20260611_r01.json",
+        "platforms": [
+          "xiaohongshu",
+          "facebook",
+          "x",
+          "instagram"
+        ],
+        "video_skipped_platforms": [
+          "youtube",
+          "tiktok"
+        ],
+        "partial_retry": false
+      }
+    },
+    {
+      "at": "2026-06-11T12:09:25+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "orchestrator",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_result_20260611_r01.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 3,
+        "verified_published_count": 3,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-11T12:09:25+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781147367.036159",
+        "channel": "C0B887QD6U9"
+      }
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_4ef60511-d79f-46f9-84a3-645b069a8f4b"
+  }
+}

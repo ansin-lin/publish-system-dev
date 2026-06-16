@@ -1,0 +1,11 @@
+{
+  "status": "login_ok",
+  "platform": "facebook",
+  "profile": "default",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\facebook\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\facebook\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\facebook\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\login\\facebook\\default\\screenshot.png"
+  }
+}

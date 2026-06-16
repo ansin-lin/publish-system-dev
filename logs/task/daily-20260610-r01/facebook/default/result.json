@@ -1,0 +1,15 @@
+{
+  "status": "published",
+  "platform": "facebook",
+  "profile": "default",
+  "task_id": "daily-20260610-r01",
+  "publish_id": "daily-20260610-r01-r01",
+  "published_at": "2026-06-10T05:42:22.383Z",
+  "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid038CR992QQNbnuYeERyB3x3nSWCtLoaQdWuimuMCtzgomZjVAd28tMniPZAUA6Eq4Wl&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r01\\facebook\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r01\\facebook\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r01\\facebook\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r01\\facebook\\default\\screenshot.png"
+  }
+}

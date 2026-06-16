@@ -1,0 +1,24 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-15T10:27:50+09:00",
+  "task_id": "daily-20260615-r01",
+  "run_id": "r01",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\tidy\\topic_candidates_20260615_r01.json",
+  "selected_indices": [
+    9
+  ],
+  "selected_topic_ids": [
+    "2ce5578234f21660"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-15T10:27:50+09:00",
+  "items": [
+    {
+      "index": 9,
+      "topic_id": "2ce5578234f21660",
+      "title": "日本某炸鸡店一锅老油用 66 年，引发食品安全争议，对此你怎么看？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049029947520442525"
+    }
+  ]
+}

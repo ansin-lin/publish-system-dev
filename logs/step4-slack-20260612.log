@@ -1,0 +1,7 @@
+{"at":"2026-06-11T23:58:56.930Z","event":"pick_applied","task_id":"daily-20260611-r02","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-11T23:58:58.619Z","event":"pick_applied","task_id":"daily-20260611-r03","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-11T23:58:58.620Z","event":"poll_batch_done","awaiting":2,"picks_applied":2,"pick_errors":0,"timeouts":0}
+{"at":"2026-06-12T02:41:00.668Z","event":"pick_applied","task_id":"daily-20260612-r01","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-12T02:41:00.668Z","event":"poll_batch_done","awaiting":1,"picks_applied":1,"pick_errors":0,"timeouts":0}
+{"at":"2026-06-12T05:31:02.947Z","event":"pick_applied","task_id":"daily-20260612-r02","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-12T05:31:02.949Z","event":"poll_batch_done","awaiting":1,"picks_applied":1,"pick_errors":0,"timeouts":0}

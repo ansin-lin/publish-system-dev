@@ -1,0 +1,88 @@
+[2026-06-16T00:34:45.922Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260616-r01\publish\publish_job_20260616_r01.json
+[2026-06-16T00:34:49.345Z] goto image publish url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:34:50.545Z] human wait upload_images:before 3212ms
+[2026-06-16T00:34:53.801Z] uploaded images selector=input[type='file'] count=4
+[2026-06-16T00:34:54.275Z] image editor loaded
+[2026-06-16T00:34:54.276Z] human wait upload_images:after 4643ms
+[2026-06-16T00:34:58.926Z] human wait fill_title:before 4082ms
+[2026-06-16T00:35:04.136Z] filled title selector=input[placeholder*='填写标题']
+[2026-06-16T00:35:04.137Z] human wait fill_title:after 4983ms
+[2026-06-16T00:35:09.131Z] human wait fill_body:before 3219ms
+[2026-06-16T00:35:44.908Z] filled body selector=div[contenteditable='true']
+[2026-06-16T00:35:44.908Z] human wait fill_body:after 4293ms
+[2026-06-16T00:35:49.217Z] human wait fill_tags:before 3973ms
+[2026-06-16T00:36:03.207Z] selected body editor for tags selector=div[contenteditable='true']
+[2026-06-16T00:36:04.643Z] moved tags to final line after blank line
+[2026-06-16T00:36:06.275Z] topic suggestion not confirmed, reverted raw text for tag=#AI效率
+[2026-06-16T00:36:07.937Z] topic suggestion not confirmed, reverted raw text for tag=#智能客服
+[2026-06-16T00:36:09.567Z] topic suggestion not confirmed, reverted raw text for tag=#企业DX
+[2026-06-16T00:36:11.365Z] topic suggestion not confirmed, reverted raw text for tag=#内部创新
+[2026-06-16T00:36:11.368Z] filled tags count=0
+[2026-06-16T00:36:11.368Z] human wait fill_tags:after 4014ms
+[2026-06-16T00:36:15.386Z] human wait click_publish:before 3639ms
+[2026-06-16T00:36:35.532Z] clicked selector=div:has-text('发布')
+[2026-06-16T00:36:35.533Z] human wait click_publish:after 4025ms
+[2026-06-16T00:36:39.572Z] post-publish settle 10000ms after publish button click
+[2026-06-16T00:36:49.603Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:36:51.638Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:36:53.661Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:36:55.715Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:36:57.729Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:36:59.758Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:01.778Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:03.806Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:05.837Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:07.867Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:09.886Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:11.915Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:13.944Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:15.974Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:17.995Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:20.034Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:22.059Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:24.079Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:26.116Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:28.147Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:30.240Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:32.267Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:34.302Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:36.330Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:38.357Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:40.387Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:42.417Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:44.433Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:46.457Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:48.475Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:50.513Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:52.570Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:54.595Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:56.619Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:37:58.647Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:00.667Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:02.685Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:04.716Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:06.736Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:08.757Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:10.894Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:12.912Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:14.946Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:17.008Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:19.052Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:21.068Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:23.082Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:25.102Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:27.166Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:29.192Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:31.216Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:33.238Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:35.292Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:37.307Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:39.332Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:41.368Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:43.413Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:45.441Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:47.465Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:49.491Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T00:38:51.505Z] publish error: Publish success not confirmed
+[2026-06-16T00:38:51.525Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\xiaohongshu\default\state.json
+[2026-06-16T00:38:51.714Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260616-r01\xiaohongshu\default\result.json

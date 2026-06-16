@@ -1,0 +1,67 @@
+{
+  "task_id": "daily-20260615-r01",
+  "publish_id": "daily-20260615-r01-r01",
+  "job_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\publish\\publish_job_20260615_r01.json",
+  "started_at": "2026-06-15T01:29:31.013Z",
+  "updated_at": "2026-06-15T01:38:24.402Z",
+  "results": [
+    {
+      "status": "auth_expired",
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "task_id": "daily-20260615-r01",
+      "publish_id": "daily-20260615-r01-r01",
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\xiaohongshu\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\xiaohongshu\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\xiaohongshu\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\xiaohongshu\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "failed",
+      "platform": "facebook",
+      "profile": "default",
+      "task_id": "daily-20260615-r01",
+      "publish_id": "daily-20260615-r01-r01",
+      "error": "Facebook 发帖后未获取 post_url",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\facebook\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\facebook\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\facebook\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\facebook\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "x",
+      "profile": "default",
+      "task_id": "daily-20260615-r01",
+      "publish_id": "daily-20260615-r01-r01",
+      "published_at": "2026-06-15T01:36:49.113Z",
+      "post_url": "https://x.com/ouennenn123287/status/2066333957826949235",
+      "post_id": "2066333957826949235",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\x\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\x\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\x\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\x\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "failed",
+      "platform": "instagram",
+      "profile": "default",
+      "task_id": "daily-20260615-r01",
+      "publish_id": "daily-20260615-r01-r01",
+      "error": "Instagram 发帖后未获取 post_url / 成功信号",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\screenshot.png"
+      }
+    }
+  ]
+}

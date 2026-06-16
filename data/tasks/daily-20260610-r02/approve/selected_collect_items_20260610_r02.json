@@ -1,0 +1,60 @@
+{
+  "schema_version": "selected_collect_items.v1",
+  "generated_at": "2026-06-10T15:43:42+09:00",
+  "task_id": "daily-20260610-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\collect\\collect_result_20260610_r02.json",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\tidy\\topic_candidates_20260610_r02.json",
+  "selected_indices": [
+    7
+  ],
+  "topic_keys": [
+    {
+      "topic_id": "d6662a90308bea7d",
+      "source_platform": "zhihu"
+    }
+  ],
+  "items": [
+    {
+      "topic_id": "d6662a90308bea7d",
+      "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045653689407477325",
+      "collected_at": "2026-06-10T08:48:42+09:00",
+      "raw": {
+        "platform": "zhihu",
+        "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+        "url": "https://www.zhihu.com/question/2045653689407477325",
+        "score": 690000,
+        "rank": 2,
+        "source_id": "240558392",
+        "raw": {
+          "ID": 240558392,
+          "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+          "description": "",
+          "thumbnail": "https://pic1.zhimg.com/50/v2-abc31ee36800a8dcda1141ea78369c00_b.jpg",
+          "url": "https://www.zhihu.com/question/2045653689407477325",
+          "md5": "54ad0009eb54437db7cdf1a7360d8dbd",
+          "extra": "69 万热度",
+          "time": "07:40",
+          "nodeids": "6",
+          "topicid": 0,
+          "domain": "zhihu.com",
+          "sitename": "知乎",
+          "logo": "https://file.ipadown.com/tophub/assets/images/media/zhihu.com.png_50x50.png",
+          "source": "tophub",
+          "channel": "mproPpoq6O",
+          "board_name": "知乎热榜",
+          "origin_rank": 2,
+          "origin_hot": "69 万热度",
+          "node_id": "6",
+          "date": "2026-06-10",
+          "tophub_fetch": "by_date"
+        },
+        "fetched_at": "2026-06-09T23:48:42.314Z"
+      },
+      "score": 690000,
+      "rank": 2
+    }
+  ]
+}

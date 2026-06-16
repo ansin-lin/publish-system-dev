@@ -1,0 +1,62 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-15T18:14:24+09:00",
+  "task_id": "daily-20260615-r03",
+  "run_id": "r03",
+  "publish_id": "daily-20260615-r03-r03",
+  "topic_id": "custom_1c37da1206196461",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\publish\\publish_job_20260615_r03.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\copy_result_20260615_r03.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\image_result_20260615_r03.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "failed",
+      "verified": false,
+      "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div:has-text(\\'发布\\')').first()\u001b[22m\n\u001b[2m    - locator resolved to <div id=\"app\" data-v-app=\"\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"name\" data-v-5c44afb7=\"\">#职场防针对攻略</span> from <div id=\"tippy-12\" data-tippy-root=\"\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"name\" data-v-5c44afb7=\"\">#职场防针对攻略</span> from <div id=\"tippy-12\" data-tippy-root=\"\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    3 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span class=\"name\" data-v-5c44afb7=\"\">#职场防针对攻略</span> from <div id=\"tippy-12\" data-tippy-root=\"\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "failed",
+      "verified": false,
+      "error": "找不到可点击的 Facebook 发帖/发布按钮（可能文案未写入或图片未加载完成）"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-15T09:12:56.649Z",
+      "post_url": "https://x.com/ouennenn123287/status/2066448770691457356",
+      "post_id": "2066448770691457356"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-15T09:14:23.412Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZmeJUXD_dA/"
+    }
+  ],
+  "video_skipped_platforms": [
+    "youtube",
+    "tiktok"
+  ],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 2,
+    "verified_published_count": 2,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 2,
+    "skipped_count": 0,
+    "total": 4,
+    "video_skipped_count": 2
+  }
+}

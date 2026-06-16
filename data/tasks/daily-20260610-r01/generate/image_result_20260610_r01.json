@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-10T12:30:14+09:00",
+  "task_id": "daily-20260610-r01",
+  "run_id": "r01",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "custom_2b87628a54c46a85",
+      "slot_id": "img_1",
+      "prompt": "An international student intensely focused, coding on a laptop in a modern, well-lit IT classroom in Japan. The setting should convey a sense of learning and technology. Soft, natural light. Focus on concentration and detailed code on screen.\n\nScene / composition from research brief: 留学生在日本IT教室学习编程的场景\n\nVisual style: tech editorial",
+      "research_image_hint": "留学生在日本IT教室学习编程的场景",
+      "copy_image_prompt": "An international student intensely focused, coding on a laptop in a modern, well-lit IT classroom in Japan. The setting should convey a sense of learning and technology. Soft, natural light. Focus on concentration and detailed code on screen.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_2b87628a54c46a85",
+      "slot_id": "img_2",
+      "prompt": "Dynamic composition of Japanese high-tech corporate office interior. A diverse team of professionals collaboratively working on a project, showcasing modern architecture, sleek workstations, and glowing screens. Emphasize innovation and teamwork.\n\nScene / composition from research brief: 日本高科技企业现代化办公环境与团队协作\n\nVisual style: tech editorial",
+      "research_image_hint": "日本高科技企业现代化办公环境与团队协作",
+      "copy_image_prompt": "Dynamic composition of Japanese high-tech corporate office interior. A diverse team of professionals collaboratively working on a project, showcasing modern architecture, sleek workstations, and glowing screens. Emphasize innovation and teamwork.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_2b87628a54c46a85",
+      "slot_id": "img_3",
+      "prompt": "A confident international student in business attire, shaking hands with a Japanese IT company recruiter in a professional interview setting. The background is slightly blurred to highlight the interaction. Represents successful career transition.\n\nScene / composition from research brief: 身着正装的留学生在日本IT公司面试画面\n\nVisual style: tech editorial",
+      "research_image_hint": "身着正装的留学生在日本IT公司面试画面",
+      "copy_image_prompt": "A confident international student in business attire, shaking hands with a Japanese IT company recruiter in a professional interview setting. The background is slightly blurred to highlight the interaction. Represents successful career transition.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_2b87628a54c46a85",
+      "slot_id": "img_4",
+      "prompt": "Abstract digital illustration blending iconic Japanese landmarks (e.g., Tokyo Tower, Mount Fuji) with futuristic tech elements like glowing data streams, circuit board patterns, and holographic projections. Emphasize the fusion of tradition and technology.\n\nScene / composition from research brief: 日本地标与科技元素融合的创意构图\n\nVisual style: tech editorial",
+      "research_image_hint": "日本地标与科技元素融合的创意构图",
+      "copy_image_prompt": "Abstract digital illustration blending iconic Japanese landmarks (e.g., Tokyo Tower, Mount Fuji) with futuristic tech elements like glowing data streams, circuit board patterns, and holographic projections. Emphasize the fusion of tradition and technology.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

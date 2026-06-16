@@ -1,0 +1,31 @@
+{
+  "name": "multi-platform-publisher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "tsx src/cli/login.ts",
+    "collect": "tsx src/cli/collect.ts",
+    "orchestrator": "tsx src/cli/orchestrator.ts",
+    "publish": "tsx src/cli/publish.ts",
+    "test:xhs-publish": "tsx src/scripts/test-xiaohongshu-publish.ts",
+    "test:x-publish": "tsx src/scripts/test-x-publish.ts",
+    "test:fb-publish": "tsx src/scripts/test-facebook-publish.ts",
+    "capture:x-publish": "tsx src/scripts/capture-x-publish.ts",
+    "capture:fb-publish": "tsx src/scripts/capture-facebook-publish.ts",
+    "capture:xhs-publish": "tsx src/scripts/capture-xiaohongshu-publish.ts",
+    "install:browsers": "playwright install",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "config:check": "tsx src/cli/configCheck.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "fast-xml-parser": "^5.7.3",
+    "playwright": "^1.55.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.3"
+  }
+}

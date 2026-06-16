@@ -1,0 +1,6 @@
+2026/06/15-15:50:30.250 3440 Reusing MANIFEST C:\Users\compu\.openclaw\publish-system\data\temp\chrome-profiles\tiktok\default\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/15-15:50:30.256 3440 Recovering log #3
+2026/06/15-15:50:30.260 3440 Reusing old log C:\Users\compu\.openclaw\publish-system\data\temp\chrome-profiles\tiktok\default\Default\Local Storage\leveldb/000003.log 
+2026/06/15-15:51:30.280 55c Level-0 table #5: started
+2026/06/15-15:51:30.289 55c Level-0 table #5: 108287 bytes OK
+2026/06/15-15:51:30.293 55c Delete type=0 #3

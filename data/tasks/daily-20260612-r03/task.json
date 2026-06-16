@@ -1,0 +1,128 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260612-r03",
+  "run_id": "r03",
+  "revision": 7,
+  "status": "approval_timeout",
+  "degraded": false,
+  "created_at": "2026-06-12T17:01:04+09:00",
+  "updated_at": "2026-06-15T08:52:48+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-12T17:01:04+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\collect\\collect_result_20260612_r03.json",
+      "finished_at": "2026-06-12T17:01:10+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-12T17:11:02+09:00",
+      "finished_at": "2026-06-12T17:11:02+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\tidy\\topic_candidates_20260612_r03.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\collect\\collect_result_20260612_r03.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "failed",
+      "started_at": "2026-06-12T17:16:01+09:00",
+      "message_ts": "1781252162.488969",
+      "slack_channel": "C0B887QD6U9",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260612-r03`\nrun_id: `r03`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\tidy\\topic_candidates_20260612_r03.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 世界杯在中国的收视率爆了\n2. [weibo] 买连衣裙 看手肘\n3. [weibo] 念一辈子本科\n4. [weibo] 张月选安崎投了40票而淡淡投了0\n5. [weibo] 因为饼干太好吃而察觉到不对劲\n6. [zhihu] 凯撒时代的一个标准罗马军团能否在街亭阻挡张郃 30 天？\n7. [zhihu] 如何看待 Spacex 新发布的 AI 卫星？\n8. [zhihu] 演员黄晓明「二战」上戏博士成功上岸，攻读艺术管理 / 戏剧策划方向，如何看待明星纷纷选择深造这一举动？\n9. [zhihu] 怎样才算见过大世面？\n10. [zhihu] 我们真的需要又一个 DeepSeek V5 吗？\n11. [baidu] 官方：根本就没有什么“特供酒”\n12. [baidu] 2026年世界杯五大“外星人”\n13. [baidu] 这颗“重庆芯”让手机再无信号盲区\n14. [baidu] 缅甸总统敏昂莱将访华\n15. [baidu] 中方回应制裁菲律宾国防部长\n16. [bili…",
+      "finished_at": "2026-06-15T08:52:48+09:00",
+      "error": {
+        "code": "STEP4_PICK_TIMEOUT",
+        "message": "Manager did not pick within pick_timeout_hours",
+        "retryable": false
+      }
+    },
+    "approve": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "pending"
+    },
+    "copy": {
+      "status": "pending"
+    },
+    "image": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-12T17:01:04+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-12T17:01:04+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-12T17:01:10+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\collect\\collect_result_20260612_r03.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-12T17:06:03+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-12T17:11:02+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-12T17:11:02+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r03\\tidy\\topic_candidates_20260612_r03.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-12T17:16:01+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781252162.488969",
+        "slack_channel": "C0B887QD6U9",
+        "candidate_count": 40
+      }
+    },
+    {
+      "at": "2026-06-15T08:52:48+09:00",
+      "event": "step4_pick_timeout",
+      "operator": "orchestrator",
+      "data": {}
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_8b43edf8-f68a-4346-90fa-b2c0ab332d36"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-10T14:42:22+09:00",
+  "task_id": "daily-20260610-r01",
+  "run_id": "r01",
+  "publish_id": "daily-20260610-r01-r01",
+  "topic_id": "custom_2b87628a54c46a85",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\image_result_20260610_r01.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T05:42:22.383Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid038CR992QQNbnuYeERyB3x3nSWCtLoaQdWuimuMCtzgomZjVAd28tMniPZAUA6Eq4Wl&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-10T04:24:51.029Z",
+      "post_url": "https://x.com/ouennenn123287/status/2064564343233282488",
+      "post_id": "2064564343233282488"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T04:26:05.469Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/reel/DZZFKhPtZsz/"
+    },
+    {
+      "platform": "youtube",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T04:34:07.797Z"
+    },
+    {
+      "platform": "tiktok",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。"
+    }
+  ],
+  "video_skipped_platforms": [],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 4,
+    "verified_published_count": 4,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 2,
+    "skipped_count": 0,
+    "total": 6
+  },
+  "partial_retry": true,
+  "retried_platforms": [
+    "facebook"
+  ]
+}

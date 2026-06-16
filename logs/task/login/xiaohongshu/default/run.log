@@ -1,0 +1,4 @@
+[2026-06-15T06:52:05.932Z] 开始登录 platform=xiaohongshu profile=default headless=false
+[2026-06-15T06:52:06.954Z] opened login page
+[2026-06-15T06:52:48.666Z] manual login ok
+[2026-06-15T06:52:48.675Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\xiaohongshu\default\state.json

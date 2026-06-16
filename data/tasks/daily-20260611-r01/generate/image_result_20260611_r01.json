@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-11T12:05:54+09:00",
+  "task_id": "daily-20260611-r01",
+  "run_id": "r01",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "custom_b14a1326699e0b4d",
+      "slot_id": "img_1",
+      "prompt": "An abstract, futuristic map of Japan highlighting major IT hubs, overlaid with subtle network lines and data streams. A graphic representation of a tightening immigration process, perhaps a digital gate or a narrowing path, symbolizing new challenges. Dynamic lighting with a hint of challenge and opportunity.\n\nScene / composition from research brief: 日本地图标注IT产业中心与签证流程图\n\nVisual style: tech editorial",
+      "research_image_hint": "日本地图标注IT产业中心与签证流程图",
+      "copy_image_prompt": "An abstract, futuristic map of Japan highlighting major IT hubs, overlaid with subtle network lines and data streams. A graphic representation of a tightening immigration process, perhaps a digital gate or a narrowing path, symbolizing new challenges. Dynamic lighting with a hint of challenge and opportunity.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\images\\custom_b14a1326699e0b4d\\custom_b14a1326699e0b4d_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_b14a1326699e0b4d",
+      "slot_id": "img_2",
+      "prompt": "A diverse group of IT professionals, some clearly of East Asian descent, collaborating in a modern, brightly lit open-plan office in Tokyo. They are discussing code on large screens, with subtle digital overlays suggesting data and connectivity. The mood is determined and focused, with a sense of shared purpose.\n\nScene / composition from research brief: 象征挑战与机遇的职场道路，融入科技元素\n\nVisual style: tech editorial",
+      "research_image_hint": "象征挑战与机遇的职场道路，融入科技元素",
+      "copy_image_prompt": "A diverse group of IT professionals, some clearly of East Asian descent, collaborating in a modern, brightly lit open-plan office in Tokyo. They are discussing code on large screens, with subtle digital overlays suggesting data and connectivity. The mood is determined and focused, with a sense of shared purpose.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\images\\custom_b14a1326699e0b4d\\custom_b14a1326699e0b4d_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_b14a1326699e0b4d",
+      "slot_id": "img_3",
+      "prompt": "A stylized infographic showing key elements of a visa application process, with a blurred background of Japanese cityscapes and cherry blossoms. Emphasize digital forms, official stamps, and perhaps a subtle upward arrow indicating career progression, despite perceived obstacles. Clean, minimalist design.\n\nScene / composition from research brief: 国际团队在IT工作环境中协作的画面\n\nVisual style: tech editorial",
+      "research_image_hint": "国际团队在IT工作环境中协作的画面",
+      "copy_image_prompt": "A stylized infographic showing key elements of a visa application process, with a blurred background of Japanese cityscapes and cherry blossoms. Emphasize digital forms, official stamps, and perhaps a subtle upward arrow indicating career progression, despite perceived obstacles. Clean, minimalist design.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\images\\custom_b14a1326699e0b4d\\custom_b14a1326699e0b4d_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_b14a1326699e0b4d",
+      "slot_id": "img_4",
+      "prompt": "A metaphorical image depicting a bridge or a pathway over a challenging chasm, with one side representing 'visa policy changes' and the other 'successful IT career in Japan'. Incorporate subtle glowing tech elements along the path. The lighting should evoke hope and strategic navigation.\n\nScene / composition from research brief: 签证申请材料清单或流程的简洁信息图\n\nVisual style: tech editorial",
+      "research_image_hint": "签证申请材料清单或流程的简洁信息图",
+      "copy_image_prompt": "A metaphorical image depicting a bridge or a pathway over a challenging chasm, with one side representing 'visa policy changes' and the other 'successful IT career in Japan'. Incorporate subtle glowing tech elements along the path. The lighting should evoke hope and strategic navigation.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\images\\custom_b14a1326699e0b4d\\custom_b14a1326699e0b4d_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

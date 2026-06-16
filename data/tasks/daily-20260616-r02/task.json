@@ -1,0 +1,116 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "revision": 6,
+  "status": "awaiting_manager_selection",
+  "degraded": false,
+  "created_at": "2026-06-16T13:00:03+09:00",
+  "updated_at": "2026-06-16T13:17:50+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-16T13:00:03+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\collect\\collect_result_20260616_r02.json",
+      "finished_at": "2026-06-16T13:03:03+09:00"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-16T13:12:50+09:00",
+      "finished_at": "2026-06-16T13:12:50+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\collect\\collect_result_20260616_r02.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "running",
+      "started_at": "2026-06-16T13:17:50+09:00",
+      "message_ts": "1781583470.414749",
+      "slack_channel": "C0B887QD6U9",
+      "candidate_count": 40,
+      "slack_text_preview": "*Step4 — 管理者话题选择*\n\ntask_id: `daily-20260616-r02`\nrun_id: `r02`\ncandidates: `C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json`\n\n请在本线程回复选择，格式示例：\n`pick 2,5,8`\n若候选都不合适，也可自定义话题：\n`title 你想要的自定义话题`\n\n在本线程回复有效 `pick` 后，编排 run-once 将自动落盘选题（约一个调度周期内）。Step5/Step6 随后自动推进。\n\n*候选列表（编号为 1-based）：*\n\n1. [weibo] 百花奖入围名单\n2. [weibo] 伊朗2比2新西兰\n3. [weibo] 教育部升级2026高考志愿信息系统\n4. [weibo] 山河郑州气象万千\n5. [weibo] 2名环卫工人清晨被撞目击者发声\n6. [zhihu] 为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？\n7. [zhihu] 如果人生真的只是在读书毕业、上班赚钱、结婚生子中循环，那人生的意义究竟是什么？\n8. [zhihu] 如何评价 UFC 白宫战，托普利亚与佩雷拉双双惨败？\n9. [zhihu] 哪一个曾经让你觉得「跨不过去」的坎，后来发现其实只是人生的小槛？\n10. [zhihu] 四川一学霸造数百万假钞，高三时因非法持有枪支获刑，他是怎么一步步走偏的？家长和学校在教育中有哪些问题？\n11. [baidu] 百花奖入围名单\n12. [baidu] 贾斯特梅开二度\n13. [baidu] 印尼苏拉威西岛附近发生7级左右地震\n14. [baidu] 姜学东被开除党籍\n15. [baidu] 重…"
+    },
+    "approve": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "pending"
+    },
+    "copy": {
+      "status": "pending"
+    },
+    "image": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-16T13:00:03+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron_1300"
+      }
+    },
+    {
+      "at": "2026-06-16T13:00:03+09:00",
+      "event": "collect_started",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "daily_cron_1300"
+      }
+    },
+    {
+      "at": "2026-06-16T13:03:03+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\collect\\collect_result_20260616_r02.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-16T13:07:50+09:00",
+      "event": "collect_promoted",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collecting",
+        "to": "collected"
+      }
+    },
+    {
+      "at": "2026-06-16T13:12:50+09:00",
+      "event": "tidy_started",
+      "operator": "orchestrator",
+      "data": {
+        "from": "collected"
+      }
+    },
+    {
+      "at": "2026-06-16T13:12:50+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-16T13:17:50+09:00",
+      "event": "step4_slack_candidates_sent",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781583470.414749",
+        "slack_channel": "C0B887QD6U9",
+        "candidate_count": 40
+      }
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_3058fb61-3309-409e-a5cb-fa87ea527d2d"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-11T12:05:17+09:00",
+  "task_id": "daily-20260611-r01",
+  "run_id": "r01",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\approve\\topic_research_20260611_r01.json",
+  "items": [
+    {
+      "topic_id": "custom_b14a1326699e0b4d",
+      "title": "日本签证政策收紧，在日it行业的华人留学生该何去何从",
+      "source_platform": "custom",
+      "writing_angle": "深度解析：日本签证收紧，IT行业华人留学生何去何从？",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "日本IT签证新政深度解析",
+          "body": "日本签证政策收紧，让在日IT行业的华人留学生面临新的挑战。如何应对政策变化，把握机遇，规划职业未来？本篇深度解析将为您揭示：最新签证政策的具体影响、IT人才面临的机遇与挑战、以及提升专业技能和融入当地文化的重要性。我们还将探讨日本IT企业在吸引和留住国际人才方面的策略调整。不要错过，助您在日本IT行业乘风破浪！",
+          "tags": [
+            "日本签证",
+            "IT行业",
+            "华人留学生",
+            "职业发展",
+            "科技就业"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "日本のITビザ政策変更：外国人IT人材の未来",
+          "body": "日本のビザ政策が厳格化され、日本のIT業界で働く外国人留学生、特に中国人の方々は新たな課題に直面しています。この政策変更がIT人材に与える影響、そして外国人IT人材が日本でキャリアを築くための機会と課題について深く掘り下げます。最新のビザ政策内容、IT業界での戦略、専門スキル向上と現地文化への適応の重要性について解説します。日本のIT企業が国際的な才能を引き付け、保持するための戦略調整にも焦点を当てます。#日本IT #ビザ政策 #IT人材",
+          "tags": [
+            "日本IT",
+            "ビザ政策",
+            "IT人材"
+          ]
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "Japan's IT Visa Changes: What's Next for Foreign Talent?",
+          "body": "Japan's tightened visa policies present new challenges for foreign IT students & professionals. Our deep dive explores the impact on IT talent, strategies for success, and how to leverage opportunitie",
+          "tags": [
+            "JapanIT",
+            "VisaPolicy",
+            "TechJobs"
+          ]
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "日本のITビザ新政策",
+          "body": "日本のビザ政策厳格化。外国人IT人材、特に留学生への影響と機会を解説。キャリア戦略と文化適応が鍵。#日本IT #ビザ #ITキャリア",
+          "tags": [
+            "日本IT",
+            "ビザ",
+            "ITキャリア"
+          ]
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "An abstract, futuristic map of Japan highlighting major IT hubs, overlaid with subtle network lines and data streams. A graphic representation of a tightening immigration process, perhaps a digital gate or a narrowing path, symbolizing new challenges. Dynamic lighting with a hint of challenge and opportunity.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "A diverse group of IT professionals, some clearly of East Asian descent, collaborating in a modern, brightly lit open-plan office in Tokyo. They are discussing code on large screens, with subtle digital overlays suggesting data and connectivity. The mood is determined and focused, with a sense of shared purpose.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "A stylized infographic showing key elements of a visa application process, with a blurred background of Japanese cityscapes and cherry blossoms. Emphasize digital forms, official stamps, and perhaps a subtle upward arrow indicating career progression, despite perceived obstacles. Clean, minimalist design.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "A metaphorical image depicting a bridge or a pathway over a challenging chasm, with one side representing 'visa policy changes' and the other 'successful IT career in Japan'. Incorporate subtle glowing tech elements along the path. The lighting should evoke hope and strategic navigation.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

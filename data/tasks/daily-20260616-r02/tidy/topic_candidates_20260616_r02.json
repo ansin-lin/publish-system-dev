@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-16T13:12:50+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\collect\\collect_result_20260616_r02.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "380d80bc8724cfa2",
+      "title": "百花奖入围名单",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96%E5%85%A5%E5%9B%B4%E5%90%8D%E5%8D%95"
+    },
+    {
+      "index": 2,
+      "topic_id": "ba81902b8012194e",
+      "title": "伊朗2比2新西兰",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%972%E6%AF%942%E6%96%B0%E8%A5%BF%E5%85%B0"
+    },
+    {
+      "index": 3,
+      "topic_id": "002e7248959c1dc0",
+      "title": "教育部升级2026高考志愿信息系统",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%95%99%E8%82%B2%E9%83%A8%E5%8D%87%E7%BA%A72026%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F"
+    },
+    {
+      "index": 4,
+      "topic_id": "b8952540fc68983d",
+      "title": "山河郑州气象万千",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E6%B2%B3%E9%83%91%E5%B7%9E%E6%B0%94%E8%B1%A1%E4%B8%87%E5%8D%83"
+    },
+    {
+      "index": 5,
+      "topic_id": "bacc349b8c7a59e0",
+      "title": "2名环卫工人清晨被撞目击者发声",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=2%E5%90%8D%E7%8E%AF%E5%8D%AB%E5%B7%A5%E4%BA%BA%E6%B8%85%E6%99%A8%E8%A2%AB%E6%92%9E%E7%9B%AE%E5%87%BB%E8%80%85%E5%8F%91%E5%A3%B0"
+    },
+    {
+      "index": 6,
+      "topic_id": "61ca3bdfd9e040d5",
+      "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2039666199567525805"
+    },
+    {
+      "index": 7,
+      "topic_id": "c6714d1c526f69f1",
+      "title": "如果人生真的只是在读书毕业、上班赚钱、结婚生子中循环，那人生的意义究竟是什么？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2044870328678184330"
+    },
+    {
+      "index": 8,
+      "topic_id": "ecfc932e1e7c4ff4",
+      "title": "如何评价 UFC 白宫战，托普利亚与佩雷拉双双惨败？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049871987678384195"
+    },
+    {
+      "index": 9,
+      "topic_id": "3b2d5894ed8ea2b0",
+      "title": "哪一个曾经让你觉得「跨不过去」的坎，后来发现其实只是人生的小槛？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047330722877104301"
+    },
+    {
+      "index": 10,
+      "topic_id": "b993f46bb003fd27",
+      "title": "四川一学霸造数百万假钞，高三时因非法持有枪支获刑，他是怎么一步步走偏的？家长和学校在教育中有哪些问题？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2050124689809175749"
+    },
+    {
+      "index": 11,
+      "topic_id": "223be6877e052d84",
+      "title": "百花奖入围名单",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%99%BE%E8%8A%B1%E5%A5%96%E5%85%A5%E5%9B%B4%E5%90%8D%E5%8D%95"
+    },
+    {
+      "index": 12,
+      "topic_id": "8e89d361214e804b",
+      "title": "贾斯特梅开二度",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E8%B4%BE%E6%96%AF%E7%89%B9%E6%A2%85%E5%BC%80%E4%BA%8C%E5%BA%A6"
+    },
+    {
+      "index": 13,
+      "topic_id": "73bf3c9195080508",
+      "title": "印尼苏拉威西岛附近发生7级左右地震",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC%E8%8B%8F%E6%8B%89%E5%A8%81%E8%A5%BF%E5%B2%9B%E9%99%84%E8%BF%91%E5%8F%91%E7%94%9F7%E7%BA%A7%E5%B7%A6%E5%8F%B3%E5%9C%B0%E9%9C%87"
+    },
+    {
+      "index": 14,
+      "topic_id": "480a280ced62f6bf",
+      "title": "姜学东被开除党籍",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%A7%9C%E5%AD%A6%E4%B8%9C%E8%A2%AB%E5%BC%80%E9%99%A4%E5%85%9A%E7%B1%8D"
+    },
+    {
+      "index": 15,
+      "topic_id": "28a2153355b168b0",
+      "title": "重庆小面协会会长反对商标垄断品类",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B0%8F%E9%9D%A2%E5%8D%8F%E4%BC%9A%E4%BC%9A%E9%95%BF%E5%8F%8D%E5%AF%B9%E5%95%86%E6%A0%87%E5%9E%84%E6%96%AD%E5%93%81%E7%B1%BB"
+    },
+    {
+      "index": 16,
+      "topic_id": "268c3b36a3b92ace",
+      "title": "没想到开水也能直接加进肉馅里？这样包子馅里的汤汁反而更多？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116753787060825/"
+    },
+    {
+      "index": 17,
+      "topic_id": "22094fbddcc70cf0",
+      "title": "新三国up锐评神探狄仁杰01：全剧最大的谜团出现了",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116748955156936/"
+    },
+    {
+      "index": 18,
+      "topic_id": "22636700106a3830",
+      "title": "人在做坏事时…是最有耐心的【超长前摇】",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116734778414529/"
+    },
+    {
+      "index": 19,
+      "topic_id": "c8bc5fae03422434",
+      "title": "【GigaChad】互联网最完美的男人，真的存在吗？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116741992678485/"
+    },
+    {
+      "index": 20,
+      "topic_id": "bb87aed1d8f4de20",
+      "title": "🐧当你六套满改猛攻，却被AI吸附一脚踢死🐧",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116747931751784/"
+    },
+    {
+      "index": 21,
+      "topic_id": "a459a0d0d6b227d1",
+      "title": "女孩家中失火试卷被烧，消防员贴心送上新试卷……@中国消防 @湖北消防",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651458919981698310"
+    },
+    {
+      "index": 22,
+      "topic_id": "f8ac432d61e66c82",
+      "title": "饭店的暑假工，商务饭局！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651399399658196672"
+    },
+    {
+      "index": 23,
+      "topic_id": "7ee43bd2ef78e60d",
+      "title": "镜子里的人真面熟！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651552796618059195"
+    },
+    {
+      "index": 24,
+      "topic_id": "39084d2faeafa719",
+      "title": "在武汉过早，非常丰盛！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651471649813136754"
+    },
+    {
+      "index": 25,
+      "topic_id": "e7b9fa7af64c7b4d",
+      "title": "瑶一瑶来摇一摇 哈哈哈哈哈哈哈#瑶一瑶小肉包",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651292606542394297"
+    },
+    {
+      "index": 26,
+      "topic_id": "498879f9fd6e058f",
+      "title": "kelsey plum",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=kelsey+plum&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "39767391ccc4dffc",
+      "title": "jimmy fallon",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=jimmy+fallon&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "1258564ae9f57af1",
+      "title": "josimar dias",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=josimar+dias&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "da107ee83b4b8337",
+      "title": "mike trout",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=mike+trout&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "a1ea8954976a9240",
+      "title": "austria vs jordan",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=austria+vs+jordan&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "909b1727fd737a28",
+      "title": "The Monterrey Stadium in Mexico",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/interesting/comments/1u6wxcb/the_monterrey_stadium_in_mexico/"
+    },
+    {
+      "index": 32,
+      "topic_id": "b465f562864a436d",
+      "title": "Parents make me cook, but not in the way I want to.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u6wtn4/parents_make_me_cook_but_not_in_the_way_i_want_to/"
+    },
+    {
+      "index": 33,
+      "topic_id": "48e0e1a1dbbf1853",
+      "title": "TIL that in 2013, four members of a family were killed one by one as they entered a cellar which was filled with toxic gasses from rotting potatoes. The only survivor was an eight-year-old girl who never entered the cellar.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1u6z8uy/til_that_in_2013_four_members_of_a_family_were/"
+    },
+    {
+      "index": 34,
+      "topic_id": "3267fbe07fddb6ca",
+      "title": "A Taiwanese couple becomes fashion icons by posing in clothes left at their laundromat",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/BeAmazed/comments/1u71nr0/a_taiwanese_couple_becomes_fashion_icons_by/"
+    },
+    {
+      "index": 35,
+      "topic_id": "e0c47bad041b55f8",
+      "title": "Man calls police on father who took his daughters to the women's restroom",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/PublicFreakout/comments/1u704mi/man_calls_police_on_father_who_took_his_daughters/"
+    },
+    {
+      "index": 36,
+      "topic_id": "92c57085057f557a",
+      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+      "source_platform": "hackernews",
+      "source_url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch"
+    },
+    {
+      "index": 37,
+      "topic_id": "b8cf156751e58c40",
+      "title": "A backdoor in a LinkedIn job offer",
+      "source_platform": "hackernews",
+      "source_url": "https://roman.pt/posts/linkedin-backdoor/"
+    },
+    {
+      "index": 38,
+      "topic_id": "9c29020e8886396c",
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "source_platform": "hackernews",
+      "source_url": "https://www.richardosgood.com/posts/banned-book-library/"
+    },
+    {
+      "index": 39,
+      "topic_id": "993aa9f91421d377",
+      "title": "Iroh 1.0",
+      "source_platform": "hackernews",
+      "source_url": "https://www.iroh.computer/blog/v1"
+    },
+    {
+      "index": 40,
+      "topic_id": "1d9264324adf571c",
+      "title": "Amazon Announces Multibillion-Dollar Data Center in Missouri",
+      "source_platform": "hackernews",
+      "source_url": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/"
+    }
+  ]
+}

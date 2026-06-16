@@ -1,0 +1,38 @@
+{
+  "task_id": "daily-20260610-r01",
+  "publish_id": "daily-20260610-r01-r01",
+  "targets": [
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_4.png"
+      ]
+    },
+    "facebook": {
+      "content": {
+        "body": "日本のIT業界は国際的な才能を求めています。当社の専門IT研修プログラムは、留学生の皆様がAI、データ分析、ソフトウェア開発などの最先端技術を習得し、ビジネス日本語や日本企業文化に適応できるよう支援します。就職支援や企業紹介を通じて、安定した高収入のITキャリアを日本で築きましょう。",
+        "title": "日本人材不足、留学生向けIT研修でキャリアアップ！"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\images\\custom_2b87628a54c46a85\\custom_2b87628a54c46a85_img_4.png"
+  ],
+  "video": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4",
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000
+  }
+}

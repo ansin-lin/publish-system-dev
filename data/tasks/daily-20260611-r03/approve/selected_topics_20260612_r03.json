@@ -1,0 +1,21 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-12T08:58:58+09:00",
+  "task_id": "daily-20260611-r03",
+  "run_id": "r03",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\tidy\\topic_candidates_20260611_r03.json",
+  "selected_indices": [],
+  "selected_topic_ids": [
+    "custom_ae963a0c251a5d76"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-12T08:58:58+09:00",
+  "items": [
+    {
+      "index": 0,
+      "topic_id": "custom_ae963a0c251a5d76",
+      "title": "在ai不断发展的现在，it新人该如何入行",
+      "source_platform": "custom"
+    }
+  ]
+}

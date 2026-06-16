@@ -1,0 +1,97 @@
+{
+  "task_id": "daily-20260610-r02",
+  "publish_id": "daily-20260610-r02-r02",
+  "job_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\publish\\publish_job_20260610_r02.json",
+  "started_at": "2026-06-10T07:46:01.264Z",
+  "updated_at": "2026-06-10T07:58:15.730Z",
+  "results": [
+    {
+      "status": "auth_expired",
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "facebook",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "published_at": "2026-06-10T07:47:13.775Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0G1K8Zw67BnzDQ82aEHvG5HFvuADspsofEi5TekevbW2eEXj4PrJi51HGubYzUpbFl&id=100006666765488&__cft__[0]=AZZekwu8sW6BpN6k6eIhHMkfRDN54cKxV_7wfq2nVr5ndN6HsBcZoCOY3s4qf67_JoMLgGEtkHMQEHcQUe5aaur3-yBX-Z3RueQLJ17zzn4TBqY_MqJ1N36y_sisT9S855Tv2qZ2XZBv9Bi5ZZFPb2U2mV3JWeOrIb2BKm7tvlrLXj46jM3HlWsKRAQW-sOJzncemOdpyQTpI07iD_mG5WJv&__tn__=%2CO%2CP-R",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\facebook\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\facebook\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\facebook\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\facebook\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "x",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "published_at": "2026-06-10T07:48:12.480Z",
+      "post_url": "https://x.com/ouennenn123287/status/2064615524378808707",
+      "post_id": "2064615524378808707",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\x\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\x\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\x\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\x\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "instagram",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "published_at": "2026-06-10T07:49:29.706Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/reel/DZZccSmtChp/",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\instagram\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\instagram\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\instagram\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\instagram\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "youtube",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "published_at": "2026-06-10T07:57:32.644Z",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "auth_expired",
+      "platform": "tiktok",
+      "profile": "default",
+      "task_id": "daily-20260610-r02",
+      "publish_id": "daily-20260610-r02-r02",
+      "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\tiktok\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\tiktok\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\tiktok\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\tiktok\\default\\screenshot.png"
+      }
+    }
+  ]
+}

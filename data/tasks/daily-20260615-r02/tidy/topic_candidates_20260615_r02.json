@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-15T13:12:50+09:00",
+  "task_id": "daily-20260615-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r02\\collect\\collect_result_20260615_r02.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "42b5dbc4c58b4a1b",
+      "title": "山姆被约谈",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E5%A7%86%E8%A2%AB%E7%BA%A6%E8%B0%88"
+    },
+    {
+      "index": 2,
+      "topic_id": "8706cd3fca239ab9",
+      "title": "遇见小面创始人致歉",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E9%81%87%E8%A7%81%E5%B0%8F%E9%9D%A2%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%87%B4%E6%AD%89"
+    },
+    {
+      "index": 3,
+      "topic_id": "9443074cb302a412",
+      "title": "龙舟赛变身端午消费新引擎",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E9%BE%99%E8%88%9F%E8%B5%9B%E5%8F%98%E8%BA%AB%E7%AB%AF%E5%8D%88%E6%B6%88%E8%B4%B9%E6%96%B0%E5%BC%95%E6%93%8E"
+    },
+    {
+      "index": 4,
+      "topic_id": "cf271de0c29a3e96",
+      "title": "爱情有烟火原著回应开播",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%88%B1%E6%83%85%E6%9C%89%E7%83%9F%E7%81%AB%E5%8E%9F%E8%91%97%E5%9B%9E%E5%BA%94%E5%BC%80%E6%92%AD"
+    },
+    {
+      "index": 5,
+      "topic_id": "e1d3a4e2bce563c3",
+      "title": "瑞典vs突尼斯",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%91%9E%E5%85%B8vs%E7%AA%81%E5%B0%BC%E6%96%AF"
+    },
+    {
+      "index": 6,
+      "topic_id": "9ce8832ec5506d5e",
+      "title": "有哪些著名的被演砸的角色？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/23316612"
+    },
+    {
+      "index": 7,
+      "topic_id": "95beda9cace54964",
+      "title": "素数「17」在自然数中有什么存在感？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/661281536"
+    },
+    {
+      "index": 8,
+      "topic_id": "71e8c5b15c4186c1",
+      "title": "U17 、 U23 国足接连获得亚洲杯亚军，中国男足离重返世界杯还有多远？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047780020999939551"
+    },
+    {
+      "index": 9,
+      "topic_id": "c44f1980c38dc435",
+      "title": "《三角洲行动》S10 赛季新干员「泽芮娅」技能曝光，如何评价这组技能设计？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/15825552914"
+    },
+    {
+      "index": 10,
+      "topic_id": "035b1e0ee359637e",
+      "title": "市场监管总局约谈山姆总部，要求其严防全链条食品安全风险，山姆的品控出了什么问题？此次约谈有何警示意义？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049810638076130456"
+    },
+    {
+      "index": 11,
+      "topic_id": "4c4350d2f92b7bbd",
+      "title": "救援队队长寻走失儿童时遇车祸离世",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%95%91%E6%8F%B4%E9%98%9F%E9%98%9F%E9%95%BF%E5%AF%BB%E8%B5%B0%E5%A4%B1%E5%84%BF%E7%AB%A5%E6%97%B6%E9%81%87%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96"
+    },
+    {
+      "index": 12,
+      "topic_id": "2c22c715066a9cba",
+      "title": "美第三批涉UFO档案披露离奇现象",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E7%AC%AC%E4%B8%89%E6%89%B9%E6%B6%89UFO%E6%A1%A3%E6%A1%88%E6%8A%AB%E9%9C%B2%E7%A6%BB%E5%A5%87%E7%8E%B0%E8%B1%A1"
+    },
+    {
+      "index": 13,
+      "topic_id": "6fa3c56b3c8729b7",
+      "title": "沈腾最好的医美是马丽",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%B2%88%E8%85%BE%E6%9C%80%E5%A5%BD%E7%9A%84%E5%8C%BB%E7%BE%8E%E6%98%AF%E9%A9%AC%E4%B8%BD"
+    },
+    {
+      "index": 14,
+      "topic_id": "0c3d316994d5671c",
+      "title": "金价跌破900老板5个手机都忙不过来",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E8%B7%8C%E7%A0%B4900%E8%80%81%E6%9D%BF5%E4%B8%AA%E6%89%8B%E6%9C%BA%E9%83%BD%E5%BF%99%E4%B8%8D%E8%BF%87%E6%9D%A5"
+    },
+    {
+      "index": 15,
+      "topic_id": "f7b471423bcd22b0",
+      "title": "首次制裁外国现任防长 下一步怎么走",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%A6%96%E6%AC%A1%E5%88%B6%E8%A3%81%E5%A4%96%E5%9B%BD%E7%8E%B0%E4%BB%BB%E9%98%B2%E9%95%BF+%E4%B8%8B%E4%B8%80%E6%AD%A5%E6%80%8E%E4%B9%88%E8%B5%B0"
+    },
+    {
+      "index": 16,
+      "topic_id": "350f2ddfbd55e85f",
+      "title": "你懂白鹿吗？——内娱嘉欣",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116747445208084/"
+    },
+    {
+      "index": 17,
+      "topic_id": "a154df71c612981c",
+      "title": "别再打死家里的蚰蜒！全网冷知识全是错，真相颠覆认知。 #蚰蜒 #科普",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116735919264821/"
+    },
+    {
+      "index": 18,
+      "topic_id": "d0b9f26866e93426",
+      "title": "一方水土养一方舞蹈",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116738788169472/"
+    },
+    {
+      "index": 19,
+      "topic_id": "23d066321fd9a391",
+      "title": "听砖家说每天只睡四个小时对生活没有影响",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116741740957046/"
+    },
+    {
+      "index": 20,
+      "topic_id": "97492cf03a78ed4e",
+      "title": "世界杯正式开赛，闹出了多少风波？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116742026166887/"
+    },
+    {
+      "index": 21,
+      "topic_id": "9876ebbb93af1a56",
+      "title": "妈妈：“嘻嘻 你最好期末也这么考～”",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650851590979464633"
+    },
+    {
+      "index": 22,
+      "topic_id": "c2c0e94e2de4315a",
+      "title": "我滴马……鱼缸爆了 ！ 这缸鱼养了能不能挡50年的灾…几年的鱼一下全军覆没….养鱼佬的心在滴血..#养鱼日记 #养鱼 #龙鱼",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651139251274461050"
+    },
+    {
+      "index": 23,
+      "topic_id": "b6dc5a14c454a6b7",
+      "title": "【#邓超观战NBA总决赛 】星光与篮球交汇✨欢迎演员邓超@老邓（SuperDeng）  来到现场观战NBA总决赛G5！从大银幕到NBA总决赛舞台，一起见证尼克斯与马刺的巅峰对决！#尼克斯vs马刺 #NBA总决赛",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651074950735891775"
+    },
+    {
+      "index": 24,
+      "topic_id": "e71e25a931331ab5",
+      "title": "#美国再公布70多份UFO文件  包括此前被列为机密的视频、图片、录音以及文字材料。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651036431376207113"
+    },
+    {
+      "index": 25,
+      "topic_id": "b67bfc982b9dd0a5",
+      "title": "21岁女子在巴西蹦极未系安全绳，被工作人员从40米高的桥上抛下，坠地身亡",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651112114131684654"
+    },
+    {
+      "index": 26,
+      "topic_id": "64b8e5a09811c75c",
+      "title": "heavyweight champion ufc",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=heavyweight+champion+ufc&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "ba40130a20ef5966",
+      "title": "who is the ufc heavyweight champion",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=who+is+the+ufc+heavyweight+champion&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "b02bd4fd4e150cf0",
+      "title": "lebanon",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=lebanon&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "b2e66ad304ae84af",
+      "title": "maxx crosby",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=maxx+crosby&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "01399f5c7918b075",
+      "title": "drake",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=drake&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "4a1cd33939e7c1ff",
+      "title": "Japanese fans stay to help clean the stadium after their World cup game",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nextfuckinglevel/comments/1u632vl/japanese_fans_stay_to_help_clean_the_stadium/"
+    },
+    {
+      "index": 32,
+      "topic_id": "b80a5e5668253a0e",
+      "title": "[OC] One of the players in my group just rolled a 7 on a d6. The glass die broke in half",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/DnD/comments/1u616y2/oc_one_of_the_players_in_my_group_just_rolled_a_7/"
+    },
+    {
+      "index": 33,
+      "topic_id": "79fc46f575b6e3d6",
+      "title": "Throwback when the owner of a restaurant shared his white sauce recipe before closing permanently - Keeps on giving even during a sinking ship",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/MadeMeSmile/comments/1u63u8t/throwback_when_the_owner_of_a_restaurant_shared/"
+    },
+    {
+      "index": 34,
+      "topic_id": "0cba415a22ea907f",
+      "title": "TIL that alcohol use in America likely peaked during the 1830s. The average American drank 7 gallons of pure ethanol a year. Midwestern corn farmers converted their grain into whisky to prevent spoilage. A gallon cost only 25 cents. Americans averaged 4 shots of whisky a day, at under a penny cost.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1u62rb2/til_that_alcohol_use_in_america_likely_peaked/"
+    },
+    {
+      "index": 35,
+      "topic_id": "57ef1ba0ba24a291",
+      "title": "Size of the tie that Joe Rogan is wearing",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/pics/comments/1u61p0j/size_of_the_tie_that_joe_rogan_is_wearing/"
+    },
+    {
+      "index": 36,
+      "topic_id": "41c32947fac69849",
+      "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
+      "source_platform": "hackernews",
+      "source_url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
+    },
+    {
+      "index": 37,
+      "topic_id": "b75df091f2f72413",
+      "title": "Write for One Person",
+      "source_platform": "hackernews",
+      "source_url": "https://wizardzines.com/comics/write-for-one-person/"
+    },
+    {
+      "index": 38,
+      "topic_id": "adbebf87cf45d990",
+      "title": "Even More Batteries Included with Emacs",
+      "source_platform": "hackernews",
+      "source_url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
+    },
+    {
+      "index": 39,
+      "topic_id": "08a600546494281c",
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/tamnd/kage"
+    },
+    {
+      "index": 40,
+      "topic_id": "6c4f3444d8c66bf1",
+      "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
+      "source_platform": "hackernews",
+      "source_url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/"
+    }
+  ]
+}

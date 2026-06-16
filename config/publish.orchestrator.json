@@ -1,0 +1,368 @@
+{
+  "$comment": "Copy to publish.orchestrator.json and edit. Secrets (tokens/API keys) stay in environment variables only.",
+  "schema_version": "publish-orchestrator-config.v1",
+  "config_version": 1,
+  "strict": true,
+  "timezone": "Asia/Tokyo",
+  "instance_name": "default",
+  "paths": {
+    "base": "repo",
+    "data_dir": "./data",
+    "tasks_dir": "./data/tasks",
+    "db_path": "./data/system/orchestrator.db",
+    "auth_dir": "./data/auth",
+    "assets_img_dir": "./data/assets/img",
+    "assets_video_dir": "./data/assets/video",
+    "temp_dir": "./data/temp",
+    "logs_dir": "./logs",
+    "logs_task_dir": "./logs/task",
+    "logs_publish_dir": "./logs/publish",
+    "logs_jobs_dir": "./logs/jobs",
+    "system_log": "./logs/system.log",
+    "node_dir": "./node"
+  },
+  "orchestrator": {
+    "dispatch": {
+      "batch_limit": 10
+    },
+    "reconcile": {
+      "processing_timeout_ms": 1200000
+    },
+    "stale": {
+      "default_threshold_ms": 3600000,
+      "threshold_ms_by_step": {
+        "collect": 3600000,
+        "tidy": 3600000,
+        "research": 1200000,
+        "copy": 3600000,
+        "image": 3600000,
+        "publish": 1200000
+      },
+      "max_rollbacks_per_step_per_day": 3,
+      "excluded_task_statuses": [
+        "awaiting_manager_selection",
+        "approval_timeout",
+        "published",
+        "publish_partial_failed",
+        "failed",
+        "cancelled",
+        "aborted"
+      ]
+    }
+  },
+  "slack": {
+    "channel_id": "C0B887QD6U9",
+    "allowed_user_ids": [
+      "U0B8A197692"
+    ],
+    "step4": {
+      "delivery": "node",
+      "dry_run": false,
+      "max_candidates_in_message": 120,
+      "pick_receive": {
+        "mode": "poll",
+        "poll_on": "run-once",
+        "pick_timeout_hours": 24,
+        "replies": {
+          "success": "今日话题已选择，系统将自动进入调研与写稿。",
+          "custom_success": "自定义话题已创建，系统将自动进入调研与写稿。",
+          "already_selected": "今日话题已选择",
+          "invalid_pick": "格式有误，请在本线程回复：pick 2,5,8",
+          "custom_invalid": "格式有误，请在本线程回复：title 你想要的自定义话题（建议 8~120 字）",
+          "unauthorized": "无选题权限。",
+          "out_of_range": "编号超出候选范围，请对照上方列表。"
+        }
+      }
+    },
+    "step_completion": {
+      "enabled": true,
+      "dry_run": false
+    },
+    "step7": {
+      "retry_receive": {
+        "mode": "poll",
+        "poll_on": "run-once",
+        "thread_source": "step7",
+        "replies": {
+          "success": "已触发 Step7 重试：{platforms}",
+          "invalid": "格式有误，请在本条 Step7 通知下回复：retry instagram 或 retry x,facebook",
+          "unauthorized": "无发布重试权限。",
+          "max_attempts": "该平台已达最大重试次数，或无需重试。",
+          "error": "Step7 重试失败"
+        }
+      }
+    }
+  },
+  "platforms": {
+    "copy_required": [
+      "xiaohongshu",
+      "facebook",
+      "x",
+      "instagram",
+      "youtube",
+      "tiktok"
+    ],
+    "publish_enabled": [
+      "xiaohongshu",
+      "facebook",
+      "x",
+      "instagram",
+      "youtube",
+      "tiktok"
+    ],
+    "definitions": {
+      "xiaohongshu": {
+        "label": "小红书",
+        "enabled": true,
+        "aliases": [
+          "xhs",
+          "小红书"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "zh-CN",
+          "title_max": 16,
+          "body_max": 800
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": true,
+          "tags": true,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": "avoid_burst_posting"
+      },
+      "facebook": {
+        "label": "Facebook",
+        "enabled": true,
+        "aliases": [
+          "fb"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "ja-JP",
+          "body_max": 300
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "x": {
+        "label": "X",
+        "enabled": true,
+        "aliases": [
+          "twitter"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "en-US",
+          "body_max": 200
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "instagram": {
+        "label": "Instagram",
+        "enabled": true,
+        "aliases": [
+          "ig",
+          "ins"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "ja-JP",
+          "body_max": 100
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "youtube": {
+        "label": "YouTube",
+        "enabled": true,
+        "aliases": [
+          "YouTube"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "en-US",
+          "title_max": 80,
+          "body_max": 1000
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": true,
+          "tags": true,
+          "images": false,
+          "video": true
+        },
+        "rate_limit_hint": "video_upload_slow"
+      },
+      "tiktok": {
+        "label": "TikTok",
+        "enabled": true,
+        "aliases": [
+          "TikTok"
+        ],
+        "copy": {
+          "enabled": true,
+          "locale": "zh-CN",
+          "body_max": 2200
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": true,
+          "images": false,
+          "video": true
+        },
+        "rate_limit_hint": "video_only"
+      }
+    }
+  },
+  "step1": {
+    "default_run_id": "r01",
+    "default_trigger": "cron",
+    "task_id_date_format": "daily-YYYYMMDD",
+    "ensure_daily": {
+      "enabled": true,
+      "runs": [
+        {
+          "run_id": "r01",
+          "start_hour": 9,
+          "end_hour": 12
+        },
+        {
+          "run_id": "r02",
+          "start_hour": 13,
+          "end_hour": 16
+        },
+        {
+          "run_id": "r03",
+          "start_hour": 17,
+          "end_hour": 19
+        }
+      ]
+    }
+  },
+  "step2": {
+    "aggregate_config_path": "./config/collect_aggregate.json",
+    "standalone_config_path": "./config/collect_standalone.json",
+    "tophub_channels_path": "./config/tophub_channels.json",
+    "allow_partial_success_continue": true
+  },
+  "step4": {
+    "pick_advance_pipeline_default": false,
+    "materialize_collect_default": true
+  },
+  "step5": {
+    "skip_if_research_exists": true
+  },
+  "step6": {
+    "copy": {
+      "require_all_copy_required_platforms": true,
+      "image_prompt_slot_count": 4,
+      "image_prompt_aspect_ratio": "16:9"
+    },
+    "image": {
+      "delivery": "node",
+      "model": "gemini-2.5-flash-image",
+      "max_slots": 4,
+      "require_all_slots": true,
+      "prompt_only_on_failure": false,
+      "stock": {
+        "enabled": true,
+        "priority": [
+          "today",
+          "common",
+          "ai"
+        ],
+        "today_dir_date_format": "yyyyMMdd",
+        "common_dir_name": "Common",
+        "extensions": [
+          ".png",
+          ".jpg",
+          ".jpeg"
+        ],
+        "max_pick": 4,
+        "force_ai": false
+      }
+    }
+  },
+  "step7": {
+    "headless": false,
+    "dry_run": false,
+    "xhs_dry_run": false,
+    "retry_step7_enabled": true,
+    "validation": {
+      "mode": "balanced",
+      "strict": false,
+      "require_post_url": false
+    },
+    "partial_retry": {
+      "enabled": true,
+      "max_attempts_per_platform": 2,
+      "auto_on_run_once": false
+    },
+    "timeout_ms": 900000,
+    "video": {
+      "stock": {
+        "enabled": true,
+        "priority": [
+          "today",
+          "common"
+        ],
+        "today_dir_date_format": "yyyyMMdd",
+        "common_dir_name": "Common",
+        "extensions": [
+          ".mp4"
+        ],
+        "max_pick": 1
+      }
+    },
+    "human_delay": {
+      "step_min_ms": 3000,
+      "step_max_ms": 5000,
+      "after_publish_click_ms": 10000
+    },
+    "facebook": {
+      "composer_entry": "home",
+      "profile_link_name": "王 艶艶"
+    }
+  }
+}

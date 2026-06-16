@@ -1,0 +1,251 @@
+{
+  "cookies": [
+    {
+      "name": "xsecappid",
+      "value": "ugc",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1813106089,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "a1",
+      "value": "19db2b11dadolsznm8jmsx2lbh7m3t1a4kshd00zz50000411279",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1808355445,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "webId",
+      "value": "9b7af41bc3de8d63a3f6bc3fca2129d1",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1808355445,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gid",
+      "value": "yjfDJDyqqS40yjfDJDyyfT880fl1MuI6YV6MMuuCJ1DxWx286q9y0f8884yyJWj82YWWSyKK",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1816130102.203855,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "customerClientId",
+      "value": "133027978856524",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1811379680.155051,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ets",
+      "value": "1779423981211",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1782015981.220054,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "customer-sso-sid",
+      "value": "68c517651511575455940609qrr86glvqk4a6ixf",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1782111163.917857,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x-user-id-creator.xiaohongshu.com",
+      "value": "634f37af0000000018029ea0",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1816066364.918136,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "access-token-creator.xiaohongshu.com",
+      "value": "customer.creator.AT-68c517651511575455924224uz7dprhxaqwwl7kc",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1784098363.918285,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "galaxy_creator_session_id",
+      "value": "xwTMfwQ27T9hhsoBoAcJjIpATBvUvBYFXPXc",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1784098364.918384,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "galaxy.creator.beaker.session.id",
+      "value": "1781506365052065543094",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1784098364.918469,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "acw_tc",
+      "value": "0a0d0e0317815700866331758e8b4bb5f73675d6aebb48bf599d44f82214de",
+      "domain": "creator.xiaohongshu.com",
+      "path": "/",
+      "expires": 1781571886.68203,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "acw_tc",
+      "value": "0a50853e17815700875766200e869f6bb776ba78bf2d0ac3c983c9c76d4a19",
+      "domain": "edith.xiaohongshu.com",
+      "path": "/",
+      "expires": 1781571887.655283,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "websectiga",
+      "value": "984412fef754c018e472127b8effd174be8a5d51061c991aadd200c69a2801d6",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1781829287,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sec_poison_id",
+      "value": "9f265283-f8fc-4dff-8de2-b37472087fb1",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1781570692,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "loadts",
+      "value": "1781570089229",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1813106089,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://creator.xiaohongshu.com",
+      "localStorage": [
+        {
+          "name": "USER_INFO_FOR_BIZ",
+          "value": "{\"userId\":\"634f37af0000000018029ea0\",\"userName\":\"日本IT HR\",\"userAvatar\":\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo321e6md8u7e005oqf6unm57l0vvsqflo?imageView2/2/w/80/format/jpg\",\"userDesc\":\"在日本做 IT HR 的中国人\\n每天面试工程师，也每天被工程师“教育”\\n想把我看到的日本职场、求职内幕、AI 行业趋势\\n分享给每一个想在日本努力生活的人\\n希望你在这里不迷路，也不孤单 ， 欢迎私信\",\"redId\":\"4196906718\",\"role\":\"creator\",\"permissions\":[\"creatorCollege\",\"creatorWiki\",\"noteInspiration\",\"creatorHome\",\"creatorData\",\"USER_GROUP\",\"creatorActivityCenter\",\"ORIGINAL_STATEMENT\"],\"zone\":\"86\",\"phone\":\"13214231809\",\"relatedUserId\":null,\"relatedUserName\":null,\"realNameVerified\":false,\"realNameVerifyLink\":\"xhsdiscover://account/realName/atomization?businessCode=capa_podcast\",\"skillhubInfo\":{\"realNameVerified\":false,\"realNameVerifyUrl\":\"xhsdiscover://account/realName/atomization?businessCode=sns_skillhub\"},\"longAudioConfig\":{\"audioMinSeconds\":600,\"audioFileMaxSize\":1024,\"audioMaxSeconds\":7200,\"hasAudio\":true,\"summaryMaxDurationSeconds\":10800,\"needRealName\":false},\"cocreate\":null,\"advertiseBlockConfig\":null,\"kolCoOrder\":false}"
+        },
+        {
+          "name": "dsllt",
+          "value": "1781570209622"
+        },
+        {
+          "name": "uploader-permit-video-spectrum",
+          "value": "{\"2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4-2153164\":null}"
+        },
+        {
+          "name": "publish-uploader-history-upload-speed",
+          "value": "[{\"speed\":[4.697247706422019],\"domain\":\"ros-upload.xiaohongshu.com\",\"timestamp\":1781570091326},{\"speed\":[4.379811804961506],\"domain\":\"ros-upload-d4.xhscdn.com\",\"timestamp\":1781570092495}]"
+        },
+        {
+          "name": "snsWebPublishCurrentUser",
+          "value": "634f37af0000000018029ea0"
+        },
+        {
+          "name": "USER_INFO",
+          "value": "{\"user\":{\"type\":\"User\",\"value\":{\"userId\":\"634f37af0000000018029ea0\",\"loginUserType\":\"creator\"}}}"
+        },
+        {
+          "name": "NEW_XHS_ABTEST_REPORT_KEY",
+          "value": "{\"9b7af41bc3de8d63a3f6bc3fca2129d1634f37af0000000018029ea0\":\"2026-06-16\"}"
+        },
+        {
+          "name": "unloads_record",
+          "value": "[[1781242387045.7,1564],[1781486967552.7,1719],[1781506326391.9,39054],[1781514249565.6,2573],[1781570086493,2497]]"
+        },
+        {
+          "name": "b1b1",
+          "value": "1"
+        },
+        {
+          "name": "score_display",
+          "value": "1"
+        },
+        {
+          "name": "p1",
+          "value": "41"
+        },
+        {
+          "name": "nps-userId",
+          "value": "5b6bf04ce8ac2b37e5dba981"
+        },
+        {
+          "name": "_speedList",
+          "value": "[{\"ts\":1776912917668,\"speed\":44567483},{\"ts\":1776912917681,\"speed\":22153642.333333332},{\"ts\":1776912918569,\"speed\":42660186.666666664},{\"ts\":1776912918570,\"speed\":13017620.333333334}]"
+        },
+        {
+          "name": "score_timestamp",
+          "value": "1779413616413"
+        },
+        {
+          "name": "last_tiga_update_time",
+          "value": "1781570087665"
+        },
+        {
+          "name": "uploader-permit-image-spectrum",
+          "value": "{\"cover.jpeg-140733\":null}"
+        },
+        {
+          "name": "sdt_source_storage_key",
+          "value": "{\"reportUrl\":\"/api/sec/v1/shield/webprofile\",\"desVersion\":\"2\",\"validate\":false,\"commonPatch\":[\"/fe_api/burdock/v2/note/post\",\"/api/sns/web/v1/comment/post\",\"/api/sns/web/v1/note/like\",\"/api/sns/web/v1/note/collect\",\"/api/sns/web/v1/user/follow\",\"/api/sns/web/v1/feed\",\"/api/sns/web/v1/login/activate\",\"/api/sns/web/v1/note/metrics_report\",\"/api/redcaptcha\",\"/api/store/jpd/main\",\"/phoenix/api/strategy/getAppStrategy\",\"/web_api/sns/v2/note\"],\"signUrl\":\"https://fe-static.xhscdn.com/as/v1/f218/a15/public/04b29480233f4def5c875875b6bdc3b1.js\",\"signVersion\":\"1\",\"xhsTokenUrl\":\"https://fe-static.xhscdn.com/as/v1/3e44/public/bf7d4e32677698655a5cadc581fd09b3.js\",\"url\":\"https://fe-static.xhscdn.com/as/v2/fp/643f48183a62c46e6c924b3f0456767a.js\",\"extraInfo\":{\"kbconf\":null,\"fpMatchUrls\":null}}"
+        },
+        {
+          "name": "b1",
+          "value": "I38rHdgsjopgIvesdVwgIC+oIELmBZ5e3VwXLgFTIxS3bqwErFeexd0ekncAzMFYnqthIhJeSBMDKutRI3KsYorWHPtGrbV0P9WfIi/eWc6eYqtyQApPI37ekmR6QL+5Ii6sdneeSfqYHqwl2qt5B0DBIx+PGDi/sVtkIxdsxuwr4qtiIhuaIE3e3LV0I3VTIC7e0utl2ADmsLveDSKsSPw5IEvsiVtJOqw8BuwfPpdeTFWOIx4TIiu6ZPwrPut5IvlaLbgs3qtxIxes1VwHIkumIkIyejgsY/WTge7eSqte/D7sDcpipedeYrDtIC6eDVw2IENsSqtlnlSuNjVtIvoekqt3cZ7sVo4gIESyIhEJQBquIxhnqz8gIkIfoqwkICrWGd3sdlOeVPw3IvAe0fgedDhwIEOs1W+FyqtXIh3e1dAe3FOsVPwOefOsYqt3IxTsgU6sSuw5L7KsfVwgI3RzI3kVoVw+/PwqBaW2yMgsde7sVqw+IkKeD0AsVLRBIv5ex0dedI+BICgsfPwHIvIFQPwHPVtAIx5e6utvIkoe6uw5Ih3sjuw5NqwGoVwuICzTIvRtQeVAGl/siqtFIhPtIieeYuwoeWccpUOsDskuIhRytPwwzqwAIkesWqtuqIAsVF6s1IbLIE0s6edsiPtccPwrICJejuwfIi/ex0IyIvgeYo3eWVw5Ix3s1PwuJBYOIhI2IC6s1MgeTdee0b6sjVtzIEqEI3k6sVtoIvzVIhgekpFvwaAsfqw6IxGkcPwLOggeib5eWVt6guwzIxiCIvpTPqtuoqwxIk0s6/geWqwuKutvIvSA+qtyIkiCHzPCIxvs3SOsiM/e0uwjrVtVIxWdI3Ns1utWIhJeD983ICMieZ+qIvzFIv3e1PwSaVtnQVtCIiuZIEAs1j7ejVwXcLunIvPqpPt1outMIkF5I3RbI3Q5IhNeVFAskDbeZPwtIEqepqwqZuw2IEKe3dhhI3Fkpd7eDqtZrPtqZZLhP9DyIxb6cVw2IxOsic8BIkSDZqwdIkTzQPtFrVtzIErqIvTvIvzgHuwPIkIjICvs1PwTr/lFIhi8ICosjndsSuwvIvp9Ihh9LlrTIv4KGYh4IE7skSKekqwrIEdsDVt7ICrPIv5sSPwRICbRtqwbIEdsYjLT2PtOmut5IEgeTVt9IC/sxBbsIvgsxdAskqtRrzvskuwiNfNsdVt6Ii6sjjOeWPt0IviNIxkY+Pwxs0+RI36ekPwMQW6eW0+O+qtAIkbvI37sV/blIiAe1Vt1IErDIvge1f+rICr5IkrMgn87IE/e6AqeIv8nIkqwIE3sxIpkrPtdJVtuweKe3r0sTqtaICoejLOeWPwJbVtrIx4cGPtxeqtH4ut0+Pti2uw1ya7siboexs0eiLgeVqwpIiLGIhYVI38II36ekgoeT/z18qwNIhLtmqwmNU/ekPwgICOsYrNeWnq8I3gsjuwzyWD9ICAedPtjIvJs3VtWHutKIvOeYscGqPwbzseeDpWDIideSPtZBVtYLdoeTqt3pVtNZPwmIC8PIk+hLpAefb6sTqwSIvoe1VwJsqtOy7Ks1SSvosl1JbGXgVwtgVwJIxl6Ix+QIxG0NLKskjFyIxlKIvMH/VwaICLAGVtZIhKsTWG0ZPtdIhi2aVtmI37sTY8BIhrfI3ee0qtLrqwoeL3sSU/sfqto+VtKI3TEwVt/IiNsfnoef0eeTqw2ICP/Ik5e39c8IxoeYVwrIvGIIC/sSPtgNplGrc=="
+        },
+        {
+          "name": "_renderInfo",
+          "value": "angle (intel, intel(r) uhd graphics (0x00009bc4) direct3d11 vs_5_0 ps_5_0, d3d11)"
+        },
+        {
+          "name": "xhs_context_networkQuality",
+          "value": "EXCELLENT"
+        }
+      ]
+    }
+  ]
+}

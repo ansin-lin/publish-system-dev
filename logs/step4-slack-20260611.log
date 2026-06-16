@@ -1,0 +1,2 @@
+{"at":"2026-06-11T03:03:47.267Z","event":"pick_applied","task_id":"daily-20260611-r01","user":"U0B8A197692","already_selected":false}
+{"at":"2026-06-11T03:03:47.268Z","event":"poll_batch_done","awaiting":1,"picks_applied":1,"pick_errors":0,"timeouts":0}

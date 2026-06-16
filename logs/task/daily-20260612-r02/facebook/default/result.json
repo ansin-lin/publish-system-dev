@@ -1,0 +1,15 @@
+{
+  "status": "published",
+  "platform": "facebook",
+  "profile": "default",
+  "task_id": "daily-20260612-r02",
+  "publish_id": "daily-20260612-r02-r02",
+  "published_at": "2026-06-12T05:34:21.220Z",
+  "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0iuGhRK15hLyVJbBvv77ShBkhVfxytRFnAMYYWni2f3h6MRV1XEq4EMoC5kponT7gl&id=100006666765488&__cft__[0]=AZYomTys7_8313kKChT5cpfjF0vlrysjywtUeu3-ejlY-0JKA17eb5a1Blk_uKph-Gg3JfhbtKbUML7ClaDs65zq5jnAgRunFXt_ml3iaMJaiLHyFLoYhMGWYVqy_0-qlUwz4_b13RkBs3Wki0g1NiKnRQZjH38zeNPTr2xhPdAN3KKi0seKgbxWQF5f0dbY3siInxDCVJExZevyHycArI-x&__tn__=%2CO%2CP-R",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\facebook\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\facebook\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\facebook\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260612-r02\\facebook\\default\\screenshot.png"
+  }
+}

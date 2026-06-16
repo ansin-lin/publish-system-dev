@@ -1,0 +1,63 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-11T12:09:25+09:00",
+  "task_id": "daily-20260611-r01",
+  "run_id": "r01",
+  "publish_id": "daily-20260611-r01-r01",
+  "topic_id": "custom_b14a1326699e0b4d",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\publish\\publish_job_20260611_r01.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\copy_result_20260611_r01.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\generate\\image_result_20260611_r01.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-11T03:07:16.697Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid024emxDrn3XX88cS55ehhsMHH3XSKtJPkgnxRMMjrhJynW1ixA6iANPMjb6YCVeSSml&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-11T03:08:20.090Z",
+      "post_url": "https://x.com/ouennenn123287/status/2064907479990042864",
+      "post_id": "2064907479990042864"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-11T03:09:25.269Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZbhNLTD8Y9/"
+    }
+  ],
+  "video_skipped_platforms": [
+    "youtube",
+    "tiktok"
+  ],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 3,
+    "verified_published_count": 3,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "total": 4,
+    "video_skipped_count": 2
+  }
+}

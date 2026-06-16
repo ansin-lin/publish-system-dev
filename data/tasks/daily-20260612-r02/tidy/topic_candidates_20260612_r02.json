@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-12T13:11:02+09:00",
+  "task_id": "daily-20260612-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r02\\collect\\collect_result_20260612_r02.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "7c1415dca435be44",
+      "title": "白鹿方六连辟谣",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E6%96%B9%E5%85%AD%E8%BF%9E%E8%BE%9F%E8%B0%A3"
+    },
+    {
+      "index": 2,
+      "topic_id": "07c8b1a90aec8bbc",
+      "title": "为何长征二字总能戳中人心",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BD%95%E9%95%BF%E5%BE%81%E4%BA%8C%E5%AD%97%E6%80%BB%E8%83%BD%E6%88%B3%E4%B8%AD%E4%BA%BA%E5%BF%83"
+    },
+    {
+      "index": 3,
+      "topic_id": "c37c7ce3b15687d0",
+      "title": "老外也疑惑中国为什么不参加世界杯",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%80%81%E5%A4%96%E4%B9%9F%E7%96%91%E6%83%91%E4%B8%AD%E5%9B%BD%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%8F%82%E5%8A%A0%E4%B8%96%E7%95%8C%E6%9D%AF"
+    },
+    {
+      "index": 4,
+      "topic_id": "a22a080282fb25f7",
+      "title": "上下嘴唇一碰差点把自己毒死",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E4%B8%8B%E5%98%B4%E5%94%87%E4%B8%80%E7%A2%B0%E5%B7%AE%E7%82%B9%E6%8A%8A%E8%87%AA%E5%B7%B1%E6%AF%92%E6%AD%BB"
+    },
+    {
+      "index": 5,
+      "topic_id": "a87864c730cd4b1f",
+      "title": "泰国逝世公主昏迷3年半",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%E9%80%9D%E4%B8%96%E5%85%AC%E4%B8%BB%E6%98%8F%E8%BF%B73%E5%B9%B4%E5%8D%8A"
+    },
+    {
+      "index": 6,
+      "topic_id": "42fc84a0d40931f1",
+      "title": "如何评价 SpaceX IPO 创纪录融资 750 亿美元，马斯克成首位万亿富翁？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048672745810916944"
+    },
+    {
+      "index": 7,
+      "topic_id": "a366989285d8c2be",
+      "title": "2026 年世界杯小组赛 A 组，韩国 2-1 逆转捷克，如何评价本场比赛？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048694865580353228"
+    },
+    {
+      "index": 8,
+      "topic_id": "d0c7850aa1bc7514",
+      "title": "迅捷剑的团战能力很弱吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/662755709"
+    },
+    {
+      "index": 9,
+      "topic_id": "0f5a6611e96331e5",
+      "title": "如何看待世界杯揭幕战单场 3 张红牌，比进球还多，直追上届全部红牌数？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048679785060987545"
+    },
+    {
+      "index": 10,
+      "topic_id": "41b48ef18c018739",
+      "title": "假如我在 NBA 始终都是 0 分 0 助攻 0 篮板 0 抢断 0 盖帽，但只要上场够足够时间，就一定能赢，会有球队要吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2044368908522612625"
+    },
+    {
+      "index": 11,
+      "topic_id": "7ff7d2bed76be37b",
+      "title": "白鹿方六连辟谣",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%99%BD%E9%B9%BF%E6%96%B9%E5%85%AD%E8%BF%9E%E8%BE%9F%E8%B0%A3"
+    },
+    {
+      "index": 12,
+      "topic_id": "ab3afd07a8f5fa9b",
+      "title": "黄金盗窃案2主犯都是高学历赌徒",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%BB%84%E9%87%91%E7%9B%97%E7%AA%83%E6%A1%882%E4%B8%BB%E7%8A%AF%E9%83%BD%E6%98%AF%E9%AB%98%E5%AD%A6%E5%8E%86%E8%B5%8C%E5%BE%92"
+    },
+    {
+      "index": 13,
+      "topic_id": "07f7b5463805294e",
+      "title": "公路养护缺钱怪电车？专家呼吁",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%85%AC%E8%B7%AF%E5%85%BB%E6%8A%A4%E7%BC%BA%E9%92%B1%E6%80%AA%E7%94%B5%E8%BD%A6%EF%BC%9F%E4%B8%93%E5%AE%B6%E5%91%BC%E5%90%81"
+    },
+    {
+      "index": 14,
+      "topic_id": "da7cc4aeba175f9c",
+      "title": "国内最大黄金盗窃案告破",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%86%85%E6%9C%80%E5%A4%A7%E9%BB%84%E9%87%91%E7%9B%97%E7%AA%83%E6%A1%88%E5%91%8A%E7%A0%B4"
+    },
+    {
+      "index": 15,
+      "topic_id": "599d124b4e544f30",
+      "title": "“滴滴出行”改名“滴滴”",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%E2%80%9D%E6%94%B9%E5%90%8D%E2%80%9C%E6%BB%B4%E6%BB%B4%E2%80%9D"
+    },
+    {
+      "index": 16,
+      "topic_id": "60c50f6fcfefd086",
+      "title": "懒人为了“顺手”俩字，到底能做多少收纳？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116725097960466/"
+    },
+    {
+      "index": 17,
+      "topic_id": "6520e32caee363c6",
+      "title": "瑞斯拜考前50分系列 四六级必考词汇 26年新版",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116729812618614/"
+    },
+    {
+      "index": 18,
+      "topic_id": "5c0e36e9d78191c1",
+      "title": "《鸣潮》共鸣者「洛瑟菈」PV | 课后辅导",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116729057385249/"
+    },
+    {
+      "index": 19,
+      "topic_id": "a561ba95b3e53fd5",
+      "title": "我有两科考完！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116725282505851/"
+    },
+    {
+      "index": 20,
+      "topic_id": "946b1e4f7bef1ee4",
+      "title": "在上海吃到了玫瑰腐乳肉，长江这一路的酸甜苦辣咸脆鲜香咱也尝遍了！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116730718391604/"
+    },
+    {
+      "index": 21,
+      "topic_id": "442a65e76fc870dd",
+      "title": "两学生午休时玩闹，手掌被“502”胶水粘住，“牵手”求助消防员......@中国消防",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649983450618907938"
+    },
+    {
+      "index": 22,
+      "topic_id": "c1ddf2a017c80152",
+      "title": "饭店的暑假工，传菜传错菜！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650004222172527055"
+    },
+    {
+      "index": 23,
+      "topic_id": "d640dbb9cf88cb75",
+      "title": "货车高速路上掉落铁架，险些砸中后方车辆。一司机在确保自身安全的情况下，冲入车道徒手拖动80斤重的铁架至硬路肩，及时化解险情。为你点赞！#看见微光 @杭千高速公司",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649319220748061988"
+    },
+    {
+      "index": 24,
+      "topic_id": "3376087f910a102b",
+      "title": "我媳妇说帅 #万宁与晚安",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650068718425258426"
+    },
+    {
+      "index": 25,
+      "topic_id": "3dc9301d9bac328a",
+      "title": "网传邵阳一白裙女子被打后跳河 知情人：有街头冲突 但没跳河 记者核实“落水系2年前旧视频嫁接” 警方：案件依法办结 请勿信谣",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650011067908771118"
+    },
+    {
+      "index": 26,
+      "topic_id": "dff3e83bc1dee78c",
+      "title": "offsides in soccer",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=offsides+in+soccer&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "95cf8237821c845a",
+      "title": "princess bajrakitiyabha",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=princess+bajrakitiyabha&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "cd9e4000c66e826b",
+      "title": "nick pope",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=nick+pope&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "b6377429b66328ce",
+      "title": "larry ellison",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=larry+ellison&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "fd87b310860c0476",
+      "title": "stephanie ruhle",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=stephanie+ruhle&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "4ad41a3c432a276d",
+      "title": "I live in a large, deeply conservative city in Georgia. Our house is on a major roundabout.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/pics/comments/1u3g5mm/i_live_in_a_large_deeply_conservative_city_in/"
+    },
+    {
+      "index": 32,
+      "topic_id": "02b79ffe34261da0",
+      "title": "Nipplegate...how is this situation room story not absolutely everywhere",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/WhitePeopleTwitter/comments/1u3fj4l/nipplegatehow_is_this_situation_room_story_not/"
+    },
+    {
+      "index": 33,
+      "topic_id": "033661ee50d9e738",
+      "title": "Mother bird stood her ground and risked it all to save her unhatched eggs from a tractor",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nextfuckinglevel/comments/1u3dmle/mother_bird_stood_her_ground_and_risked_it_all_to/"
+    },
+    {
+      "index": 34,
+      "topic_id": "98bca8bae5b835e9",
+      "title": "My husband asked to break up this morning at 7 am and went to work to ask his coworker out at 9 am. We have 3 year old and I am 3 months pregnant.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1u3gd8f/my_husband_asked_to_break_up_this_morning_at_7_am/"
+    },
+    {
+      "index": 35,
+      "topic_id": "edc7fd137f16d1e8",
+      "title": "Mexican fans spot a South Korean fan and immediately adopt him",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/sports/comments/1u3elyn/mexican_fans_spot_a_south_korean_fan_and/"
+    },
+    {
+      "index": 36,
+      "topic_id": "c2f66da94c9b9e74",
+      "title": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
+      "source_platform": "hackernews",
+      "source_url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf"
+    },
+    {
+      "index": 37,
+      "topic_id": "405438f93f6adeeb",
+      "title": "Claude Fable is relentlessly proactive",
+      "source_platform": "hackernews",
+      "source_url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/"
+    },
+    {
+      "index": 38,
+      "topic_id": "73aefbd0b9f98a5e",
+      "title": "Show HN: Homebrew 6.0.0",
+      "source_platform": "hackernews",
+      "source_url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    },
+    {
+      "index": 39,
+      "topic_id": "98dc231f07857cb0",
+      "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
+      "source_platform": "hackernews",
+      "source_url": "https://fablepool.com"
+    },
+    {
+      "index": 40,
+      "topic_id": "af398421a55a34ed",
+      "title": "If you are asking for human attention, demonstrate human effort",
+      "source_platform": "hackernews",
+      "source_url": "https://tombedor.dev/human-attention-and-human-effort/"
+    }
+  ]
+}

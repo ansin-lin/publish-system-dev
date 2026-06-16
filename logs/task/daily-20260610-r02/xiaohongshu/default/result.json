@@ -1,0 +1,14 @@
+{
+  "status": "auth_expired",
+  "platform": "xiaohongshu",
+  "profile": "default",
+  "task_id": "daily-20260610-r02",
+  "publish_id": "daily-20260610-r02-r02",
+  "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\xiaohongshu\\default\\screenshot.png"
+  }
+}

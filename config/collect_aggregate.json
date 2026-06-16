@@ -1,0 +1,14 @@
+{
+  "enabled_platforms": [
+    "weibo",
+    "zhihu",
+    "xiaohongshu",
+    "baidu",
+    "bilibili",
+    "douyin"
+  ],
+  "fetch_limit_per_platform": 5,
+  "min_candidates_after_clean": 1,
+  "allow_partial_success": true,
+  "query": ""
+}

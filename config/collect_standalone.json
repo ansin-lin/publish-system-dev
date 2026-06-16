@@ -1,0 +1,23 @@
+{
+  "enabled_sources": [
+    "google_trends",
+    "reddit",
+    "hackernews"
+  ],
+  "fetch_limit_per_source": 20,
+  "min_candidates_after_clean": 1,
+  "allow_partial_success": true,
+  "query": "",
+  "sources": {
+    "google_trends": {
+      "geo": "US"
+    },
+    "reddit": {
+      "subreddit": "all",
+      "sort": "hot"
+    },
+    "hackernews": {
+      "story_path": "topstories"
+    }
+  }
+}

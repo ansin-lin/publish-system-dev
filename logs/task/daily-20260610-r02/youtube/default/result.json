@@ -1,0 +1,14 @@
+{
+  "status": "published",
+  "platform": "youtube",
+  "profile": "default",
+  "task_id": "daily-20260610-r02",
+  "publish_id": "daily-20260610-r02-r02",
+  "published_at": "2026-06-10T07:57:32.644Z",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260610-r02\\youtube\\default\\screenshot.png"
+  }
+}

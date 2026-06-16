@@ -1,0 +1,60 @@
+{
+  "schema_version": "selected_collect_items.v1",
+  "generated_at": "2026-06-15T10:27:50+09:00",
+  "task_id": "daily-20260615-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\collect\\collect_result_20260615_r01.json",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\tidy\\topic_candidates_20260615_r01.json",
+  "selected_indices": [
+    9
+  ],
+  "topic_keys": [
+    {
+      "topic_id": "2ce5578234f21660",
+      "source_platform": "zhihu"
+    }
+  ],
+  "items": [
+    {
+      "topic_id": "2ce5578234f21660",
+      "title": "日本某炸鸡店一锅老油用 66 年，引发食品安全争议，对此你怎么看？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049029947520442525",
+      "collected_at": "2026-06-15T08:52:49+09:00",
+      "raw": {
+        "platform": "zhihu",
+        "title": "日本某炸鸡店一锅老油用 66 年，引发食品安全争议，对此你怎么看？",
+        "url": "https://www.zhihu.com/question/2049029947520442525",
+        "score": 1020000,
+        "rank": 4,
+        "source_id": "240965440",
+        "raw": {
+          "ID": 240965440,
+          "title": "日本某炸鸡店一锅老油用 66 年，引发食品安全争议，对此你怎么看？",
+          "description": "日本一家始创于 1960 年的炸鸡店，凭借使用 66 年的「熟成老油」获炸鸡赛事最高金奖，该油由店主祖母传下，日常仅添新油、过滤保养，但引发食品安全争议。",
+          "thumbnail": "",
+          "url": "https://www.zhihu.com/question/2049029947520442525",
+          "md5": "dfc49726e965b7f0fd477cfa691087ee",
+          "extra": "102 万热度",
+          "time": "07:20",
+          "nodeids": "6",
+          "topicid": 0,
+          "domain": "zhihu.com",
+          "sitename": "知乎",
+          "logo": "https://file.ipadown.com/tophub/assets/images/media/zhihu.com.png_50x50.png",
+          "source": "tophub",
+          "channel": "mproPpoq6O",
+          "board_name": "知乎热榜",
+          "origin_rank": 4,
+          "origin_hot": "102 万热度",
+          "node_id": "6",
+          "date": "2026-06-15",
+          "tophub_fetch": "by_date"
+        },
+        "fetched_at": "2026-06-14T23:52:49.708Z"
+      },
+      "score": 1020000,
+      "rank": 4
+    }
+  ]
+}

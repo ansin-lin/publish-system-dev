@@ -1,0 +1,387 @@
+{
+  // 说明：复制本文件为 publish.orchestrator.json 后按本机环境修改。
+  // 安全：所有密钥（token / api key）仅放环境变量，不要写入 JSON/JSONC 文件。
+  "$comment": "Copy to publish.orchestrator.json and edit. Secrets (tokens/API keys) stay in environment variables only.",
+
+  // 配置 schema 版本：用于解析器识别配置结构版本。
+  "schema_version": "publish-orchestrator-config.v1",
+  // 业务配置版本：用于后续做配置迁移（migrate）时判断。
+  "config_version": 1,
+  // 严格模式：true=遇到未知字段报错；false=可警告放行（取决于实现）。
+  "strict": true,
+  // 时区：任务日期、日志、调度相关时间都建议按此时区解释。
+  "timezone": "Asia/Tokyo",
+  // 实例名：用于区分多机/多环境部署（日志与通知中可显示）。
+  "instance_name": "default",
+
+  // 路径配置：建议所有相对路径都基于仓库根目录解析。
+  "paths": {
+    // 路径基准：repo 表示以项目根目录为基准（需 loader 实现）。
+    "base": "repo",
+    // 数据根目录：存放任务数据、状态、缓存等。
+    "data_dir": "./data",
+    // 任务目录：SSOT（单一事实来源）任务 JSON 存储位置。
+    "tasks_dir": "./data/tasks",
+    // 数据库文件路径：orchestrator SQLite 等。
+    "db_path": "./data/system/orchestrator.db",
+    // 登录态目录：Playwright/浏览器会话持久化。
+    "auth_dir": "./data/auth",
+    // 图片素材根目录：Step6 配图/库存图使用。
+    "assets_img_dir": "./data/assets/img",
+    // 视频素材根目录：Step7 若支持视频发布可使用。
+    "assets_video_dir": "./data/assets/video",
+    // 临时目录：中间文件、下载缓存等。
+    "temp_dir": "./data/temp",
+    // 日志根目录。
+    "logs_dir": "./logs",
+    // 任务日志目录。
+    "logs_task_dir": "./logs/task",
+    // 发布日志目录。
+    "logs_publish_dir": "./logs/publish",
+    // 作业日志目录。
+    "logs_jobs_dir": "./logs/jobs",
+    // 系统总日志文件。
+    "system_log": "./logs/system.log",
+    // Node 相关运行目录（如子进程/脚本 cwd 参考）。
+    "node_dir": "./node"
+  },
+
+  // 密钥：均从环境变量读取，不在此 JSON 配置（见 config/README.md § 环境变量）。
+
+  // 编排器全局行为。
+  "orchestrator": {
+    "dispatch": {
+      // run-once 或派发时的默认批量上限。
+      "batch_limit": 10
+    },
+    "reconcile": {
+      // processing 超时阈值（毫秒）：用于 outbox 卡住回收等。
+      "processing_timeout_ms": 300000
+    },
+    "stale": {
+      // 默认 stale 阈值（毫秒）：未按 step 配置时使用。
+      "default_threshold_ms": 3600000,
+      // 各步骤 stale 阈值（毫秒）。
+      "threshold_ms_by_step": {
+        "collect": 3600000,
+        "tidy": 3600000,
+        "research": 1200000,
+        "copy": 3600000,
+        "image": 3600000,
+        "publish": 5400000
+      },
+      // 每日每步骤最多回退次数，防止无限回滚。
+      "max_rollbacks_per_step_per_day": 3,
+      // 这些任务状态不参与 stale 回退。
+      "excluded_task_statuses": [
+        "awaiting_manager_selection",
+        "approval_timeout",
+        "published",
+        "publish_partial_failed",
+        "failed",
+        "cancelled",
+        "aborted"
+      ]
+    }
+  },
+
+  // Slack 相关配置（Step4 选题通知 + 步骤完成通知）。
+  "slack": {
+    // 目标频道 ID。
+    "channel_id": "C0XXXXXXXXX",
+    // 允许进行 pick/管理动作的用户白名单 ID。
+    "allowed_user_ids": ["U0XXXXXXXXX"],
+    "step4": {
+      // 消息投递：node = Node chat.postMessage；dry_run = 仅打印。role/auto 已废弃。
+      "delivery": "node",
+      // true 时只打印不发送。
+      "dry_run": false,
+      // 单条候选消息中最多包含的候选条目数。
+      "max_candidates_in_message": 120,
+      // Step4b：run-once 末尾轮询 Slack 线程收 pick（无 Socket Mode）。
+      "pick_receive": {
+        "mode": "poll",
+        "poll_on": "run-once",
+        "pick_timeout_hours": 24,
+        "replies": {
+          "success": "今日话题已选择，系统将自动进入调研与写稿。",
+          "custom_success": "自定义话题已创建，系统将自动进入调研与写稿。",
+          "already_selected": "今日话题已选择",
+          "invalid_pick": "格式有误，请在本线程回复：pick 2,5,8",
+          "custom_invalid": "格式有误，请在本线程回复：title 你想要的自定义话题（建议 8~120 字）",
+          "unauthorized": "无选题权限。",
+          "out_of_range": "编号超出候选范围，请对照上方列表。"
+        }
+      }
+    },
+    "step_completion": {
+      // 是否启用步骤完成通知。
+      "enabled": true,
+      // true 时仅演练不实际发送。
+      "dry_run": false
+    }
+  },
+
+  // 平台配置：统一管理“文案生成平台 + 发布平台 + 限制规则”。
+  "platforms": {
+    // Step6 文案必须覆盖的平台列表。
+    "copy_required": ["xiaohongshu", "facebook", "x", "instagram"],
+    // Step7 默认启用的发布平台列表。
+    "publish_enabled": ["xiaohongshu", "facebook", "x", "instagram"],
+    // 平台定义字典：key 为平台标识。
+    "definitions": {
+      "xiaohongshu": {
+        // 展示名称。
+        "label": "小红书",
+        // 平台总开关。
+        "enabled": true,
+        // 别名：CLI 或用户输入可映射到该平台。
+        "aliases": ["xhs", "小红书"],
+        "copy": {
+          // 是否参与文案生成。
+          "enabled": true,
+          // 文案语言/区域。
+          "locale": "zh-CN",
+          // 标题最大长度。
+          "title_max": 16,
+          // 正文最大长度。
+          "body_max": 800
+        },
+        "publish": {
+          // 是否允许发布。
+          "enabled": true,
+          // 默认发布 profile（多账号时可切换）。
+          "profile": "default"
+        },
+        "capabilities": {
+          // 是否支持标题。
+          "title": true,
+          // 是否支持标签。
+          "tags": true,
+          // 是否支持图片。
+          "images": true,
+          // 是否支持视频。
+          "video": false
+        },
+        // 速率提示：供调度策略参考（非强约束）。
+        "rate_limit_hint": "avoid_burst_posting"
+      },
+      "facebook": {
+        "label": "Facebook",
+        "enabled": true,
+        "aliases": ["fb"],
+        "copy": {
+          "enabled": true,
+          "locale": "zh-CN",
+          "body_max": 300
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "x": {
+        "label": "X",
+        "enabled": true,
+        "aliases": ["twitter"],
+        "copy": {
+          "enabled": true,
+          "locale": "zh-CN",
+          "body_max": 200
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "instagram": {
+        "label": "Instagram",
+        "enabled": true,
+        "aliases": ["ig"],
+        "copy": {
+          "enabled": true,
+          "locale": "zh-CN",
+          "body_max": 100
+        },
+        "publish": {
+          "enabled": true,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": false,
+          "images": true,
+          "video": false
+        },
+        "rate_limit_hint": null
+      },
+      "youtube": {
+        "label": "YouTube",
+        "enabled": false,
+        "aliases": [],
+        "copy": {
+          "enabled": false,
+          "locale": "zh-CN",
+          "body_max": 100
+        },
+        "publish": {
+          "enabled": false,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": true,
+          "tags": true,
+          "images": false,
+          "video": true
+        },
+        "rate_limit_hint": "video_upload_slow"
+      },
+      "tiktok": {
+        "label": "TikTok",
+        "enabled": false,
+        "aliases": [],
+        "copy": {
+          "enabled": false,
+          "locale": "zh-CN",
+          "body_max": 50
+        },
+        "publish": {
+          "enabled": false,
+          "profile": "default"
+        },
+        "capabilities": {
+          "title": false,
+          "tags": true,
+          "images": false,
+          "video": true
+        },
+        "rate_limit_hint": "video_only"
+      }
+    }
+  },
+
+  // Gateway、Agent ID、Slack Socket（SLACK_APP_TOKEN 等）：见 ~/.openclaw/openclaw.json，不由本文件配置。
+
+  // Step1：创建任务参数。
+  "step1": {
+    // 默认 run id。
+    "default_run_id": "r01",
+    // 默认触发类型：cron/manual。
+    "default_trigger": "cron",
+    // task_id 日期格式模板（当前写法含前缀，按实现解析）。
+    "task_id_date_format": "daily-YYYYMMDD"
+  },
+
+  // Step2：采集配置。
+  "step2": {
+    // 聚合采集配置路径。
+    "aggregate_config_path": "./config/collect_aggregate.json",
+    // 独立采集配置路径。
+    "standalone_config_path": "./config/collect_standalone.json",
+    // TopHub 频道映射路径。
+    "tophub_channels_path": "./config/tophub_channels.json",
+    // 采集部分失败时是否允许继续后续步骤。
+    "allow_partial_success_continue": true
+  },
+
+  // Step4：选题阶段默认行为。
+  "step4": {
+    // submit-pick 时默认是否自动推进 pipeline。
+    "pick_advance_pipeline_default": false,
+    // 是否默认物化 collect 结果（按实现使用）。
+    "materialize_collect_default": true
+  },
+
+  // Step5：调研阶段默认行为。
+  "step5": {
+    // 若已有 research 产物，是否跳过重复调研。
+    "skip_if_research_exists": true
+  },
+
+  // Step6：文案与配图。
+  "step6": {
+    "copy": {
+      // 是否要求 copy_required 平台全部生成成功。
+      "require_all_copy_required_platforms": true,
+      // 生成图片提示词槽位数（通常对应最多图数）。
+      "image_prompt_slot_count": 4,
+      // 图片提示词默认画幅比例。
+      "image_prompt_aspect_ratio": "16:9"
+    },
+    "image": {
+      // 配图投递模式：node 或 role（按实现支持）。
+      "delivery": "node",
+      // 生成模型 ID。
+      "model": "gemini-2.5-flash-image",
+      // 最大图槽数量。
+      "max_slots": 4,
+      // 是否要求所有槽位都必须有图。
+      "require_all_slots": true,
+      // 失败时是否仅保留 prompt（不强制生成图）。
+      "prompt_only_on_failure": false,
+      "stock": {
+        // 是否启用库存图策略。
+        "enabled": true,
+        // 选图优先级：today -> common -> ai。
+        "priority": ["today", "common", "ai"],
+        // 当天目录日期格式。
+        "today_dir_date_format": "yyyyMMdd",
+        // 通用图库目录名。
+        "common_dir_name": "Common",
+        // 允许的图片扩展名。
+        "extensions": [".png", ".jpg", ".jpeg"],
+        // 最多挑选库存图数量。
+        "max_pick": 4,
+        // true 时强制走 AI 出图，忽略库存图。
+        "force_ai": false
+      }
+    }
+  },
+
+  // Step7：发布阶段默认行为。
+  "step7": {
+    // 是否无头模式。
+    "headless": false,
+    // 总体 dry-run 开关（仅写作业/模拟，不真实发布）。
+    "dry_run": false,
+    // 小红书专用 dry-run（填表但不最终点击发布）。
+    "xhs_dry_run": false,
+    // 是否允许 retry-step7。
+    "retry_step7_enabled": true,
+    "validation": {
+      // strict | balanced | loose；balanced/loose 默认不要求 post_url（见 require_post_url）
+      "mode": "balanced",
+      "strict": false,
+      // false：FB/IG 发帖成功但未抓到 post_url 时记 validated，不算 hard fail
+      "require_post_url": false
+    },
+    "human_delay": {
+      // 操作间最小延迟（毫秒）。
+      "step_min_ms": 3000,
+      // 操作间最大延迟（毫秒）。
+      "step_max_ms": 5000,
+      // 点击发布后额外等待时间（毫秒）。
+      "after_publish_click_ms": 10000
+    },
+    "facebook": {
+      // home = 首页 feed 发帖（publish.home.ts）；profile = 个人主页发帖（publish.profile.ts）
+      "composer_entry": "home",
+      // composer_entry=profile 时：侧边栏个人主页 link 的可见名（exact match）
+      "profile_link_name": ""
+    }
+  }
+}

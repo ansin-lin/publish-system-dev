@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-09T19:33:32+09:00",
+  "task_id": "daily-20260609-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260609-r01\\collect\\collect_result_20260609_r01.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "148e4e8363186b34",
+      "title": "多地否认跑男录制宣传费",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E5%9C%B0%E5%90%A6%E8%AE%A4%E8%B7%91%E7%94%B7%E5%BD%95%E5%88%B6%E5%AE%A3%E4%BC%A0%E8%B4%B9"
+    },
+    {
+      "index": 2,
+      "topic_id": "9927ec62033c8b14",
+      "title": "让中朝传统友谊世代传承",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%AE%A9%E4%B8%AD%E6%9C%9D%E4%BC%A0%E7%BB%9F%E5%8F%8B%E8%B0%8A%E4%B8%96%E4%BB%A3%E4%BC%A0%E6%89%BF"
+    },
+    {
+      "index": 3,
+      "topic_id": "ddae39b956e052e5",
+      "title": "赛豆科技AIVA品牌发布会",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%B5%9B%E8%B1%86%E7%A7%91%E6%8A%80AIVA%E5%93%81%E7%89%8C%E5%8F%91%E5%B8%83%E4%BC%9A"
+    },
+    {
+      "index": 4,
+      "topic_id": "20f37b82edbadac2",
+      "title": "白鹿莫离走势",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E8%8E%AB%E7%A6%BB%E8%B5%B0%E5%8A%BF"
+    },
+    {
+      "index": 5,
+      "topic_id": "e97e60e5b49acadf",
+      "title": "阿里巴巴百度蔚来紧急公告",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%99%BE%E5%BA%A6%E8%94%9A%E6%9D%A5%E7%B4%A7%E6%80%A5%E5%85%AC%E5%91%8A"
+    },
+    {
+      "index": 6,
+      "topic_id": "b679969b7ccf5ee1",
+      "title": "如何评价综艺《跑男》被指「还在挑衅观众」？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2046551143426348866"
+    },
+    {
+      "index": 7,
+      "topic_id": "b8724870413fd517",
+      "title": "LPL 顶级上单 369 坦言不想玩 LoL 了，这反映了职业选手怎样的困境？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2046276887664649844"
+    },
+    {
+      "index": 8,
+      "topic_id": "ec9c1f9bf5fcab27",
+      "title": "养生最简单的方法有哪些？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2039628430480814698"
+    },
+    {
+      "index": 9,
+      "topic_id": "85910cf693f0a66b",
+      "title": "人形机器人价格大跳水，最低不到一万可入手，为何价格快速下跌？机器人全民普及的时代要到来了吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047236682659755773"
+    },
+    {
+      "index": 10,
+      "topic_id": "07465dd26fa9c91d",
+      "title": "有哪些潮汕的文化、风物、传统是你想通过文学深入了解的？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2043794614444979521"
+    },
+    {
+      "index": 11,
+      "topic_id": "3275b54b444e8145",
+      "title": "“浙江一地要热上50℃”不实",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%B5%99%E6%B1%9F%E4%B8%80%E5%9C%B0%E8%A6%81%E7%83%AD%E4%B8%8A50%E2%84%83%E2%80%9D%E4%B8%8D%E5%AE%9E"
+    },
+    {
+      "index": 12,
+      "topic_id": "c86beb276834c8d6",
+      "title": "为《奔跑吧》录制支付80万？安阳辟谣",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%BA%E3%80%8A%E5%A5%94%E8%B7%91%E5%90%A7%E3%80%8B%E5%BD%95%E5%88%B6%E6%94%AF%E4%BB%9880%E4%B8%87%EF%BC%9F%E5%AE%89%E9%98%B3%E8%BE%9F%E8%B0%A3"
+    },
+    {
+      "index": 13,
+      "topic_id": "34c8d46e845e29f6",
+      "title": "山东一考点1考生3监考老师",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%80%83%E7%82%B91%E8%80%83%E7%94%9F3%E7%9B%91%E8%80%83%E8%80%81%E5%B8%88"
+    },
+    {
+      "index": 14,
+      "topic_id": "3f5ea18e9d8598c1",
+      "title": "高考地理考完 考生直呼看懵了",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E5%9C%B0%E7%90%86%E8%80%83%E5%AE%8C+%E8%80%83%E7%94%9F%E7%9B%B4%E5%91%BC%E7%9C%8B%E6%87%B5%E4%BA%86"
+    },
+    {
+      "index": 15,
+      "topic_id": "0dca0124956fa004",
+      "title": "河南农商行“被贷款”乱象调查",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%86%9C%E5%95%86%E8%A1%8C%E2%80%9C%E8%A2%AB%E8%B4%B7%E6%AC%BE%E2%80%9D%E4%B9%B1%E8%B1%A1%E8%B0%83%E6%9F%A5"
+    },
+    {
+      "index": 16,
+      "topic_id": "695bb08defc3363a",
+      "title": "我们的爸妈vs我们当爸妈",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116713370688013/"
+    },
+    {
+      "index": 17,
+      "topic_id": "201e610ece09e013",
+      "title": "和日本女友去她丈母娘家里",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116714175989459/"
+    },
+    {
+      "index": 18,
+      "topic_id": "1d325260bcf4400b",
+      "title": "“同步率”三个字已经很难概括这个视频了",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116713504902448/"
+    },
+    {
+      "index": 19,
+      "topic_id": "06b3f56a05e7206b",
+      "title": "小小极客湾，拿下！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116707683209505/"
+    },
+    {
+      "index": 20,
+      "topic_id": "25de5473d0f385e3",
+      "title": "小师弟，今天我，好看吗~",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116705183403563/"
+    },
+    {
+      "index": 21,
+      "topic_id": "139c6998aa038ce7",
+      "title": "哪有什么岁月静好，只是有人替我们负重前行 #开国大典 #手绘 #青年创作者成长计划",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648615934382443810"
+    },
+    {
+      "index": 22,
+      "topic_id": "41316ed372c9fb45",
+      "title": "#男生第一个出考场被围观懵了 6月7日，#2026高考 数学考试后，四川乐山第一中学校考点，男生出考场后发现自己是第一个，当场懵了。人懵了，但考试没懵，对数学信心满满：估计选择题全对。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648592308178700654"
+    },
+    {
+      "index": 23,
+      "topic_id": "c5de724ba0273196",
+      "title": "独家视角！感受欢迎现场热烈氛围！当地时间6月8日中午，朝鲜劳动党总书记、国务委员长金正恩为中共中央总书记、国家主席习近平举行盛大欢迎仪式。平壤各界群众和少年儿童以热烈的掌声和欢呼声向中国贵宾表达最诚挚的欢迎。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648918206903504180"
+    },
+    {
+      "index": 24,
+      "topic_id": "6b6141b64f6b2205",
+      "title": "高考生进考场前下巴意外脱臼，此时已来不及就医治疗……执勤民警在家长堆中找到医生，现场复位后考生继续考试👍🏻（总台记者 齐莉莉）",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649010567218269474"
+    },
+    {
+      "index": 25,
+      "topic_id": "fbfaf63bfd30c984",
+      "title": "2026高考首日，语文考试结束，“锦鲤老师”精准押中文言文原题！高考最强助攻，全班偷着乐！（原创）#2026高考 #2026高考加油#爱心送考筑梦远航",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648539486423395761"
+    },
+    {
+      "index": 26,
+      "topic_id": "88774068a2873ab3",
+      "title": "olivia burgess",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=olivia+burgess&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "6d63b4c982d4c52c",
+      "title": "ryan reynolds",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=ryan+reynolds&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "55a5f466013065fe",
+      "title": "belfast",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=belfast&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "2a72ae733478a158",
+      "title": "celtics",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=celtics&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "ca491ad7564e0e39",
+      "title": "nets",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=nets&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "ffe711288539963c",
+      "title": "Me still today",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/pcmasterrace/comments/1u0y7rz/me_still_today/"
+    },
+    {
+      "index": 32,
+      "topic_id": "5964e7f116439fc4",
+      "title": "Millions of bacteria vs. a single drop of whiskey.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1u0xtjr/millions_of_bacteria_vs_a_single_drop_of_whiskey/"
+    },
+    {
+      "index": 33,
+      "topic_id": "b96ad8e3d63a7a03",
+      "title": "myVibeCoderFriend",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/ProgrammerHumor/comments/1u0v6ln/myvibecoderfriend/"
+    },
+    {
+      "index": 34,
+      "topic_id": "201fd126b9136ba1",
+      "title": "Is there any narcotics in the vehicle",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Unexpected/comments/1u0vuds/is_there_any_narcotics_in_the_vehicle/"
+    },
+    {
+      "index": 35,
+      "topic_id": "173e6bab92696017",
+      "title": "Finished a watercolor series called “Invasive Species”",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/painting/comments/1u0spmv/finished_a_watercolor_series_called_invasive/"
+    },
+    {
+      "index": 36,
+      "topic_id": "80aa909e870d3d8a",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "source_platform": "hackernews",
+      "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/"
+    },
+    {
+      "index": 37,
+      "topic_id": "daaa8ab8f023e0f6",
+      "title": "GentleOS – Classic operating system with a lovely retro GUI",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/luke8086/gentleos32"
+    },
+    {
+      "index": 38,
+      "topic_id": "886a30d63f83452b",
+      "title": "Forever Young: how one molecule can lock plants in a youthful state.(2025)",
+      "source_platform": "hackernews",
+      "source_url": "https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age"
+    },
+    {
+      "index": 39,
+      "topic_id": "c8650180c05d77fa",
+      "title": "OpenCV 5 Is Here: The Biggest Leap in Years for Computer Vision",
+      "source_platform": "hackernews",
+      "source_url": "https://opencv.org/opencv-5/"
+    },
+    {
+      "index": 40,
+      "topic_id": "731360b44473f1ae",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "source_platform": "hackernews",
+      "source_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/"
+    }
+  ]
+}

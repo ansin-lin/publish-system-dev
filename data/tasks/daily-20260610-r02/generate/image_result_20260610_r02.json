@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-10T15:54:50+09:00",
+  "task_id": "daily-20260610-r02",
+  "run_id": "r02",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\copy_result_20260610_r02.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\approve\\topic_research_20260610_r02.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "d6662a90308bea7d",
+      "slot_id": "img_1",
+      "prompt": "A diverse group of university students from different majors (e.g., engineering, medicine, computer science) collaboratively working on a project that integrates AI and robotics in a modern, well-lit lab. Focus on innovation and interdisciplinary teamwork. Composition: dynamic, showing students interacting with advanced tech. Lighting: bright, futuristic. Mood: collaborative, optimistic.\n\nScene / composition from research brief: AI赋能下的智慧工厂生产线\n\nVisual style: tech editorial",
+      "research_image_hint": "AI赋能下的智慧工厂生产线",
+      "copy_image_prompt": "A diverse group of university students from different majors (e.g., engineering, medicine, computer science) collaboratively working on a project that integrates AI and robotics in a modern, well-lit lab. Focus on innovation and interdisciplinary teamwork. Composition: dynamic, showing students interacting with advanced tech. Lighting: bright, futuristic. Mood: collaborative, optimistic.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "d6662a90308bea7d",
+      "slot_id": "img_2",
+      "prompt": "An abstract representation of data flowing through various professional fields like electrical grids, smart factories, and medical facilities, with AI symbols subtly integrated. The visual should convey transformation and interconnectedness. Composition: sweeping lines, holographic elements. Lighting: soft, glowing blues and greens. Mood: analytical, transformative.\n\nScene / composition from research brief: 医生利用AR/VR技术进行手术辅助\n\nVisual style: tech editorial",
+      "research_image_hint": "医生利用AR/VR技术进行手术辅助",
+      "copy_image_prompt": "An abstract representation of data flowing through various professional fields like electrical grids, smart factories, and medical facilities, with AI symbols subtly integrated. The visual should convey transformation and interconnectedness. Composition: sweeping lines, holographic elements. Lighting: soft, glowing blues and greens. Mood: analytical, transformative.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "d6662a90308bea7d",
+      "slot_id": "img_3",
+      "prompt": "A split image: one side showing a traditional scene (e.g., an older engineering blueprint, a classic medical textbook) and the other side showing its modern, AI-enhanced equivalent (e.g., a digital design interface, an AI-assisted diagnostic screen). Emphasize the evolution and upgrade. Composition: clear divide, balanced. Lighting: warm for traditional, cool for modern. Mood: progress, innovation.\n\nScene / composition from research brief: 智能城市中运行的自动化交通系统\n\nVisual style: tech editorial",
+      "research_image_hint": "智能城市中运行的自动化交通系统",
+      "copy_image_prompt": "A split image: one side showing a traditional scene (e.g., an older engineering blueprint, a classic medical textbook) and the other side showing its modern, AI-enhanced equivalent (e.g., a digital design interface, an AI-assisted diagnostic screen). Emphasize the evolution and upgrade. Composition: clear divide, balanced. Lighting: warm for traditional, cool for modern. Mood: progress, innovation.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "d6662a90308bea7d",
+      "slot_id": "img_4",
+      "prompt": "A student looking thoughtfully at a holographic projection displaying various career paths and tech trends (AI, IoT, Big Data). The student is in a modern study environment, suggesting informed decision-making for future career planning. Composition: focused, showing interaction with technology. Lighting: soft ambient light, with a luminous projection. Mood: contemplative, aspirational.\n\nScene / composition from research brief: 学生在高校实验室操作机器人臂\n\nVisual style: tech editorial",
+      "research_image_hint": "学生在高校实验室操作机器人臂",
+      "copy_image_prompt": "A student looking thoughtfully at a holographic projection displaying various career paths and tech trends (AI, IoT, Big Data). The student is in a modern study environment, suggesting informed decision-making for future career planning. Composition: focused, showing interaction with technology. Lighting: soft ambient light, with a luminous projection. Mood: contemplative, aspirational.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

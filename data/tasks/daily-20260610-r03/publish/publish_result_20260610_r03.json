@@ -1,0 +1,73 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-10T18:56:04+09:00",
+  "task_id": "daily-20260610-r03",
+  "run_id": "r03",
+  "publish_id": "daily-20260610-r03-r03",
+  "topic_id": "a827f0b6e2788300",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\publish\\publish_job_20260610_r03.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\copy_result_20260610_r03.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r03\\generate\\image_result_20260610_r03.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T09:45:00.098Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VFPQN5EtycGjPW2CHWLQibxUMEKHzoXKiSsKbXLB911aWKzgyQu9iDAu9MGJfkGEl&id=100006666765488&__cft__[0]=AZbksJCy7Q0VkHgngmxkyeOO8nKoYN2IeEmTf8SnnP10Pag1evpJU1Q-nRyiuUbQEH7TSX6Ug8h6PLkhrXLEHbRgSZ-Al7mlfuFTY0emGZu7i89OShQIDvo4ojwUdmW0GJ3Tm-IT-D_V1RL2MVXzM6p8PigJrWQ_8yik2jYiPafLaSQ81QHjD_uvMaJRBsSPwrsMIzQnkMSkNzENTE5mqqJN&__tn__=%2CO%2CP-R"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-10T09:46:01.982Z",
+      "post_url": "https://x.com/ouennenn123287/status/2064645176065474604",
+      "post_id": "2064645176065474604"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T09:47:18.844Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/reel/DZZp7InNGKW/"
+    },
+    {
+      "platform": "youtube",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "published_at": "2026-06-10T09:55:21.767Z"
+    },
+    {
+      "platform": "tiktok",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。"
+    }
+  ],
+  "video_skipped_platforms": [],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 4,
+    "verified_published_count": 4,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 2,
+    "skipped_count": 0,
+    "total": 6
+  }
+}

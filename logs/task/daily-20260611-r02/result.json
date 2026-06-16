@@ -1,0 +1,69 @@
+{
+  "task_id": "daily-20260611-r02",
+  "publish_id": "daily-20260611-r02-r02",
+  "job_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r02\\publish\\publish_job_20260612_r02.json",
+  "started_at": "2026-06-12T00:04:39.171Z",
+  "updated_at": "2026-06-12T00:08:39.930Z",
+  "results": [
+    {
+      "status": "auth_expired",
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "task_id": "daily-20260611-r02",
+      "publish_id": "daily-20260611-r02-r02",
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\xiaohongshu\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\xiaohongshu\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\xiaohongshu\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\xiaohongshu\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "facebook",
+      "profile": "default",
+      "task_id": "daily-20260611-r02",
+      "publish_id": "daily-20260611-r02-r02",
+      "published_at": "2026-06-12T00:06:08.938Z",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0vrobFyCNaVGDvzHUuQDMk1ZKEB16WdQ2wM4Qqa7TjWRE9DXRoRZtoFBGCzt4PVrl&id=100006666765488&__cft__[0]=AZaVgyl9Ymcid940EFIBkGkukH2bOO-PaCQaou45qHuceUWw96G7-KGTyItK2kJdBNL7VfBIAGML7IwYIlAwHLsjvbS-xbXqMjV7Ul90ueAab1RTjlbAaa8Yr9r7woh8b95akgUT7SyVvkJJz4BzdDPpgkn8ZhMfzTuwC4PiNAl7SDczjOEG2FRLlZxQ4gXDn9CmhL0k6L5WwwwXW8-Nr0tK&__tn__=%2CO%2CP-R",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\facebook\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\facebook\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\facebook\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\facebook\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "x",
+      "profile": "default",
+      "task_id": "daily-20260611-r02",
+      "publish_id": "daily-20260611-r02-r02",
+      "published_at": "2026-06-12T00:07:30.148Z",
+      "post_url": "https://x.com/ouennenn123287/status/2065224328950808789",
+      "post_id": "2065224328950808789",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\x\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\x\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\x\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\x\\default\\screenshot.png"
+      }
+    },
+    {
+      "status": "published",
+      "platform": "instagram",
+      "profile": "default",
+      "task_id": "daily-20260611-r02",
+      "publish_id": "daily-20260611-r02-r02",
+      "published_at": "2026-06-12T00:08:39.412Z",
+      "post_url": "https://www.instagram.com/ouennenn_0909/p/DZdxUCYDymC/",
+      "artifacts": {
+        "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\instagram\\default",
+        "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\instagram\\default\\run.log",
+        "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\instagram\\default\\result.json",
+        "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260611-r02\\instagram\\default\\screenshot.png"
+      }
+    }
+  ]
+}

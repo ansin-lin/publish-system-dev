@@ -1,0 +1,41 @@
+[2026-06-15T01:29:31.015Z] 开始发布 mode=post platform=facebook profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r01\publish\publish_job_20260615_r01.json
+[2026-06-15T01:29:45.280Z] open composer trigger=role_button index=0
+[2026-06-15T01:29:45.286Z] human wait wait_composer_dialog 289ms
+[2026-06-15T01:29:45.652Z] human wait wait_composer_dialog 468ms
+[2026-06-15T01:29:46.145Z] open composer dialog picked (has textbox)
+[2026-06-15T01:29:46.145Z] human wait fill_post_text:before 3356ms
+[2026-06-15T01:29:49.524Z] composer paragraph clicked
+[2026-06-15T01:29:49.525Z] human wait composer_paragraph 556ms
+[2026-06-15T01:29:50.129Z] human wait textbox_focus 487ms
+[2026-06-15T01:29:50.703Z] human wait textbox_filled 635ms
+[2026-06-15T01:29:51.346Z] composer text verified via role textbox probe="日本の老舗フライドチキン店で66年間使い"
+[2026-06-15T01:29:51.346Z] human wait fill_post_text:after 3774ms
+[2026-06-15T01:29:55.128Z] human wait upload_media:before 3267ms
+[2026-06-15T01:30:18.420Z] 写真・動画 upload path failed: TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').nth(1).getByRole('button', { name: '写真・動画' }).first() to be visible[22m
+
+[2026-06-15T01:30:38.428Z] add-photo button setInputFiles failed: TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').nth(1).getByRole('button', { name: /照片\/视频|Photo\/video/i }).first() to be visible[22m
+
+[2026-06-15T01:30:38.470Z] clicked add-photo button selector=div[role='button']:has-text('写真')
+[2026-06-15T01:30:38.502Z] uploaded via filechooser count=4
+[2026-06-15T01:30:38.646Z] clicked media wizard next index=0
+[2026-06-15T01:30:38.647Z] human wait after_media_next 862ms
+[2026-06-15T01:30:39.512Z] human wait upload_media:after 3203ms
+[2026-06-15T01:30:42.722Z] human wait set_privacy_public:before 4867ms
+[2026-06-15T01:30:47.721Z] clicked 投稿の共有範囲
+[2026-06-15T01:30:48.664Z] checked 公開 Facebook利用者以外を含むすべての人
+[2026-06-15T01:30:48.727Z] clicked Facebook利用者以外を含むすべての人
+[2026-06-15T01:30:48.799Z] clicked privacy dialog done
+[2026-06-15T01:30:48.800Z] human wait after_privacy_done 588ms
+[2026-06-15T01:30:49.390Z] human wait set_privacy_public:after 4268ms
+[2026-06-15T01:30:58.164Z] dismiss overlay: div[role='button'][aria-label='閉じる']
+[2026-06-15T01:35:02.044Z] human wait click_publish:before 3732ms
+[2026-06-15T01:35:05.816Z] clicked post selector=div[role='button']:has-text('投稿')
+[2026-06-15T01:35:05.816Z] human wait click_publish:after 4420ms
+[2026-06-15T01:35:10.242Z] post-publish settle 10000ms after publish button click
+[2026-06-15T01:35:27.958Z] facebook published post_url=unknown
+[2026-06-15T01:35:28.034Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-15T01:35:28.391Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r01\facebook\default\result.json

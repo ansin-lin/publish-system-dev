@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-12T09:18:56+09:00",
+  "task_id": "daily-20260612-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\collect\\collect_result_20260612_r01.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "0f7e2053333f6432",
+      "title": "新乐道L60价格惊爆全场跳舞",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%96%B0%E4%B9%90%E9%81%93L60%E4%BB%B7%E6%A0%BC%E6%83%8A%E7%88%86%E5%85%A8%E5%9C%BA%E8%B7%B3%E8%88%9E"
+    },
+    {
+      "index": 2,
+      "topic_id": "9a278c9a224c95a0",
+      "title": "南部档案一集有三十分钟的二人转",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%8D%97%E9%83%A8%E6%A1%A3%E6%A1%88%E4%B8%80%E9%9B%86%E6%9C%89%E4%B8%89%E5%8D%81%E5%88%86%E9%92%9F%E7%9A%84%E4%BA%8C%E4%BA%BA%E8%BD%AC"
+    },
+    {
+      "index": 3,
+      "topic_id": "8eb83c96446cd5ab",
+      "title": "李书福卸任极氪董事长职务",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E4%B9%A6%E7%A6%8F%E5%8D%B8%E4%BB%BB%E6%9E%81%E6%B0%AA%E8%91%A3%E4%BA%8B%E9%95%BF%E8%81%8C%E5%8A%A1"
+    },
+    {
+      "index": 4,
+      "topic_id": "3397c4f41b2e0dae",
+      "title": "白鹿好实在的女明星",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E5%A5%BD%E5%AE%9E%E5%9C%A8%E7%9A%84%E5%A5%B3%E6%98%8E%E6%98%9F"
+    },
+    {
+      "index": 5,
+      "topic_id": "1c6a9066156dd37a",
+      "title": "能考85分偏考84分最后老师给了83",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%83%BD%E8%80%8385%E5%88%86%E5%81%8F%E8%80%8384%E5%88%86%E6%9C%80%E5%90%8E%E8%80%81%E5%B8%88%E7%BB%99%E4%BA%8683"
+    },
+    {
+      "index": 6,
+      "topic_id": "4ff14fa2bd7a8bd0",
+      "title": "2026 年美加墨世界杯揭幕战，墨西哥 2-0 南非，全场共出示三张红牌，如何评价本场比赛？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048006928291161252"
+    },
+    {
+      "index": 7,
+      "topic_id": "21ca6a543d5cca97",
+      "title": "大学四年，你有什么最大的改变？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045613131121141496"
+    },
+    {
+      "index": 8,
+      "topic_id": "c9aced5f905e62fa",
+      "title": "中方对菲律宾国防部长特奥多罗及其亲属实施制裁，释放了什么信号？会对其产生哪些影响？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048497172845442555"
+    },
+    {
+      "index": 9,
+      "topic_id": "7e9d22b3643429ce",
+      "title": "如何评价电影《柳如是》？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/31968969"
+    },
+    {
+      "index": 10,
+      "topic_id": "3f2c7c81327b2cf0",
+      "title": "如何评价《一人之下》漫画第 766（818）话？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048555686661977791"
+    },
+    {
+      "index": 11,
+      "topic_id": "d518a253621d1c79",
+      "title": "LABUBU都去世界杯了",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=LABUBU%E9%83%BD%E5%8E%BB%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%86"
+    },
+    {
+      "index": 12,
+      "topic_id": "54253fbe522d5c57",
+      "title": "全世界都看得目瞪口呆",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E7%9C%8B%E5%BE%97%E7%9B%AE%E7%9E%AA%E5%8F%A3%E5%91%86"
+    },
+    {
+      "index": 13,
+      "topic_id": "dd23aeea84fc0ab4",
+      "title": "世界杯中国队首发：LABUBU和马宁 ​",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%AD%E5%9B%BD%E9%98%9F%E9%A6%96%E5%8F%91%EF%BC%9ALABUBU%E5%92%8C%E9%A9%AC%E5%AE%81+%E2%80%8B"
+    },
+    {
+      "index": 14,
+      "topic_id": "7d88f57a9a866fee",
+      "title": "尹锡悦单人牢房视频首次公开",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%B0%B9%E9%94%A1%E6%82%A6%E5%8D%95%E4%BA%BA%E7%89%A2%E6%88%BF%E8%A7%86%E9%A2%91%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80"
+    },
+    {
+      "index": 15,
+      "topic_id": "0361f520c9467a6d",
+      "title": "中国有望成最大旅游经济体",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%9C%9B%E6%88%90%E6%9C%80%E5%A4%A7%E6%97%85%E6%B8%B8%E7%BB%8F%E6%B5%8E%E4%BD%93"
+    },
+    {
+      "index": 16,
+      "topic_id": "061c94d9c53ee86a",
+      "title": "动态视频｜吸进身体的二手烟，到底有多脏？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116730416469936/"
+    },
+    {
+      "index": 17,
+      "topic_id": "d3dd26529931bf33",
+      "title": "当90后家长上门道歉",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116726037550411/"
+    },
+    {
+      "index": 18,
+      "topic_id": "ef479567f46d41e7",
+      "title": "我在mc用千万方块还原了『召唤师峡谷』！！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116720652064255/"
+    },
+    {
+      "index": 19,
+      "topic_id": "03023624463b188f",
+      "title": "有什么比精神小妹爱上纯情男大的故事更狗血",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116730902874019/"
+    },
+    {
+      "index": 20,
+      "topic_id": "21469b4952379d9c",
+      "title": "小时候以为的事",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116726037485222/"
+    },
+    {
+      "index": 21,
+      "topic_id": "85fb71d775f0d2d2",
+      "title": "饭店的暑假工，红酒洒了！ #女生解馋小零食",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649404465284082368"
+    },
+    {
+      "index": 22,
+      "topic_id": "139c6998aa038ce7",
+      "title": "哪有什么岁月静好，只是有人替我们负重前行 #开国大典 #手绘 #青年创作者成长计划",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7648615934382443810"
+    },
+    {
+      "index": 23,
+      "topic_id": "8c89d75b8ce2e729",
+      "title": "#人大附中 考生从容受访，言语之间见眼界，不亏是国内顶尖行列#考生采访 #现场实拍 #高考那些事儿",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649367273597160677"
+    },
+    {
+      "index": 24,
+      "topic_id": "5bcfa36c20c69711",
+      "title": "孩子高考结束，记录这美好时刻#高考结束",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649555579812164041"
+    },
+    {
+      "index": 25,
+      "topic_id": "ffe33dcaaef1dfa6",
+      "title": "当你见到帅哥 @卢卓就是小灿 #西游记 #孙悟空",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649345858223484325"
+    },
+    {
+      "index": 26,
+      "topic_id": "52133c57abf52a15",
+      "title": "golden knights vs hurricanes",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=golden+knights+vs+hurricanes&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "1cc6bf681fedb2c4",
+      "title": "wi vs sl",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=wi+vs+sl&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "080bbd6bbcd41177",
+      "title": "mitch keller",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=mitch+keller&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "59e5f6ffc785ca4a",
+      "title": "jamelle elliott",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=jamelle+elliott&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "f72a31111376c366",
+      "title": "hockey game tonight",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=hockey+game+tonight&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "d93ce7044b54e09b",
+      "title": "Turns out the real flex wasn't building social media. It was leaving before it consumed your entire life.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/SipsTea/comments/1u3a00h/turns_out_the_real_flex_wasnt_building_social/"
+    },
+    {
+      "index": 32,
+      "topic_id": "f93b446695b6155d",
+      "title": "My son’s Stretch Armstrong doll hardened and turned into a hard, glass-like substance",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/mildlyinteresting/comments/1u3c1uf/my_sons_stretch_armstrong_doll_hardened_and/"
+    },
+    {
+      "index": 33,
+      "topic_id": "033661ee50d9e738",
+      "title": "Mother bird stood her ground and risked it all to save her unhatched eggs from a tractor",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nextfuckinglevel/comments/1u3dmle/mother_bird_stood_her_ground_and_risked_it_all_to/"
+    },
+    {
+      "index": 34,
+      "topic_id": "eb24243aae3ed5b5",
+      "title": "Meirl",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/meirl/comments/1u3cd18/meirl/"
+    },
+    {
+      "index": 35,
+      "topic_id": "7c30007dac7c0a8b",
+      "title": "Mexican fans spot a South Korean fan and immediately adopt him",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/MadeMeSmile/comments/1u3db0g/mexican_fans_spot_a_south_korean_fan_and/"
+    },
+    {
+      "index": 36,
+      "topic_id": "98dc231f07857cb0",
+      "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
+      "source_platform": "hackernews",
+      "source_url": "https://fablepool.com"
+    },
+    {
+      "index": 37,
+      "topic_id": "73aefbd0b9f98a5e",
+      "title": "Show HN: Homebrew 6.0.0",
+      "source_platform": "hackernews",
+      "source_url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    },
+    {
+      "index": 38,
+      "topic_id": "af398421a55a34ed",
+      "title": "If you are asking for human attention, demonstrate human effort",
+      "source_platform": "hackernews",
+      "source_url": "https://tombedor.dev/human-attention-and-human-effort/"
+    },
+    {
+      "index": 39,
+      "topic_id": "e5de25c90f90615f",
+      "title": "MiMo Code is now released and open-source",
+      "source_platform": "hackernews",
+      "source_url": "https://mimo.xiaomi.com/mimocode"
+    },
+    {
+      "index": 40,
+      "topic_id": "b3b652cd7354346d",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "source_platform": "hackernews",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail"
+    }
+  ]
+}

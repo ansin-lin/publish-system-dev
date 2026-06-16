@@ -1,0 +1,24 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-12T14:31:02+09:00",
+  "task_id": "daily-20260612-r02",
+  "run_id": "r02",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r02\\tidy\\topic_candidates_20260612_r02.json",
+  "selected_indices": [
+    37
+  ],
+  "selected_topic_ids": [
+    "405438f93f6adeeb"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-12T14:31:02+09:00",
+  "items": [
+    {
+      "index": 37,
+      "topic_id": "405438f93f6adeeb",
+      "title": "Claude Fable is relentlessly proactive",
+      "source_platform": "hackernews",
+      "source_url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/"
+    }
+  ]
+}

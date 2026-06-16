@@ -1,0 +1,405 @@
+{
+  "schema_version": "task-schema.v1",
+  "pipeline_version": "publish-orchestrator.v2.1",
+  "task_id": "daily-20260610-r01",
+  "run_id": "r01",
+  "revision": 35,
+  "status": "publish_partial_failed",
+  "degraded": false,
+  "created_at": "2026-06-10T00:03:33+09:00",
+  "updated_at": "2026-06-10T14:42:23+09:00",
+  "steps": {
+    "collect": {
+      "status": "success",
+      "started_at": "2026-06-10T00:03:33+09:00",
+      "finished_at": "2026-06-10T00:03:39+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\collect\\collect_result_20260610_r01.json"
+    },
+    "tidy": {
+      "status": "success",
+      "started_at": "2026-06-10T00:13:35+09:00",
+      "finished_at": "2026-06-10T00:13:35+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\tidy\\topic_candidates_20260610_r01.json",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\collect\\collect_result_20260610_r01.json",
+      "tidy_version": "tidy_from_collect.v1"
+    },
+    "approval": {
+      "status": "success",
+      "started_at": "2026-06-10T12:23:38+09:00",
+      "finished_at": "2026-06-10T12:23:38+09:00",
+      "raw_input": "title 日本留学生相关，IT培训",
+      "parsed_selection": [
+        "custom_2b87628a54c46a85"
+      ],
+      "operator": "U0B8A197692",
+      "at": "2026-06-10T12:23:38+09:00"
+    },
+    "approve": {
+      "status": "success",
+      "started_at": "2026-06-10T12:23:38+09:00",
+      "finished_at": "2026-06-10T12:23:38+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\tidy\\topic_candidates_20260610_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\selected_topics_20260610_r01.json",
+      "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\selected_topics_20260610_r01.json",
+      "collect_items_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\selected_collect_items_20260610_r01.json",
+      "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json",
+      "topic_research_at": "2026-06-10T12:28:46+09:00"
+    },
+    "research": {
+      "status": "success",
+      "started_at": "2026-06-10T12:23:38+09:00",
+      "finished_at": "2026-06-10T12:28:46+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\selected_topics_20260610_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json",
+      "operator": "U0B8A197692"
+    },
+    "copy": {
+      "status": "success",
+      "started_at": "2026-06-10T12:28:46+09:00",
+      "finished_at": "2026-06-10T12:29:42+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json",
+      "copy_platforms": [
+        "xiaohongshu",
+        "facebook",
+        "x",
+        "instagram"
+      ]
+    },
+    "image": {
+      "status": "success",
+      "started_at": "2026-06-10T12:29:42+09:00",
+      "finished_at": "2026-06-10T12:30:14+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\image_result_20260610_r01.json"
+    },
+    "publish": {
+      "status": "partial_failed",
+      "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+      "dry_run_preview": true,
+      "platforms": [
+        "facebook"
+      ],
+      "started_at": "2026-06-10T14:41:14+09:00",
+      "input_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+      "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json",
+      "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\image_result_20260610_r01.json",
+      "video_skipped_platforms": [],
+      "finished_at": "2026-06-10T14:42:22+09:00",
+      "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_result_20260610_r01.json",
+      "platform_results": [
+        {
+          "platform": "xiaohongshu",
+          "profile": "default",
+          "status": "auth_expired",
+          "verified": false,
+          "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+        },
+        {
+          "platform": "facebook",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T05:42:22.383Z",
+          "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid038CR992QQNbnuYeERyB3x3nSWCtLoaQdWuimuMCtzgomZjVAd28tMniPZAUA6Eq4Wl&id=100006666765488&notif_id=1781030865454971&notif_t=feedback_reaction_generic&ref=notif"
+        },
+        {
+          "platform": "x",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "matched": true,
+          "post_id_checked": true,
+          "verification_note": "x_balanced_post_id_ok",
+          "published_at": "2026-06-10T04:24:51.029Z",
+          "post_url": "https://x.com/ouennenn123287/status/2064564343233282488",
+          "post_id": "2064564343233282488"
+        },
+        {
+          "platform": "instagram",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T04:26:05.469Z",
+          "post_url": "https://www.instagram.com/ouennenn_0909/reel/DZZFKhPtZsz/"
+        },
+        {
+          "platform": "youtube",
+          "profile": "default",
+          "status": "published",
+          "verified": true,
+          "published_at": "2026-06-10T04:34:07.797Z"
+        },
+        {
+          "platform": "tiktok",
+          "profile": "default",
+          "status": "auth_expired",
+          "verified": false,
+          "reason": "TikTok 未检测到已登录：Cookie/Studio 控件在限时内未就绪。请先 npm run login -- --platform tiktok 确认持久会话，或稍后重试（首屏常较慢）。"
+        }
+      ],
+      "summary": {
+        "status": "publish_partial_failed",
+        "published_count": 4,
+        "verified_published_count": 4,
+        "false_success_count": 0,
+        "validated_count": 0,
+        "failed_count": 2,
+        "skipped_count": 0,
+        "total": 6
+      },
+      "partial_retry_counts": {
+        "xiaohongshu": 1,
+        "facebook": 4,
+        "x": 1,
+        "instagram": 1,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "message_ts": "1781070144.072479",
+      "slack_thread_ts": "1781070144.072479",
+      "slack_channel": "C0B887QD6U9",
+      "retry_last_polled_ts": "1781068354.209339"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-06-10T00:03:33+09:00",
+      "event": "task_created",
+      "operator": "orchestrator",
+      "data": {
+        "trigger": "run_once_ensure"
+      }
+    },
+    {
+      "at": "2026-06-10T00:03:39+09:00",
+      "event": "collect_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\collect\\collect_result_20260610_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-10T00:13:35+09:00",
+      "event": "tidy_finished",
+      "operator": "orchestrator",
+      "data": {
+        "output_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\tidy\\topic_candidates_20260610_r01.json",
+        "ok": true
+      }
+    },
+    {
+      "at": "2026-06-10T12:23:38+09:00",
+      "event": "manager_pick_applied",
+      "operator": "U0B8A197692",
+      "data": {
+        "selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\selected_topics_20260610_r01.json",
+        "parsed_selection": [
+          "custom_2b87628a54c46a85"
+        ]
+      }
+    },
+    {
+      "at": "2026-06-10T12:28:46+09:00",
+      "event": "step5_topic_research_generated",
+      "operator": "U0B8A197692",
+      "data": {
+        "research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\approve\\topic_research_20260610_r01.json"
+      }
+    },
+    {
+      "at": "2026-06-10T12:29:42+09:00",
+      "event": "copy_generated",
+      "operator": "orchestrator",
+      "data": {
+        "copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\copy_result_20260610_r01.json"
+      }
+    },
+    {
+      "at": "2026-06-10T12:30:14+09:00",
+      "event": "images_generated",
+      "operator": "orchestrator",
+      "data": {
+        "image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\generate\\image_result_20260610_r01.json"
+      }
+    },
+    {
+      "at": "2026-06-10T13:18:38+09:00",
+      "event": "task_reconciled_from_artifacts",
+      "operator": "cli:repair",
+      "data": {
+        "reason": "task.json out of sync with on-disk Step4-6 artifacts; restored image_generated"
+      }
+    },
+    {
+      "at": "2026-06-10T13:22:39+09:00",
+      "event": "step7_publish_dry_run",
+      "operator": "cli:local",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+        "dry_run": true
+      }
+    },
+    {
+      "at": "2026-06-10T13:23:37+09:00",
+      "event": "step7_publish_started",
+      "operator": "orchestrator",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+        "platforms": [
+          "xiaohongshu",
+          "facebook",
+          "x",
+          "instagram",
+          "youtube",
+          "tiktok"
+        ],
+        "video_skipped_platforms": [],
+        "partial_retry": false
+      }
+    },
+    {
+      "at": "2026-06-10T13:34:51+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "orchestrator",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_result_20260610_r01.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 3,
+        "verified_published_count": 3,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-10T13:34:51+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781066092.365879",
+        "channel": "C0B887QD6U9"
+      }
+    },
+    {
+      "at": "2026-06-10T14:03:38+09:00",
+      "event": "step7_retry_poll_cursor",
+      "operator": "orchestrator",
+      "data": {
+        "retry_last_polled_ts": "1781067646.708599"
+      }
+    },
+    {
+      "at": "2026-06-10T14:13:37+09:00",
+      "event": "step7_publish_partial_retry_started",
+      "operator": "U0B8A197692",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+        "platforms": [
+          "facebook"
+        ],
+        "video_skipped_platforms": [],
+        "partial_retry": true
+      }
+    },
+    {
+      "at": "2026-06-10T14:17:26+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "U0B8A197692",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_result_20260610_r01.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 3,
+        "verified_published_count": 3,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-10T14:17:26+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781068647.111299",
+        "channel": "C0B887QD6U9"
+      }
+    },
+    {
+      "at": "2026-06-10T14:17:26+09:00",
+      "event": "step7_retry_poll_cursor",
+      "operator": "orchestrator",
+      "data": {
+        "retry_last_polled_ts": "1781068354.209339"
+      }
+    },
+    {
+      "at": "2026-06-10T14:24:49+09:00",
+      "event": "step7_publish_partial_retry_started",
+      "operator": "cli:local",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+        "platforms": [
+          "facebook"
+        ],
+        "video_skipped_platforms": [],
+        "partial_retry": true
+      }
+    },
+    {
+      "at": "2026-06-10T14:25:25+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "cli:local",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_result_20260610_r01.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 3,
+        "verified_published_count": 3,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-10T14:25:25+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781069126.134919",
+        "channel": "C0B887QD6U9"
+      }
+    },
+    {
+      "at": "2026-06-10T14:41:14+09:00",
+      "event": "step7_publish_partial_retry_started",
+      "operator": "cli:local",
+      "data": {
+        "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_job_20260610_r01.json",
+        "platforms": [
+          "facebook"
+        ],
+        "video_skipped_platforms": [],
+        "partial_retry": true
+      }
+    },
+    {
+      "at": "2026-06-10T14:42:22+09:00",
+      "event": "step7_publish_partial_or_failed",
+      "operator": "cli:local",
+      "data": {
+        "publish_result_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r01\\publish\\publish_result_20260610_r01.json",
+        "terminal": "publish_partial_failed",
+        "published_count": 4,
+        "verified_published_count": 4,
+        "false_success_count": 0
+      }
+    },
+    {
+      "at": "2026-06-10T14:42:23+09:00",
+      "event": "step7_slack_notify_thread",
+      "operator": "orchestrator",
+      "data": {
+        "message_ts": "1781070144.072479",
+        "channel": "C0B887QD6U9"
+      }
+    }
+  ],
+  "orchestrator_meta": {
+    "last_event_id": "evt_28f500e5-10d3-4f9d-b0e9-ea6edd03fc01"
+  }
+}

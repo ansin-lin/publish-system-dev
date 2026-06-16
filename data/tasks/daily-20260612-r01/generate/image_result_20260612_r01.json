@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-12T11:42:48+09:00",
+  "task_id": "daily-20260612-r01",
+  "run_id": "r01",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\copy_result_20260612_r01.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\approve\\topic_research_20260612_r01.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "e5de25c90f90615f",
+      "slot_id": "img_1",
+      "prompt": "Screenshot of MiMo Code's code editor interface, highlighting code syntax highlighting and intelligent auto-completion features. Tech editorial style, 16:9 aspect ratio.\n\nScene / composition from research brief: MiMo Code 的代码编辑器界面截图，突出代码高亮与智能提示\n\nVisual style: tech editorial",
+      "research_image_hint": "MiMo Code 的代码编辑器界面截图，突出代码高亮与智能提示",
+      "copy_image_prompt": "Screenshot of MiMo Code's code editor interface, highlighting code syntax highlighting and intelligent auto-completion features. Tech editorial style, 16:9 aspect ratio.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "e5de25c90f90615f",
+      "slot_id": "img_2",
+      "prompt": "MiMo Code open-source project logo design with subtle Xiaomi branding elements. Tech editorial style, 16:9 aspect ratio.\n\nScene / composition from research brief: 带有小米品牌元素的 MiMo Code 开源项目Logo设计图\n\nVisual style: tech editorial",
+      "research_image_hint": "带有小米品牌元素的 MiMo Code 开源项目Logo设计图",
+      "copy_image_prompt": "MiMo Code open-source project logo design with subtle Xiaomi branding elements. Tech editorial style, 16:9 aspect ratio.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "e5de25c90f90615f",
+      "slot_id": "img_3",
+      "prompt": "Developers collaborating using MiMo Code across different devices (PC, mobile) in a modern workspace setting. Tech editorial style, 16:9 aspect ratio.\n\nScene / composition from research brief: 开发者在不同设备上（PC、移动端）协作使用 MiMo Code 的场景图\n\nVisual style: tech editorial",
+      "research_image_hint": "开发者在不同设备上（PC、移动端）协作使用 MiMo Code 的场景图",
+      "copy_image_prompt": "Developers collaborating using MiMo Code across different devices (PC, mobile) in a modern workspace setting. Tech editorial style, 16:9 aspect ratio.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "e5de25c90f90615f",
+      "slot_id": "img_4",
+      "prompt": "A simplified architectural diagram or module示意图 of MiMo Code, clearly showcasing its core components and their interactions. Tech editorial style, 16:9 aspect ratio.\n\nScene / composition from research brief: MiMo Code 的架构图或模块示意图，简洁明了展示核心组件\n\nVisual style: tech editorial",
+      "research_image_hint": "MiMo Code 的架构图或模块示意图，简洁明了展示核心组件",
+      "copy_image_prompt": "A simplified architectural diagram or module示意图 of MiMo Code, clearly showcasing its core components and their interactions. Tech editorial style, 16:9 aspect ratio.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260612-r01\\generate\\images\\e5de25c90f90615f\\e5de25c90f90615f_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-11T09:09:16+09:00",
+  "task_id": "daily-20260611-r01",
+  "run_id": "r01",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r01\\collect\\collect_result_20260611_r01.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "e3625956571da1be",
+      "title": "葡萄牙2比1尼日利亚",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%91%A1%E8%90%84%E7%89%992%E6%AF%941%E5%B0%BC%E6%97%A5%E5%88%A9%E4%BA%9A"
+    },
+    {
+      "index": 2,
+      "topic_id": "81f68654d23a2645",
+      "title": "公安部网安局公布6类高发涉考网络风险",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%85%AC%E5%AE%89%E9%83%A8%E7%BD%91%E5%AE%89%E5%B1%80%E5%85%AC%E5%B8%836%E7%B1%BB%E9%AB%98%E5%8F%91%E6%B6%89%E8%80%83%E7%BD%91%E7%BB%9C%E9%A3%8E%E9%99%A9"
+    },
+    {
+      "index": 3,
+      "topic_id": "39d05a43d5e04796",
+      "title": "世界杯开幕喜剧上映 看球喝蒙牛",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%BC%80%E5%B9%95%E5%96%9C%E5%89%A7%E4%B8%8A%E6%98%A0+%E7%9C%8B%E7%90%83%E5%96%9D%E8%92%99%E7%89%9B"
+    },
+    {
+      "index": 4,
+      "topic_id": "9f402bf24655d20b",
+      "title": "旅游热度很低却很夯的城市",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%97%85%E6%B8%B8%E7%83%AD%E5%BA%A6%E5%BE%88%E4%BD%8E%E5%8D%B4%E5%BE%88%E5%A4%AF%E7%9A%84%E5%9F%8E%E5%B8%82"
+    },
+    {
+      "index": 5,
+      "topic_id": "e2aa9da3998787ca",
+      "title": "伊朗宣布对所有船只关闭霍尔木兹",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E5%AE%A3%E5%B8%83%E5%AF%B9%E6%89%80%E6%9C%89%E8%88%B9%E5%8F%AA%E5%85%B3%E9%97%AD%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9"
+    },
+    {
+      "index": 6,
+      "topic_id": "0db1549398a5c00c",
+      "title": "高考外语考试规定 14:45 就算迟到（即开考前 15 分钟），有必要吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047379244393689990"
+    },
+    {
+      "index": 7,
+      "topic_id": "73daaf525d5c5e41",
+      "title": "如果 C 罗率队夺得世界杯冠军，历史地位能否超越梅西?",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2044811042639893464"
+    },
+    {
+      "index": 8,
+      "topic_id": "7c6aeb013c29ca1f",
+      "title": "王传福称五年后比亚迪将在规模上做到真正的全球第一，真的能实现吗？可能存在哪些难点？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047749282292299196"
+    },
+    {
+      "index": 9,
+      "topic_id": "f39cff70ae989f9a",
+      "title": "孩子被班级同学欺负了，对方家长道歉，并通过老师转交一箱牛奶，我要不要扔出去？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047609763823986506"
+    },
+    {
+      "index": 10,
+      "topic_id": "d2cb115e629a4827",
+      "title": "怎么理解《霸王别姬》中「说好了一辈子，差一年，一天，一个时辰，都不算一辈子」的这句话？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/314888028"
+    },
+    {
+      "index": 11,
+      "topic_id": "e4fea98583e9789f",
+      "title": "俄国家杜马谴责美对古巴侵略性政策",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%9B%BD%E5%AE%B6%E6%9D%9C%E9%A9%AC%E8%B0%B4%E8%B4%A3%E7%BE%8E%E5%AF%B9%E5%8F%A4%E5%B7%B4%E4%BE%B5%E7%95%A5%E6%80%A7%E6%94%BF%E7%AD%96"
+    },
+    {
+      "index": 12,
+      "topic_id": "98e2838eeb058d89",
+      "title": "男子杀前妻潜逃17年二审择期宣判",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E6%9D%80%E5%89%8D%E5%A6%BB%E6%BD%9C%E9%80%8317%E5%B9%B4%E4%BA%8C%E5%AE%A1%E6%8B%A9%E6%9C%9F%E5%AE%A3%E5%88%A4"
+    },
+    {
+      "index": 13,
+      "topic_id": "195b479439598732",
+      "title": "老人骑车逆行摔倒反赖他人被判全责",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E9%AA%91%E8%BD%A6%E9%80%86%E8%A1%8C%E6%91%94%E5%80%92%E5%8F%8D%E8%B5%96%E4%BB%96%E4%BA%BA%E8%A2%AB%E5%88%A4%E5%85%A8%E8%B4%A3"
+    },
+    {
+      "index": 14,
+      "topic_id": "4a52de054b30d7e7",
+      "title": "这些世界杯主题曲哪首让你印象最深",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%BB%E9%A2%98%E6%9B%B2%E5%93%AA%E9%A6%96%E8%AE%A9%E4%BD%A0%E5%8D%B0%E8%B1%A1%E6%9C%80%E6%B7%B1"
+    },
+    {
+      "index": 15,
+      "topic_id": "d778cb4b99fe5745",
+      "title": "墨西哥队能否打破“十六郎魔咒”",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E9%98%9F%E8%83%BD%E5%90%A6%E6%89%93%E7%A0%B4%E2%80%9C%E5%8D%81%E5%85%AD%E9%83%8E%E9%AD%94%E5%92%92%E2%80%9D"
+    },
+    {
+      "index": 16,
+      "topic_id": "ad158f2bb83da27d",
+      "title": "“撕裂挡在我前面的一切”【Scar face】【剧情反转の小曲】",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116720182299931/"
+    },
+    {
+      "index": 17,
+      "topic_id": "70614b8cbd18eb7a",
+      "title": "跟资本对赌！开出100万血亏 开出5块全场起立《一掷千金》",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116721272757118/"
+    },
+    {
+      "index": 18,
+      "topic_id": "ccb3c1eed14aa609",
+      "title": "亲眼目睹事故被吓惨！应该怎么自救，才不留下阴影？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116719309818490/"
+    },
+    {
+      "index": 19,
+      "topic_id": "717419b8aebc6006",
+      "title": "兄弟，这搁谁谁不焦虑失眠？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116706911457428/"
+    },
+    {
+      "index": 20,
+      "topic_id": "32d57017579fb8c7",
+      "title": "再也听不到“九磅十五便士”了，高考英语取消了这一例题试音，改为“第一节播两遍”，无数网友感慨：青春落幕！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116717866980675/"
+    },
+    {
+      "index": 21,
+      "topic_id": "32f86f7b9ae24d00",
+      "title": "饭店的暑假工，红酒洒了！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649404465284082368"
+    },
+    {
+      "index": 22,
+      "topic_id": "8c89d75b8ce2e729",
+      "title": "#人大附中 考生从容受访，言语之间见眼界，不亏是国内顶尖行列#考生采访 #现场实拍 #高考那些事儿",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649367273597160677"
+    },
+    {
+      "index": 23,
+      "topic_id": "5bcfa36c20c69711",
+      "title": "孩子高考结束，记录这美好时刻#高考结束",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649555579812164041"
+    },
+    {
+      "index": 24,
+      "topic_id": "b5019d0725430433",
+      "title": "有什么比精神小妹爱上纯情男大更狗血",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649327683272248595"
+    },
+    {
+      "index": 25,
+      "topic_id": "64d21a8095518e80",
+      "title": "又破防了 再缓两天",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649713605461589349"
+    },
+    {
+      "index": 26,
+      "topic_id": "522b12a7f275985a",
+      "title": "jaylen brown",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=jaylen+brown&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "53e0e9b95215904d",
+      "title": "ryan seacrest",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=ryan+seacrest&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "c86a36f3aad2ff79",
+      "title": "chris sale",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=chris+sale&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "322be4e6675a37dd",
+      "title": "james marsden",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=james+marsden&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "d940cad495571ea5",
+      "title": "justin verlander",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=justin+verlander&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "048e7e2b44c90e68",
+      "title": "A young man blushes as Slovenian rock climber and Olympic champion Janja Garnbret stumbles off the wall and straight into his arms.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/MadeMeSmile/comments/1u2ckhc/a_young_man_blushes_as_slovenian_rock_climber_and/"
+    },
+    {
+      "index": 32,
+      "topic_id": "2fc7f58854725089",
+      "title": "Charles Barkley on Knicks fans who attacked Spurs fan- \"You're a scumbag, your mom and dad are scumbags, and your kids are scumbags.\"",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nba/comments/1u2fd3m/charles_barkley_on_knicks_fans_who_attacked_spurs/"
+    },
+    {
+      "index": 33,
+      "topic_id": "6260d2f045ba97f9",
+      "title": "ate a burrito bigger than my forearm at my desk because I'm not taking my break in the break room anymore",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1u2coee/ate_a_burrito_bigger_than_my_forearm_at_my_desk/"
+    },
+    {
+      "index": 34,
+      "topic_id": "9e3e8f6f5eee17f1",
+      "title": "Steve Gunther recently celebrated the 20th birthday of his beloved cat, Dublin. Reaching 20 years of age is a rare milestone for cats and is often compared to a human living beyond 95 years.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/interestingasfuck/comments/1u2bbv6/steve_gunther_recently_celebrated_the_20th/"
+    },
+    {
+      "index": 35,
+      "topic_id": "3b1e797ec2239453",
+      "title": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/technology/comments/1u2b6z8/cheap_iranian_drone_downed_25_million_us_army/"
+    },
+    {
+      "index": 36,
+      "topic_id": "4a643eae57be0280",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "source_platform": "hackernews",
+      "source_url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"
+    },
+    {
+      "index": 37,
+      "topic_id": "a6fff46627240669",
+      "title": "πFS",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/philipl/pifs"
+    },
+    {
+      "index": 38,
+      "topic_id": "03719d28aeae17bc",
+      "title": "A Written Language for the Cherokee So Efficient It Was Thought to Be Magic",
+      "source_platform": "hackernews",
+      "source_url": "https://www.smithsonianmag.com/innovation/man-created-written-language-cherokee-did-efficiently-elegantly-peers-thought-magic-180988850/"
+    },
+    {
+      "index": 39,
+      "topic_id": "a47763d31b018a32",
+      "title": "Raspberry Pi 5 – 16GB RAM",
+      "source_platform": "hackernews",
+      "source_url": "https://www.adafruit.com/product/6125?src=raspberrypi"
+    },
+    {
+      "index": 40,
+      "topic_id": "3797230f84e5221d",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "source_platform": "hackernews",
+      "source_url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models"
+    }
+  ]
+}

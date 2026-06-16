@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-11T17:13:50+09:00",
+  "task_id": "daily-20260611-r03",
+  "run_id": "r03",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260611-r03\\collect\\collect_result_20260611_r03.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "e8fe5c0896158a1e",
+      "title": "家长为防网贷让18岁孩子征信逾期",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%AE%B6%E9%95%BF%E4%B8%BA%E9%98%B2%E7%BD%91%E8%B4%B7%E8%AE%A918%E5%B2%81%E5%AD%A9%E5%AD%90%E5%BE%81%E4%BF%A1%E9%80%BE%E6%9C%9F"
+    },
+    {
+      "index": 2,
+      "topic_id": "36b762c86388b4f0",
+      "title": "和杨幂上淘宝闪购拼团更优惠",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%92%8C%E6%9D%A8%E5%B9%82%E4%B8%8A%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD%E6%8B%BC%E5%9B%A2%E6%9B%B4%E4%BC%98%E6%83%A0"
+    },
+    {
+      "index": 3,
+      "topic_id": "6f315f957bffbc66",
+      "title": "谢娜北京演唱会售罄",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E8%B0%A2%E5%A8%9C%E5%8C%97%E4%BA%AC%E6%BC%94%E5%94%B1%E4%BC%9A%E5%94%AE%E7%BD%84"
+    },
+    {
+      "index": 4,
+      "topic_id": "55ccc3f6e5a697bb",
+      "title": "孙丞潇找不到金莎哭了",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%AD%99%E4%B8%9E%E6%BD%87%E6%89%BE%E4%B8%8D%E5%88%B0%E9%87%91%E8%8E%8E%E5%93%AD%E4%BA%86"
+    },
+    {
+      "index": 5,
+      "topic_id": "27738256019e5ad2",
+      "title": "五粮液喊大咖来预测世界杯冠军",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%BA%94%E7%B2%AE%E6%B6%B2%E5%96%8A%E5%A4%A7%E5%92%96%E6%9D%A5%E9%A2%84%E6%B5%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B"
+    },
+    {
+      "index": 6,
+      "topic_id": "c61072760d0496a4",
+      "title": "钉钉新 CEO 陈宇森称「未来的软件是日抛式的」，如何看待此观点？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048362966869874116"
+    },
+    {
+      "index": 7,
+      "topic_id": "6d32c512f2a29a46",
+      "title": "烧鸭比烧鹅便宜，肉也比烧鹅嫩，广东人为何推崇吃烧鹅？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2044844017020563683"
+    },
+    {
+      "index": 8,
+      "topic_id": "1fdaa82073d0095b",
+      "title": "孩子一年级，上学总是丢东西，可能是什么原因造成的？应该怎么解决呢？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/1906717299290908265"
+    },
+    {
+      "index": 9,
+      "topic_id": "6784e229e6c4188c",
+      "title": "有些家长总说「孩子只要快乐就好」，但当孩子真的只想玩不想学习，为什么立刻不快乐了？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2043767963854099904"
+    },
+    {
+      "index": 10,
+      "topic_id": "19230e93e9c34cd8",
+      "title": "郑州为什么不凿开黄河转型成威尼斯一样的水城干旅游？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2024628819076630208"
+    },
+    {
+      "index": 11,
+      "topic_id": "4f2e522395cbefb2",
+      "title": "中方对河野洋平逝世表示深切哀悼",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%AF%B9%E6%B2%B3%E9%87%8E%E6%B4%8B%E5%B9%B3%E9%80%9D%E4%B8%96%E8%A1%A8%E7%A4%BA%E6%B7%B1%E5%88%87%E5%93%80%E6%82%BC"
+    },
+    {
+      "index": 12,
+      "topic_id": "40a5e06a87b713de",
+      "title": "中方：日本已经摘下面具",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%EF%BC%9A%E6%97%A5%E6%9C%AC%E5%B7%B2%E7%BB%8F%E6%91%98%E4%B8%8B%E9%9D%A2%E5%85%B7"
+    },
+    {
+      "index": 13,
+      "topic_id": "4399346092d8c01a",
+      "title": "男子12万买速腾空调喷白色粉末",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%9012%E4%B8%87%E4%B9%B0%E9%80%9F%E8%85%BE%E7%A9%BA%E8%B0%83%E5%96%B7%E7%99%BD%E8%89%B2%E7%B2%89%E6%9C%AB"
+    },
+    {
+      "index": 14,
+      "topic_id": "4a7a3f9b5a942689",
+      "title": "男子租车跑网约车续航缩水一半",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%A7%9F%E8%BD%A6%E8%B7%91%E7%BD%91%E7%BA%A6%E8%BD%A6%E7%BB%AD%E8%88%AA%E7%BC%A9%E6%B0%B4%E4%B8%80%E5%8D%8A"
+    },
+    {
+      "index": 15,
+      "topic_id": "f882eb2c042ebaf9",
+      "title": "国际足联主席：咱还是聊聊足球吧",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E4%B8%BB%E5%B8%AD%EF%BC%9A%E5%92%B1%E8%BF%98%E6%98%AF%E8%81%8A%E8%81%8A%E8%B6%B3%E7%90%83%E5%90%A7"
+    },
+    {
+      "index": 16,
+      "topic_id": "dea68b73a99c729e",
+      "title": "《光与夜之恋》全新活动PV：万有引力和我爱你",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116722950472928/"
+    },
+    {
+      "index": 17,
+      "topic_id": "279d21b0e2b16a4f",
+      "title": "认为自己旅游运差时可以看看我.",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116722866586138/"
+    },
+    {
+      "index": 18,
+      "topic_id": "f5e946af2ae2762f",
+      "title": "真正的完美犯罪，为邪恶丈夫量身定制！《致命女人》三线重叠，收网",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116723655120969/"
+    },
+    {
+      "index": 19,
+      "topic_id": "f874da8339e4d840",
+      "title": "今年最恶毒烂梗出炉，一个梗骂几亿中国人，我没见过这么恶心的营销手段！",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116724578124362/"
+    },
+    {
+      "index": 20,
+      "topic_id": "2f4bc380d6e85fb3",
+      "title": "我和我的鼠鼠兄弟",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116724913411437/"
+    },
+    {
+      "index": 21,
+      "topic_id": "32f86f7b9ae24d00",
+      "title": "饭店的暑假工，红酒洒了！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649404465284082368"
+    },
+    {
+      "index": 22,
+      "topic_id": "8c89d75b8ce2e729",
+      "title": "#人大附中 考生从容受访，言语之间见眼界，不亏是国内顶尖行列#考生采访 #现场实拍 #高考那些事儿",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649367273597160677"
+    },
+    {
+      "index": 23,
+      "topic_id": "5bcfa36c20c69711",
+      "title": "孩子高考结束，记录这美好时刻#高考结束",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649555579812164041"
+    },
+    {
+      "index": 24,
+      "topic_id": "17ec3e0d1220ce98",
+      "title": "有什么比精神小妹爱上纯情男大更狗血 #中兴流量大师 #中兴随身WiFi #中兴U15S随身WiFi #一键刷新高光时刻",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649327683272248595"
+    },
+    {
+      "index": 25,
+      "topic_id": "64d21a8095518e80",
+      "title": "又破防了 再缓两天",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7649713605461589349"
+    },
+    {
+      "index": 26,
+      "topic_id": "9bb4eb4dfa23c7fb",
+      "title": "latest iphone rumors",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=latest+iphone+rumors&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "6a4426cea0118f66",
+      "title": "best shows on hbo max",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=best+shows+on+hbo+max&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "69d7edd3e3d6a09d",
+      "title": "what is a data breach",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=what+is+a+data+breach&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "a9a9bf65e64825db",
+      "title": "tennis scores today",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=tennis+scores+today&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "29dbeb161133b7d9",
+      "title": "lottery results today",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=lottery+results+today&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "6993d7c4f3167fd1",
+      "title": "[Highlight] OG Anunoby tips the ball in to give the Knicks the lead",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nba/comments/1u2ns60/highlight_og_anunoby_tips_the_ball_in_to_give_the/"
+    },
+    {
+      "index": 32,
+      "topic_id": "1671228949f9209e",
+      "title": "OG Anunoby flies in for the game-winning tip in, completing an NBA Finals 29-pt comeback by the Knicks, who now lead the series 3-1",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/sports/comments/1u2nucs/og_anunoby_flies_in_for_the_gamewinning_tip_in/"
+    },
+    {
+      "index": 33,
+      "topic_id": "4045935243a5725b",
+      "title": "Radiation caught on an old mobile camera",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/BeAmazed/comments/1u2mxrx/radiation_caught_on_an_old_mobile_camera/"
+    },
+    {
+      "index": 34,
+      "topic_id": "6d36c0573e9ad43a",
+      "title": "They finally gave us the POV we wanted since childhood",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/interesting/comments/1u2mki0/they_finally_gave_us_the_pov_we_wanted_since/"
+    },
+    {
+      "index": 35,
+      "topic_id": "fe017caf8f80ec82",
+      "title": "Radiation caught on an old mobile camera",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1u2oqf4/radiation_caught_on_an_old_mobile_camera/"
+    },
+    {
+      "index": 36,
+      "topic_id": "77bf6194a0eade37",
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+      "source_platform": "hackernews",
+      "source_url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/"
+    },
+    {
+      "index": 37,
+      "topic_id": "9583626c462bd423",
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "source_platform": "hackernews",
+      "source_url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"
+    },
+    {
+      "index": 38,
+      "topic_id": "4a643eae57be0280",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "source_platform": "hackernews",
+      "source_url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"
+    },
+    {
+      "index": 39,
+      "topic_id": "aef4fc93ad603f4e",
+      "title": "Macaroni – a single HTML file messenger",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/vanyapr/makaroshki"
+    },
+    {
+      "index": 40,
+      "topic_id": "a6fff46627240669",
+      "title": "πFS",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/philipl/pifs"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "platform": "xiaohongshu",
+  "profile": "default",
+  "task_id": "daily-20260616-r01",
+  "publish_id": "daily-20260616-r01-r01",
+  "error": "Publish success not confirmed",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\xiaohongshu\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\xiaohongshu\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\xiaohongshu\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r01\\xiaohongshu\\default\\screenshot.png"
+  }
+}

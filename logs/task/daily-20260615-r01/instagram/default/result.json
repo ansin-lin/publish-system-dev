@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "platform": "instagram",
+  "profile": "default",
+  "task_id": "daily-20260615-r01",
+  "publish_id": "daily-20260615-r01-r01",
+  "error": "Instagram 发帖后未获取 post_url / 成功信号",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260615-r01\\instagram\\default\\screenshot.png"
+  }
+}

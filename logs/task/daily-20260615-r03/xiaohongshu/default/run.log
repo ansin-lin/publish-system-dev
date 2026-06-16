@@ -1,0 +1,167 @@
+[2026-06-15T09:04:08.641Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json
+[2026-06-15T09:04:12.642Z] goto image publish url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-15T09:04:14.152Z] human wait upload_images:before 3235ms
+[2026-06-15T09:04:17.482Z] uploaded images selector=input[type='file'] count=4
+[2026-06-15T09:04:18.169Z] image editor loaded
+[2026-06-15T09:04:18.170Z] human wait upload_images:after 4443ms
+[2026-06-15T09:04:22.617Z] human wait fill_title:before 3545ms
+[2026-06-15T09:04:26.250Z] filled title selector=input[placeholder*='填写标题']
+[2026-06-15T09:04:26.251Z] human wait fill_title:after 4786ms
+[2026-06-15T09:04:31.047Z] human wait fill_body:before 4894ms
+[2026-06-15T09:05:06.783Z] filled body selector=div[contenteditable='true']
+[2026-06-15T09:05:06.785Z] human wait fill_body:after 3791ms
+[2026-06-15T09:05:10.581Z] human wait fill_tags:before 4897ms
+[2026-06-15T09:05:25.506Z] selected body editor for tags selector=div[contenteditable='true']
+[2026-06-15T09:05:27.373Z] moved tags to final line after blank line
+[2026-06-15T09:05:29.332Z] topic suggestion not confirmed, reverted raw text for tag=#日本留学
+[2026-06-15T09:05:31.127Z] topic suggestion not confirmed, reverted raw text for tag=#IT求职
+[2026-06-15T09:05:32.877Z] topic suggestion not confirmed, reverted raw text for tag=#AI技术
+[2026-06-15T09:05:34.676Z] topic suggestion not confirmed, reverted raw text for tag=#留学生就业
+[2026-06-15T09:05:36.403Z] topic suggestion not confirmed, reverted raw text for tag=#日本科技
+[2026-06-15T09:05:38.286Z] topic suggestion not confirmed, reverted raw text for tag=#职场攻略
+[2026-06-15T09:05:38.297Z] filled tags count=0
+[2026-06-15T09:05:38.298Z] human wait fill_tags:after 3388ms
+[2026-06-15T09:05:41.702Z] human wait click_publish:before 3827ms
+[2026-06-15T09:06:15.577Z] publish error: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('div:has-text(\'发布\')').first()[22m
+[2m    - locator resolved to <div id="app" data-v-app="">…</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <span class="name" data-v-5c44afb7="">#职场防针对攻略</span> from <div id="tippy-12" data-tippy-root="">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <span class="name" data-v-5c44afb7="">#职场防针对攻略</span> from <div id="tippy-12" data-tippy-root="">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    3 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <span class="name" data-v-5c44afb7="">#职场防针对攻略</span> from <div id="tippy-12" data-tippy-root="">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2026-06-15T09:06:15.704Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\xiaohongshu\default\state.json
+[2026-06-15T09:06:16.017Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r03\xiaohongshu\default\result.json
+[2026-06-16T05:05:26.772Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260616_r03.json
+[2026-06-16T05:05:27.483Z] installed attachShadow→open patch (for xhs-publish-btn)
+[2026-06-16T05:05:29.790Z] goto publish menu url=https://creator.xiaohongshu.com/publish/publish?from=menu
+[2026-06-16T05:07:00.036Z] publish menu flow failed: PublishError: No visible selector matched: ["text=上传图片","text=文字配图","text=图片编辑"]; last_error=TimeoutError: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('text=图片编辑').first() to be visible
+; fallback to target=image URL
+[2026-06-16T05:07:00.393Z] goto image publish url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T05:07:01.554Z] human wait upload_images:before 3316ms
+[2026-06-16T05:07:05.026Z] 上传图片 setInputFiles failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+  - waiting for getByRole('button', { name: '上传图片' }).first()
+    - locator resolved to <button type="button" data-v-db5ce706="" data-v-5ea2ea2e="" data-v-7cbccdb2-s="" class="d-button d-button-default d-button-with-content --color-static bold --color-bg-fill --color-text-paragraph custom-button bg-red upload-button">…</button>
+
+[2026-06-16T05:07:05.087Z] uploaded via filechooser count=4
+[2026-06-16T05:07:05.929Z] image editor loaded
+[2026-06-16T05:07:05.930Z] human wait upload_images:after 3186ms
+[2026-06-16T05:07:09.132Z] human wait fill_title:before 4714ms
+[2026-06-16T05:07:13.944Z] filled title role index=0
+[2026-06-16T05:07:13.945Z] human wait fill_title:after 3659ms
+[2026-06-16T05:07:17.612Z] human wait fill_body:before 3713ms
+[2026-06-16T05:07:21.530Z] filled body via role paragraph + textbox.nth(1)
+[2026-06-16T05:07:21.531Z] human wait fill_body:after 4638ms
+[2026-06-16T05:07:26.181Z] human wait fill_tags:before 4723ms
+[2026-06-16T05:07:40.942Z] selected body editor for tags selector=div[contenteditable='true']
+[2026-06-16T05:07:41.352Z] moved tags to final line after blank line
+[2026-06-16T05:07:42.336Z] clicked topic suggestion selector=[data-tippy-root] :text('#日本留学')
+[2026-06-16T05:07:44.031Z] topic suggestion not confirmed, reverted raw text for tag=#IT求职
+[2026-06-16T05:07:44.997Z] clicked topic suggestion selector=[data-tippy-root] :text('#AI技术')
+[2026-06-16T05:07:45.996Z] clicked topic suggestion selector=[data-tippy-root] :text('#留学生就业')
+[2026-06-16T05:07:46.956Z] clicked topic suggestion selector=[data-tippy-root] :text('#日本科技')
+[2026-06-16T05:07:47.902Z] clicked topic suggestion selector=[data-tippy-root] :text('#职场攻略')
+[2026-06-16T05:07:47.906Z] filled tags count=5
+[2026-06-16T05:07:48.537Z] human wait fill_tags:after 3205ms
+[2026-06-16T05:07:51.754Z] human wait click_publish:before 3019ms
+[2026-06-16T05:07:55.637Z] dismiss overlays: clicked title field
+[2026-06-16T05:07:56.111Z] prepare: clicked text=笔记预览
+[2026-06-16T05:07:56.636Z] publish button ready submit-disabled=false
+[2026-06-16T05:07:56.653Z] shadow probe {"hasHost":true,"hasShadowRoot":true,"buttonLabels":["暂存离开","发布"]}
+[2026-06-16T05:07:56.699Z] [click-attempt] method=shadow-locator selector=xhs-publish-btn button.bg-red
+[2026-06-16T05:07:56.707Z] [click-probe] method=shadow-locator count=1 texts=["发布"]
+[2026-06-16T05:07:56.830Z] [click-ok] method=shadow-locator
+[2026-06-16T05:07:57.667Z] [click-effect] left publish page url=https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=
+[2026-06-16T05:07:57.668Z] human wait click_publish:after 3732ms
+[2026-06-16T05:08:01.408Z] post-publish settle 10000ms after publish button click
+[2026-06-16T05:08:11.482Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:13.542Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:15.593Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:17.629Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:19.669Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:21.791Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:23.808Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:25.875Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:27.895Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:29.928Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:31.950Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:33.978Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:36.014Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:38.052Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:40.080Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:42.178Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:44.203Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:46.233Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:48.292Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:50.331Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:52.368Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:54.400Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:56.419Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:08:58.467Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:00.486Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:02.534Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:04.567Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:06.598Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:08.633Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:10.672Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:12.708Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:14.779Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:16.804Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:18.833Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:20.858Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:22.878Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:24.922Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:26.968Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:28.992Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:31.030Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:33.061Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:35.113Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:37.143Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:39.174Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:41.218Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:43.242Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:45.266Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:47.285Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:49.320Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:51.357Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:53.377Z] post-publish current_url=https://creator.xiaohongshu.com/publish/publish?source=&published=true
+[2026-06-16T05:09:54.061Z] publish error: page.waitForTimeout: Target page, context or browser has been closed
+[2026-06-16T05:09:54.108Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r03\xiaohongshu\default\result.json
+[2026-06-16T05:10:39.796Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260616_r03.json
+[2026-06-16T05:10:40.548Z] installed attachShadow→open patch (for xhs-publish-btn)
+[2026-06-16T05:10:43.374Z] goto image publish url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T05:10:44.660Z] human wait upload_images:before 4537ms
+[2026-06-16T05:10:49.231Z] 上传图片 setInputFiles failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+  - waiting for getByRole('button', { name: '上传图片' }).first()
+    - locator resolved to <button type="button" data-v-db5ce706="" data-v-5ea2ea2e="" data-v-7cbccdb2-s="" class="d-button d-button-default d-button-with-content --color-static bold --color-bg-fill --color-text-paragraph custom-button bg-red upload-button">…</button>
+
+[2026-06-16T05:11:03.418Z] 上传图片 button path failed: Error: page.waitForEvent: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+[2026-06-16T05:11:03.424Z] publish error: Could not find upload file input on image publish page
+[2026-06-16T05:11:03.488Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r03\xiaohongshu\default\result.json

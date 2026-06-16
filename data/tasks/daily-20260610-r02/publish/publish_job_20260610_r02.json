@@ -1,0 +1,126 @@
+{
+  "task_id": "daily-20260610-r02",
+  "publish_id": "daily-20260610-r02-r02",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "video"
+    },
+    {
+      "platform": "youtube",
+      "profile": "default",
+      "mode": "video"
+    },
+    {
+      "platform": "tiktok",
+      "profile": "default",
+      "mode": "video"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "2026年高考志愿如何填？电气、能动、机械、医学、计算机，还是火爆的人工智能？我们不再只看专业名称，更要审视其背后的技术栈与未来产业应用。AI、大数据、物联网正重塑传统行业，赋能职业新可能。是时候打破专业壁垒，拥抱交叉学科，规划高增长潜力职业赛道！",
+        "title": "2026高考志愿：AI时代专业选",
+        "tags": [
+          "高考志愿",
+          "2026高考",
+          "AI时代",
+          "专业选择",
+          "职业规划",
+          "科技赋能",
+          "交叉学科",
+          "未来教育"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "2026年の大学受験、電気工学、エネルギー動力、機械工学、医学、コンピュータサイエンス、それとも人気急上昇中のAI？伝統的な専攻もAI、ビッグデータ、IoTといった技術との融合で進化しています。専門分野の枠を超え、テクノロジーの視点から将来性のあるキャリアパスを考えましょう。",
+        "title": "2026年大学受験：AI時代における専攻選択のヒント",
+        "tags": [
+          "大学受験",
+          "専攻選択",
+          "AI時代",
+          "職業展望",
+          "テクノロジー"
+        ]
+      }
+    },
+    "x": {
+      "content": {
+        "body": "Navigating 2026 college admissions? Don't just pick a major. Understand how AI, big data & IoT reshape traditional fields like Electrical, Mechanical, and Medicine. Embrace interdisciplinary studies f",
+        "title": "Future-Proofing Your Career: AI & 2026 College Choices"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "2026年の進路選択。AI、ビッグデータが電気、機械、医学などをどう変える？技術視点で未来のキャリアをデザイン。",
+        "title": "AI時代の専攻選択ガイド",
+        "tags": [
+          "進路選択",
+          "AI",
+          "未来の仕事"
+        ]
+      },
+      "video": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4"
+    },
+    "youtube": {
+      "content": {
+        "body": "The 2026 college admissions landscape is evolving rapidly. Should students choose Electrical, Energy & Power Engineering, Mechanical, Medicine, Computer Science, or the booming field of Artificial Intelligence? This video dives deep into how AI, big data, and IoT are transforming traditional disciplines and creating new opportunities in interdisciplinary fields. We'll explore the importance of focusing on underlying tech stacks and future industry applications rather than just major names. Discover how to future-proof your career and navigate professional upgrades in the age of AI.",
+        "title": "2026 College Major Selection: AI's Impact on Traditional & Emerging Fields",
+        "tags": [
+          "CollegeMajors",
+          "AIImpact",
+          "FutureCareers",
+          "TechEducation",
+          "InterdisciplinaryStudies",
+          "2026Admissions"
+        ]
+      },
+      "video": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4"
+    },
+    "tiktok": {
+      "content": {
+        "body": "2026高考志愿填报：还在纠结电气、机械、医学还是计算机？🤖AI时代，传统专业正被科技重塑！不再是单一学科的较量，而是技术融合的舞台。💡想知道AI、大数据、物联网如何赋能你的未来职业？如何打破专业壁垒，规划高增长潜力职业赛道？关注我们，带你用科技视角看懂高考志愿新趋势，抢占未来高薪风口！#高考志愿 #AI时代 #专业选择 #职业规划 #科技赋能 #未来教育 #计算机专业 #医学AI",
+        "title": "深度解析：2026年高考志愿，如何用科技视角审视传统专业与新兴领域？"
+      },
+      "video": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4"
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\generate\\images\\d6662a90308bea7d\\d6662a90308bea7d_img_4.png"
+  ],
+  "video": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\assets\\video\\Common\\2026-04-14_170808_321157_日本IT项目对AI的接受程度_1.mp4",
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000
+  }
+}

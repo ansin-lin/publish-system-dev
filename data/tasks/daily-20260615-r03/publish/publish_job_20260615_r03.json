@@ -1,0 +1,81 @@
+{
+  "task_id": "daily-20260615-r03",
+  "publish_id": "daily-20260615-r03-r03",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "面对日本IT行业对国际人才的旺盛需求，特别是AI技术在日本的飞速发展，留学生们迎来了前所未有的职业发展机遇。本篇文章将深入分析AI时代下日本IT求职的最新趋势，探讨留学生如何通过掌握核心AI技能、适应日本职场文化，成功在日本IT领域开辟新路径。我们还将分享提升竞争力的实战策略，助你抓住AI浪潮，实现留日IT就业梦想！",
+        "title": "留日IT求职：AI新机遇与挑战",
+        "tags": [
+          "日本留学",
+          "IT求职",
+          "AI技术",
+          "留学生就业",
+          "日本科技",
+          "职场攻略"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "日本のIT業界は、質の高い国際人材を強く求めており、特にAI技術の急速な発展は、留学生にとってこれまでにないキャリアチャンスをもたらしています。本記事では、AI時代における日本のIT就職の最新トレンドを深掘りし、留学生がいかにして主要なAIスキルを習得し、日本の職場文化に適応しながら、IT分野で成功を収めるかを探ります。競争力を高める実践的な戦略を共有し、AIの波に乗り、日本でのIT就職の夢を実現できるようサポートします！",
+        "title": "AI時代における日本留学とIT就職：新たな機会と課題"
+      }
+    },
+    "x": {
+      "content": {
+        "body": "Japan's IT sector is actively seeking global talent, with AI's rapid growth opening new career paths for international students. This article explores the latest trends, discussing how students can ma",
+        "title": "AI & Japan IT Job Market: Opportunities for International Students"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "日本のIT業界は国際的な才能を歓迎しており、AIの進化は留学生に新たな就職機会を提供しています。AIスキルを習得し、日本でのITキャリアを築くための戦略を学びましょう！#日本就職 #AIとキャリア #",
+        "title": "日本IT就職とAI：留学生のチャンス"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_4.png"
+  ],
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000,
+    "require_post_url": false,
+    "after_publish_click_ms": 10000,
+    "validation_mode": "balanced"
+  }
+}

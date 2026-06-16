@@ -1,0 +1,8 @@
+{
+  "storage_dir": "../data/auth",
+  "artifacts_dir": "../logs/task",
+  "chrome_profiles_dir": "../data/temp/chrome-profiles",
+  "image_root_dir": "../data/assets/img",
+  "login_timeout_ms": 1800000
+}
+

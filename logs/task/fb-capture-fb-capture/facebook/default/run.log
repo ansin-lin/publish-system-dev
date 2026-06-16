@@ -1,0 +1,7 @@
+[2026-06-16T04:27:58.350Z] capture:fb-publish step=home log=C:\Users\compu\.openclaw\publish-system\logs\task\fb-capture-fb-capture\facebook\default\run.log
+[2026-06-16T04:27:59.171Z] capture start step=home caption_len=0 images=0 maxImages=4
+[2026-06-16T04:28:03.414Z] step=home：仅打开首页，请手动点开发帖框再录制
+[2026-06-16T04:28:03.415Z] capture_hints url=https://www.facebook.com/
+[2026-06-16T04:28:03.418Z] capture_hints visible_dialogs=0
+[2026-06-16T04:28:03.428Z]   composer_trigger visible text="その気持ち"
+[2026-06-16T04:28:03.430Z] ERROR locator.count: Unexpected token "s" while parsing css selector "div[role='button']:has-text('What's on your mind'), span:has-text('What's on your mind')". Did you mean to CSS.escape it?

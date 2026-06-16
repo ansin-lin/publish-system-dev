@@ -1,0 +1,21 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-16T09:32:50+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\tidy\\topic_candidates_20260616_r01.json",
+  "selected_indices": [],
+  "selected_topic_ids": [
+    "custom_96d40069a4f89204"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-16T09:32:50+09:00",
+  "items": [
+    {
+      "index": 0,
+      "topic_id": "custom_96d40069a4f89204",
+      "title": "「社内でAIチャットボットを試験導入。 問い合わせ対応時間が約60％削減できました。」",
+      "source_platform": "custom"
+    }
+  ]
+}

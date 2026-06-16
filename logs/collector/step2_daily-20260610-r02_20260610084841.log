@@ -1,0 +1,2 @@
+2026-06-10T08:48:41+09:00 INFO step2 start task_id=daily-20260610-r02 run_id=r02 task_json=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260610-r02\task.json
+2026-06-10T08:48:46+09:00 INFO collect_result written: C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260610-r02\collect\collect_result_20260610_r02.json items=40 errors=0

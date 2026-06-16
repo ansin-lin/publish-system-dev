@@ -1,0 +1,24 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-10T15:43:42+09:00",
+  "task_id": "daily-20260610-r02",
+  "run_id": "r02",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\tidy\\topic_candidates_20260610_r02.json",
+  "selected_indices": [
+    7
+  ],
+  "selected_topic_ids": [
+    "d6662a90308bea7d"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-10T15:43:42+09:00",
+  "items": [
+    {
+      "index": 7,
+      "topic_id": "d6662a90308bea7d",
+      "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045653689407477325"
+    }
+  ]
+}

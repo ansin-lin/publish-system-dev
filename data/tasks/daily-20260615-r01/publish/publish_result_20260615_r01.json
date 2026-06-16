@@ -1,0 +1,61 @@
+{
+  "schema_version": "publish_result.v1",
+  "generated_at": "2026-06-15T10:38:24+09:00",
+  "task_id": "daily-20260615-r01",
+  "run_id": "r01",
+  "publish_id": "daily-20260615-r01-r01",
+  "topic_id": "2ce5578234f21660",
+  "job_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\publish\\publish_job_20260615_r01.json",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\copy_result_20260615_r01.json",
+  "source_image_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r01\\generate\\image_result_20260615_r01.json",
+  "platform_results": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "status": "auth_expired",
+      "verified": false,
+      "reason": "小红书登录态失效（发布阶段不做登录，请先执行 npm run login -- --platform xiaohongshu）"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "status": "failed",
+      "verified": false,
+      "error": "Facebook 发帖后未获取 post_url"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "status": "published",
+      "verified": true,
+      "matched": true,
+      "post_id_checked": true,
+      "verification_note": "x_balanced_post_id_ok",
+      "published_at": "2026-06-15T01:36:49.113Z",
+      "post_url": "https://x.com/ouennenn123287/status/2066333957826949235",
+      "post_id": "2066333957826949235"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "status": "failed",
+      "verified": false,
+      "error": "Instagram 发帖后未获取 post_url / 成功信号"
+    }
+  ],
+  "video_skipped_platforms": [
+    "youtube",
+    "tiktok"
+  ],
+  "summary": {
+    "status": "publish_partial_failed",
+    "published_count": 1,
+    "verified_published_count": 1,
+    "false_success_count": 0,
+    "validated_count": 0,
+    "failed_count": 3,
+    "skipped_count": 0,
+    "total": 4,
+    "video_skipped_count": 2
+  }
+}

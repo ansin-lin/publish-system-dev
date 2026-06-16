@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-15T17:12:52+09:00",
+  "task_id": "daily-20260615-r03",
+  "run_id": "r03",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\collect\\collect_result_20260615_r03.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "23afaa3d39ec4e15",
+      "title": "渝见小面老板说无法坦然接受道歉",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%B8%9D%E8%A7%81%E5%B0%8F%E9%9D%A2%E8%80%81%E6%9D%BF%E8%AF%B4%E6%97%A0%E6%B3%95%E5%9D%A6%E7%84%B6%E6%8E%A5%E5%8F%97%E9%81%93%E6%AD%89"
+    },
+    {
+      "index": 2,
+      "topic_id": "e1c744e1977fb07d",
+      "title": "中国影视之夜 迪丽热巴",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%BD%B1%E8%A7%86%E4%B9%8B%E5%A4%9C+%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4"
+    },
+    {
+      "index": 3,
+      "topic_id": "d9e1eca1ed19569b",
+      "title": "上飞猪订新加坡酒店至高减250元",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E9%A3%9E%E7%8C%AA%E8%AE%A2%E6%96%B0%E5%8A%A0%E5%9D%A1%E9%85%92%E5%BA%97%E8%87%B3%E9%AB%98%E5%87%8F250%E5%85%83"
+    },
+    {
+      "index": 4,
+      "topic_id": "73d33e51761faf0e",
+      "title": "千万不要坐公园的碗状转椅",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E5%9D%90%E5%85%AC%E5%9B%AD%E7%9A%84%E7%A2%97%E7%8A%B6%E8%BD%AC%E6%A4%85"
+    },
+    {
+      "index": 5,
+      "topic_id": "788d8d3f7ae038e1",
+      "title": "iG人员变动",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=iG%E4%BA%BA%E5%91%98%E5%8F%98%E5%8A%A8"
+    },
+    {
+      "index": 6,
+      "topic_id": "17520f2121c9928c",
+      "title": "王濛说自己经验和天赋现在的运动员接收不进去，怎么理解？顶级运动员的方法论是不可复制的吗？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2048731297963405394"
+    },
+    {
+      "index": 7,
+      "topic_id": "008cc9e95e8f0556",
+      "title": "为什么很多文物「破破烂烂」却价值连城，它到底贵在哪里？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2042331384342116123"
+    },
+    {
+      "index": 8,
+      "topic_id": "be64731d9c659a51",
+      "title": "蔚来李斌称做好今年全行业跌 15%~20% 的准备，多位车企高管预警非常时期至少持续五年，背后根源是什么？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049485598407373278"
+    },
+    {
+      "index": 9,
+      "topic_id": "9e98008156ba5590",
+      "title": "市场监管总局约谈美宜佳总部，从假烟到过期食品，美宜佳的问题根源在哪？对整个连锁便利店行业有何警示？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2047349579536917272"
+    },
+    {
+      "index": 10,
+      "topic_id": "72ccf9ca9216f4d2",
+      "title": "《斗破苍穹》为什么萧炎最后不亲自去见云韵一面，而是让人带话？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/585702573"
+    },
+    {
+      "index": 11,
+      "topic_id": "6856ea6b95b1a5ac",
+      "title": "姆巴佩：没想过要当法国总统",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%A7%86%E5%B7%B4%E4%BD%A9%EF%BC%9A%E6%B2%A1%E6%83%B3%E8%BF%87%E8%A6%81%E5%BD%93%E6%B3%95%E5%9B%BD%E6%80%BB%E7%BB%9F"
+    },
+    {
+      "index": 12,
+      "topic_id": "ae3c89402a936ea1",
+      "title": "公招命题人泄题 称每人10余万元包过",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%85%AC%E6%8B%9B%E5%91%BD%E9%A2%98%E4%BA%BA%E6%B3%84%E9%A2%98+%E7%A7%B0%E6%AF%8F%E4%BA%BA10%E4%BD%99%E4%B8%87%E5%85%83%E5%8C%85%E8%BF%87"
+    },
+    {
+      "index": 13,
+      "topic_id": "ec1f736d2f5e0170",
+      "title": "中方回应“美伊达成协议”",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%8D%8F%E8%AE%AE%E2%80%9D"
+    },
+    {
+      "index": 14,
+      "topic_id": "b5503652e2edd351",
+      "title": "“包公”也去看世界杯了",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8C%85%E5%85%AC%E2%80%9D%E4%B9%9F%E5%8E%BB%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%86"
+    },
+    {
+      "index": 15,
+      "topic_id": "d262c96f01adb28a",
+      "title": "70岁大妈查出肺癌结果是真菌感染",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=70%E5%B2%81%E5%A4%A7%E5%A6%88%E6%9F%A5%E5%87%BA%E8%82%BA%E7%99%8C%E7%BB%93%E6%9E%9C%E6%98%AF%E7%9C%9F%E8%8F%8C%E6%84%9F%E6%9F%93"
+    },
+    {
+      "index": 16,
+      "topic_id": "06bcba7427b188ef",
+      "title": "把女朋友的人生瞬间做成盲盒送给她",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116735952819869/"
+    },
+    {
+      "index": 17,
+      "topic_id": "144fd4991ce3c726",
+      "title": "《原神》动画短片——「最后的遗产」",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116749374593001/"
+    },
+    {
+      "index": 18,
+      "topic_id": "0587f57a3980e657",
+      "title": "中国的危与机？中美俄欧中东，AI美债美元，混乱世界中|正在发生 ep1 翟东升",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116747982080905/"
+    },
+    {
+      "index": 19,
+      "topic_id": "68347bd1ea370421",
+      "title": "峰峦叠嶂间，此城何处寻？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116751740179733/"
+    },
+    {
+      "index": 20,
+      "topic_id": "d9828a82e7388201",
+      "title": "我的手机好像坏了，没有一条消息。",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116736640685474/"
+    },
+    {
+      "index": 21,
+      "topic_id": "9876ebbb93af1a56",
+      "title": "妈妈：“嘻嘻 你最好期末也这么考～”",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7650851590979464633"
+    },
+    {
+      "index": 22,
+      "topic_id": "c2c0e94e2de4315a",
+      "title": "我滴马……鱼缸爆了 ！ 这缸鱼养了能不能挡50年的灾…几年的鱼一下全军覆没….养鱼佬的心在滴血..#养鱼日记 #养鱼 #龙鱼",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651139251274461050"
+    },
+    {
+      "index": 23,
+      "topic_id": "b6dc5a14c454a6b7",
+      "title": "【#邓超观战NBA总决赛 】星光与篮球交汇✨欢迎演员邓超@老邓（SuperDeng）  来到现场观战NBA总决赛G5！从大银幕到NBA总决赛舞台，一起见证尼克斯与马刺的巅峰对决！#尼克斯vs马刺 #NBA总决赛",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651074950735891775"
+    },
+    {
+      "index": 24,
+      "topic_id": "e71e25a931331ab5",
+      "title": "#美国再公布70多份UFO文件  包括此前被列为机密的视频、图片、录音以及文字材料。",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651036431376207113"
+    },
+    {
+      "index": 25,
+      "topic_id": "b67bfc982b9dd0a5",
+      "title": "21岁女子在巴西蹦极未系安全绳，被工作人员从40米高的桥上抛下，坠地身亡",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651112114131684654"
+    },
+    {
+      "index": 26,
+      "topic_id": "3ccffb3a090e05d1",
+      "title": "netflix top movies right now",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=netflix+top+movies+right+now&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "78af59dd20095402",
+      "title": "austin weather",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=austin+weather&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "64a262675ea39b8d",
+      "title": "sundar pichai",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=sundar+pichai&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "eb76d72fb77c25f0",
+      "title": "milly alcock",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=milly+alcock&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "4984111f71e931af",
+      "title": "kai trump",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=kai+trump&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "4a1cd33939e7c1ff",
+      "title": "Japanese fans stay to help clean the stadium after their World cup game",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nextfuckinglevel/comments/1u632vl/japanese_fans_stay_to_help_clean_the_stadium/"
+    },
+    {
+      "index": 32,
+      "topic_id": "ba7f6bab055621e9",
+      "title": "DONALD TRUMP HAS FALLEN ASLEEP AT HIS 80TH BIRTHDAY UFC FREEDOM 250 EVENT.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/PublicFreakout/comments/1u64vof/donald_trump_has_fallen_asleep_at_his_80th/"
+    },
+    {
+      "index": 33,
+      "topic_id": "7d5f49af703dfcc4",
+      "title": "Ignoring well established science to pander to the vocal minority",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/Whatcouldgowrong/comments/1u63vey/ignoring_well_established_science_to_pander_to/"
+    },
+    {
+      "index": 34,
+      "topic_id": "0cba415a22ea907f",
+      "title": "TIL that alcohol use in America likely peaked during the 1830s. The average American drank 7 gallons of pure ethanol a year. Midwestern corn farmers converted their grain into whisky to prevent spoilage. A gallon cost only 25 cents. Americans averaged 4 shots of whisky a day, at under a penny cost.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1u62rb2/til_that_alcohol_use_in_america_likely_peaked/"
+    },
+    {
+      "index": 35,
+      "topic_id": "fe46b575b8667072",
+      "title": "Stanford grads walk out as Google CEO Sundar Pichai takes the stage as commencement speaker.",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/SipsTea/comments/1u66rwt/stanford_grads_walk_out_as_google_ceo_sundar/"
+    },
+    {
+      "index": 36,
+      "topic_id": "2a28f257e368f97f",
+      "title": "Your ePub Is fine",
+      "source_platform": "hackernews",
+      "source_url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
+    },
+    {
+      "index": 37,
+      "topic_id": "8e686f527cd3abec",
+      "title": "Even more batteries included with Emacs",
+      "source_platform": "hackernews",
+      "source_url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/"
+    },
+    {
+      "index": 38,
+      "topic_id": "5103504dd26d42b4",
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "source_platform": "hackernews",
+      "source_url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/"
+    },
+    {
+      "index": 39,
+      "topic_id": "b93fd656840d3720",
+      "title": "Apple Foundation Models",
+      "source_platform": "hackernews",
+      "source_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models"
+    },
+    {
+      "index": 40,
+      "topic_id": "08a600546494281c",
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "source_platform": "hackernews",
+      "source_url": "https://github.com/tamnd/kage"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-15T18:03:35+09:00",
+  "task_id": "daily-20260615-r03",
+  "run_id": "r03",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\copy_result_20260615_r03.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\approve\\topic_research_20260615_r03.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "custom_1c37da1206196461",
+      "slot_id": "img_1",
+      "prompt": "Modern, sleek open-plan office in a Japanese tech company, featuring diverse employees collaborating around advanced AI workstations with holographic interfaces, bright, natural lighting.\n\nScene / composition from research brief: 日本高科技公司办公环境与AI工作站\n\nVisual style: tech editorial",
+      "research_image_hint": "日本高科技公司办公环境与AI工作站",
+      "copy_image_prompt": "Modern, sleek open-plan office in a Japanese tech company, featuring diverse employees collaborating around advanced AI workstations with holographic interfaces, bright, natural lighting.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_1c37da1206196461",
+      "slot_id": "img_2",
+      "prompt": "International students attending a job fair in Japan, interacting with recruiters at a tech company booth. Focus on hopeful expressions and a professional, bustling atmosphere. Shallow depth of field.\n\nScene / composition from research brief: 留学生在日本招聘会或面试场景\n\nVisual style: tech editorial",
+      "research_image_hint": "留学生在日本招聘会或面试场景",
+      "copy_image_prompt": "International students attending a job fair in Japan, interacting with recruiters at a tech company booth. Focus on hopeful expressions and a professional, bustling atmosphere. Shallow depth of field.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_1c37da1206196461",
+      "slot_id": "img_3",
+      "prompt": "Futuristic AI robot or intelligent system in a clean, high-tech Japanese research lab, with engineers observing its operations. Emphasize precision and innovation.\n\nScene / composition from research brief: 日本研发的AI机器人或智能系统\n\nVisual style: tech editorial",
+      "research_image_hint": "日本研发的AI机器人或智能系统",
+      "copy_image_prompt": "Futuristic AI robot or intelligent system in a clean, high-tech Japanese research lab, with engineers observing its operations. Emphasize precision and innovation.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "custom_1c37da1206196461",
+      "slot_id": "img_4",
+      "prompt": "Tokyo street scene with subtle futuristic tech elements, like digital billboards displaying data or AI interfaces. A diverse group of international students is seen walking, blending modern life with technology.\n\nScene / composition from research brief: 东京街头科技元素与留学生日常\n\nVisual style: tech editorial",
+      "research_image_hint": "东京街头科技元素与留学生日常",
+      "copy_image_prompt": "Tokyo street scene with subtle futuristic tech elements, like digital billboards displaying data or AI interfaces. A diverse group of international students is seen walking, blending modern life with technology.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260615-r03\\generate\\images\\custom_1c37da1206196461\\custom_1c37da1206196461_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

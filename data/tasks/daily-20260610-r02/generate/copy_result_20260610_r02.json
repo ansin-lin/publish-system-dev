@@ -1,0 +1,111 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-10T15:50:07+09:00",
+  "task_id": "daily-20260610-r02",
+  "run_id": "r02",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260610-r02\\approve\\topic_research_20260610_r02.json",
+  "items": [
+    {
+      "topic_id": "d6662a90308bea7d",
+      "title": "2026 年高考志愿填报，孩子应该选择电气、能动、机械、医学、计算机、还是火爆的人工智能？",
+      "source_platform": "zhihu",
+      "writing_angle": "深度解析：2026年高考志愿，如何用科技视角审视传统专业与新兴领域？",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "2026高考志愿：AI时代专业选",
+          "body": "2026年高考志愿如何填？电气、能动、机械、医学、计算机，还是火爆的人工智能？我们不再只看专业名称，更要审视其背后的技术栈与未来产业应用。AI、大数据、物联网正重塑传统行业，赋能职业新可能。是时候打破专业壁垒，拥抱交叉学科，规划高增长潜力职业赛道！",
+          "tags": [
+            "高考志愿",
+            "2026高考",
+            "AI时代",
+            "专业选择",
+            "职业规划",
+            "科技赋能",
+            "交叉学科",
+            "未来教育"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "2026年大学受験：AI時代における専攻選択のヒント",
+          "body": "2026年の大学受験、電気工学、エネルギー動力、機械工学、医学、コンピュータサイエンス、それとも人気急上昇中のAI？伝統的な専攻もAI、ビッグデータ、IoTといった技術との融合で進化しています。専門分野の枠を超え、テクノロジーの視点から将来性のあるキャリアパスを考えましょう。",
+          "tags": [
+            "大学受験",
+            "専攻選択",
+            "AI時代",
+            "職業展望",
+            "テクノロジー"
+          ]
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "Future-Proofing Your Career: AI & 2026 College Choices",
+          "body": "Navigating 2026 college admissions? Don't just pick a major. Understand how AI, big data & IoT reshape traditional fields like Electrical, Mechanical, and Medicine. Embrace interdisciplinary studies f",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "AI時代の専攻選択ガイド",
+          "body": "2026年の進路選択。AI、ビッグデータが電気、機械、医学などをどう変える？技術視点で未来のキャリアをデザイン。",
+          "tags": [
+            "進路選択",
+            "AI",
+            "未来の仕事"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "locale": "en-US",
+          "title": "2026 College Major Selection: AI's Impact on Traditional & Emerging Fields",
+          "body": "The 2026 college admissions landscape is evolving rapidly. Should students choose Electrical, Energy & Power Engineering, Mechanical, Medicine, Computer Science, or the booming field of Artificial Intelligence? This video dives deep into how AI, big data, and IoT are transforming traditional disciplines and creating new opportunities in interdisciplinary fields. We'll explore the importance of focusing on underlying tech stacks and future industry applications rather than just major names. Discover how to future-proof your career and navigate professional upgrades in the age of AI.",
+          "tags": [
+            "CollegeMajors",
+            "AIImpact",
+            "FutureCareers",
+            "TechEducation",
+            "InterdisciplinaryStudies",
+            "2026Admissions"
+          ]
+        },
+        {
+          "platform": "tiktok",
+          "locale": "zh-CN",
+          "title": "深度解析：2026年高考志愿，如何用科技视角审视传统专业与新兴领域？",
+          "body": "2026高考志愿填报：还在纠结电气、机械、医学还是计算机？🤖AI时代，传统专业正被科技重塑！不再是单一学科的较量，而是技术融合的舞台。💡想知道AI、大数据、物联网如何赋能你的未来职业？如何打破专业壁垒，规划高增长潜力职业赛道？关注我们，带你用科技视角看懂高考志愿新趋势，抢占未来高薪风口！#高考志愿 #AI时代 #专业选择 #职业规划 #科技赋能 #未来教育 #计算机专业 #医学AI",
+          "tags": []
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "A diverse group of university students from different majors (e.g., engineering, medicine, computer science) collaboratively working on a project that integrates AI and robotics in a modern, well-lit lab. Focus on innovation and interdisciplinary teamwork. Composition: dynamic, showing students interacting with advanced tech. Lighting: bright, futuristic. Mood: collaborative, optimistic.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "An abstract representation of data flowing through various professional fields like electrical grids, smart factories, and medical facilities, with AI symbols subtly integrated. The visual should convey transformation and interconnectedness. Composition: sweeping lines, holographic elements. Lighting: soft, glowing blues and greens. Mood: analytical, transformative.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "A split image: one side showing a traditional scene (e.g., an older engineering blueprint, a classic medical textbook) and the other side showing its modern, AI-enhanced equivalent (e.g., a digital design interface, an AI-assisted diagnostic screen). Emphasize the evolution and upgrade. Composition: clear divide, balanced. Lighting: warm for traditional, cool for modern. Mood: progress, innovation.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "A student looking thoughtfully at a holographic projection displaying various career paths and tech trends (AI, IoT, Big Data). The student is in a modern study environment, suggesting informed decision-making for future career planning. Composition: focused, showing interaction with technology. Lighting: soft ambient light, with a luminous projection. Mood: contemplative, aspirational.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "topic_research.v1",
+  "generated_at": "2026-06-16T09:33:00+09:00",
+  "task_id": "daily-20260616-r01",
+  "run_id": "r01",
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-16T09:33:00+09:00",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\tidy\\topic_candidates_20260616_r01.json",
+  "source_selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r01\\approve\\selected_topics_20260616_r01.json",
+  "selected_indices": [
+    0
+  ],
+  "items": [
+    {
+      "index": 0,
+      "topic_id": "custom_96d40069a4f89204",
+      "title": "「社内でAIチャットボットを試験導入。 問い合わせ対応時間が約60％削減できました。」",
+      "source_platform": "custom",
+      "research": {
+        "keywords": [
+          "AIチャットボット 社内導入",
+          "問い合わせ対応 効率化",
+          "業務改善 AI",
+          "社内ヘルプデスク 自動化",
+          "生産性向上 テクノロジー"
+        ],
+        "articles": [
+          "AIチャットボット導入事例",
+          "生成AI オフィス活用",
+          "従業員満足度 向上 AI",
+          "デジタル変革 (DX) 企業事例"
+        ],
+        "images": [
+          "オフィスでチャットボットを使うビジネスパーソン",
+          "AIアシスタントのアイコンとグラフ",
+          "効率化されたワークフローの図",
+          "AIと人間の協業イメージ"
+        ],
+        "videos": [
+          "AIチャットボットのデモンストレーション",
+          "社内AI導入のメリット解説",
+          "企業におけるAI活用事例",
+          "業務効率化ソリューション紹介"
+        ],
+        "core_points": [
+          "AIチャットボットによる問い合わせ対応時間の劇的な削減",
+          "従業員の生産性向上と業務負荷軽減",
+          "社内ナレッジの活用と均質化",
+          "DX推進の一環としてのAI導入"
+        ],
+        "writing_angles": [
+          "導入効果を具体的な数字で示すケーススタディ",
+          "社内AI導入における課題と解決策",
+          "AIチャットボットがもたらす企業文化の変化",
+          "AIを活用した新しい働き方提案"
+        ]
+      }
+    }
+  ]
+}

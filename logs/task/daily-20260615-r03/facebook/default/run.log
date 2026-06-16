@@ -1,0 +1,65 @@
+[2026-06-15T09:06:16.019Z] 开始发布 mode=post platform=facebook profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260615_r03.json
+[2026-06-15T09:06:32.396Z] open composer trigger=role_button index=0
+[2026-06-15T09:06:32.404Z] human wait wait_composer_dialog 411ms
+[2026-06-15T09:06:32.920Z] human wait wait_composer_dialog 233ms
+[2026-06-15T09:06:33.193Z] open composer dialog picked (has textbox)
+[2026-06-15T09:06:33.194Z] human wait fill_post_text:before 4050ms
+[2026-06-15T09:06:37.324Z] composer paragraph clicked
+[2026-06-15T09:06:37.326Z] human wait composer_paragraph 611ms
+[2026-06-15T09:06:38.096Z] human wait textbox_focus 285ms
+[2026-06-15T09:06:38.557Z] human wait textbox_filled 408ms
+[2026-06-15T09:06:38.995Z] composer text verified via role textbox probe="日本のIT業界は、質の高い国際人材を強く"
+[2026-06-15T09:06:38.997Z] human wait fill_post_text:after 3372ms
+[2026-06-15T09:06:42.384Z] human wait upload_media:before 3675ms
+[2026-06-15T09:07:06.075Z] 写真・動画 upload path failed: TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').nth(1).getByRole('button', { name: '写真・動画' }).first() to be visible[22m
+
+[2026-06-15T09:07:26.081Z] add-photo button setInputFiles failed: TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[role=\'dialog\']').nth(1).getByRole('button', { name: /照片\/视频|Photo\/video/i }).first() to be visible[22m
+
+[2026-06-15T09:07:26.211Z] clicked add-photo button selector=div[role='button']:has-text('写真')
+[2026-06-15T09:07:26.317Z] uploaded via filechooser count=4
+[2026-06-15T09:07:26.470Z] clicked media wizard next index=0
+[2026-06-15T09:07:26.471Z] human wait after_media_next 851ms
+[2026-06-15T09:07:27.323Z] human wait upload_media:after 3425ms
+[2026-06-15T09:07:30.757Z] human wait set_privacy_public:before 3166ms
+[2026-06-15T09:07:34.055Z] clicked 投稿の共有範囲
+[2026-06-15T09:07:35.087Z] checked 公開 Facebook利用者以外を含むすべての人
+[2026-06-15T09:07:35.198Z] clicked Facebook利用者以外を含むすべての人
+[2026-06-15T09:07:35.298Z] clicked privacy dialog done
+[2026-06-15T09:07:35.298Z] human wait after_privacy_done 559ms
+[2026-06-15T09:07:35.866Z] human wait set_privacy_public:after 3196ms
+[2026-06-15T09:07:43.204Z] dismiss overlay: div[role='button'][aria-label='閉じる']
+[2026-06-15T09:11:46.626Z] ERROR 找不到可点击的 Facebook 发帖/发布按钮（可能文案未写入或图片未加载完成）
+[2026-06-15T09:11:47.795Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-15T09:11:48.400Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r03\facebook\default\result.json
+[2026-06-16T04:51:05.444Z] 开始发布 mode=post platform=facebook profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260615-r03\publish\publish_job_20260616_r03.json
+[2026-06-16T04:51:06.231Z] [home] facebook publish entry=home_feed displayName="王 艶艶"
+[2026-06-16T04:51:12.472Z] [home] clicked composer trigger index=0
+[2026-06-16T04:51:12.478Z] human wait wait_composer_textbox 261ms
+[2026-06-16T04:51:12.756Z] human wait wait_composer_textbox 375ms
+[2026-06-16T04:51:13.149Z] [home] composer textbox index=0
+[2026-06-16T04:51:13.229Z] [home] clicked paragraph
+[2026-06-16T04:51:13.382Z] [home] filled textbox len=213
+[2026-06-16T04:51:13.382Z] human wait after_fill 682ms
+[2026-06-16T04:51:14.104Z] [home] setInputFiles on button failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+  - waiting for getByRole('button', { name: '写真または動画を追加 またはドラッグ＆ドロップ' }).first()
+    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>
+
+[2026-06-16T04:51:14.190Z] [home] uploaded via filechooser count=4
+[2026-06-16T04:51:14.191Z] human wait after_upload 3595ms
+[2026-06-16T04:51:17.935Z] [home] clicked 投稿の共有範囲
+[2026-06-16T04:51:18.973Z] [home] clicked 公開
+[2026-06-16T04:51:19.046Z] [home] clicked privacy done
+[2026-06-16T04:51:19.046Z] human wait after_privacy 616ms
+[2026-06-16T04:51:19.711Z] post button enabled
+[2026-06-16T04:51:19.759Z] human wait click_publish:before 3455ms
+[2026-06-16T04:51:23.301Z] clicked post role index=0
+[2026-06-16T04:51:23.301Z] human wait click_publish:after 3601ms
+[2026-06-16T04:51:26.906Z] post-publish settle 10000ms after publish button click
+[2026-06-16T04:51:43.898Z] facebook published post_url=https://www.facebook.com/permalink.php?story_fbid=pfbid0jqSaU1YoN7EhBdA6ea6Bi6NsT17WnhSvmTvezNqow7wXvkvvaidxcYxCxSBECmhYl&id=100006666765488&__cft__[0]=AZaEjN45YUxZUB9s0PSFluNow5TliwgFtUVPFr7gEtS3MXnMwOWjbpGIO-VrK0YloUnZ7Rn4GLw_Daqe6c6ym2v7vBakWBTCJiovGsOpvbTcaR61h5Ox5eVHxkZw03GLobZ8uRMjSBNwnVQniIaoB00iuMhwmxM8KCQNE3BN8LuQjoBfoOYKyPj4zk4cs7Wz0SHanQ7KHiVfP-1yS8P9gch0&__tn__=%2CO%2CP-R
+[2026-06-16T04:51:43.983Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-16T04:51:44.339Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260615-r03\facebook\default\result.json
