@@ -1,0 +1,24 @@
+[2026-06-16T07:25:24.797Z] 开始发布 mode=post platform=x profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260616-r02\publish\publish_job_20260616_r02.json
+[2026-06-16T07:25:29.298Z] human wait scroll:down 1402ms
+[2026-06-16T07:25:30.705Z] human wait scroll:up 933ms
+[2026-06-16T07:25:31.738Z] human wait open_composer:before 4915ms
+[2026-06-16T07:25:36.953Z] clicked SideNav_NewTweet_Button
+[2026-06-16T07:25:36.954Z] human wait open_composer:after 4946ms
+[2026-06-16T07:25:41.913Z] human wait fill_post_text:before 3168ms
+[2026-06-16T07:25:45.175Z] filled Post text len=200
+[2026-06-16T07:25:45.176Z] human wait fill_post_text:after 3659ms
+[2026-06-16T07:25:48.849Z] human wait upload_media:before 3490ms
+[2026-06-16T07:25:52.455Z] setInputFiles count=4
+[2026-06-16T07:25:52.459Z] human wait upload_media:after 4639ms
+[2026-06-16T07:25:57.120Z] human wait upload_settle 4744ms
+[2026-06-16T07:26:01.935Z] human wait click_publish:before 4769ms
+[2026-06-16T07:26:06.869Z] clicked tweetButton
+[2026-06-16T07:26:06.870Z] human wait click_publish:after 4507ms
+[2026-06-16T07:26:11.384Z] post-publish settle 10000ms after publish button click
+[2026-06-16T07:26:21.535Z] 打开个人主页校验: https://x.com/ansin_ai
+[2026-06-16T07:26:26.386Z] human wait scroll:down 909ms
+[2026-06-16T07:26:27.318Z] human wait scroll:up 1135ms
+[2026-06-16T07:26:28.561Z] X 发布完成（校验=false） username=ansin_ai post_id=2066714293085831415 post_url=https://x.com/ansin_ai/status/2066714293085831415
+[2026-06-16T07:26:28.561Z] X: post_id 已获取，时间线正文未完全匹配（balanced 仍视为发布成功）
+[2026-06-16T07:26:28.905Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\x\default\state.json
+[2026-06-16T07:26:29.277Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260616-r02\x\default\result.json

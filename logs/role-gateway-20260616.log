@@ -30,3 +30,206 @@
 2026-06-16T00:34:15.804Z [info] [Step6 copy daily-20260616-r01/custom_96d40069a4f89204 attempt=3] [-] rpc chat.history begin {"timeout_ms":600000}
 2026-06-16T00:34:15.847Z [info] [Step6 copy daily-20260616-r01/custom_96d40069a4f89204 attempt=3] [-] rpc chat.history ok {"duration_ms":43}
 2026-06-16T00:34:15.847Z [info] [Step6 copy daily-20260616-r01/custom_96d40069a4f89204 attempt=3] [-] run_agent done {"duration_ms":47251,"gateway_run_id":"step6-copy-daily-20260616-r01-r01-custom_96d40069a4f89204-1781570008596-3","content_chars":2505}
+2026-06-16T07:12:54.202Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step5-research-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781593974202"}
+2026-06-16T07:12:54.203Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T07:12:54.535Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc agent ok {"duration_ms":332}
+2026-06-16T07:12:54.536Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T07:13:06.415Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc agent.wait ok {"duration_ms":11879}
+2026-06-16T07:13:06.415Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T07:13:06.451Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] rpc chat.history ok {"duration_ms":36}
+2026-06-16T07:13:06.452Z [info] [Step5 research daily-20260616-r02/61ca3bdfd9e040d5] [-] run_agent done {"duration_ms":12250,"gateway_run_id":"step5-research-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781593974202","content_chars":996}
+2026-06-16T07:13:06.741Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781593986741-1"}
+2026-06-16T07:13:06.742Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T07:13:06.797Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent ok {"duration_ms":55}
+2026-06-16T07:13:06.797Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T07:14:03.463Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent.wait ok {"duration_ms":56666}
+2026-06-16T07:14:03.464Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T07:14:03.514Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc chat.history ok {"duration_ms":50}
+2026-06-16T07:14:03.514Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] run_agent done {"duration_ms":56773,"gateway_run_id":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781593986741-1","content_chars":248}
+2026-06-16T07:14:03.552Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594043551-1"}
+2026-06-16T07:14:03.552Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T07:14:03.591Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent ok {"duration_ms":39}
+2026-06-16T07:14:03.592Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T07:14:19.161Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc agent.wait ok {"duration_ms":15569}
+2026-06-16T07:14:19.163Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T07:14:19.218Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] rpc chat.history ok {"duration_ms":55}
+2026-06-16T07:14:19.219Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=1] [-] run_agent done {"duration_ms":15667,"gateway_run_id":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594043551-1","content_chars":3173}
+2026-06-16T07:14:19.221Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594059221-2"}
+2026-06-16T07:14:19.222Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T07:14:19.296Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc agent ok {"duration_ms":74}
+2026-06-16T07:14:19.296Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T07:14:32.257Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc agent.wait ok {"duration_ms":12961}
+2026-06-16T07:14:32.259Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T07:14:32.338Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] rpc chat.history ok {"duration_ms":79}
+2026-06-16T07:14:32.339Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=2] [-] run_agent done {"duration_ms":13118,"gateway_run_id":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594059221-2","content_chars":2902}
+2026-06-16T07:14:32.340Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594072340-3"}
+2026-06-16T07:14:32.341Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T07:14:32.415Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc agent ok {"duration_ms":74}
+2026-06-16T07:14:32.415Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T07:14:49.364Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc agent.wait ok {"duration_ms":16949}
+2026-06-16T07:14:49.367Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T07:14:49.767Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] rpc chat.history ok {"duration_ms":400}
+2026-06-16T07:14:49.769Z [info] [Step6 copy daily-20260616-r02/61ca3bdfd9e040d5 attempt=3] [-] run_agent done {"duration_ms":17429,"gateway_run_id":"step6-copy-daily-20260616-r02-r02-61ca3bdfd9e040d5-1781594072340-3","content_chars":3235}
+2026-06-16T08:11:55.659Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597515656-regen-1"}
+2026-06-16T08:11:55.662Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:11:55.777Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent ok {"duration_ms":115}
+2026-06-16T08:11:55.778Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:12:08.384Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait ok {"duration_ms":12606}
+2026-06-16T08:12:08.384Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:12:08.431Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history ok {"duration_ms":47}
+2026-06-16T08:12:08.432Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent done {"duration_ms":12774,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597515656-regen-1","content_chars":5503}
+2026-06-16T08:12:08.434Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597528434-regen-2"}
+2026-06-16T08:12:08.435Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:12:08.534Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent ok {"duration_ms":99}
+2026-06-16T08:12:08.535Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:12:20.615Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent.wait ok {"duration_ms":12080}
+2026-06-16T08:12:20.617Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:12:20.665Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc chat.history ok {"duration_ms":48}
+2026-06-16T08:12:20.666Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] run_agent done {"duration_ms":12232,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597528434-regen-2","content_chars":470}
+2026-06-16T08:12:20.667Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-instagram-1781597540667-regen-1"}
+2026-06-16T08:12:20.668Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:12:20.745Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc agent ok {"duration_ms":77}
+2026-06-16T08:12:20.746Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:12:42.676Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc agent.wait ok {"duration_ms":21930}
+2026-06-16T08:12:42.676Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:12:42.723Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] rpc chat.history ok {"duration_ms":47}
+2026-06-16T08:12:42.724Z [info] [Step6 copy regen test-publish-review-r01/instagram attempt=1] [-] run_agent done {"duration_ms":22057,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-instagram-1781597540667-regen-1","content_chars":3761}
+2026-06-16T08:19:59.804Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597999804-regen-1"}
+2026-06-16T08:19:59.805Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:19:59.870Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent ok {"duration_ms":65}
+2026-06-16T08:19:59.871Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:20:17.625Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait ok {"duration_ms":17754}
+2026-06-16T08:20:17.627Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:20:17.707Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history ok {"duration_ms":80}
+2026-06-16T08:20:17.708Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent done {"duration_ms":17904,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781597999804-regen-1","content_chars":2572}
+2026-06-16T08:21:30.092Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598090092-regen-1"}
+2026-06-16T08:21:30.093Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:21:30.520Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent ok {"duration_ms":427}
+2026-06-16T08:21:30.521Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:21:53.656Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc agent.wait ok {"duration_ms":23135}
+2026-06-16T08:21:53.656Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:21:53.693Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] rpc chat.history ok {"duration_ms":37}
+2026-06-16T08:21:53.694Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=1] [-] run_agent done {"duration_ms":23602,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598090092-regen-1","content_chars":2686}
+2026-06-16T08:21:53.695Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598113695-regen-2"}
+2026-06-16T08:21:53.695Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:21:53.775Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent ok {"duration_ms":80}
+2026-06-16T08:21:53.776Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:22:07.857Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc agent.wait ok {"duration_ms":14081}
+2026-06-16T08:22:07.858Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:22:07.914Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] rpc chat.history ok {"duration_ms":56}
+2026-06-16T08:22:07.915Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=2] [-] run_agent done {"duration_ms":14220,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598113695-regen-2","content_chars":3431}
+2026-06-16T08:22:07.916Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598127916-regen-3"}
+2026-06-16T08:22:07.917Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:22:08.019Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc agent ok {"duration_ms":102}
+2026-06-16T08:22:08.020Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:22:30.145Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc agent.wait ok {"duration_ms":22125}
+2026-06-16T08:22:30.148Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:22:30.503Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] rpc chat.history ok {"duration_ms":355}
+2026-06-16T08:22:30.504Z [info] [Step6 copy regen test-publish-review-r01/xiaohongshu attempt=3] [-] run_agent done {"duration_ms":22588,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781598127916-regen-3","content_chars":3394}
+2026-06-16T08:35:37.694Z [info] [Step6 copy regen test-publish-review-r01/facebook id=1781598937693-1] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-facebook-1781598937693-1"}
+2026-06-16T08:35:37.696Z [info] [Step6 copy regen test-publish-review-r01/facebook id=1781598937693-1] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:35:38.019Z [error] [Step6 copy regen test-publish-review-r01/facebook id=1781598937693-1] [-] run_agent fail: invalid agent params: at /label: must NOT have more than 64 characters {"duration_ms":325}
+2026-06-16T08:39:02.805Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-facebook-1781599142804-1"}
+2026-06-16T08:39:02.806Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:02.908Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc agent ok {"duration_ms":102}
+2026-06-16T08:39:02.908Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:39:12.495Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc agent.wait ok {"duration_ms":9587}
+2026-06-16T08:39:12.496Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:39:12.534Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] rpc chat.history ok {"duration_ms":38}
+2026-06-16T08:39:12.535Z [info] [s6-copy-regen test-publish-review-r01/facebook] [-] run_agent done {"duration_ms":9730,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-facebook-1781599142804-1","content_chars":418}
+2026-06-16T08:39:12.537Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599152537-1"}
+2026-06-16T08:39:12.538Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:12.634Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":96}
+2026-06-16T08:39:12.636Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:39:21.947Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":9311}
+2026-06-16T08:39:21.948Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:39:21.994Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":46}
+2026-06-16T08:39:21.995Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":9458,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599152537-1","content_chars":435}
+2026-06-16T08:39:21.996Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599161996-2"}
+2026-06-16T08:39:21.997Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:22.080Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":83}
+2026-06-16T08:39:22.081Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:39:34.724Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":12643}
+2026-06-16T08:39:34.727Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:39:35.131Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":404}
+2026-06-16T08:39:35.134Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":13138,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599161996-2","content_chars":3962}
+2026-06-16T08:39:35.141Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599175141-3"}
+2026-06-16T08:39:35.145Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:35.253Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":108}
+2026-06-16T08:39:35.253Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:39:44.171Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":8918}
+2026-06-16T08:39:44.173Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:39:44.249Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":76}
+2026-06-16T08:39:44.250Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":9109,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599175141-3","content_chars":2614}
+2026-06-16T08:39:44.251Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599184251-4"}
+2026-06-16T08:39:44.252Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:44.331Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":79}
+2026-06-16T08:39:44.332Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:39:53.771Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":9439}
+2026-06-16T08:39:53.772Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:39:53.857Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":85}
+2026-06-16T08:39:53.858Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":9607,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599184251-4","content_chars":361}
+2026-06-16T08:39:53.860Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599193860-5"}
+2026-06-16T08:39:53.860Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:39:53.942Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":82}
+2026-06-16T08:39:53.943Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:00.553Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":6610}
+2026-06-16T08:40:00.555Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:00.634Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":79}
+2026-06-16T08:40:00.635Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":6775,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599193860-5","content_chars":475}
+2026-06-16T08:40:00.637Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599200636-6"}
+2026-06-16T08:40:00.637Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:00.718Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":81}
+2026-06-16T08:40:00.718Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:08.095Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":7377}
+2026-06-16T08:40:08.098Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:08.175Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":77}
+2026-06-16T08:40:08.176Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":7539,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599200636-6","content_chars":465}
+2026-06-16T08:40:08.177Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599208177-7"}
+2026-06-16T08:40:08.178Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:08.263Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":85}
+2026-06-16T08:40:08.263Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:17.547Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":9284}
+2026-06-16T08:40:17.549Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:17.594Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":45}
+2026-06-16T08:40:17.595Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":9418,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599208177-7","content_chars":422}
+2026-06-16T08:40:17.596Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599217596-8"}
+2026-06-16T08:40:17.597Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:17.691Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":94}
+2026-06-16T08:40:17.692Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:28.151Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":10459}
+2026-06-16T08:40:28.151Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:28.483Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":332}
+2026-06-16T08:40:28.485Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":10889,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599217596-8","content_chars":2973}
+2026-06-16T08:40:28.487Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599228487-9"}
+2026-06-16T08:40:28.488Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:28.548Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":60}
+2026-06-16T08:40:28.548Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:38.271Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":9723}
+2026-06-16T08:40:38.272Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:38.329Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":57}
+2026-06-16T08:40:38.330Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":9843,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599228487-9","content_chars":441}
+2026-06-16T08:40:38.331Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599238331-10"}
+2026-06-16T08:40:38.331Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:38.413Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":82}
+2026-06-16T08:40:38.413Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:46.745Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":8332}
+2026-06-16T08:40:46.746Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:46.785Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":39}
+2026-06-16T08:40:46.786Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":8455,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599238331-10","content_chars":511}
+2026-06-16T08:40:46.787Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-x-1781599246787-11"}
+2026-06-16T08:40:46.788Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:46.873Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent ok {"duration_ms":85}
+2026-06-16T08:40:46.873Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:40:58.289Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc agent.wait ok {"duration_ms":11416}
+2026-06-16T08:40:58.292Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:40:58.368Z [info] [s6-copy-regen test-publish-review-r01/x] [-] rpc chat.history ok {"duration_ms":76}
+2026-06-16T08:40:58.369Z [info] [s6-copy-regen test-publish-review-r01/x] [-] run_agent done {"duration_ms":11582,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-x-1781599246787-11","content_chars":448}
+2026-06-16T08:40:58.370Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] run_agent start {"timeout_ms":600000,"idempotency_key":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781599258370-1"}
+2026-06-16T08:40:58.372Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc agent begin {"timeout_ms":600000}
+2026-06-16T08:40:58.462Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc agent ok {"duration_ms":90}
+2026-06-16T08:40:58.463Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc agent.wait begin {"timeout_ms":600000}
+2026-06-16T08:41:11.158Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc agent.wait ok {"duration_ms":12695}
+2026-06-16T08:41:11.160Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc chat.history begin {"timeout_ms":600000}
+2026-06-16T08:41:11.229Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] rpc chat.history ok {"duration_ms":69}
+2026-06-16T08:41:11.229Z [info] [s6-copy-regen test-publish-review-r01/xiaohongshu] [-] run_agent done {"duration_ms":12859,"gateway_run_id":"step6-copy-regen-test-publish-review-r01-r01-xiaohongshu-1781599258370-1","content_chars":2212}

@@ -24,6 +24,13 @@ function isObject(value: unknown): value is JsonObject {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
 }
 
+/** OpenClaw gateway rejects agent run labels longer than 64 characters. */
+function clampAgentRunLabel(label: string, maxLen = 64): string {
+  const trimmed = label.trim();
+  if (trimmed.length <= maxLen) return trimmed;
+  return trimmed.slice(0, maxLen);
+}
+
 function stringField(value: JsonObject, keys: string[]): string {
   for (const key of keys) {
     const raw = value[key];
@@ -375,7 +382,7 @@ export class WebSocketOpenClawSessionsClient implements OpenClawSessionsClient {
       idempotencyKey: runId,
     };
     if (input.session_key) agentParams.sessionKey = input.session_key;
-    if (input.label) agentParams.label = input.label;
+    if (input.label) agentParams.label = clampAgentRunLabel(input.label);
 
     const runStarted = Date.now();
     logRoleGateway("info", `run_agent start`, logCtx, {

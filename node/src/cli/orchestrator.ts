@@ -7,6 +7,8 @@ import {
   dispatchOnce,
   loadOrchestratorSettings,
   reconcile,
+  applyPublishReview,
+  regenerateCopyPlatforms,
 } from "../orchestrator/index.js";
 import {
   materializeCollectForManagerSelectedTask,
@@ -63,6 +65,10 @@ function printHelp(): void {
       "              [--platforms x,instagram]  可选，默认 copy 中四平台全开",
       "              [--headless]              无头模式（默认有界面，可看到浏览器操作）",
       "              [--dry-run]               只生成 publish_job，不打开浏览器发帖",
+      "  approve-publish --task-id id          Step6b：确认/驳回发布前文案",
+      "              --action approve|reject",
+      "  regenerate-copy --task-id id          Step6b：按平台重生文案",
+      "              --platforms facebook,x --feedback \"修改说明\"",
     ].join("\n"),
   );
 }
@@ -223,6 +229,66 @@ async function main() {
       ...(platformFilter ? { platformFilter } : {}),
       dryRun: args["dry-run"] === true,
       headless: args.headless === true,
+    });
+    // eslint-disable-next-line no-console
+    console.log(JSON.stringify({ ok: true, ...result }, null, 2));
+    return;
+  }
+
+  if (command === "approve-publish") {
+    const taskId = typeof args["task-id"] === "string" ? args["task-id"].trim() : "";
+    if (!taskId) {
+      // eslint-disable-next-line no-console
+      console.error("approve-publish 需要 --task-id <task_id>");
+      process.exit(1);
+    }
+    const actionRaw = typeof args.action === "string" ? args.action.trim().toLowerCase() : "approve";
+    if (actionRaw !== "approve" && actionRaw !== "reject") {
+      // eslint-disable-next-line no-console
+      console.error("approve-publish 需要 --action approve|reject");
+      process.exit(1);
+    }
+    const operator = typeof args.operator === "string" && args.operator.trim() ? args.operator.trim() : "cli:local";
+    const tpath = taskJsonPath(settings, taskId);
+    const result = await applyPublishReview({
+      taskJsonPath: tpath,
+      action: actionRaw,
+      operator,
+      settings,
+    });
+    // eslint-disable-next-line no-console
+    console.log(JSON.stringify({ ok: true, ...result }, null, 2));
+    return;
+  }
+
+  if (command === "regenerate-copy") {
+    const taskId = typeof args["task-id"] === "string" ? args["task-id"].trim() : "";
+    if (!taskId) {
+      // eslint-disable-next-line no-console
+      console.error("regenerate-copy 需要 --task-id <task_id>");
+      process.exit(1);
+    }
+    const platformsRaw = typeof args.platforms === "string" ? args.platforms.trim() : "";
+    const feedback = typeof args.feedback === "string" ? args.feedback.trim() : "";
+    if (!platformsRaw) {
+      // eslint-disable-next-line no-console
+      console.error("regenerate-copy 需要 --platforms facebook,x");
+      process.exit(1);
+    }
+    if (!feedback) {
+      // eslint-disable-next-line no-console
+      console.error('regenerate-copy 需要 --feedback "修改说明"');
+      process.exit(1);
+    }
+    const platforms = platformsRaw.split(/[,，\s]+/).map((p) => p.trim()).filter(Boolean);
+    const operator = typeof args.operator === "string" && args.operator.trim() ? args.operator.trim() : "cli:local";
+    const tpath = taskJsonPath(settings, taskId);
+    const result = await regenerateCopyPlatforms({
+      taskJsonPath: tpath,
+      platforms,
+      feedback,
+      operator,
+      settings,
     });
     // eslint-disable-next-line no-console
     console.log(JSON.stringify({ ok: true, ...result }, null, 2));

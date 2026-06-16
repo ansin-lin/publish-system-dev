@@ -6,6 +6,7 @@ import { useQuery } from "@tanstack/react-query";
 import { DatePicker } from "../components/common/DatePicker";
 import { SystemHealthBar } from "../components/system/SystemHealthBar";
 import { DailyTaskCard } from "../components/task/DailyTaskCard";
+import { PendingPublishReviewBanner } from "../components/task/PendingPublishReviewBanner";
 import { formatDateLabel, todayIsoDateJst } from "../utils/formatJst";
 
 export function HomePage() {
@@ -25,6 +26,8 @@ export function HomePage() {
   return (
     <div className="space-y-6">
       <SystemHealthBar />
+
+      <PendingPublishReviewBanner />
 
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>

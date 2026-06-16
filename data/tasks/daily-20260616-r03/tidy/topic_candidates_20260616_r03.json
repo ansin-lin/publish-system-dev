@@ -1,0 +1,289 @@
+{
+  "schema_version": "topic_candidates.v1",
+  "generated_at": "2026-06-16T17:12:50+09:00",
+  "task_id": "daily-20260616-r03",
+  "run_id": "r03",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r03\\collect\\collect_result_20260616_r03.json",
+  "items": [
+    {
+      "index": 1,
+      "topic_id": "110379fbbfe5b193",
+      "title": "伊朗队被勒令离开美国",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E9%98%9F%E8%A2%AB%E5%8B%92%E4%BB%A4%E7%A6%BB%E5%BC%80%E7%BE%8E%E5%9B%BD"
+    },
+    {
+      "index": 2,
+      "topic_id": "bdf742a690ad8b54",
+      "title": "高考志愿填报官方工具升级",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E5%AE%98%E6%96%B9%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7"
+    },
+    {
+      "index": 3,
+      "topic_id": "9449470aa4a18206",
+      "title": "柯淳 长剧",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E6%9F%AF%E6%B7%B3+%E9%95%BF%E5%89%A7"
+    },
+    {
+      "index": 4,
+      "topic_id": "7f8beb53243dbc72",
+      "title": "爸爸年轻时究竟有多敢穿",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E7%88%B8%E7%88%B8%E5%B9%B4%E8%BD%BB%E6%97%B6%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E6%95%A2%E7%A9%BF"
+    },
+    {
+      "index": 5,
+      "topic_id": "1b7c4f7ea420e276",
+      "title": "吴倩在读硕士",
+      "source_platform": "weibo",
+      "source_url": "https://s.weibo.com/weibo?q=%E5%90%B4%E5%80%A9%E5%9C%A8%E8%AF%BB%E7%A1%95%E5%A3%AB"
+    },
+    {
+      "index": 6,
+      "topic_id": "bd7b26da3a1df7ca",
+      "title": "投资近 3 亿北斗监测边坡系统，底座用手一掰就碎，工程质量监管为何失灵？巨额投资为何换来「脆皮」工程？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2049801744209686933"
+    },
+    {
+      "index": 7,
+      "topic_id": "8258fe7dd960ea65",
+      "title": "如果一门文科课程的作业可以用 AI 完成，这门课该不该取消？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045831566538924509"
+    },
+    {
+      "index": 8,
+      "topic_id": "c839d113a9a71a3d",
+      "title": "如何评价《原神》月之八版本「空月之歌·谐谑」前瞻海报？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2050192494730780839"
+    },
+    {
+      "index": 9,
+      "topic_id": "224a23137462450f",
+      "title": "《家有儿女》的客厅为什么就能成为全家的中心？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2045195707540301705"
+    },
+    {
+      "index": 10,
+      "topic_id": "acde9a18afaee425",
+      "title": "为什么感觉广东地区的夜宵文化非常浓厚？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/661067115"
+    },
+    {
+      "index": 11,
+      "topic_id": "081b9db8d07e5e89",
+      "title": "日本民众在中国驻日大使馆前道歉",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E5%9C%A8%E4%B8%AD%E5%9B%BD%E9%A9%BB%E6%97%A5%E5%A4%A7%E4%BD%BF%E9%A6%86%E5%89%8D%E9%81%93%E6%AD%89"
+    },
+    {
+      "index": 12,
+      "topic_id": "9e26d4d52fe6e010",
+      "title": "伊朗前锋进球后对看台做疑似开枪动作",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%89%8D%E9%94%8B%E8%BF%9B%E7%90%83%E5%90%8E%E5%AF%B9%E7%9C%8B%E5%8F%B0%E5%81%9A%E7%96%91%E4%BC%BC%E5%BC%80%E6%9E%AA%E5%8A%A8%E4%BD%9C"
+    },
+    {
+      "index": 13,
+      "topic_id": "cb009e4421f516d9",
+      "title": "海澜集团董事长回应女店员舍身救人",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E6%B5%B7%E6%BE%9C%E9%9B%86%E5%9B%A2%E8%91%A3%E4%BA%8B%E9%95%BF%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%BA%97%E5%91%98%E8%88%8D%E8%BA%AB%E6%95%91%E4%BA%BA"
+    },
+    {
+      "index": 14,
+      "topic_id": "9d64cae0eab9f486",
+      "title": "佛得角官方曾感谢中国帮圆梦世界杯|",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E5%AE%98%E6%96%B9%E6%9B%BE%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD%E5%B8%AE%E5%9C%86%E6%A2%A6%E4%B8%96%E7%95%8C%E6%9D%AF%7C"
+    },
+    {
+      "index": 15,
+      "topic_id": "0e270e986d6ef235",
+      "title": "少年身着傩戏服饰现身世界杯赛场",
+      "source_platform": "baidu",
+      "source_url": "https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E8%BA%AB%E7%9D%80%E5%82%A9%E6%88%8F%E6%9C%8D%E9%A5%B0%E7%8E%B0%E8%BA%AB%E4%B8%96%E7%95%8C%E6%9D%AF%E8%B5%9B%E5%9C%BA"
+    },
+    {
+      "index": 16,
+      "topic_id": "a647f11adfc4e414",
+      "title": "《安宁大厦生存守则》第十集",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116753350860127/"
+    },
+    {
+      "index": 17,
+      "topic_id": "a3862df473fd417f",
+      "title": "孙悟空命格｜心魔六耳CG《自渡》——若此身本是虚妄，又怕什么魂飞魄散？",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116752293891019/"
+    },
+    {
+      "index": 18,
+      "topic_id": "d5f54ba3e0504294",
+      "title": "全 网 最 燃 的 动 画 教 程 3.0",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116747881416281/"
+    },
+    {
+      "index": 19,
+      "topic_id": "f34a92dc2ef90466",
+      "title": "第一视角带你体验主播做的最正义的一集",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116732328942306/"
+    },
+    {
+      "index": 20,
+      "topic_id": "a5939c746cc0eaf7",
+      "title": "《参加公司大会迟到的我be like》",
+      "source_platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/av116753988328406/"
+    },
+    {
+      "index": 21,
+      "topic_id": "a459a0d0d6b227d1",
+      "title": "女孩家中失火试卷被烧，消防员贴心送上新试卷……@中国消防 @湖北消防",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651458919981698310"
+    },
+    {
+      "index": 22,
+      "topic_id": "f8ac432d61e66c82",
+      "title": "饭店的暑假工，商务饭局！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651399399658196672"
+    },
+    {
+      "index": 23,
+      "topic_id": "7ee43bd2ef78e60d",
+      "title": "镜子里的人真面熟！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651552796618059195"
+    },
+    {
+      "index": 24,
+      "topic_id": "39084d2faeafa719",
+      "title": "在武汉过早，非常丰盛！",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651471649813136754"
+    },
+    {
+      "index": 25,
+      "topic_id": "e7b9fa7af64c7b4d",
+      "title": "瑶一瑶来摇一摇 哈哈哈哈哈哈哈#瑶一瑶小肉包",
+      "source_platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7651292606542394297"
+    },
+    {
+      "index": 26,
+      "topic_id": "d9a5f0293db8e35e",
+      "title": "june 16",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=june+16&ie=UTF-8"
+    },
+    {
+      "index": 27,
+      "topic_id": "ac56e4f35b3c8722",
+      "title": "2026 年 fifa 世界杯",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=2026+年+fifa+世界杯&ie=UTF-8"
+    },
+    {
+      "index": 28,
+      "topic_id": "121ba60979ed0723",
+      "title": "fullmetal alchemist seiko watch",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=fullmetal+alchemist+seiko+watch&ie=UTF-8"
+    },
+    {
+      "index": 29,
+      "topic_id": "1d699f5a5af7ce1a",
+      "title": "calcium",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=calcium&ie=UTF-8"
+    },
+    {
+      "index": 30,
+      "topic_id": "04aaf8d3669f6fef",
+      "title": "miguel rojas",
+      "source_platform": "google_trends",
+      "source_url": "https://www.google.com/search?q=miguel+rojas&ie=UTF-8"
+    },
+    {
+      "index": 31,
+      "topic_id": "3267fbe07fddb6ca",
+      "title": "A Taiwanese couple becomes fashion icons by posing in clothes left at their laundromat",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/BeAmazed/comments/1u71nr0/a_taiwanese_couple_becomes_fashion_icons_by/"
+    },
+    {
+      "index": 32,
+      "topic_id": "bed9d6e01f211f21",
+      "title": "This little boy in Mexico didn’t have a football jersey to kick off the World Cup so he wore the only thing he owned with the same colors as the Mexican flag. (The company that makes the jerseys was able to track him down and sent out a new one)",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/MadeMeSmile/comments/1u73jmy/this_little_boy_in_mexico_didnt_have_a_football/"
+    },
+    {
+      "index": 33,
+      "topic_id": "925b141a88812203",
+      "title": "US Coast Guard jumps onto a runaway boat and safely stops it in Maryland",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/nextfuckinglevel/comments/1u72801/us_coast_guard_jumps_onto_a_runaway_boat_and/"
+    },
+    {
+      "index": 34,
+      "topic_id": "509b947f434c5831",
+      "title": "Tigers in India",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/interestingasfuck/comments/1u73z1l/tigers_in_india/"
+    },
+    {
+      "index": 35,
+      "topic_id": "f4659151748664b1",
+      "title": "Cat try to merge with her owner",
+      "source_platform": "reddit",
+      "source_url": "https://www.reddit.com/r/cats/comments/1u71p0k/cat_try_to_merge_with_her_owner/"
+    },
+    {
+      "index": 36,
+      "topic_id": "c3aa14f470ab3a3f",
+      "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
+      "source_platform": "hackernews",
+      "source_url": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419"
+    },
+    {
+      "index": 37,
+      "topic_id": "2a4b0801de29858a",
+      "title": "John Carmack on Fabrice Bellard",
+      "source_platform": "hackernews",
+      "source_url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226"
+    },
+    {
+      "index": 38,
+      "topic_id": "b8cf156751e58c40",
+      "title": "A backdoor in a LinkedIn job offer",
+      "source_platform": "hackernews",
+      "source_url": "https://roman.pt/posts/linkedin-backdoor/"
+    },
+    {
+      "index": 39,
+      "topic_id": "9c29020e8886396c",
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "source_platform": "hackernews",
+      "source_url": "https://www.richardosgood.com/posts/banned-book-library/"
+    },
+    {
+      "index": 40,
+      "topic_id": "1eefb855357762b4",
+      "title": "Understanding the rationale behind a rule when trying to circumvent it",
+      "source_platform": "hackernews",
+      "source_url": "https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415"
+    }
+  ]
+}

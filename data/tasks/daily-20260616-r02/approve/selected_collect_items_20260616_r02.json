@@ -1,0 +1,60 @@
+{
+  "schema_version": "selected_collect_items.v1",
+  "generated_at": "2026-06-16T16:12:53+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "source_collect_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\collect\\collect_result_20260616_r02.json",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json",
+  "selected_indices": [
+    6
+  ],
+  "topic_keys": [
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "source_platform": "zhihu"
+    }
+  ],
+  "items": [
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2039666199567525805",
+      "collected_at": "2026-06-16T13:02:59+09:00",
+      "raw": {
+        "platform": "zhihu",
+        "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+        "url": "https://www.zhihu.com/question/2039666199567525805",
+        "score": 750000,
+        "rank": 1,
+        "source_id": "241084310",
+        "raw": {
+          "ID": 241084310,
+          "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+          "description": "这种游戏题材常常伴随着压抑、绝望，却又让人欲罢不能。它是否满足了我们内心深处对秩序崩塌的幻想，或是提供了一个测试人性的虚拟实验室？",
+          "thumbnail": "",
+          "url": "https://www.zhihu.com/question/2039666199567525805",
+          "md5": "2a67653cf9fca9f0664b16c816db2839",
+          "extra": "75 万热度",
+          "time": "12:00",
+          "nodeids": "6",
+          "topicid": 0,
+          "domain": "zhihu.com",
+          "sitename": "知乎",
+          "logo": "https://file.ipadown.com/tophub/assets/images/media/zhihu.com.png_50x50.png",
+          "source": "tophub",
+          "channel": "mproPpoq6O",
+          "board_name": "知乎热榜",
+          "origin_rank": 1,
+          "origin_hot": "75 万热度",
+          "node_id": "6",
+          "date": "2026-06-16",
+          "tophub_fetch": "by_date"
+        },
+        "fetched_at": "2026-06-16T04:02:59.822Z"
+      },
+      "score": 750000,
+      "rank": 1
+    }
+  ]
+}

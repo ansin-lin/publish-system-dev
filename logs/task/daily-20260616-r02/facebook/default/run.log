@@ -1,0 +1,28 @@
+[2026-06-16T07:24:44.305Z] 开始发布 mode=post platform=facebook profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260616-r02\publish\publish_job_20260616_r02.json
+[2026-06-16T07:24:45.811Z] [home] facebook publish entry=home_feed displayName="王 艶艶"
+[2026-06-16T07:24:52.699Z] [home] clicked composer trigger index=0
+[2026-06-16T07:24:52.706Z] human wait wait_composer_textbox 315ms
+[2026-06-16T07:24:53.059Z] human wait wait_composer_textbox 306ms
+[2026-06-16T07:24:53.504Z] [home] composer textbox index=0
+[2026-06-16T07:24:53.623Z] [home] clicked paragraph
+[2026-06-16T07:24:53.778Z] [home] filled textbox len=300
+[2026-06-16T07:24:53.779Z] human wait after_fill 916ms
+[2026-06-16T07:24:54.819Z] [home] setInputFiles on button failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for getByRole('button', { name: '写真または動画を追加 またはドラッグ＆ドロップ' }).first()[22m
+[2m    - locator resolved to <div tabindex="0" role="button" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq xh8yej3">…</div>[22m
+
+[2026-06-16T07:24:55.080Z] [home] uploaded via filechooser count=4
+[2026-06-16T07:24:55.081Z] human wait after_upload 2349ms
+[2026-06-16T07:24:57.642Z] [home] clicked 投稿の共有範囲
+[2026-06-16T07:24:58.771Z] [home] clicked 公開
+[2026-06-16T07:24:58.964Z] [home] clicked privacy done
+[2026-06-16T07:24:58.965Z] human wait after_privacy 759ms
+[2026-06-16T07:24:59.852Z] post button enabled
+[2026-06-16T07:24:59.943Z] human wait click_publish:before 3330ms
+[2026-06-16T07:25:03.471Z] clicked post role index=0
+[2026-06-16T07:25:03.478Z] human wait click_publish:after 3925ms
+[2026-06-16T07:25:07.415Z] post-publish settle 10000ms after publish button click
+[2026-06-16T07:25:24.204Z] facebook published post_url=https://www.facebook.com/permalink.php?story_fbid=pfbid02tRDjpYjPShQ6wmqER6iVHVVdMfhoH69K1UVA3wSKnfxRCkgmzGNBqBjBwpnypZaFl&id=100006666765488&__cft__[0]=AZZeUufcqKzfpwj3F1CwXa0ao_dnDzt8qW2vQ0aGZkdfYhexyLdHnC9BQ3sZtcHnwD1bcHQ4fqaQw9lIwESrJYU-ir7qcFtpVaB997PgQ-pNGRiN-beuFZxm3Muov7ZW9L6RFX0ISfEsFUTeDrnnGrpVBFLGGFUNsaqYlCbQPc8MXZ5YHuL_QkVQlNJ2lYY8vCYyUqn5-K6snYP7CtQhCK2-&__tn__=%2CO%2CP-R
+[2026-06-16T07:25:24.353Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\facebook\default\state.json
+[2026-06-16T07:25:24.795Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260616-r02\facebook\default\result.json

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTaskDetail } from "../api/hooks/useTaskDetail";
+import { HumanGateAlert } from "../components/task/HumanGateAlert";
+import { PublishReviewPanel } from "../components/task/PublishReviewPanel";
 import { StepDetailDrawer } from "../components/task/StepDetailDrawer";
 import { StepDetailTabs } from "../components/task/StepDetailTabs";
 import { StepProgressBar } from "../components/task/StepProgressBar";
@@ -83,6 +85,12 @@ export function TaskDetailPage() {
             </div>
             <TaskStatusBadge status={taskQuery.data.status} />
           </div>
+
+          <HumanGateAlert task={taskQuery.data} />
+
+          {taskId && (
+            <PublishReviewPanel taskId={taskId} taskStatus={taskQuery.data.status} />
+          )}
 
           <section className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
             <h2 className="mb-4 text-sm font-medium uppercase tracking-wide text-slate-500">流程进度</h2>

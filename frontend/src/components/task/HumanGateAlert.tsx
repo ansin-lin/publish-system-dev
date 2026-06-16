@@ -17,6 +17,17 @@ export function HumanGateAlert({ task }: Props) {
     );
   }
 
+  if (task.status === "awaiting_publish_review" || task.status === "revising_copy") {
+    return (
+      <div className="rounded-md border border-violet-200 bg-violet-50 px-4 py-3 text-violet-950">
+        <p className="font-medium">等待发布前确认</p>
+        <p className="mt-1 text-sm">
+          请在下方「发布前确认」面板预览文案，可勾选平台重生，或点击「确认并发布」进入 Step7。
+        </p>
+      </div>
+    );
+  }
+
   if (task.status === "publish_partial_failed") {
     return (
       <div className="rounded-md border border-orange-200 bg-orange-50 px-4 py-3 text-orange-900">

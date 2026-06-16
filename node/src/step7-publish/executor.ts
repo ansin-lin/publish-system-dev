@@ -16,6 +16,7 @@ import { nowIsoJst, yyyymmddJst } from "../orchestrator/time.js";
 import type { OrchestratorSettings } from "../orchestrator/types.js";
 import { parsePlatformFilter, publishJob } from "../step7-publish/publish/index.js";
 import { buildPublishJobFromStep6 } from "../step6-generate/buildPublishJob.js";
+import { copyReviewBlocksPublish } from "../step6-review/copyReviewGuards.js";
 import {
   bumpPartialRetryCounts,
   loadPlatformRowsForTask,
@@ -206,6 +207,12 @@ export async function executeStep7Publish(params: ExecuteStep7PublishParams): Pr
   }
   if (stepStatus(task, "image") !== "success") {
     throw new Error("executeStep7Publish: steps.image must be success");
+  }
+
+  if (copyReviewBlocksPublish(task, orchConfig, status)) {
+    throw new Error(
+      "executeStep7Publish: publish_review enabled — approve copy on dashboard or CLI approve-publish first",
+    );
   }
 
   const envPlatformFilter = parsePlatformFilter(process.env.PUBLISH_ORCH_STEP7_PLATFORMS);

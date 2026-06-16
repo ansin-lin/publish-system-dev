@@ -1,0 +1,42 @@
+[2026-06-16T07:23:35.724Z] 开始发布 mode=post platform=xiaohongshu profile=default job=C:\Users\compu\.openclaw\publish-system\data\tasks\daily-20260616-r02\publish\publish_job_20260616_r02.json
+[2026-06-16T07:23:36.559Z] installed attachShadow→open patch (for xhs-publish-btn)
+[2026-06-16T07:23:39.819Z] goto image publish url=https://creator.xiaohongshu.com/publish/publish?from=menu&target=image
+[2026-06-16T07:23:41.060Z] human wait upload_images:before 3335ms
+[2026-06-16T07:23:44.461Z] 上传图片 setInputFiles failed, trying filechooser: Error: locator.setInputFiles: Error: Node is not an HTMLInputElement
+Call log:
+[2m  - waiting for getByRole('button', { name: '上传图片' }).first()[22m
+[2m    - locator resolved to <button type="button" data-v-db5ce706="" data-v-5ea2ea2e="" data-v-7cbccdb2-s="" class="d-button d-button-default d-button-with-content --color-static bold --color-bg-fill --color-text-paragraph custom-button bg-red upload-button">…</button>[22m
+
+[2026-06-16T07:23:44.646Z] uploaded via filechooser count=4
+[2026-06-16T07:23:45.330Z] image editor loaded
+[2026-06-16T07:23:45.331Z] human wait upload_images:after 4221ms
+[2026-06-16T07:23:49.559Z] human wait fill_title:before 3631ms
+[2026-06-16T07:23:53.785Z] filled title role index=0
+[2026-06-16T07:23:53.786Z] human wait fill_title:after 4824ms
+[2026-06-16T07:23:58.627Z] human wait fill_body:before 3504ms
+[2026-06-16T07:24:02.484Z] filled body via role paragraph + textbox.nth(1)
+[2026-06-16T07:24:02.485Z] human wait fill_body:after 4042ms
+[2026-06-16T07:24:06.540Z] human wait fill_tags:before 4464ms
+[2026-06-16T07:24:21.092Z] selected body editor for tags selector=div[contenteditable='true']
+[2026-06-16T07:24:21.899Z] moved tags to final line after blank line
+[2026-06-16T07:24:23.175Z] clicked topic suggestion selector=[data-tippy-root] :text('#末日游戏')
+[2026-06-16T07:24:24.325Z] clicked topic suggestion selector=[data-tippy-root] :text('#游戏技术')
+[2026-06-16T07:24:25.383Z] clicked topic suggestion selector=[data-tippy-root] :text('#AI算法')
+[2026-06-16T07:24:26.458Z] clicked topic suggestion selector=[data-tippy-root] :text('#数字生存')
+[2026-06-16T07:24:27.450Z] clicked topic suggestion selector=[data-tippy-root] :text('#科技创新')
+[2026-06-16T07:24:27.458Z] filled tags count=5
+[2026-06-16T07:24:28.107Z] human wait fill_tags:after 4687ms
+[2026-06-16T07:24:32.800Z] human wait click_publish:before 3077ms
+[2026-06-16T07:24:36.778Z] dismiss overlays: clicked title field
+[2026-06-16T07:24:37.285Z] prepare: clicked text=笔记预览
+[2026-06-16T07:24:37.841Z] publish button ready submit-disabled=false
+[2026-06-16T07:24:37.860Z] shadow probe {"hasHost":true,"hasShadowRoot":true,"buttonLabels":["暂存离开","发布"]}
+[2026-06-16T07:24:37.972Z] [click-attempt] method=shadow-locator selector=xhs-publish-btn button.bg-red
+[2026-06-16T07:24:38.005Z] [click-probe] method=shadow-locator count=1 texts=["发布"]
+[2026-06-16T07:24:38.370Z] [click-ok] method=shadow-locator
+[2026-06-16T07:24:39.451Z] [click-effect] success url=https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=
+[2026-06-16T07:24:39.453Z] human wait click_publish:after 3827ms
+[2026-06-16T07:24:43.286Z] publish success url after click (skip long settle) url=https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=
+[2026-06-16T07:24:43.288Z] status=published post_id=xhs-daily-20260616-r02 submit_url=https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy= (note: public note URL pending review)
+[2026-06-16T07:24:43.327Z] 登录态已保存: C:\Users\compu\.openclaw\publish-system\data\auth\xiaohongshu\default\state.json
+[2026-06-16T07:24:44.303Z] 结果已保存: C:\Users\compu\.openclaw\publish-system\logs\task\daily-20260616-r02\xiaohongshu\default\result.json

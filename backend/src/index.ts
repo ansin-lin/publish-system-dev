@@ -15,6 +15,7 @@ import { loadDashboardConfig } from "./config/dashboardConfig.js";
 import { createArtifactService } from "./services/artifactService.js";
 import { createOutboxService } from "./services/outboxService.js";
 import { createSystemService } from "./services/systemService.js";
+import { createPublishReviewService } from "./services/publishReviewService.js";
 import { createTaskService } from "./services/taskService.js";
 import { createTimelineService } from "./services/timelineService.js";
 
@@ -37,10 +38,11 @@ const timelineService = createTimelineService();
 const outboxService = createOutboxService();
 const systemService = createSystemService(dashboardConfig);
 const artifactService = createArtifactService();
+const publishReviewService = createPublishReviewService();
 
 const api = new Hono();
 api.route("/", createHealthRoutes(dashboardConfig));
-api.route("/", createTaskRoutes(taskService, timelineService));
+api.route("/", createTaskRoutes(taskService, timelineService, publishReviewService));
 api.route("/", createArtifactRoutes(artifactService));
 api.route("/", createDaysRoutes(taskService));
 api.route("/", createOutboxRoutes(outboxService));

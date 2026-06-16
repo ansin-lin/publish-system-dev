@@ -193,6 +193,12 @@ export type PublishOrchestratorConfig = {
       image_prompt_slot_count: number;
       image_prompt_aspect_ratio: string;
     };
+    publish_review: {
+      enabled: boolean;
+      max_revisions: number;
+      slack_notify: boolean;
+      timeout_hours: number;
+    };
     image: {
       delivery: "node" | "role";
       model: string;
@@ -400,6 +406,7 @@ function parseConfig(raw: Record<string, unknown>, configPath: string, repoRoot:
   const step5Raw = isObject(raw.step5) ? raw.step5 : {};
   const step6Raw = isObject(raw.step6) ? raw.step6 : {};
   const step6CopyRaw = isObject(step6Raw.copy) ? step6Raw.copy : {};
+  const step6PublishReviewRaw = isObject(step6Raw.publish_review) ? step6Raw.publish_review : {};
   const step6ImageRaw = isObject(step6Raw.image) ? step6Raw.image : {};
   const step6StockRaw = isObject(step6ImageRaw.stock) ? step6ImageRaw.stock : {};
   const step7Raw = isObject(raw.step7) ? raw.step7 : {};
@@ -577,6 +584,12 @@ function parseConfig(raw: Record<string, unknown>, configPath: string, repoRoot:
         require_all_copy_required_platforms: bool(step6CopyRaw.require_all_copy_required_platforms, true),
         image_prompt_slot_count: num(step6CopyRaw.image_prompt_slot_count, 4),
         image_prompt_aspect_ratio: str(step6CopyRaw.image_prompt_aspect_ratio, "16:9"),
+      },
+      publish_review: {
+        enabled: bool(step6PublishReviewRaw.enabled, false),
+        max_revisions: num(step6PublishReviewRaw.max_revisions, 3),
+        slack_notify: bool(step6PublishReviewRaw.slack_notify, true),
+        timeout_hours: num(step6PublishReviewRaw.timeout_hours, 0),
       },
       image: {
         delivery: str(step6ImageRaw.delivery, "node") === "role" ? "role" : "node",

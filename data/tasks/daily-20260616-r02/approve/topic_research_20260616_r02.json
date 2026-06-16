@@ -1,0 +1,62 @@
+{
+  "schema_version": "topic_research.v1",
+  "generated_at": "2026-06-16T16:13:06+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-16T16:13:06+09:00",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json",
+  "source_selected_topics_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\approve\\selected_topics_20260616_r02.json",
+  "selected_indices": [
+    6
+  ],
+  "items": [
+    {
+      "index": 6,
+      "topic_id": "61ca3bdfd9e040d5",
+      "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+      "source_platform": "zhihu",
+      "research": {
+        "keywords": [
+          "末日游戏设计",
+          "生存游戏机制",
+          "虚拟世界沉浸感",
+          "多人在线合作对抗",
+          "游戏引擎技术",
+          "玩家社群互动"
+        ],
+        "articles": [
+          "探讨末日生存游戏中的资源管理与策略深度",
+          "分析游戏技术如何增强末日世界的视觉与氛围表现",
+          "从社会学角度解读末日游戏中的玩家行为与社群构建",
+          "未来游戏设计趋势：AI与Procedural Generation在末日游戏中的应用"
+        ],
+        "images": [
+          "展示高细节末日废土环境，突出游戏引擎渲染力",
+          "玩家在废墟中协作或对抗的场景，体现多人互动的紧张感",
+          "游戏UI/UX设计特写，展示生存资源管理界面",
+          "概念艺术图：科技与废土结合的未来装备"
+        ],
+        "videos": [
+          "游戏开发者访谈：揭秘末日游戏设计理念与技术挑战",
+          "解析热门末日游戏的核心玩法与吸引力",
+          "玩家行为分析：末日世界中的选择与后果",
+          "游戏画面剪辑：展示不同末日游戏的视觉风格与特色系统"
+        ],
+        "core_points": [
+          "末日游戏提供独特的危机情境，激发玩家的生存本能与策略思考",
+          "通过先进的游戏技术，营造极致的沉浸感与真实感，增强玩家代入体验",
+          "多人在线模式促进玩家间的合作与竞争，构建复杂而动态的社交生态",
+          "游戏设计中融入的资源管理与建造元素，满足玩家的创造欲和掌控感"
+        ],
+        "writing_angles": [
+          "从互动娱乐技术的演进看末日游戏如何重塑玩家体验",
+          "数字生存法则：末日游戏对现代社会心理与技术依赖的隐喻",
+          "游戏引擎的艺术：解构末日世界中的视觉叙事与环境设计",
+          "探讨游戏化策略在末日主题中的应用，及其对玩家决策行为的影响"
+        ]
+      },
+      "source_url": "https://www.zhihu.com/question/2039666199567525805"
+    }
+  ]
+}

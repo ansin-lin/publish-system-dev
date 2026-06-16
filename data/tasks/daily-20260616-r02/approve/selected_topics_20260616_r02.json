@@ -1,0 +1,24 @@
+{
+  "schema_version": "selected_topics.v1",
+  "generated_at": "2026-06-16T16:12:53+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "source_candidates_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\tidy\\topic_candidates_20260616_r02.json",
+  "selected_indices": [
+    6
+  ],
+  "selected_topic_ids": [
+    "61ca3bdfd9e040d5"
+  ],
+  "selected_by": "U0B8A197692",
+  "selected_at": "2026-06-16T16:12:53+09:00",
+  "items": [
+    {
+      "index": 6,
+      "topic_id": "61ca3bdfd9e040d5",
+      "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+      "source_platform": "zhihu",
+      "source_url": "https://www.zhihu.com/question/2039666199567525805"
+    }
+  ]
+}

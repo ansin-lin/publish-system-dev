@@ -13,8 +13,10 @@ const ALLOWED_TRANSITIONS: Record<string, string[]> = {
   deep_collected: ["generating_copy", "failed", "aborted", "cancelled"],
   generating_copy: ["copy_generated", "research_done", "manager_selected", "failed", "aborted", "cancelled"],
   copy_generated: ["generating_image", "failed", "aborted", "cancelled"],
-  generating_image: ["image_generated", "copy_generated", "failed", "aborted", "cancelled"],
-  image_generated: ["publishing", "failed", "aborted", "cancelled"],
+  generating_image: ["image_generated", "awaiting_publish_review", "copy_generated", "failed", "aborted", "cancelled"],
+  image_generated: ["publishing", "awaiting_publish_review", "failed", "aborted", "cancelled"],
+  awaiting_publish_review: ["image_generated", "revising_copy", "cancelled", "failed", "aborted"],
+  revising_copy: ["awaiting_publish_review", "cancelled", "failed", "aborted"],
   publishing: ["published", "publish_partial_failed", "failed", "aborted", "cancelled"],
   publish_partial_failed: ["publishing", "image_generated", "failed", "aborted", "cancelled"],
 };

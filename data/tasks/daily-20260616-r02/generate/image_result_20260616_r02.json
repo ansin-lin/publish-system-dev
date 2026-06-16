@@ -1,0 +1,59 @@
+{
+  "schema_version": "image_result.v1",
+  "generated_at": "2026-06-16T16:23:35+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "source_copy_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\copy_result_20260616_r02.json",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\approve\\topic_research_20260616_r02.json",
+  "image_source": "ai_generated",
+  "images": [
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "slot_id": "img_1",
+      "prompt": "A highly detailed, desolate post-apocalyptic cityscape at dusk, showcasing advanced game engine rendering capabilities with volumetric lighting and realistic debris. Focus on destroyed skyscrapers and abandoned vehicles.\n\nScene / composition from research brief: 展示高细节末日废土环境，突出游戏引擎渲染力\n\nVisual style: tech editorial",
+      "research_image_hint": "展示高细节末日废土环境，突出游戏引擎渲染力",
+      "copy_image_prompt": "A highly detailed, desolate post-apocalyptic cityscape at dusk, showcasing advanced game engine rendering capabilities with volumetric lighting and realistic debris. Focus on destroyed skyscrapers and abandoned vehicles.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_1.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "slot_id": "img_2",
+      "prompt": "A diverse group of players collaborating in a ruined, overgrown urban environment. One player is hacking a device, another is scouting, and a third is defending. Emphasize teamwork and the integration of futuristic tech with a decaying world.\n\nScene / composition from research brief: 玩家在废墟中协作或对抗的场景，体现多人互动的紧张感\n\nVisual style: tech editorial",
+      "research_image_hint": "玩家在废墟中协作或对抗的场景，体现多人互动的紧张感",
+      "copy_image_prompt": "A diverse group of players collaborating in a ruined, overgrown urban environment. One player is hacking a device, another is scouting, and a third is defending. Emphasize teamwork and the integration of futuristic tech with a decaying world.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_2.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "slot_id": "img_3",
+      "prompt": "A close-up of a futuristic, transparent game UI overlay, displaying complex resource management for a survival game. Show intricate data points, inventory, crafting menus, and player stats with a subtle holographic effect.\n\nScene / composition from research brief: 游戏UI/UX设计特写，展示生存资源管理界面\n\nVisual style: tech editorial",
+      "research_image_hint": "游戏UI/UX设计特写，展示生存资源管理界面",
+      "copy_image_prompt": "A close-up of a futuristic, transparent game UI overlay, displaying complex resource management for a survival game. Show intricate data points, inventory, crafting menus, and player stats with a subtle holographic effect.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_3.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "slot_id": "img_4",
+      "prompt": "Concept art of a character wearing advanced, high-tech survival gear amidst a post-apocalyptic wasteland. The gear should integrate seamlessly with a rugged, repurposed aesthetic, highlighting innovation in a harsh environment.\n\nScene / composition from research brief: 概念艺术图：科技与废土结合的未来装备\n\nVisual style: tech editorial",
+      "research_image_hint": "概念艺术图：科技与废土结合的未来装备",
+      "copy_image_prompt": "Concept art of a character wearing advanced, high-tech survival gear amidst a post-apocalyptic wasteland. The gear should integrate seamlessly with a rugged, repurposed aesthetic, highlighting innovation in a harsh environment.",
+      "mode": "node_genai",
+      "status": "success",
+      "asset_path": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_4.png",
+      "style": "tech editorial",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

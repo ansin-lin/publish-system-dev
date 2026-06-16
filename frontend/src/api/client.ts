@@ -46,6 +46,11 @@ export async function fetchTask(taskId: string): Promise<TaskSummaryDto> {
   return parseJson<TaskSummaryDto>(res);
 }
 
+export async function fetchPendingPublishReview(): Promise<{ tasks: TaskSummaryDto[] }> {
+  const res = await fetch(`${API_BASE}/tasks/pending-publish-review`);
+  return parseJson<{ tasks: TaskSummaryDto[] }>(res);
+}
+
 export type DailyTasksResponse = {
   date: string;
   tasks: TaskSummaryDto[];
@@ -110,6 +115,60 @@ export async function fetchOutbox(params?: {
 export async function fetchCronStatus(): Promise<CronStatusDto> {
   const res = await fetch(`${API_BASE}/system/cron`);
   return parseJson<CronStatusDto>(res);
+}
+
+export type PublishReviewDraftRow = {
+  platform: string;
+  locale: string;
+  title: string;
+  body: string;
+  tags: string[];
+  topic_title?: string;
+};
+
+export type PublishReviewContext = {
+  enabled: boolean;
+  task_status: string;
+  revision_count: number;
+  max_revisions: number;
+  can_regenerate: boolean;
+  regenerate_blocked_reason?: string;
+  copy_review_status: string;
+  last_error?: string;
+  last_error_kind?: "constraint" | "other";
+  last_regenerated_platforms?: string[];
+  last_regenerated_at?: string;
+  drafts: PublishReviewDraftRow[];
+  image_count: number;
+};
+
+export async function fetchPublishReview(taskId: string): Promise<PublishReviewContext> {
+  const res = await fetch(`${API_BASE}/tasks/${encodeURIComponent(taskId)}/publish-review`);
+  return parseJson<PublishReviewContext>(res);
+}
+
+export async function approvePublishReview(
+  taskId: string,
+  action: "approve" | "reject",
+): Promise<{ ok: boolean; task_status: string }> {
+  const res = await fetch(`${API_BASE}/tasks/${encodeURIComponent(taskId)}/approve-publish`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ action }),
+  });
+  return parseJson(res);
+}
+
+export async function regenerateCopyPlatforms(
+  taskId: string,
+  body: { platforms: string[]; feedback: string },
+): Promise<{ ok: boolean; merged_platforms: string[]; revision_count: number }> {
+  const res = await fetch(`${API_BASE}/tasks/${encodeURIComponent(taskId)}/regenerate-copy`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  return parseJson(res);
 }
 
 export async function fetchDispatchLog(date?: string): Promise<DispatchLogDto> {

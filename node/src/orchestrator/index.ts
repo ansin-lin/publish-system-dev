@@ -16,6 +16,9 @@ export { generateCopy } from "../step6-generate/generateCopy.js";
 export { generateImages } from "../step6-generate/generateImages.js";
 export { buildPublishJobFromStep6 } from "../step6-generate/buildPublishJob.js";
 export { executeStep7Publish } from "../step7-publish/executor.js";
+export { applyPublishReview } from "../step6-review/applyPublishReview.js";
+export { regenerateCopyPlatforms } from "../step6-review/regenerateCopyPlatforms.js";
+export { getPublishReviewContext } from "../step6-review/getPublishReviewContext.js";
 export type {
   NextAction,
   OrchestratorSettings,

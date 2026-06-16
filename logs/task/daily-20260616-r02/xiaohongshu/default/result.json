@@ -1,0 +1,16 @@
+{
+  "status": "published",
+  "platform": "xiaohongshu",
+  "profile": "default",
+  "task_id": "daily-20260616-r02",
+  "publish_id": "daily-20260616-r02-r02",
+  "published_at": "2026-06-16T07:24:43.288Z",
+  "post_url": "https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=",
+  "post_id": "xhs-daily-20260616-r02",
+  "artifacts": {
+    "runDir": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r02\\xiaohongshu\\default",
+    "logPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r02\\xiaohongshu\\default\\run.log",
+    "resultPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r02\\xiaohongshu\\default\\result.json",
+    "screenshotPath": "C:\\Users\\compu\\.openclaw\\publish-system\\logs\\task\\daily-20260616-r02\\xiaohongshu\\default\\screenshot.png"
+  }
+}

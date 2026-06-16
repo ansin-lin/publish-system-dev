@@ -1,0 +1,86 @@
+{
+  "task_id": "daily-20260616-r02",
+  "publish_id": "daily-20260616-r02-r02",
+  "targets": [
+    {
+      "platform": "xiaohongshu",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "facebook",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "x",
+      "profile": "default",
+      "mode": "post"
+    },
+    {
+      "platform": "instagram",
+      "profile": "default",
+      "mode": "post"
+    }
+  ],
+  "payloads": {
+    "default": {
+      "images": [
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_1.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_2.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_3.png",
+        "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_4.png"
+      ]
+    },
+    "xiaohongshu": {
+      "content": {
+        "body": "末日游戏为何引人入胜？这背后是尖端游戏技术与深刻叙事艺术的完美融合。从高清渲染的废土世界，到模拟真实的生存挑战，游戏引擎技术正以前所未有的方式，将玩家带入一个充满危机与机遇的数字彼岸。\n我们深入探讨其技术核心：先进的图形渲染技术如何构建出令人惊叹的末日场景，AI算法如何驱动复杂的敌人行为与动态环境变化，以及网络架构如何支撑起大规模玩家的协作与对抗。这些技术不仅提升了游戏的沉浸感和可玩性，更在无形中锻炼了玩家的策略思维与应变能力。\n资源管理、基地建设、社群互动——末日游戏中的每一个元素，都离不开底层技术的精妙支撑。它们不仅仅是娱乐产品，更是数字技术创新和人机交互的实验场。探索末日游戏，即是洞察未来互动娱乐的趋势，体验科技赋能下的数字生存新哲学。",
+        "title": "探索末日游戏的魅力",
+        "tags": [
+          "末日游戏",
+          "游戏技术",
+          "AI算法",
+          "数字生存",
+          "科技创新"
+        ]
+      }
+    },
+    "facebook": {
+      "content": {
+        "body": "終末世界を舞台にしたゲームがなぜこれほどまでにプレイヤーを惹きつけるのでしょうか？ それは、最先端のゲーム技術が織りなす圧倒的な没入体験に他なりません。高精細なグラフィックで描かれる荒廃した世界、AIが制御する予測不能な脅威、そしてオンラインでの協力や対立。これら全てが、プレイヤーの生存本能と戦略的思考を刺激します。\nゲームエンジンは、単なる娯楽を超え、デジタルサバイバルの新たな哲学を提示します。リアルな物理演算、環境インタラクション、そしてプレイヤー間の複雑なソーシャルダイナミクスを支えるネットワーク技術。終末ゲームは、技術革新がもたらすインタラクティブエンターテイメントの未来を示しています",
+        "title": "終末ゲームの魅力：技術が創る没入体験",
+        "tags": [
+          "終末ゲーム",
+          "ゲーム技術",
+          "没入体験",
+          "AIゲーム"
+        ]
+      }
+    },
+    "x": {
+      "content": {
+        "body": "Apocalyptic games captivate with cutting-edge tech & deep narrative. Powerful game engines render hyper-realistic desolate landscapes. AI drives complex survival challenges, reshaping player experienc",
+        "title": "The Allure of Apocalyptic Games: Tech-Driven Immersion"
+      }
+    },
+    "instagram": {
+      "content": {
+        "body": "終末ゲームは、高度な技術でリアルな危機と戦略を提供。AIとグラフィック進化が、没入感あるデジタルサバイバル体験を実現。\n#終末ゲーム #ゲーム技術 #AI進化",
+        "title": "終末ゲームの深淵：テクノロジーが生み出すリアリティ"
+      }
+    }
+  },
+  "images": [
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_1.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_2.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_3.png",
+    "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\generate\\images\\61ca3bdfd9e040d5\\61ca3bdfd9e040d5_img_4.png"
+  ],
+  "options": {
+    "headless": false,
+    "timeout_ms": 900000,
+    "require_post_url": false,
+    "after_publish_click_ms": 10000,
+    "validation_mode": "balanced"
+  }
+}

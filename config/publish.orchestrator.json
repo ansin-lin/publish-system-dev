@@ -322,6 +322,12 @@
         "max_pick": 4,
         "force_ai": false
       }
+    },
+    "publish_review": {
+      "enabled": true,
+      "max_revisions": 3,
+      "slack_notify": true,
+      "timeout_hours": 0
     }
   },
   "step7": {

@@ -103,12 +103,23 @@ export function createTaskService(settings: OrchestratorSettings = loadOrchestra
     return parseToYmd(input);
   }
 
+  function listPendingPublishReview(): TaskSummaryDto[] {
+    return listAll()
+      .filter((r) => {
+        const status = typeof r.task.status === "string" ? r.task.status : "";
+        return status === "awaiting_publish_review" || status === "revising_copy";
+      })
+      .sort((a, b) => b.taskId.localeCompare(a.taskId))
+      .map((r) => toTaskSummaryDto(r.task));
+  }
+
   return {
     listAll,
     getById,
     getPrimaryForDate,
     listTasksForDate,
     listDays,
+    listPendingPublishReview,
     resolveDateYmd,
     todayYmdJst,
   };

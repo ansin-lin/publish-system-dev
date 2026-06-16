@@ -62,6 +62,9 @@ export function stepStatusLabel(status: UiStepStatus): string {
 export function taskStatusBadgeClass(status: string): string {
   if (status === "published") return "bg-emerald-100 text-emerald-800";
   if (status === "awaiting_manager_selection") return "bg-amber-100 text-amber-800";
+  if (status === "awaiting_publish_review" || status === "revising_copy") {
+    return "bg-violet-100 text-violet-800";
+  }
   if (["failed", "cancelled", "aborted", "approval_timeout"].includes(status)) {
     return "bg-red-100 text-red-800";
   }

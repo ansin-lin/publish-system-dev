@@ -76,7 +76,10 @@ function resolveSelectionStatus(taskStatus: string, steps: unknown): UiStepStatu
   return mergeStatuses(readStep(steps, "approval")?.status, readStep(steps, "approve")?.status);
 }
 
-function resolveGenerateStatus(steps: unknown): StepStatus {
+function resolveGenerateStatus(taskStatus: string, steps: unknown): UiStepStatus {
+  if (taskStatus === "awaiting_publish_review" || taskStatus === "revising_copy") {
+    return "waiting_human";
+  }
   return mergeStatuses(readStep(steps, "copy")?.status, readStep(steps, "image")?.status);
 }
 
@@ -92,7 +95,7 @@ function buildUiSteps(taskStatus: string, steps: unknown): UiStepDto[] {
       status: resolveSelectionStatus(taskStatus, steps),
     },
     { index: 5, key: "research", label: "调研", status: readStep(steps, "research")?.status ?? "pending" },
-    { index: 6, key: "generate", label: "生成", status: resolveGenerateStatus(steps) },
+    { index: 6, key: "generate", label: "生成", status: resolveGenerateStatus(taskStatus, steps) },
     { index: 7, key: "publish", label: "发布", status: readStep(steps, "publish")?.status ?? "pending" },
   ];
 }
@@ -109,6 +112,7 @@ function buildProgress(taskStatus: string): TaskProgressDto {
     { match: ["generating_copy"], percent: 65, step: 6, label: "生成" },
     { match: ["copy_generated"], percent: 72, step: 6, label: "生成" },
     { match: ["generating_image"], percent: 80, step: 6, label: "生成" },
+    { match: ["awaiting_publish_review", "revising_copy"], percent: 88, step: 6, label: "待确认" },
     { match: ["image_generated"], percent: 90, step: 7, label: "发布" },
     { match: ["publishing"], percent: 95, step: 7, label: "发布" },
     { match: ["published"], percent: 100, step: 7, label: "发布" },
@@ -189,7 +193,10 @@ export function toTaskSummaryDto(task: JsonObject): TaskSummaryDto {
     ui_steps: buildUiSteps(status, steps),
     ...(orchestratorMeta ? { orchestrator_meta: orchestratorMeta } : {}),
     progress: buildProgress(status),
-    needs_human: status === "awaiting_manager_selection",
+    needs_human:
+      status === "awaiting_manager_selection" ||
+      status === "awaiting_publish_review" ||
+      status === "revising_copy",
     is_terminal: isTerminalStatus(status),
   };
 }

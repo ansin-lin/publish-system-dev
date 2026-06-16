@@ -115,6 +115,15 @@ const STALE_RULES: StaleRule[] = [
       return false;
     },
   },
+  {
+    stepName: "copy_review",
+    when: (task, status) => status === "revising_copy" && stepStatus(task, "copy_review") === "running",
+    plan: () => ({
+      fromStatus: "revising_copy",
+      toStatus: "awaiting_publish_review",
+      reason: "stale_copy_review_running",
+    }),
+  },
 ];
 
 function thresholdForStep(stepName: string, overrides?: Record<string, number>): number {

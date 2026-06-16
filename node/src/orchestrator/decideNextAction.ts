@@ -2,6 +2,9 @@ import type { NextAction, TaskJson } from "./types.js";
 import { loadPublishOrchestratorConfig } from "./publishOrchestratorConfig.js";
 import { hasTopicResearchReady, stepStatus } from "./taskStepChecks.js";
 import { platformsNeedingRetry } from "../step7-publish/publishPartialRetry.js";
+import {
+  copyReviewBlocksPublish,
+} from "../step6-review/copyReviewGuards.js";
 
 function copyStepNeedsRun(task: TaskJson): boolean {
   const copyStatus = stepStatus(task, "copy");
@@ -145,6 +148,13 @@ export function decideNextAction(task: TaskJson): NextAction {
     const imageStatus = stepStatus(task, "image");
     const publishStatus = stepStatus(task, "publish");
     if (imageStatus === "success" && (!publishStatus || publishStatus === "pending" || publishStatus === "failed")) {
+      const orch = loadPublishOrchestratorConfig();
+      if (copyReviewBlocksPublish(task, orch, status)) {
+        return {
+          type: "NOOP",
+          reason: "image_generated but publish_review not approved; awaiting dashboard approve",
+        };
+      }
       return {
         type: "EXECUTE_STEP7_PUBLISH",
         reason: "image_result ready; run Playwright publish for enabled platforms",
@@ -154,6 +164,13 @@ export function decideNextAction(task: TaskJson): NextAction {
       return { type: "NOOP", reason: "Step7 publish is running" };
     }
     return { type: "NOOP", reason: `image_generated; image=${imageStatus} publish=${publishStatus}` };
+  }
+
+  if (status === "awaiting_publish_review" || status === "revising_copy") {
+    return {
+      type: "NOOP",
+      reason: `${status}; waiting for publish review or copy regeneration`,
+    };
   }
 
   if (status === "publish_partial_failed") {

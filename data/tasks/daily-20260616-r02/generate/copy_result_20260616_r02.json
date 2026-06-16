@@ -1,0 +1,82 @@
+{
+  "schema_version": "copy_result.v1",
+  "generated_at": "2026-06-16T16:14:49+09:00",
+  "task_id": "daily-20260616-r02",
+  "run_id": "r02",
+  "source_topic_research_ref": "C:\\Users\\compu\\.openclaw\\publish-system\\data\\tasks\\daily-20260616-r02\\approve\\topic_research_20260616_r02.json",
+  "items": [
+    {
+      "topic_id": "61ca3bdfd9e040d5",
+      "title": "为什么「末日游戏」总是能吸引大量玩家投入其中，魅力何在？",
+      "source_platform": "zhihu",
+      "writing_angle": "游戏引擎的艺术：解构末日世界中的视觉叙事与环境设计",
+      "drafts": [
+        {
+          "platform": "xiaohongshu",
+          "locale": "zh-CN",
+          "title": "探索末日游戏的魅力",
+          "body": "末日游戏为何引人入胜？这背后是尖端游戏技术与深刻叙事艺术的完美融合。从高清渲染的废土世界，到模拟真实的生存挑战，游戏引擎技术正以前所未有的方式，将玩家带入一个充满危机与机遇的数字彼岸。\n我们深入探讨其技术核心：先进的图形渲染技术如何构建出令人惊叹的末日场景，AI算法如何驱动复杂的敌人行为与动态环境变化，以及网络架构如何支撑起大规模玩家的协作与对抗。这些技术不仅提升了游戏的沉浸感和可玩性，更在无形中锻炼了玩家的策略思维与应变能力。\n资源管理、基地建设、社群互动——末日游戏中的每一个元素，都离不开底层技术的精妙支撑。它们不仅仅是娱乐产品，更是数字技术创新和人机交互的实验场。探索末日游戏，即是洞察未来互动娱乐的趋势，体验科技赋能下的数字生存新哲学。",
+          "tags": [
+            "末日游戏",
+            "游戏技术",
+            "AI算法",
+            "数字生存",
+            "科技创新"
+          ]
+        },
+        {
+          "platform": "facebook",
+          "locale": "ja-JP",
+          "title": "終末ゲームの魅力：技術が創る没入体験",
+          "body": "終末世界を舞台にしたゲームがなぜこれほどまでにプレイヤーを惹きつけるのでしょうか？ それは、最先端のゲーム技術が織りなす圧倒的な没入体験に他なりません。高精細なグラフィックで描かれる荒廃した世界、AIが制御する予測不能な脅威、そしてオンラインでの協力や対立。これら全てが、プレイヤーの生存本能と戦略的思考を刺激します。\nゲームエンジンは、単なる娯楽を超え、デジタルサバイバルの新たな哲学を提示します。リアルな物理演算、環境インタラクション、そしてプレイヤー間の複雑なソーシャルダイナミクスを支えるネットワーク技術。終末ゲームは、技術革新がもたらすインタラクティブエンターテイメントの未来を示しています",
+          "tags": [
+            "終末ゲーム",
+            "ゲーム技術",
+            "没入体験",
+            "AIゲーム"
+          ]
+        },
+        {
+          "platform": "x",
+          "locale": "en-US",
+          "title": "The Allure of Apocalyptic Games: Tech-Driven Immersion",
+          "body": "Apocalyptic games captivate with cutting-edge tech & deep narrative. Powerful game engines render hyper-realistic desolate landscapes. AI drives complex survival challenges, reshaping player experienc",
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "locale": "ja-JP",
+          "title": "終末ゲームの深淵：テクノロジーが生み出すリアリティ",
+          "body": "終末ゲームは、高度な技術でリアルな危機と戦略を提供。AIとグラフィック進化が、没入感あるデジタルサバイバル体験を実現。\n#終末ゲーム #ゲーム技術 #AI進化",
+          "tags": []
+        }
+      ],
+      "image_prompts": [
+        {
+          "slot_id": "img_1",
+          "prompt": "A highly detailed, desolate post-apocalyptic cityscape at dusk, showcasing advanced game engine rendering capabilities with volumetric lighting and realistic debris. Focus on destroyed skyscrapers and abandoned vehicles.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_2",
+          "prompt": "A diverse group of players collaborating in a ruined, overgrown urban environment. One player is hacking a device, another is scouting, and a third is defending. Emphasize teamwork and the integration of futuristic tech with a decaying world.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_3",
+          "prompt": "A close-up of a futuristic, transparent game UI overlay, displaying complex resource management for a survival game. Show intricate data points, inventory, crafting menus, and player stats with a subtle holographic effect.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        },
+        {
+          "slot_id": "img_4",
+          "prompt": "Concept art of a character wearing advanced, high-tech survival gear amidst a post-apocalyptic wasteland. The gear should integrate seamlessly with a rugged, repurposed aesthetic, highlighting innovation in a harsh environment.",
+          "style": "tech editorial",
+          "aspect_ratio": "16:9"
+        }
+      ]
+    }
+  ]
+}

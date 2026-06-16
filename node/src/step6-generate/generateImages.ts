@@ -8,7 +8,9 @@ import { notifyStepCompletedForTask } from "../orchestrator/stepCompletionSlack.
 import { formatStep6NotifyDetail } from "../orchestrator/stepNotifyDetail.js";
 import { updateTask } from "../orchestrator/updateTask.js";
 import { nowIsoJst, yyyymmddJst } from "../orchestrator/time.js";
+import { loadPublishOrchestratorConfig } from "../orchestrator/publishOrchestratorConfig.js";
 import type { OrchestratorSettings } from "../orchestrator/types.js";
+import { isPublishReviewEnabled } from "../step6-review/copyReviewGuards.js";
 import type { CopyImagePrompt } from "./copyRoleDispatch.js";
 import type { GeneratedImageRecord } from "./imageRecords.js";
 import { generateTopicImages } from "./imageDelivery.js";
@@ -245,15 +247,18 @@ export async function generateImages(params: GenerateImagesParams): Promise<Gene
 
   fs.writeFileSync(imagePath, JSON.stringify(imageArtifact, null, 2), "utf-8");
 
+  const orchConfig = loadPublishOrchestratorConfig();
+  const reviewEnabled = isPublishReviewEnabled(orchConfig);
+
   await updateTask(
     {
       taskJsonPath: params.taskJsonPath,
-      reason: "images_generated",
+      reason: reviewEnabled ? "images_generated_awaiting_review" : "images_generated",
       operator,
-      changedFields: ["status", "steps.image"],
-      payload: { image_ref: imagePath, image_count: allImages.length },
+      changedFields: reviewEnabled ? ["status", "steps.image", "steps.copy_review"] : ["status", "steps.image"],
+      payload: { image_ref: imagePath, image_count: allImages.length, publish_review: reviewEnabled },
       mutate: (draft, context) => {
-        draft.status = "image_generated";
+        draft.status = reviewEnabled ? "awaiting_publish_review" : "image_generated";
         const promptOnly = allImages.length > 0 && allImages.every((img) => img.status === "prompt_only");
         if (promptOnly) draft.degraded = true;
         mergeStep(draft, "image", {
@@ -264,6 +269,12 @@ export async function generateImages(params: GenerateImagesParams): Promise<Gene
           output_ref: imagePath,
           ...(promptOnly ? { mode: "prompt_only" } : {}),
         });
+        if (reviewEnabled) {
+          mergeStep(draft, "copy_review", {
+            status: "pending",
+            started_at: context.now,
+          });
+        }
       },
     },
     settings,

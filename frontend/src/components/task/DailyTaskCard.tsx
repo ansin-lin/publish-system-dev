@@ -38,6 +38,15 @@ export function DailyTaskCard({ task }: Props) {
 
       <HumanGateAlert task={task} />
 
+      {(task.status === "awaiting_publish_review" || task.status === "revising_copy") && (
+        <Link
+          to={`/task/${encodeURIComponent(task.task_id)}`}
+          className="inline-flex rounded-md bg-violet-700 px-4 py-2 text-sm font-medium text-white hover:bg-violet-800"
+        >
+          打开发布前确认（勾选平台 / 确认发布）
+        </Link>
+      )}
+
       <p className="text-xs text-slate-500">点击已完成的步骤圆圈查看结果（灰色/蓝色步骤不可点）</p>
       <StepProgressBar
         steps={task.ui_steps}
